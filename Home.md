@@ -5,4 +5,15 @@ It is designed to be used by people with a wide range of security experience and
 
 [![](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/ZAP-Download.png)](https://github.com/zaproxy/zaproxy/wiki/Downloads?tm=2)
 
-For more details about ZAP please go to the [ZAP home page](https://www.owasp.org/index.php/ZAP)
+For more general information about ZAP go to the [ZAP home page](https://www.owasp.org/index.php/ZAP)
+
+We are in the process of migrating ZAP from Google Code.
+
+Current status:
+* zap-extensions migrated to https://github.com/zaproxy/zap-extensions
+* ZAP core help migrated to https://github.com/zaproxy/zap-core-help
+* Permissions removed from the Google Code repo
+* ZAP wiki moved to https://github.com/zaproxy/zaproxy/wiki
+* Migration of the source code and issues has started and is ongoing...
+ 
+More details on this [ZAP Developer Group thread](https://groups.google.com/d/msg/zaproxy-develop/H3GzoTf9MEI/Jco2UljUTkoJ)
