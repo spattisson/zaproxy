@@ -64,11 +64,4 @@ It is cross platform (Windows, Linux and Mac OS but does not include any install
 It requires Java 7 to run<br>
 
 <h3>ZAP Workspace</h3>
-
-<table width='80%'>
-<tr>
-<td width='5%'></td><td width='30%'>Workspace - cross platform</td><td width='15%'>2014-08-18</td><td width='15%'>1.1 GB</td><td><a href='http://sourceforge.net/projects/zaproxy/files/workspace/workspace-zap.zip/download'>Download now</a></td>
-</tr>
-</table>
-
-<i>An Eclipse workspace containing all of the ZAP projects including source code</i><br>
+We will be looking at ways to provide an up to date workspace asap.
