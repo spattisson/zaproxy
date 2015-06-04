@@ -230,7 +230,7 @@ SHA1:4ae62cbe6f708f2b0c0b07add03b659fe5f45d11
 
 &lt;relnotes-url&gt;
 
-http://code.google.com/p/zaproxy/wiki/HelpReleases2_4_0
+https://github.com/zaproxy/zaproxy/wiki/HelpReleases2_4_0
 
 &lt;/relnotes-url&gt;
 
@@ -3459,7 +3459,7 @@ Unknown end tag for </changes><br>
 <br>
 <info><br>
 <br>
-<a href='https://code.google.com/p/zaproxy/wiki/ScriptConsole'>https://code.google.com/p/zaproxy/wiki/ScriptConsole</a>
+<a href='https://github.com/zaproxy/zaproxy/wiki/ScriptConsole'>https://github.com/zaproxy/zaproxy/wiki/ScriptConsole</a>
 
 </info>
 
@@ -3606,7 +3606,7 @@ Unknown end tag for </changes><br>
 <br>
 <info><br>
 <br>
-<a href='https://code.google.com/p/zaproxy/wiki/HelpAddonsSpiderAjaxConcepts'>https://code.google.com/p/zaproxy/wiki/HelpAddonsSpiderAjaxConcepts</a>
+<a href='https://github.com/zaproxy/zaproxy/wiki/HelpAddonsSpiderAjaxConcepts'>https://github.com/zaproxy/zaproxy/wiki/HelpAddonsSpiderAjaxConcepts</a>
 
 </info>
 
@@ -4164,7 +4164,7 @@ Unknown end tag for </changes><br>
 <br>
 <info><br>
 <br>
-<a href='https://code.google.com/p/zaproxy/wiki/HelpAddonsZestZest'>https://code.google.com/p/zaproxy/wiki/HelpAddonsZestZest</a>
+<a href='https://github.com/zaproxy/zaproxy/wiki/HelpAddonsZestZest'>https://github.com/zaproxy/zaproxy/wiki/HelpAddonsZestZest</a>
 
 </info>
 
@@ -5151,7 +5151,7 @@ alpha<br>
 <br>
 <info><br>
 <br>
-<a href='http://code.google.com/p/zaproxy/wiki/MozillaMentorship_ImportingModSecurityLogs'>http://code.google.com/p/zaproxy/wiki/MozillaMentorship_ImportingModSecurityLogs</a>
+<a href='https://github.com/zaproxy/zaproxy/wiki/MozillaMentorship_ImportingModSecurityLogs'>https://github.com/zaproxy/zaproxy/wiki/MozillaMentorship_ImportingModSecurityLogs</a>
 
 </info>
 

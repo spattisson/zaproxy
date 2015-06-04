@@ -21,7 +21,7 @@ You can check the file hashes of any of the downloads via Sourceforge: https://s
 _This contains the core set of functionality, and you can add more functionality at any time via the ZAP Marketplace._<br>
 The Windows and Linux versions require Java 7 to run.<br>
 The Mac OS version includes Java 7 - you can use the 'Linux / cross platform' version if you do not want to download this.<br>
-For more information about this release see the <a href='http://code.google.com/p/zaproxy/wiki/HelpReleases2_4_0'>release notes</a>.<br>
+For more information about this release see the <a href='https://github.com/zaproxy/zaproxy/wiki/HelpReleases2_4_0'>release notes</a>.<br>
 <br>
 <h3>ZAP 2.4.0 Core</h3>
 

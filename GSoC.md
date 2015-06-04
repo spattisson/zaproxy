@@ -5,7 +5,7 @@ These are some suggested Best Practices for Google Summer of Code projects - all
 ## Getting started
   * Mentors should set up intro meetings with their students asap
   * Students should set up a wiki for their project, linked from the ZAP and OWASP (or Mozilla) wikis
-  * Students should set up a ZAP dev environment: http://code.google.com/p/zaproxy/wiki/Building
+  * Students should set up a ZAP dev environment: https://github.com/zaproxy/zaproxy/wiki/Building
   * Students and mentors should agree an initial plan, ideally including/based on use cases
   * All mentors and students should join the ZAP Dev Group and introduce themselves
   * All mentors and students should have an initial ‘intro’ video call with the project lead (Simon)
@@ -25,7 +25,7 @@ These are some suggested Best Practices for Google Summer of Code projects - all
   * Relatively short development cycles are encouraged, with students comitting changes and releasing new add-on versions regularly - this allows us to see that things are on track and gives the maximum opportunity for feedback from the community
   * Unit tests should be developed in conjunction with the code (in http://code.google.com/p/zaproxy-test/ ) - these should be configured to run on all new commits (by Simon)
   * Help and other documentation should be written, although this may lag behind development
-  * All developments should follow the ZAP development guidelines: http://code.google.com/p/zaproxy/wiki/DevGuidelines eg easy to use, intuitive, internationalized etc
+  * All developments should follow the ZAP development guidelines: https://github.com/zaproxy/zaproxy/wiki/DevGuidelines eg easy to use, intuitive, internationalized etc
 
 ## Community engagement
   * Any questions regarding ZAP development / best practice / feedback etc should be directed to the ZAP Dev Group - this gives the most visibility to the rest of the community

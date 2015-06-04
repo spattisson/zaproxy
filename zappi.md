@@ -17,7 +17,7 @@ Its actually pretty easy to get ZAP running on a Rasberry Pi, although you shoul
 
 I used a Raspberry Pi Model B+ and installed [Raspbian](http://www.raspbian.org/) on it as per the [Raspberry Pi Quick Start Guide](http://www.raspberrypi.org/help/quick-start-guide/).
 
-I then downloaded [ZAP 2.3.1 core](https://code.google.com/p/zaproxy/wiki/Downloads?tm=2#ZAP_2.3.1_Core) (as I only had a 4Gb SD card to hand), expanded it and it ran first time using the zap.sh script as Java 8 is pre-installed.
+I then downloaded [ZAP 2.3.1 core](https://github.com/zaproxy/zaproxy/wiki/Downloads?tm=2#ZAP_2.3.1_Core) (as I only had a 4Gb SD card to hand), expanded it and it ran first time using the zap.sh script as Java 8 is pre-installed.
 
 The full release or the latest weekly release should also work fine.
 

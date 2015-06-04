@@ -2,7 +2,7 @@
 
 The default directory that ZAP uses depending on the OS.
 
-Note that you can override this using the -dir [command line](http://code.google.com/p/zaproxy/wiki/HelpCmdline) option.
+Note that you can override this using the -dir [command line](https://github.com/zaproxy/zaproxy/wiki/HelpCmdline) option.
 
 ## Windows 7 / 8
 ```

@@ -41,4 +41,4 @@ Note that at 2.2.`*` header fields are also scanned by default (this can be disa
 
 
 
-See the [Testing](http://code.google.com/p/zaproxy/wiki/Testing) page for more information about tests run.
+See the [Testing](https://github.com/zaproxy/zaproxy/wiki/Testing) page for more information about tests run.

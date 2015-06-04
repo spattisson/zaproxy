@@ -12,5 +12,5 @@ This page documents some of them - feel free to suggest more!
 | Manual browse indicator | Pages found by the spiders and forced browser are flagged in the Sites tree with the relevant icon. This icon disappears when you visit that page manually |
 | Show hidden fields | Click the 'lightbulb' icon in the top level menu bar to see hidden fields and enable disabled fields in your browser for new requests (you'll need to refresh any pages already loaded) |
 | User and Developer Group links | There are links to the online ZAP groups under the 'Online' menu |
-| Docker support | https://code.google.com/p/zaproxy/wiki/Docker |
+| Docker support | https://github.com/zaproxy/zaproxy/wiki/Docker |
 Please add new tips in alphabetical order ;)

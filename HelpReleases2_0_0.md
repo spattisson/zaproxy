@@ -54,7 +54,7 @@ The active scan rules can now be tuned to adjust their strength (the number of a
 and the threshold at which they report potential issues.<br>
 <h3>New and improved active and passive scanning rules</h3>
 We have uploaded the results from running ZAP 2.0.0 against wavsep (the most comprehensive open source<br>
-evaluation project we are aware of) to the ZAP wiki: <a href='http://code.google.com/p/zaproxy/wiki/Testing'>http://code.google.com/p/zaproxy/wiki/Testing</a> TODO<br>
+evaluation project we are aware of) to the ZAP wiki: <a href='https://github.com/zaproxy/zaproxy/wiki/Testing'>https://github.com/zaproxy/zaproxy/wiki/Testing</a> TODO<br>
 ;)<br>
 <h2>Full list of changes:</h2>
 <h3>Issue 43 (on Google Code): Scope option for filtering</h3>

@@ -1,7 +1,7 @@
 # OWASP ZAP User Guide
 
 Welcome to the The OWASP Zed Attack Proxy (ZAP) User Guide.<br><br>This is available both as context sensitive<br>
-help within ZAP and online at <a href='http://code.google.com/p/zaproxy/wiki/HelpIntro'>http://code.google.com/p/zaproxy/wiki/HelpIntro</a>
+help within ZAP and online at <a href='https://github.com/zaproxy/zaproxy/wiki/HelpIntro'>https://github.com/zaproxy/zaproxy/wiki/HelpIntro</a>
 
 ZAP is an easy to use integrated penetration testing tool for finding vulnerabilities in web applications.<br>
 <br>

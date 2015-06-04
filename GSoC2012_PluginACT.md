@@ -8,11 +8,11 @@ This page is a web log of the work carried out in the <a href='http://google-mel
 <br>
 In this GSoC project, we made the following <b>contributions</b>:<br>
 <br>
-<ul><li>Developed a plugin to fully integrate a widely known spider called <a href='http://crawljax.com'>Crawlax</a> in ZAP. The release of the plugin is available to download on the <a href='http://code.google.com/p/zap-extensions/downloads/detail?name=zap-ext-spiderAjax-alpha-1.jar&can=2'>zap-extensions site</a>. You can find its official getting started guide with information  regarding its installation and use in the <a href='https://code.google.com/p/zaproxy/wiki/AJAXSpider_getStarted'>Getting Started</a> page.<br>
-</li><li>Enhanced the Crawljax spidering capabilities. Before this GSoc project, Crawljax got a score of 10% in the <a href='http://code.google.com/p/wivet/'>WIVET</a> benchmarking project. We improved its score from 10% up to 72%. as shown in this <a href='http://vimeo.com/44380063'>video</a> and also in the <a href='http://code.google.com/p/zaproxy/wiki/Testing'> testing wiki page</a>. The improvements have been sent to the crawljax dev. team and are also available on <a href='https://github.com/guifre/crawljax/'>github</a>.<br>
+<ul><li>Developed a plugin to fully integrate a widely known spider called <a href='http://crawljax.com'>Crawlax</a> in ZAP. The release of the plugin is available to download on the <a href='http://code.google.com/p/zap-extensions/downloads/detail?name=zap-ext-spiderAjax-alpha-1.jar&can=2'>zap-extensions site</a>. You can find its official getting started guide with information  regarding its installation and use in the <a href='https://github.com/zaproxy/zaproxy/wiki/AJAXSpider_getStarted'>Getting Started</a> page.<br>
+</li><li>Enhanced the Crawljax spidering capabilities. Before this GSoc project, Crawljax got a score of 10% in the <a href='http://code.google.com/p/wivet/'>WIVET</a> benchmarking project. We improved its score from 10% up to 72%. as shown in this <a href='http://vimeo.com/44380063'>video</a> and also in the <a href='https://github.com/zaproxy/zaproxy/wiki/Testing'> testing wiki page</a>. The improvements have been sent to the crawljax dev. team and are also available on <a href='https://github.com/guifre/crawljax/'>github</a>.<br>
 </li><li>Added support for setting local proxies in crawljax when using the Chrome and HTMLUnit web browsers.<br>
 </li><li>Added support in ZAP to allow extensions appending their custom icons in the Sites Nodes Tree, as specified in <a href='https://groups.google.com/d/topic/zaproxy-develop/KAKUYAm_6qo/discussion'>this thread</a>.<br>
-</li><li>Researched different ways of including extension-specific dependencies in ZAP and established a standard one in the ant build file of ZAP, which we documented in the <a href='https://code.google.com/p/zaproxy/wiki/Dependencies'>wiki</a>.</li></ul>
+</li><li>Researched different ways of including extension-specific dependencies in ZAP and established a standard one in the ant build file of ZAP, which we documented in the <a href='https://github.com/zaproxy/zaproxy/wiki/Dependencies'>wiki</a>.</li></ul>
 
 <br><br>
 
@@ -71,14 +71,14 @@ The project is planned to be completed in 4 phases to accomplish the goals of Se
 <h2>#13 Week (08-14 to 08-20)</h2>
 <ul><li>Soft "pencils down" date.<br>
 </li><li>Cleaning up code.<br>
-</li><li>Writing documentation such as the <a href='https://code.google.com/p/zaproxy/wiki/AJAXSpider_getStarted'>getting started</a> page and some <a href='https://code.google.com/p/zaproxy/wiki/GSoC2012_PluginACT?ts=1344981172&updated=GSoC2012_PluginACT#AJAX_Spider_Plugin_Code'>code notes</a>.<br>
+</li><li>Writing documentation such as the <a href='https://github.com/zaproxy/zaproxy/wiki/AJAXSpider_getStarted'>getting started</a> page and some <a href='https://github.com/zaproxy/zaproxy/wiki/GSoC2012_PluginACT?ts=1344981172&updated=GSoC2012_PluginACT#AJAX_Spider_Plugin_Code'>code notes</a>.<br>
 </li><li>Performing final tests.<br>
 </li><li>Planning future work.</li></ul>
 
 <br>
 <h2>#12 Week (08-06 to 08-13)</h2>
 <ul><li>Added gear button in AJAX Spider panel that opens the Options Panel.<br>
-</li><li>Set up a <a href='http://code.google.com/p/bodgeit/'>bodgeit</a> local testing environment  & tested AJAX Spider (works well). Made a few screnshoots to put in the <a href='http://code.google.com/p/zaproxy/wiki/Testing'>wiki</a>.<br>
+</li><li>Set up a <a href='http://code.google.com/p/bodgeit/'>bodgeit</a> local testing environment  & tested AJAX Spider (works well). Made a few screnshoots to put in the <a href='https://github.com/zaproxy/zaproxy/wiki/Testing'>wiki</a>.<br>
 </li><li>Fixed a log4j logging level issues in Crawljax.<br>
 </li><li>Sent all the enhancements made so far to the crawljax development team.<br>
 </li><li>Added new Parameters in the Options panel to choose as many threads & browser windows as wanted, which speeds up the process dramatically.<br>
@@ -91,7 +91,7 @@ The project is planned to be completed in 4 phases to accomplish the goals of Se
 <br>
 <h2>#11 Week (07-31 to 08-05)</h2>
 <ul><li>Changed the zaproxy extensions way of handling custom icons according to the specifications described at the <a href='https://groups.google.com/forum/?fromgroups#!topic/zaproxy-develop/KAKUYAm_6qo'>dev. group thread</a>.<br>
-</li><li>Created a standard way of including dependencies in ZAP extensions and documented it in the <a href='https://code.google.com/p/zaproxy/wiki/Dependencies'>wiki</a>.<br>
+</li><li>Created a standard way of including dependencies in ZAP extensions and documented it in the <a href='https://github.com/zaproxy/zaproxy/wiki/Dependencies'>wiki</a>.<br>
 </li><li>Committed the ZAP core changes to trunk and branch 1.4.<br>
 </li><li>Added support in crawljax for client proxy configuration for HtmlUnit.<br>
 </li><li>Added a 'stop' button in the ajax spider panel extension to stop crawljax.<br>

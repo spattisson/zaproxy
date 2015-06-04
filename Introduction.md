@@ -12,7 +12,7 @@ Want a very quick introduction to ZAP? See the [project pamphlet](https://www.ow
 
 For a slightly longer introduction see the [project presentation](https://www.owasp.org/images/c/c8/Conference_Style_slides_for_ZAP.ppt).
 
-For video introductions to ZAP see the links on the [wiki videos page](https://code.google.com/p/zaproxy/wiki/Videos).
+For video introductions to ZAP see the links on the [wiki videos page](https://github.com/zaproxy/zaproxy/wiki/Videos).
 
 We recently asked our users for feedback about ZAP, you can see their responses (which are separate for each languages) here: [English](https://docs.google.com/forms/d/1lUPTYHe9CS5tropNStoRK9jVeZ7tWRywhBHDIZjE4cA/viewanalytics), [French](https://docs.google.com/forms/d/1JhUdp4cxZ3qRayYWz3JHOLSP7DPdBI-zgnFzDWxbX5A/viewanalytics), [Spanish](https://docs.google.com/forms/d/1xAKE3TCOaBrmFnyAVUr6NdTd3mKvu7g_uGriOcS2Ka4/viewanalytics), [Arabic](https://docs.google.com/forms/d/1qN3MlRcjQk9riIkdpfnJLkFd4cW5ALp136da08xvMaA/viewanalytics)
 
@@ -80,9 +80,9 @@ To help translate ZAP go to <a href='https://crowdin.net/project/owasp-zap'>http
 
 </td>
 <td>
-<a href='https://code.google.com/p/zaproxy/wiki/ScreenshotHelp'><img src='https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/zap1-3fuzz-sm.jpg' /></a>
+<a href='https://github.com/zaproxy/zaproxy/wiki/ScreenshotHelp'><img src='https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/zap1-3fuzz-sm.jpg' /></a>
 
-<a href='https://code.google.com/p/zaproxy/wiki/ScreenshotHistory'><img src='https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/zap1-3historyfilter-sm.jpg' /></a>
+<a href='https://github.com/zaproxy/zaproxy/wiki/ScreenshotHistory'><img src='https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/zap1-3historyfilter-sm.jpg' /></a>
 </td>
 </tr>
 </table>

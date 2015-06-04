@@ -32,7 +32,7 @@ Note that this is only done when we are relatively close to a release as add-ons
     * ./zap -dir test -daemon
 ### Publish the release
   1. Upload to http://sourceforge.net/projects/zaproxy/files/weekly/
-  1. Update https://code.google.com/p/zaproxy/wiki/Downloads
+  1. Update https://github.com/zaproxy/zaproxy/wiki/Downloads
   1. Update zaproxy-wiki/ZapVersions.xml
   1. Update [ZapVersions-dev.xml](https://github.com/zaproxy/zap-admin/blob/master/ZapVersions-dev.xml)
   1. Update [ZapVersions-2.4.xml](https://github.com/zaproxy/zap-admin/blob/master/ZapVersions-2.4.xml)

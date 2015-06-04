@@ -1,6 +1,6 @@
 # How do you configure ZAP logging
 
-ZAP logs to a file called "zap.log" in the ZAP ['home' directory](http://code.google.com/p/zaproxy/wiki/FAQconfig).
+ZAP logs to a file called "zap.log" in the ZAP ['home' directory](https://github.com/zaproxy/zaproxy/wiki/FAQconfig).
 
 The logging is configured by the [log4j.properties](http://code.google.com/p/zaproxy/source/browse/trunk/src/xml/log4j.properties) file in the same directory.
 

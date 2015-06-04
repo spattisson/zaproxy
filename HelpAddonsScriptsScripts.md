@@ -45,6 +45,6 @@ org.zaproxy.zap.extension.script.ScriptVars.getScriptVar(this.context, "var.name
 </table>
 <h2>External links</h2>
 <table>
-<tr><td></td><td><a href='http://code.google.com/p/zaproxy/wiki/InternalDetails'>http://code.google.com/p/zaproxy/wiki/InternalDetails</a></td><td>ZAP internal objects</td></tr>
-<tr><td></td><td><a href='http://code.google.com/p/zaproxy/wiki/JavaDocs'>http://code.google.com/p/zaproxy/wiki/JavaDocs</a></td><td>ZAP javadocs</td></tr>
+<tr><td></td><td><a href='https://github.com/zaproxy/zaproxy/wiki/InternalDetails'>https://github.com/zaproxy/zaproxy/wiki/InternalDetails</a></td><td>ZAP internal objects</td></tr>
+<tr><td></td><td><a href='https://github.com/zaproxy/zaproxy/wiki/JavaDocs'>https://github.com/zaproxy/zaproxy/wiki/JavaDocs</a></td><td>ZAP javadocs</td></tr>
 </table>

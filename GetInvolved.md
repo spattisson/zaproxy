@@ -43,7 +43,7 @@ If so then just go to <a href='http://crowdin.net/project/owasp-zap'>http://crow
 <h3>Development</h3>
 If you fancy having a go at adding functionality to ZAP then please get in touch via the<br>
 <a href='http://groups.google.com/group/zaproxy-develop'>zaproxy-develop Google Group</a>.<br>
-We have a list of <a href='http://code.google.com/p/zaproxy/wiki/Projects'>projects</a> on this wiki ideal for people new to ZAP to work on.<br>
+We have a list of <a href='https://github.com/zaproxy/zaproxy/wiki/Projects'>projects</a> on this wiki ideal for people new to ZAP to work on.<br>
 Also have a look at some notes about providing new <a href='ScannerRules'>Scanner Rules</a>.<br>
 Again, you do not have to be a security expert to contribute code - working on ZAP<br>
 could be great way to learn more about web application security!<br>

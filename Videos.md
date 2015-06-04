@@ -27,7 +27,7 @@ For other videos (eg from conferences) please see: [Other Videos](VideosOther)
 <a href='http://www.youtube.com/watch?feature=player_embedded&v=Xp_PBH7wjiw' target='_blank'><img src='http://img.youtube.com/vi/Xp_PBH7wjiw/0.jpg' width='425' height=344 /></a><br>
 </td>
 <td>
-<h3><a href='http://code.google.com/p/zaproxy/wiki/SecRegTests'>Using ZAP for security testing in Development and QA</a></h3>
+<h3><a href='https://github.com/zaproxy/zaproxy/wiki/SecRegTests'>Using ZAP for security testing in Development and QA</a></h3>
 <a href='http://www.youtube.com/watch?feature=player_embedded&v=ZWSLFHpg1So' target='_blank'><img src='http://img.youtube.com/vi/ZWSLFHpg1So/0.jpg' width='425' height=344 /></a><br>
 </td>
 </tr>

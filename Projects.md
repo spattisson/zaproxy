@@ -10,7 +10,7 @@ If you are looking for a easier way to get into the code then have a look at iss
 
 We have some [advice](ProjectAdvice) for working on ZAP developments.
 
-And do check of the blog posts about [ZAP development](http://code.google.com/p/zaproxy/wiki/Development).
+And do check of the blog posts about [ZAP development](https://github.com/zaproxy/zaproxy/wiki/Development).
 
 ## Active Projects
 
@@ -48,7 +48,7 @@ And do check of the blog posts about [ZAP development](http://code.google.com/p/
 | Set up scripting to automatically run Zap against various deliberately vulnerable test suits (Wavsep,DVWA, WebGoat, etc) | Medium   | Medium         |                    |             | Colm/Simon? |
 | AMF support | Medium   | Medium         | Issue 137 (on Google Code) |             |            |
 | Bug tracker support | Medium   | Medium         | Issue 440 (on Google Code) |             | Simon      |
-| Add support for new smartcards (PKCS#11) | Small    | Medium         | [ZAP SmartCard Project](https://code.google.com/p/zaproxy/wiki/SmartCards) |             | Raul       |
+| Add support for new smartcards (PKCS#11) | Small    | Medium         | [ZAP SmartCard Project](https://github.com/zaproxy/zaproxy/wiki/SmartCards) |             | Raul       |
 | Enhance HTTP Session Handling | Medium   | Medium         | Issue 117 (on Google Code) |             | Guifré    |
 | Override hosts file | Medium   | Small          | Issue 977 (on Google Code) |             | Simon      |
 | JS beautifier | Medium   | Medium         | Issue 1014 (on Google Code) |             | Simon      |

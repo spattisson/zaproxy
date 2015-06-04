@@ -17,10 +17,10 @@ Via the UI:
   1. Pressing this button in will cause ZAP to resend the authentication request whenever it detects that the user is no longer logged in, ie by using the 'logged in' or 'logged out' indicator.
 
 Via the API the process is the same but using the API calls:
-  1. [context/includeInContext](http://code.google.com/p/zaproxy/wiki/ApiGen_context)
-  1. [auth/setLoginUrl](http://code.google.com/p/zaproxy/wiki/ApiGen_auth)
-  1. [auth/setLoginIndicator](http://code.google.com/p/zaproxy/wiki/ApiGen_auth) or `setLogoutIndicator`
-  1. [auth/autoReauthOn](http://code.google.com/p/zaproxy/wiki/ApiGen_auth)
+  1. [context/includeInContext](https://github.com/zaproxy/zaproxy/wiki/ApiGen_context)
+  1. [auth/setLoginUrl](https://github.com/zaproxy/zaproxy/wiki/ApiGen_auth)
+  1. [auth/setLoginIndicator](https://github.com/zaproxy/zaproxy/wiki/ApiGen_auth) or `setLogoutIndicator`
+  1. [auth/autoReauthOn](https://github.com/zaproxy/zaproxy/wiki/ApiGen_auth)
 
 
 

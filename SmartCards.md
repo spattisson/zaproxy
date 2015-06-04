@@ -12,7 +12,7 @@ ZAP provides support for multiple smartcard types under different operating syst
 
 Note that smartcard support _does_ work on 64 bit Windows with the Oracle JVM (despite the Oracle docs saying otherwise) just make sure you use the 32bit JVM  add your 64bit driver to ZAPs driver.xml
 
-The original ZAP smartcard support ([from version 1.1.0](http://code.google.com/p/zaproxy/wiki/HelpReleases1_1_0)) was merged by Axel from Andiparos.
+The original ZAP smartcard support ([from version 1.1.0](https://github.com/zaproxy/zaproxy/wiki/HelpReleases1_1_0)) was merged by Axel from Andiparos.
 
 The purpose of this new (April 2012) project ("OWASP ZAP SmartCard Project") is to extend the currently available smartcard support within ZAP to other national eID cards worldwide (apart from the Belgium, Swiss, and Spanish eID's), as well as, to other proprietary smartcard solutions from commercial vendors (apart from ActivIdentity, Aladdin, or Axalto). The goal is for ZAP to provide the widest smartcard support within the web application security industry to be able to assess the security of any web application using smartcards and eIDs for authentication purposes through HTTPS (SSL/TLS). Besides that, the complementary goal is to extend ZAP with new features that might be required to deal with and manage the different smartcard types.
 
