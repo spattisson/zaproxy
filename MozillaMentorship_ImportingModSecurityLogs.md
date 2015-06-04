@@ -6,7 +6,7 @@
 
 ## Goals of this project
 
-As per the enhancement request [432](http://code.google.com/p/zaproxy/issues/detail?id=432), this mentorship project is focused on allowing [ModSecurity](http://www.modsecurity.org) users to import their logs into the Zap Sites tree for passive scanning, Zap will analyze the tree as if the data was received directly from the proxy, Zap will not attempt any active scanning unless explicitly requested by the user.
+As per the enhancement request [432](https://github.com/zaproxy/zaproxy/issues/432), this mentorship project is focused on allowing [ModSecurity](http://www.modsecurity.org) users to import their logs into the Zap Sites tree for passive scanning, Zap will analyze the tree as if the data was received directly from the proxy, Zap will not attempt any active scanning unless explicitly requested by the user.
 
 ## Project Outline
 _I intend to flesh this plan out once I have more context about each task_
@@ -47,4 +47,4 @@ _I will attempt to add weekly summaries on the progress made for each task and n
 
 ## Useful Links
   * [Bugzilla  - 825445](https://bugzilla.mozilla.org/show_bug.cgi?id=825445)
-  * [Zap enhancement - 432](http://code.google.com/p/zaproxy/issues/detail?id=432)
+  * [Zap enhancement - 432](https://github.com/zaproxy/zaproxy/issues/432)

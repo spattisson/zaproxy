@@ -6,7 +6,7 @@ This is a guide for developing, running and building OWASP ZAP with Intellij.
 
 This guide uses Intellij 13.0.2 Ultimate edition, and was done on a Macbook Air running OSX 10.9.1.
 
-The version of the ZAP source used here is r4335 (on Google Code).
+The version of the ZAP source used here is [r4335](https://code.google.com/p/zaproxy/source/detail?r=4335).
 
 # Steps
 

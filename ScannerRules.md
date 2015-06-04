@@ -12,7 +12,7 @@ Note that the current Active rules tend to use regex expressions for analysing r
 
 The Passive rules can use the [Jericho HTML parser](http://jericho.htmlparser.net/) which allows the rules to be defined in a more effective way. Jericho is tolerant of various HTML errors, but this comes at a cost: various elements of non-HTML files are parsed by Jericho as HTML.  For instance, a "form" element in a comment within a Javascript file will be reported by Jericho as a HTML form element.  To ensure that this does not occur, a simple "null" check on the parent object will determine if the element has a valid HTML parent.  Normal HTML comments seem to be parsed correctly, on the other hand.
 
-Issue 244 (on Google Code) has been raised to cover enhancing ZAP to support all of the WatcherRules.
+[Issue 244](https://github.com/zaproxy/zaproxy/issues/244) has been raised to cover enhancing ZAP to support all of the WatcherRules.
 
 The [OWASP Top 10 Coverage](OWASPTop10RisksCoverage) page maps all the vulnerabilities listed by the [OWASP Top Ten](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project) project to the Active and Passive scanner rules.
 

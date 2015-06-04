@@ -11,7 +11,7 @@ sudo apt-get update
 sudo apt-get install oracle-java7-installer
 ```
 
-Issue 484 (on Google Code) has been raised to get zap.sh to check the java version.
+[Issue 484](https://github.com/zaproxy/zaproxy/issues/484) has been raised to get zap.sh to check the java version.
 
 ---
 

@@ -28,4 +28,4 @@ View database structure & data and change it:
 The upgrade to version 2.2.9 was done due to better transaction support, full support for the powerful MERGE command, real BLOB & CLOB support and many more features.
 
 
-There is also an open Issue 321 (on Google Code) to support more than one database.
+There is also an open [Issue 321](https://github.com/zaproxy/zaproxy/issues/321) to support more than one database.

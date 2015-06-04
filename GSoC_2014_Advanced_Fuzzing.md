@@ -70,7 +70,7 @@ Please note however, that this is not a final schedule and may be subject to cha
 <h2>Week 3 (2nd June - 6th June)</h2>
 
 <table><thead><th> <b>Goal</b> </th><th> <b>Status</b></th></thead><tbody>
-<tr><td>Implementation of length based fuzzing; Issue 625 (on Google Code) </td><td> <font color='green'> <b>Done</b> </font> </td></tr>
+<tr><td>Implementation of length based fuzzing; <a href='https://github.com/zaproxy/zaproxy/issues/625'>Issue 625</a> </td><td> <font color='green'> <b>Done</b> </font> </td></tr>
 <tr><td>Implementation of regular expression payloads </td><td> <font color='green'> <b>Done</b> </font> </td></tr></tbody></table>
 
 <h2>Week 4 (9th June - 13th June)</h2>

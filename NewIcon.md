@@ -1,6 +1,6 @@
 # Votes on the new icon
 
-Add your name and the order in which you like the icons [here](https://code.google.com/p/zaproxy/issues/detail?id=74) with 1 being your favorite, 2 your next choice etc
+Add your name and the order in which you like the icons [here](https://github.com/zaproxy/zaproxy/issues/74) with 1 being your favorite, 2 your next choice etc
 
 | icon | Psiinon | Axel | Dobin | Martin | Add your name and votes here |
 |:-----|:--------|:-----|:------|:-------|:-----------------------------|

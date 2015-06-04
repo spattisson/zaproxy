@@ -1,6 +1,6 @@
 # Checks supported by Watcher
 
-Issue 244 (on Google Code) has been raised to cover enhancing ZAP to support all of these rules.
+[Issue 244](https://github.com/zaproxy/zaproxy/issues/244) has been raised to cover enhancing ZAP to support all of these rules.
 
 Source code: http://websecuritytool.codeplex.com/
 
@@ -57,4 +57,4 @@ Note that the ids are currently recorded in this doc: https://code.google.com/p/
 |     |  `Check.Pasv.UserControlled.JavascriptProperty.cs checks for user-controlled javascript property values.`|
 | Alpha |  `Check.Pasv.UserControlled.OpenRedirect.cs checks for user-controlled Open Redirects.`|
 
-`[1]` See Issue 263 (on Google Code) and Issue 262 (on Google Code).
+`[1]` See [Issue 263](https://github.com/zaproxy/zaproxy/issues/263) and [Issue 262](https://github.com/zaproxy/zaproxy/issues/262).

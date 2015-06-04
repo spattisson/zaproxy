@@ -2,9 +2,14 @@ The OWASP Zed Attack Proxy (ZAP) is an easy to use integrated penetration testin
 
 It is designed to be used by people with a wide range of security experience and as such is ideal for developers and functional testers who are new to penetration testing as well as being a useful addition to an experienced pen testers toolbox.
 
-[![](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/ZAP-Download.png)](https://github.com/zaproxy/zaproxy/wiki/Downloads)
+[![](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/ZAP-Download.png)](https://github.com/zaproxy/zaproxy/wiki/Downloads?tm=2)
+
+You can show your support for ZAP on Openhub:
+&lt;wiki:gadget url="https://www.openhub.net/p/584419/widgets/project\_users\_logo.xml" height="65" border="0"/&gt;
+
 
 ---
+
 
 Interested in a ZAP talk or training event? See the [talks](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project#tab=Talks) page. Not one near you? Contact a [ZAP Evangelist](ZapEvangelists) to arrange one!
 
