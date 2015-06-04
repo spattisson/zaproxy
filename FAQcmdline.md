@@ -1,6 +1,6 @@
 # What are the command line options?
 
-See HelpCmdline
+See https://github.com/zaproxy/zap-core-help/wiki/HelpCmdline
 
 
 ---

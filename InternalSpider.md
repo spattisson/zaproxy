@@ -95,4 +95,4 @@ This is similar to other extensions of ZAP:
 
 Go to this [GSOC 2012 Project's wiki page](Gsoc2012_Redesign_of_site_crawler)
 
-Go to the [Spider General Concepts](HelpStartConceptsSpider) wiki page.
+Go to the [Spider General Concepts](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsSpider) wiki page.

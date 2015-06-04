@@ -2,9 +2,9 @@
 
 If you want to help improve the scanner rules then here are a few pointers.
 
-At the moment all of the [Active Scan](HelpStartConceptsAscan) rules are defined in the [org.parosproxy.paros.core.scanner.plugin](http://code.google.com/p/zaproxy/source/browse/#svn/trunk/src/org/parosproxy/paros/core/scanner/plugin) package.
+At the moment all of the [Active Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAscan) rules are defined in the [org.parosproxy.paros.core.scanner.plugin](http://code.google.com/p/zaproxy/source/browse/#svn/trunk/src/org/parosproxy/paros/core/scanner/plugin) package.
 
-The [Passive Scan](HelpStartConceptsPscan) rules are defined in the [org.zaproxy.zap.extension.pscan.scanner](http://code.google.com/p/zaproxy/source/browse/#svn%2Ftrunk%2Fsrc%2Forg%2Fzaproxy%2Fzap%2Fextension%2Fpscan%2Fscanner) package.
+The [Passive Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsPscan) rules are defined in the [org.zaproxy.zap.extension.pscan.scanner](http://code.google.com/p/zaproxy/source/browse/#svn%2Ftrunk%2Fsrc%2Forg%2Fzaproxy%2Fzap%2Fextension%2Fpscan%2Fscanner) package.
 
 Having a look at how these rules work would be a good place to start.
 

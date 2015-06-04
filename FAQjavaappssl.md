@@ -1,6 +1,6 @@
 # [FAQ:](FAQtoplevel) How can I use ZAP with a Java application which connects to a web service over SSL?
 
-You'll need to [generate a dynamic root CA certificate](HelpUiDialogsOptionsDynsslcert).
+You'll need to [generate a dynamic root CA certificate](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsDynsslcert).
 
 Export it into a file.
 

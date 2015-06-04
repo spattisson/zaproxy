@@ -32,19 +32,19 @@ ZAP provides automated scanners as well as a set of tools that allow you to find
 <tr>
 <td>
 Some of ZAP's functionality:<br>
-<ul><li><a href='HelpStartConceptsIntercept'>Intercepting Proxy</a>
-</li><li><a href='HelpStartConceptsSpider'>Traditional</a> and AJAX spiders<br>
-</li><li><a href='HelpStartConceptsAscan'>Automated scanner</a>
-</li><li><a href='HelpStartConceptsPscan'>Passive scanner</a>
-</li><li><a href='HelpStartConceptsBruteforce'>Forced browsing</a>
-</li><li><a href='HelpStartConceptsFuzz'>Fuzzer</a>
-</li><li><a href='HelpUiDialogsOptionsDynsslcert'>Dynamic SSL certificates</a>
+<ul><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsIntercept'>Intercepting Proxy</a>
+</li><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsSpider'>Traditional</a> and AJAX spiders<br>
+</li><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAscan'>Automated scanner</a>
+</li><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsPscan'>Passive scanner</a>
+</li><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsBruteforce'>Forced browsing</a>
+</li><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsFuzz'>Fuzzer</a>
+</li><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsDynsslcert'>Dynamic SSL certificates</a>
 </li><li><a href='SmartCards'>Smartcard and Client Digital Certificates support</a>
-</li><li><a href='HelpAddonsWebsocketIntroduction'>Web sockets</a> support<br>
-</li><li><a href='HelpAddonsScriptsScripts'>Support for a wide range of scripting languages</a>
-</li><li><a href='HelpAddonsPlugnhackPlugnhack'>Plug-n-Hack support</a>
+</li><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsWebsocketIntroduction'>Web sockets</a> support<br>
+</li><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsScriptsScripts'>Support for a wide range of scripting languages</a>
+</li><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsPlugnhackPlugnhack'>Plug-n-Hack support</a>
 </li><li>Authentication and session support<br>
-</li><li><a href='HelpStartConceptsApi'>Powerful REST based API</a>
+</li><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsApi'>Powerful REST based API</a>
 </li><li>Automatic updating option<br>
 </li><li><a href='https://code.google.com/p/zap-extensions/'>Integrated and growing marketplace of add-ons</a></li></ul>
 
@@ -54,7 +54,7 @@ Some of ZAP's features:<br>
 </li><li>Easy to install (just requires java 1.7)<br>
 </li><li>Completely free (no paid for 'Pro' version)<br>
 </li><li>Ease of use a priority<br>
-</li><li><a href='HelpIntro'>Comprehensive help pages</a>
+</li><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpIntro'>Comprehensive help pages</a>
 </li><li>Fully internationalized<br>
 </li><li>Translated into a dozen languages<br>
 </li><li>Community based, with involvement actively encouraged<br>
@@ -85,7 +85,7 @@ To help translate ZAP go to <a href='https://crowdin.net/project/owasp-zap'>http
 
 </td>
 <td>
-<a href='https://github.com/zaproxy/zaproxy/wiki/ScreenshotHelp'><img src='https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/zap1-3fuzz-sm.jpg' /></a>
+<a href='https://github.com/zaproxy/zaproxy/wiki/Screenshothttps://github.com/zaproxy/zap-core-help/wiki/Help'><img src='https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/zap1-3fuzz-sm.jpg' /></a>
 
 <a href='https://github.com/zaproxy/zaproxy/wiki/ScreenshotHistory'><img src='https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/zap1-3historyfilter-sm.jpg' /></a>
 </td>
@@ -95,4 +95,4 @@ To help translate ZAP go to <a href='https://crowdin.net/project/owasp-zap'>http
 &lt;wiki:gadget url="https://www.ohloh.net/p/584419/widgets/project\_factoids\_stats.xml" height="270" width="400" border="1"/&gt;
 
 ZAP is a fork of the well regarded [Paros Proxy](http://www.parosproxy.org/).<br>
-Details of the changes made are here: <a href='HelpReleasesReleases'>Releases</a>
+Details of the changes made are here: <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleasesReleases'>Releases</a>

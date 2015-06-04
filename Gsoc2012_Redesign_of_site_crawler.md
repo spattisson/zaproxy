@@ -78,8 +78,8 @@ Internal details regarding the two important components developed during the sum
   * [Http Sessions Extension Internal Details](InternalHttpSessions)
 
 Moreover, two pages describing the important concepts of the two components/extensions are:
-  * [Spider Concepts](HelpStartConceptsSpider)
-  * [Http Sessions Concepts](HelpStartConceptsHttpSessions)
+  * [Spider Concepts](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsSpider)
+  * [Http Sessions Concepts](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsHttpSessions)
 
 # Weekly status updates
 

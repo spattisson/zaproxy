@@ -9,7 +9,7 @@ However you can help :)
 [Get in touch](GetInvolved) with us if you want to translate ZAP into another language, we'd love to hear from you!
 
 Note that new language files may be available after a new ZAP release has been made available.
-Check the [ZAP Marketplace](HelpUiDialogsManageaddons) to see if there is a new version of "Core Language Files" add-on that includes your language.
+Check the [ZAP Marketplace](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsManageaddons) to see if there is a new version of "Core Language Files" add-on that includes your language.
 
 
 ---

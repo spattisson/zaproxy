@@ -8,23 +8,23 @@ If you have any questions then please ask them on the [zaproxy-develop](http://g
 
 ## Auto tag regexs
 
-You can get ZAP to automatically [tag](HelpStartConceptsTags) requests and responses via:
+You can get ZAP to automatically [tag](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsTags) requests and responses via:
 > Tools / Options... / Passive Scan / "Add / Edit scan definition"
 
 ## Invoking other applications
 
 You can invoke other applications from ZAP passing across the context information.
 
-For more details see the [Options Application screen](HelpUiDialogsOptionsInvokeapp) in the User Guide.
+For more details see the [Options Application screen](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsInvokeapp) in the User Guide.
 
 ## Custom Fuzzing files
 
-You can add your own [fuzzing](HelpStartConceptsFuzz) files by via:
+You can add your own [fuzzing](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsFuzz) files by via:
 > Tools / Options... / Fuzzer / Add custom Fuzz file
 
 ## Custom Forced Browse files
 
-You can add your own [forced browse](HelpStartConceptsBruteforce) files by via:
+You can add your own [forced browse](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsBruteforce) files by via:
 > Tools / Options... / Forced Browse / Add custom Forced Browse file
 
 ## API
@@ -47,7 +47,7 @@ Filters are loaded from the 'filters' directory.
 
 Active Scan rules find potential vulnerabilities by attacking the target application.
 
-Many of the existing [Active Scan](HelpStartConceptsAscan) rules are defined in the [org.parosproxy.paros.core.scanner.plugin](http://code.google.com/p/zaproxy/source/browse/#svn/trunk/src/org/parosproxy/paros/core/scanner/plugin) package, but new rules should be added to the [org.zaproxy.zap.scanner.plugin](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/#org%2Fzaproxy%2Fzap%2Fscanner%2Fplugin) package.
+Many of the existing [Active Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAscan) rules are defined in the [org.parosproxy.paros.core.scanner.plugin](http://code.google.com/p/zaproxy/source/browse/#svn/trunk/src/org/parosproxy/paros/core/scanner/plugin) package, but new rules should be added to the [org.zaproxy.zap.scanner.plugin](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/#org%2Fzaproxy%2Fzap%2Fscanner%2Fplugin) package.
 
 Active scan rules are loaded from the 'plugins' directory.
 
@@ -55,7 +55,7 @@ Active scan rules are loaded from the 'plugins' directory.
 
 Passive Scan rules find potential vulnerabilities just by examining the requests and responses in a background thread. They should not make any changes.
 
-The [Passive Scan](HelpStartConceptsPscan) rules are defined in the [org.zaproxy.zap.extension.pscan.scanner](http://code.google.com/p/zaproxy/source/browse/#svn%2Ftrunk%2Fsrc%2Forg%2Fzaproxy%2Fzap%2Fextension%2Fpscan%2Fscanner) package.
+The [Passive Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsPscan) rules are defined in the [org.zaproxy.zap.extension.pscan.scanner](http://code.google.com/p/zaproxy/source/browse/#svn%2Ftrunk%2Fsrc%2Forg%2Fzaproxy%2Fzap%2Fextension%2Fpscan%2Fscanner) package.
 
 Passive scan rules are loaded from the 'plugins' directory.
 

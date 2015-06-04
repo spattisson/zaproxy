@@ -4,7 +4,7 @@ If you have any questions or issues with ZAP then the following resources / foru
 
 ### User Guide
 
-The [User Guide](HelpIntro) (which is also included with ZAP) is a good place to start.
+The [User Guide](https://github.com/zaproxy/zap-core-help/wiki/HelpIntro) (which is also included with ZAP) is a good place to start.
 
 ### User Group
 

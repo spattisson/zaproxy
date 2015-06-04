@@ -6,7 +6,7 @@ The Http Sessions Extension was developed as part of a Google Summer of Code 201
 
 The Http Sessions Extension keeps track of the existing Http Sessions on a particular Site and allows the Zaproxy user to easily switch between user sessions on a Site, to create a new Session without "destroying" the existing ones or to force all requests to be on a particular session.
 
-The details about what it does, how it is used, what are session tokens and how they can be set can be found on the user page for this extension: [HelpStartConceptsHttpSessions](HelpStartConceptsHttpSessions)
+The details about what it does, how it is used, what are session tokens and how they can be set can be found on the user page for this extension: [https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsHttpSessions](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsHttpSessions)
 
 # General concepts
 
@@ -70,4 +70,4 @@ The extension is implemented in the org.zaproxy.zap.extension.httpsessions packa
 
 Go to this [GSOC 2012 Project's wiki page](Gsoc2012_Redesign_of_site_crawler)
 
-Go to the [Http Sessions General Concepts](HelpStartConceptsHttpSessions) wiki page.
+Go to the [Http Sessions General Concepts](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsHttpSessions) wiki page.
