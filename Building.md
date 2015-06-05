@@ -7,6 +7,7 @@ Please also have a look at (and add to!) the [Dev Tips and Tricks](DevTipsAndTri
 ## Eclipse - quick set up
 
 The quickest way to set up a ZAP development environment is as follows:
+
 1. Ensure you have a recent version of Eclipse - the [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunasr2) is a good option
 1. Start Eclipse and select a new (empty) workspace
 1. Select the menu: "File / Import"
