@@ -1,15 +1,6 @@
 # ZAPPi : ZAP on a Raspberry Pi
 
-<table>
-<tr>
-<td>
-<a href='https://pbs.twimg.com/media/B54CsrYIEAAdFvn.jpg:large'>https://pbs.twimg.com/media/B54CsrYIEAAdFvn.jpg:small</a>
-</td>
-<td>
 <img src='https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/zap-pi.png' />
-</td>
-</tr>
-</table>
 
 # Set up
 
