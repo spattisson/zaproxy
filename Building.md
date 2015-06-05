@@ -25,6 +25,8 @@ You can also manually import and configure the following projects into your IDE:
 * https://github.com/zaproxy/zap-core-help.git
 * https://github.com/zaproxy/community-scripts.git
 
+Please update this page with more detailed instructions for other IDEs!
+
 ## Intellij
 
 A guide to develop, run and build ZAP with Intellij can be found [here](HowToBuildZapWithIntellij).
