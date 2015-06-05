@@ -1,5 +1,3 @@
-# Downloads
-
 Not sure how to start using ZAP? Read the [Getting Started Guide](http://sourceforge.net/projects/zaproxy/files/docs/ZAPGettingStartedGuide.pdf/download) (pdf download link).
 
 You can check the file hashes of any of the downloads via Sourceforge: https://sourceforge.net/projects/zaproxy/files/
@@ -64,4 +62,6 @@ It is cross platform (Windows, Linux and Mac OS but does not include any install
 It requires Java 7 to run<br>
 
 <h3>ZAP Workspace</h3>
-We will be looking at ways to provide an up to date workspace asap.
+You can now import ZAP projects into Eclipse using just one URL.
+
+See the [Building](Building) page for details about this and information about other IDEs.
