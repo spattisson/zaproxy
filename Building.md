@@ -1,38 +1,34 @@
-﻿= Building ZAP =
+# Building ZAP
 
 You should be able to use any modern IDE to build ZAP.
 
 Please also have a look at (and add to!) the [Dev Tips and Tricks](DevTipsAndTricks) page.
 
-## Eclipse
+## Eclipse - quick set up
 
-A ZAP Eclipse workspace ZIP (0.9 Gb) is available from https://sourceforge.net/projects/zaproxy/files/workspace/
+1. The quickest way to set up a ZAP development environment is as follows:
+1. Ensure you have a recent version of Eclipse - the [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunasr2) is a good option
+1. Start Eclipse and select a new (empty) workspace
+1. Select the menu: "File / Import"
+1. Select "Team / Team Project Set" and click "Next >"
+1. Select URL and enter: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZAP-projectSet.psf
+1. Click "Finish" and wait for Eclipse to pull down all of the projects and build them.
 
-The official guide for building ZAP with Eclipse  has been published by Raul Siles of DinoSec.
+## Other IDEs / manual set up
 
-The latest version of the guide (v3.0) is available here: (December 2012, based on Java 7)
-
-http://www.dinosec.com/en/lab.html#BUILDINGZAP3
-
-Version 2.0 of the guide is available here: (February 2012, based on Java 6)
-
-http://www.dinosec.com/en/lab.html#BUILDINGZAP2
-
-The original guide (v1.0) is available here: (August 2011)
-
-http://www.dinosec.com/en/lab.html#BUILDINGZAP
-
-And Raul's Taddong blog posts about the initial two versions of the guide are here:
-
-(v2.0) http://blog.taddong.com/2012/02/building-owasp-zap-using-eclipse-ide.html
-
-(v1.0) http://blog.taddong.com/2011/08/building-owasp-zap-using-eclipse-ide.html
-
-Thanks Raul!
+You can also manually import and configure the following projects into your IDE:
+* https://github.com/zaproxy/zaproxy.git
+  * master and 2.4 branch
+* https://github.com/zaproxy/zap-extensions.git
+  * master, beta and alpha branches
+* https://github.com/zaproxy/zap-core-help.git
+* https://github.com/zaproxy/community-scripts.git
 
 ## Intellij
 
 A guide to develop, run and build ZAP with Intellij can be found [here](HowToBuildZapWithIntellij).
+
+Note that this out of date as it refers to ZAP projects on Google Code.
 
 ## Other IDEs
 
