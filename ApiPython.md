@@ -51,8 +51,8 @@ print 'Spidering target %s' % target
 zap.spider.scan(target)
 # Give the Spider a chance to start
 time.sleep(2)
-while (int(zap.spider.status()['status']) < 100):
-    print 'Spider progress %: ' + zap.spider.status()['status']
+while (int(zap.spider.status) < 100):
+    print 'Spider progress %: ' + zap.spider.status
     time.sleep(2)
 
 print 'Spider completed'
@@ -61,15 +61,15 @@ time.sleep(5)
 
 print 'Scanning target %s' % target
 zap.ascan.scan(target)
-while (int(zap.ascan.status()['status']) < 100):
-    print 'Scan progress %: ' + zap.ascan.status()['status']
+while (int(zap.ascan.status) < 100):
+    print 'Scan progress %: ' + zap.ascan.status
     time.sleep(5)
 
 print 'Scan completed'
 
 # Report the results
 
-print 'Hosts: ' + ', '.join(zap.core.hosts())
+print 'Hosts: ' + ', '.join(zap.core.hosts)
 print 'Alerts: '
 pprint (zap.core.alerts())
 ```
