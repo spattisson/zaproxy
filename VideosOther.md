@@ -4,6 +4,13 @@ Various ZAP related videos recorded by a variety of people :)
 
 For the 'official' training videos see: [Training Videos](Videos)
 
+### OWASP ZAP 2.4.0 and beyond...
+
+<a href='http://www.youtube.com/watch?feature=player_embedded&v=LJIoyx405bw' target='_blank'><img src='http://img.youtube.com/vi/LJIoyx405bw/0.jpg' width='425' height=344 /></a>
+
+A 45 minute video of the talk given by Simon Bennetts (psiinon) at AppSec EU in Amsterdam on 21st May 2015 on OWASP ZAP 2.4.0 and future work, including the announcement of ZaaS - ZAP as a Service.
+
+
 ### OWASP ZAP Advanced Features
 
 <a href='http://www.youtube.com/watch?feature=player_embedded&v=Ofmp-haNI7s' target='_blank'><img src='http://img.youtube.com/vi/Ofmp-haNI7s/0.jpg' width='425' height=344 /></a>
