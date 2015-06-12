@@ -1,5 +1,7 @@
 This is work in progress, and has not been agreed upon yet ;)
 
+It also just covers Eclipse - please update for other IDEs!
+
 The ZAP branching model is based on http://nvie.com/posts/a-successful-git-branching-model/
 
 In order to contribute code back to ZAP you will need to:
@@ -15,22 +17,50 @@ You can import your projects directly into your IDE, in which case you can skip 
 
 However if you have imported the [zaproxy](https://github.com/zaproxy/) projects into Eclipse using the psf referred to in the [Building](Building) page you will need to:
 
-1. In Eclipse select the menu Window -> Show View -> Other
-  * Git / Git Repositories
-1. In the Git Repositories tab
-  * Right click the _project_/Remotes/origin node and select "Configure Push..."
-  * Enter your repo's URI
+  * For Eclipse
+    1. Select the menu Window -> Show View -> Other
+      * Git / Git Repositories
+    1. In the Git Repositories tab Right click the _project_/Remotes/origin node
+    1. Select "Configure Push..."
+    1. Enter your repo's URI
 
 ### Change your IDE to also point to the zaproxy projects
 
-1. In the Eclipse Git Repositories tab
-  * Right click the _project_/Remotes node and select "Create Remote"
-  * Enter a Remote name of "upstream"
-  * Select "Configure fetch"
-  * Enter the original [zaproxy](https://github.com/zaproxy/) repo URI
+  * For Eclipse
+    1. Select the Git Repositories tab
+    1. Right click the _project_/Remotes node and select "Create Remote"
+    1. Enter a Remote name of "upstream"
+    1. Select "Configure fetch"
+    1. Enter the original [zaproxy](https://github.com/zaproxy/) repo URI
 
-## Create a fork for you to work on
+### Create a branch for you to work on
 
-1. In Eclipse right click the project
-  * Team -> Switch to -> New Branch...
+  * For Eclipse
+    1. Right click the project
+    1. Team -> Switch to -> New Branch...
+
+### Make and test your changes
+
+Which is out of the scope of this guide ;)
+
+### Commit your changes back to your repo
+
+  * For Eclipse
+    1. Right click the project
+    1. Team -> Commit...
+    1. Enter a suitable commit message, referring to any bugs fixed as per https://help.github.com/articles/closing-issues-via-commit-messages/
+    1. Double check you've included the right files
+    1. "Commit and Push"
+
+  * In GitHub
+    1. Go to your project
+    1. Click "Pull Request"
+
+### To pick up the latest changes from the zaproxy projects
+
+  * For Eclipse
+    1. For each project
+    1. Right click the project
+    1. Select "Team -> Remote -> Fetch From..."
+    1. Choose the "upstream" remote
 
