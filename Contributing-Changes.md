@@ -63,4 +63,5 @@ Which is out of the scope of this guide ;)
     1. Right click the project
     1. Select "Team -> Remote -> Fetch From..."
     1. Choose the "upstream" remote
-
+    1. Right click the project
+    1. Select "Team -> Merge..." and select the corresponding "upstream" branch
