@@ -10,7 +10,6 @@ This page is a list of projects suitable for:
 If you are interested in any of these projects please post to the relevant issue or post to the [ZAP Developer Group](http://groups.google.com/group/zaproxy-develop).
 
 
-
 ## Bug tracker support
 This would allow ZAP users to raise issues in bug trackers directly within ZAP.
 
@@ -56,14 +55,18 @@ It would be very useful to support Java in addition to the JSR223 scripting lang
 
 It should be possible to provide much better auto complete support than will be possible with dynamically typed scripting languages.
 
-## Testing guide integration
-The first part of this project would involve working with the OWASP Testing Guide team to make it much more easily consumable by web testing tools like ZAP.
-
-The second part would involve integrating the OWASP Testing Guide with ZAP, for example as a new 'TO DO' checklist with the relevant sections of the Testing Guide.
-
 ## Zest text representation and parser
 Zest is a graphical scripting language from the Mozilla Security team, and is used as the ZAP macro language.
 
 A standardized text representation and parser would be very useful and help its adoption.
 
 [Zest Issue 23](https://github.com/mozilla/zest/issues/23)
+
+# Active Projects
+The following projects are no longer 'open' as they are being actively worked on..
+
+## Testing guide integration
+The first part of this project would involve working with the OWASP Testing Guide team to make it much more easily consumable by web testing tools like ZAP.
+
+The second part would involve integrating the OWASP Testing Guide with ZAP, for example as a new 'TO DO' checklist with the relevant sections of the Testing Guide.
+
