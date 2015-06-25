@@ -1,6 +1,4 @@
-Not sure how to start using ZAP? Read the [Getting Started Guide](http://sourceforge.net/projects/zaproxy/files/docs/ZAPGettingStartedGuide.pdf/download) (pdf download link).
-
-You can check the file hashes of any of the downloads via Sourceforge: https://sourceforge.net/projects/zaproxy/files/
+Not sure how to start using ZAP? Read the [Getting Started Guide](https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAPGettingStartedGuide-2.4.pdf) (pdf).
 
 ### ZAP 2.4.0 Standard
 
@@ -25,7 +23,7 @@ For more information about this release see the <a href='https://github.com/zapr
 
 <table width='80%'>
 <tr>
-<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-04-15</td><td width='15%'>42.4 MB</td><td><a href='http://sourceforge.net/projects/zaproxy/files/2.4.0/ZAP_2.4.0_Core.tar.gz/download'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-04-15</td><td width='15%'>42.4 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAP_2.4.0_Core.tar.gz'>Download now</a></td>
 </tr>
 </table>
 
