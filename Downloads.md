@@ -6,13 +6,13 @@ You can check the file hashes of any of the downloads via Sourceforge: https://s
 
 <table width='80%'>
 <tr>
-<td width='5%'></td><td width='30%'>Windows</td><td width='15%'>2015-04-15</td><td width='15%'>73.3 MB</td><td><a href='http://sourceforge.net/projects/zaproxy/files/2.4.0/ZAP_2.4.0_Windows.exe/download'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Windows</td><td width='15%'>2015-04-15</td><td width='15%'>73.3 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAP_2.4.0_Windows.exe'>Download now</a></td>
 </tr>
 <tr>
-<td width='5%'></td><td width='30%'>Linux / cross platform</td><td width='15%'>2015-04-15</td><td width='15%'>79.5 MB</td><td><a href='http://sourceforge.net/projects/zaproxy/files/2.4.0/ZAP_2.4.0_Linux.tar.gz/download'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Linux / cross platform</td><td width='15%'>2015-04-15</td><td width='15%'>79.5 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAP_2.4.0_Linux.tar.gz'>Download now</a></td>
 </tr>
 <tr>
-<td width='5%'></td><td width='30%'>Mac OS/X</td><td width='15%'>2015-04-15</td><td width='15%'>117.8 MB</td><td><a href='http://sourceforge.net/projects/zaproxy/files/2.4.0/ZAP_2.4.0_Mac_OS_X.dmg/download'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Mac OS/X</td><td width='15%'>2015-04-15</td><td width='15%'>117.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAP_2.4.0_Mac_OS_X.dmg'>Download now</a></td>
 </tr>
 </table>
 
@@ -51,7 +51,7 @@ On Mac OS X you can also install ZAP using <a href='http://caskroom.io/'>Homebre
 
 <table width='80%'>
 <tr>
-<td width='5%'></td><td width='30%'>Weekly - cross platform</td><td width='15%'>2015-06-15</td><td width='15%'>89.1 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2015-06-15/ZAP_WEEKLY_D-2015-06-15.zip'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Weekly - cross platform</td><td width='15%'>2015-06-25</td><td width='15%'>86.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2015-06-25/ZAP_WEEKLY_D-2015-06-25.zip'>Download now</a></td>
 </tr>
 </table>
 
