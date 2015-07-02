@@ -6,7 +6,7 @@ Failed to attack the URL, please check that the URL is valid
 ```
 then the first thing to do is check your URL in a browser.
 
-If it works ok then open the ZAP [Manual Request Editor](https://github.com/zaproxy/zaproxy/wiki/HelpUiDialogsMan_req), replace the default URL with the one you are trying and send the request.
+If it works ok then open the ZAP [Manual Request Editor](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsMan_req), replace the default URL with the one you are trying and send the request.
 
 The response may well explain the problem.
 
