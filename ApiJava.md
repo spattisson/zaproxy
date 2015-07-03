@@ -8,7 +8,8 @@ The javadocs are available [here](http://zaproxy.googlecode.com/svn/trunk/javado
 
 ## Example
 
-An example of the Java client being used is available [here](http://code.google.com/p/zaproxy-test/source/browse/trunk/src/org/zaproxy/zap/DaemonWaveIntegrationTest.java) - note that this may not be up to date!
+An example of the Java client being used is available [here](https://github.com/zaproxy/zaproxy-test/blob/master/src/org/zaproxy/zap/DaemonWaveIntegrationTest.java) - note that this may not be up to date!
+Another example is available [here](https://github.com/zaproxy/zaproxy/blob/develop/src/org/zaproxy/clientapi/core/SimpleExample.java)
 
 Links:
   * Back: [A Simple Scan](ApiDetailsSimpleScan)
