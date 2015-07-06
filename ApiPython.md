@@ -2,14 +2,14 @@
 
 The Python client can be downloaded from [SourceForge](http://sourceforge.net/projects/zaproxy/files/client-api/).
 
-It is also available on [PyPI](https://pypi.python.org/pypi/python-owasp-zap-v2) and can be installed using:
+It is also available on [PyPI](https://pypi.python.org/pypi/python-owasp-zap-v2.4) and can be installed using:
 ```
-pip install python-owasp-zap-v2
+pip install python-owasp-zap-v2.4
 ```
 
 As of ZAP 2.0.0 the Python API is generated (using [this](https://github.com/zaproxy/zaproxy/blob/develop/src/org/zaproxy/zap/extension/api/PythonAPIGenerator.java) class).
 
-Note that the example has now been updated to the v2 API :)
+Note that the example has now been updated to the v2.4 API :)
 
 
 ## Building
@@ -51,8 +51,8 @@ print 'Spidering target %s' % target
 zap.spider.scan(target)
 # Give the Spider a chance to start
 time.sleep(2)
-while (int(zap.spider.status) < 100):
-    print 'Spider progress %: ' + zap.spider.status
+while (int(zap.spider.status()) < 100):
+    print 'Spider progress %: ' + zap.spider.status()
     time.sleep(2)
 
 print 'Spider completed'
@@ -61,8 +61,8 @@ time.sleep(5)
 
 print 'Scanning target %s' % target
 zap.ascan.scan(target)
-while (int(zap.ascan.status) < 100):
-    print 'Scan progress %: ' + zap.ascan.status
+while (int(zap.ascan.status()) < 100):
+    print 'Scan progress %: ' + zap.ascan.status()
     time.sleep(5)
 
 print 'Scan completed'
