@@ -7,7 +7,7 @@ This page is a list of projects suitable for:
   * OWASP Code Sprints
   * Anyone who would like a non trivial ZAP project to work on ;)
 
-If you are interested in any of these projects please post to the relevant issue or post to the [ZAP Developer Group](http://groups.google.com/group/zaproxy-develop).
+If you are interested in any of these projects please post to the relevant issue or post to the [ZAP Developer Group](https://groups.google.com/group/zaproxy-develop).
 
 
 ## Bug tracker support

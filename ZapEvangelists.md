@@ -2,7 +2,7 @@
 
 The following people are happy to give **free** ZAP talks and/or training in their respective locations.
 
-To contact all evangelists please use the http://groups.google.com/group/zaproxy-evangelists group.
+To contact all evangelists please use the https://groups.google.com/group/zaproxy-evangelists group.
 
 | **Name** | **Contacts** | **Locations `*`** | **Languages** |  **Talks** | **Training** | **Notes / Specialities** | **Previous talks / training / other links** |
 |:---------|:-------------|:------------------|:--------------|:-----------|:-------------|:-------------------------|:--------------------------------------------|
@@ -54,9 +54,8 @@ You can also post to the above thread for advice and guidance on giving ZAP talk
 
 And when you do arrange events please let us know so that we can update the ZAP [Talks](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project#tab=Talks) tab on the OWASP wiki.
 
-<a href='Hidden comment: 
+<!---
 Copy this to the end of the table and update it for new evangelists.
 
 || Name || [mailto:email https://www.owasp.org/images/3/33/Social-email.png][https://twitter.com/twitter  https://www.owasp.org/images/8/82/Social-twitter.png][http://www.linkedin.com/profile/view?id=999 https://www.owasp.org/images/6/68/Social-linkedin.png] || loc || lang || Y || N || notes || links ||
-
-'></a>
+-->

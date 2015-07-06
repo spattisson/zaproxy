@@ -123,15 +123,14 @@ For my tests I keep out the performance tests (`9.*`). Since CW27 more advanced 
 
 Here I will post what I've achieved, if I was able to meet my schedule, about problems keeping me from that and other project-relevant things.
 
-<a href='Hidden comment: 
+<!---
 * 27 August: Final results of GSoC 2012 announced.
 * 31 August: Students can begin submitting required code samples to Google.
 
 == calendar week 34 (20 August - 26 August) ==
 * 20 August: Firm "pencils down" date. Mentors, students and organization administrators can begin submitting final evaluations to Google.
 * 24 August: Final evaluation deadline Google begins issuing student and mentoring organization payments provided forms and evaluations are on file.
-
-'></a>
+-->
 
 ## calendar week 34 (20 August - 26 August)
 _20 August: Firm 'pencils down' date. Mentors, students and organization administrators can begin submitting final evaluations to Google._

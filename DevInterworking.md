@@ -8,6 +8,6 @@ But there is still much to do.
 
 ## Related Enhancements and Defects
 
-[Interworking enhancements](http://code.google.com/p/zaproxy/issues/list?can=2&q=type=Enhancement%20label=Interworking)
+[Interworking enhancements](https://github.com/zaproxy/zaproxy/issues?q=is%3Aopen+label%3AType-Enhancement+label%3AInterworking)
 
-[Interworking defects](http://code.google.com/p/zaproxy/issues/list?can=2&q=type=Defect%20label=Interworking)
+[Interworking defects](https://github.com/zaproxy/zaproxy/issues?q=is%3Aopen+label%3AType-Defect+label%3AInterworking)

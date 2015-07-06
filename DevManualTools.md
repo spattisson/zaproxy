@@ -10,6 +10,6 @@ The manual tools include:
 
 ## Related Enhancements and Defects
 
-[Manual Tool enhancements](http://code.google.com/p/zaproxy/issues/list?can=2&q=type=Enhancement%20label=ManualTools)
+[Manual Tool enhancements](https://github.com/zaproxy/zaproxy/issues?q=is%3Aopen+label%3AType-Enhancement+label%3AManualTools)
 
-[Manual Tool defects](http://code.google.com/p/zaproxy/issues/list?can=2&q=type=Defect%20label=ManualTools)
+[Manual Tool defects](https://github.com/zaproxy/zaproxy/issues?q=is%3Aopen+label%3AType-Defect+label%3AManualTools)

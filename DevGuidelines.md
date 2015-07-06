@@ -8,13 +8,13 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
 
   * Only check in a consistent set of changes. They dont have to fully implement new functionality, but they must not break existing functionality.
 
-  * All significant new code should be under the [org.zaproxy.zap](http://code.google.com/p/zaproxy/source/browse/#svn%2Ftrunk%2Fsrc%2Forg%2Fzaproxy%2Fzap) package.
+  * All significant new code should be under the [org.zaproxy.zap](https://github.com/zaproxy/zaproxy/tree/develop/src/org/zaproxy/zap) package.
 
-  * All code under the [org.zaproxy.zap](http://code.google.com/p/zaproxy/source/browse/#svn%2Ftrunk%2Fsrc%2Forg%2Fzaproxy%2Fzap) package should compile without any warnings.
+  * All code under the [org.zaproxy.zap](https://github.com/zaproxy/zaproxy/tree/develop/src/org/zaproxy/zap) package should compile without any warnings.
 
-  * Any changes to the [org.parosproxy.paros](http://code.google.com/p/zaproxy/source/browse/#svn%2Ftrunk%2Fsrc%2Forg%2Fparosproxy%2Fparos) packages should be commented at the beginning of the class (This is a requirement of the Paros licence), and the comments should start with // ZAP: YYYY/MM/DD
+  * Any changes to the [org.parosproxy.paros](https://github.com/zaproxy/zaproxy/tree/develop/src/org/parosproxy/paros) packages should be commented at the beginning of the class (This is a requirement of the Paros licence), and the comments should start with // ZAP: YYYY/MM/DD
 
-  * Make sure that any 3rd party code and libraries you introduce is licensed in a compatible way with the Apache v2 license. GPL code and libraries _can_ be used but only with the explicit consent of the original authors. Ask on the [Dev group](http://groups.google.com/group/zaproxy-develop) if you are unsure.
+  * Make sure that any 3rd party code and libraries you introduce is licensed in a compatible way with the Apache v2 license. GPL code and libraries _can_ be used but only with the explicit consent of the original authors. Ask on the [Dev group](https://groups.google.com/group/zaproxy-develop) if you are unsure.
 
   * If you copy code (having checked the license as above) you should always acknowledge the original author and if possible include a link to the original version
 
@@ -22,9 +22,9 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
 
   * The UI should be consistent, so all controls should look similar and act in the same way. We can change the UI look and feel, but see the above point.
 
-  * All functionality should be fully documented in the [help pages](http://code.google.com/p/zaproxy/source/browse/#svn%2Ftrunk%2Fsrc%2Fhelp%2Fzaphelp%2Fzaphelp). However the documentation can be added after the code has been checked in as long as this is done before the next release. Note that the wiki help pages must not be changed manually - these reflect the last release, and are generated from the help pages using a script.
+  * All functionality should be fully documented in the [help pages](https://github.com/zaproxy/zap-core-help/tree/master/src/help/zaphelp). However the documentation can be added after the code has been checked in as long as this is done before the next release. Note that the wiki help pages must not be changed manually - these reflect the last release, and are generated from the help pages using a script.
 
-  * Please create [Issues](http://code.google.com/p/zaproxy/issues/list) for all significant changes and post messages to the [development group](http://groups.google.com/group/zaproxy-develop) so that everyone knows whats going on
+  * Please create [Issues](https://github.com/zaproxy/zaproxy/issues) for all significant changes and post messages to the [development group](https://groups.google.com/group/zaproxy-develop) so that everyone knows whats going on
 
   * There should be a clean split between the functionality and the UI. OK, so thats not true of a lot of the existing code, but new code should have that split, and hopefully over time we'll be able to update all of the old code as well. This will make it much easier to create regression tests and make more of the functionality accessible in headless mode.
 

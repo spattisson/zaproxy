@@ -31,7 +31,7 @@ ZAP supports JSON and XML.
 
 Theres examples here (including waiting for the async ops to complete):
 
-http://code.google.com/p/zaproxy/source/browse/trunk/src/org/zaproxy/zap/junit/TestDaemonWave.java
+https://github.com/zaproxy/zaproxy/blob/develop/src/org/zaproxy/zap/junit/TestDaemonWave.java
 
 To stop ZAP use
 ```

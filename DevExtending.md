@@ -2,9 +2,9 @@
 
 There are various ways you can extend ZAP, as documented below.
 
-Note that this is just an overview, there are some basic working examples in the [ZAP Extensions](https://code.google.com/p/zap-extensions/) project which will be added to in the future.
+Note that this is just an overview, there are some basic working examples in the [ZAP Extensions](https://github.com/zaproxy/zap-extensions/) project which will be added to in the future.
 
-If you have any questions then please ask them on the [zaproxy-develop](http://groups.google.com/group/zaproxy-develop) Google Group.
+If you have any questions then please ask them on the [zaproxy-develop](https://groups.google.com/group/zaproxy-develop) Google Group.
 
 ## Auto tag regexs
 
@@ -37,9 +37,9 @@ For more details see the [ZAP API](ApiDetails) section of this wiki.
 
 Filters add extra features that can be applied to every request and response.
 
-To implement a new Filter extend the class [FilterAdaptor](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/parosproxy/paros/extension/filter/FilterAdaptor.java)
+To implement a new Filter extend the class [FilterAdaptor](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/extension/filter/FilterAdaptor.java)
 
-For examples see the [org.parosproxy.paros.extension.filter](http://code.google.com/p/zaproxy/source/browse/#svn%2Ftrunk%2Fsrc%2Forg%2Fparosproxy%2Fparos%2Fextension%2Ffilter) package.
+For examples see the [org.parosproxy.paros.extension.filter](https://github.com/zaproxy/zaproxy/tree/develop/src/org/parosproxy/paros/extension/filter) package.
 
 Filters are loaded from the 'filters' directory.
 
@@ -47,7 +47,7 @@ Filters are loaded from the 'filters' directory.
 
 Active Scan rules find potential vulnerabilities by attacking the target application.
 
-Many of the existing [Active Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAscan) rules are defined in the [org.parosproxy.paros.core.scanner.plugin](http://code.google.com/p/zaproxy/source/browse/#svn/trunk/src/org/parosproxy/paros/core/scanner/plugin) package, but new rules should be added to the [org.zaproxy.zap.scanner.plugin](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/#org%2Fzaproxy%2Fzap%2Fscanner%2Fplugin) package.
+New [Active Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAscan) rules should be added to [org.zaproxy.zap.extension.ascanrulesAlpha](https://github.com/zaproxy/zap-extensions/tree/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha) package.
 
 Active scan rules are loaded from the 'plugins' directory.
 
@@ -55,7 +55,7 @@ Active scan rules are loaded from the 'plugins' directory.
 
 Passive Scan rules find potential vulnerabilities just by examining the requests and responses in a background thread. They should not make any changes.
 
-The [Passive Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsPscan) rules are defined in the [org.zaproxy.zap.extension.pscan.scanner](http://code.google.com/p/zaproxy/source/browse/#svn%2Ftrunk%2Fsrc%2Forg%2Fzaproxy%2Fzap%2Fextension%2Fpscan%2Fscanner) package.
+New [Passive Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsPscan) rules should be added to [org.zaproxy.zap.extension.pscanrulesAlpha](https://github.com/zaproxy/zap-extensions/tree/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha) package.
 
 Passive scan rules are loaded from the 'plugins' directory.
 

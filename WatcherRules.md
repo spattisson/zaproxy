@@ -10,7 +10,7 @@ Please let us know (or update the page yourself if you have the perms) if you ar
 
 Put your name in the ZAP column if you are working on them and then change it to 'committed' when the code is checked in.
 
-Note that the ids are currently recorded in this doc: https://code.google.com/p/zaproxy/source/browse/trunk/src/doc/alerts.xml so please update this as well.
+Note that the ids are currently recorded in this doc: https://github.com/zaproxy/zaproxy/blob/develop/src/doc/alerts.xml so please update this as well.
 
 | ZAP | Watcher Rule |
 |:----|:-------------|

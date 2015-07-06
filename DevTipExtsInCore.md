@@ -1,6 +1,6 @@
 # Run addons from zaproxy without deploying them
 
-ZAP Add-ons should typically be implemented in the [zap-extensions](https://code.google.com/p/zap-extensions/) project.
+ZAP Add-ons should typically be implemented in the [zap-extensions](https://github.com/zaproxy/zap-extensions/) project.
 
 However there is a way to load them when starting ZAP via the zaproxy project without having to re-build and deploy them each time.
 

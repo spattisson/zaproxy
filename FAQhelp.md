@@ -31,7 +31,7 @@ If there are error messages that appear to indicate a Java memory problem then t
 
 ### Ask on the ZAP User Group
 
-The [ZAP user group](http://groups.google.com/group/zaproxy-users) is a great place to ask questions about using ZAP. All of the ZAP developers are on the user group as are many knowledgeable ZAP users who may also be able to help you.
+The [ZAP user group](https://groups.google.com/group/zaproxy-users) is a great place to ask questions about using ZAP. All of the ZAP developers are on the user group as are many knowledgeable ZAP users who may also be able to help you.
 
 ### Ask on irc
 
@@ -43,10 +43,7 @@ You can ask [@psiinon](https://twitter.com/psiinon) short questions directly on 
 
 ### Raise an issue
 
-If you're (fairly) sure its a bug you can raise an [issue](https://code.google.com/p/zaproxy/issues/entry?template=Defect%20report%20from%20user).
-
-Or if you think its a new feature you can raise an [Enhancement Request](https://code.google.com/p/zaproxy/issues/entry?template=Enhancement%20Request)
-
+You can raise issues (bugs or new features) at the [issue tracker](https://github.com/zaproxy/zaproxy/issues/new).
 
 ---
 

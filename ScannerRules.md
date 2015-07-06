@@ -2,9 +2,15 @@
 
 If you want to help improve the scanner rules then here are a few pointers.
 
-At the moment all of the [Active Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAscan) rules are defined in the [org.parosproxy.paros.core.scanner.plugin](http://code.google.com/p/zaproxy/source/browse/#svn/trunk/src/org/parosproxy/paros/core/scanner/plugin) package.
+The [Active Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAscan) rules are defined in different packages/add-ons depending on its quality:
+  * Alpha - in [org.zaproxy.zap.extension.ascanrulesAlpha](https://github.com/zaproxy/zap-extensions/tree/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha);
+  * Beta - in [org.zaproxy.zap.extension.ascanrulesBeta](https://github.com/zaproxy/zap-extensions/tree/beta/src/org/zaproxy/zap/extension/ascanrulesBeta);
+  * Release - in [org.zaproxy.zap.extension.ascanrules](https://github.com/zaproxy/zap-extensions/tree/master/src/org/zaproxy/zap/extension/ascanrules);
 
-The [Passive Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsPscan) rules are defined in the [org.zaproxy.zap.extension.pscan.scanner](http://code.google.com/p/zaproxy/source/browse/#svn%2Ftrunk%2Fsrc%2Forg%2Fzaproxy%2Fzap%2Fextension%2Fpscan%2Fscanner) package.
+The [Passive Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsPscan) rules are defined in different packages/add-ons depending on its quality:
+  * Alpha - in [org.zaproxy.zap.extension.pscanrulesAlpha](https://github.com/zaproxy/zap-extensions/tree/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha);
+  * Beta - in [org.zaproxy.zap.extension.pscanrulesBeta](https://github.com/zaproxy/zap-extensions/tree/beta/src/org/zaproxy/zap/extension/pscanrulesBeta);
+  * Release - in [org.zaproxy.zap.extension.pscanrules](https://github.com/zaproxy/zap-extensions/tree/master/src/org/zaproxy/zap/extension/pscanrules);
 
 Having a look at how these rules work would be a good place to start.
 

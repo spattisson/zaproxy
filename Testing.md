@@ -1,6 +1,6 @@
 # Testing ZAP
 
-We have just created a new project, **[zaproxy-test](http://code.google.com/p/zaproxy-test/)** for all of the test code related to [zaproxy](http://code.google.com/p/zaproxy/) and [zap-extensions](https://code.google.com/p/zap-extensions/).
+We have just created a new project, **[zaproxy-test](https://github.com/zaproxy/zaproxy-test/)** for all of the test code related to [zaproxy](https://github.com/zaproxy/zaproxy/) and [zap-extensions](https://github.com/zaproxy/zap-extensions/).
 
 This will include (but is not limited to)
 
@@ -23,8 +23,8 @@ TODO: update these results for 2.0.0 :)
 
 | **Test app/site** | **Script** | **1.4.0.1** | **Trunk** | **Notes** |
 |:------------------|:-----------|:------------|:----------|:----------|
-| [Watcher](http://www.nottrusted.com/watcher/) | [script](http://code.google.com/p/zaproxy/source/browse/#svn%2Ftrunk%2Fpython%2Fscripts%2Fwatcher) | [26%](http://zaproxy.googlecode.com/svn/trunk/python/scripts/watcher/report-v1.4.0.1.html) | 26%       |  The test pages are now here: http://www.testcases.org/watcher/ |
-| [WIVET](http://code.google.com/p/wivet/) |            | [10%](http://www.sectoolmarket.com/wivet-score-unified-list.html) | [72%](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/wivit-ajax-spider.png) | Trunk - using the Ajax Spider |
+| [Watcher](http://www.nottrusted.com/watcher/) | [script](https://github.com/zaproxy/zaproxy/blob/develop/python/scripts/watcher/watcher.py) | [26%](https://github.com/zaproxy/zaproxy/blob/develop/python/scripts/watcher/report-v1.4.0.1.html) | 26%       |  The test pages are now here: http://www.testcases.org/watcher/ |
+| [WIVET](https://github.com/bedirhan/wivet) |            | [10%](http://www.sectoolmarket.com/wivet-score-unified-list.html) | [72%](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/wivit-ajax-spider.png) | Trunk - using the Ajax Spider |
 
 Other vulnerable apps / test suites we should test against:
   * [OWASP BWA](https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project) (which includes lots of apps)

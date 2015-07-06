@@ -51,18 +51,18 @@ Where:
 
 Note that 32-bit drivers are commonly stored under "C:\Windows\System32\" or "/usr/lib/", while 64-bit drivers can be found at "C:\WINDOWS\SysWOW64\" or "/usr/lib64/". If no architecture is provided, it means that the driver is architecture-agnostic, and it is commonly stored (for Windows) under the applications directory: "C:\Program Files\".
 
-The most current version of the drivers.xml configuration file is available on the official ZAP SVN repository: https://code.google.com/p/zaproxy/source/browse/trunk/src/xml/drivers.xml
+The most current version of the drivers.xml configuration file is available on the official ZAP SVN repository: https://github.com/zaproxy/zaproxy/blob/develop/src/xml/drivers.xml
 
 
 # How can I contribute to ZAP SmartCard Project?
 
-The new "OWASP ZAP SmartCard Project" requires the implication of the community around the world to provide details and help to test new smartcard types. If you are interested on contributing to it, [send me an e-mail](http://code.google.com/u/raul.siles@gmail.com/) or write to the [OWASP ZAP Google group (mailing list)](http://groups.google.com/group/zaproxy-develop).
+The new "OWASP ZAP SmartCard Project" requires the implication of the community around the world to provide details and help to test new smartcard types. If you are interested on contributing to it, [send me an e-mail](http://code.google.com/u/raul.siles@gmail.com/) or write to the [OWASP ZAP Google group (mailing list)](https://groups.google.com/group/zaproxy-develop).
 
 You can contribute in very different ways:
   1. Provide details about the existence of a new smartcard or eID that is used in your country of origin or residence for web-based authentication.
   1. Provide general and/or technical details about an specific country eID, plus the link to the official e-ID web page for that country, so that anyone interested can get more details about how the eID has been deployed in that country.
   1. Provide details about commercial smartcards used for web-based authentication.
-  1. Use ZAP to evaluate the security of smartcard-based web applications on your penetration testing engagements and [report bugs or any other issues you may find](https://code.google.com/p/zaproxy/issues/list).
+  1. Use ZAP to evaluate the security of smartcard-based web applications on your penetration testing engagements and [report bugs or any other issues you may find](https://github.com/zaproxy/zaproxy/issues/).
   1. Suggest or/and provide new drivers.xml entries for new smartcards or additional operating systems.
   1. More...
 

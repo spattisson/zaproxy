@@ -4,7 +4,7 @@ The Java client can be downloaded from [Downloads](http://sourceforge.net/projec
 
 ## Javadocs
 
-The javadocs are available [here](http://zaproxy.googlecode.com/svn/trunk/javadocs/org/zaproxy/clientapi/core/ClientApi.html)
+The javadocs are available [here](https://github.com/zaproxy/zaproxy/releases/download/2.4.0/zaproxy-2.4.0-javadocs.zip)
 
 ## Example
 

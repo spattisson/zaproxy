@@ -42,13 +42,14 @@ This section is used for keeping an up-to-date status of the project, my goals a
 
 
 ## Week 1 (17st of June - 22nd of June)
-<a href='Hidden comment: 
+<!---
 || *Goal* ||  *Status*||
 ||  || <font color="green"> *Done* </font> ||
 ||  || <font color="red"> *Delayed* </font> ||
 ||  || <font color="orange"> *Pending* </font> ||
 ||  || <font color="blue"> *Scheduled* </font> ||
-'></a>
+-->
+
 | Initial discussions with both Guifre and Simon | <font color='green'> <b>Done</b> </font> |
 |:-----------------------------------------------|:-----------------------------------------|
 | High-Level design of core components for the User Authentication Manager | <font color='green'> <b>Done</b> </font> |

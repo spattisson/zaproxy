@@ -7,7 +7,7 @@ It is also available on [PyPI](https://pypi.python.org/pypi/python-owasp-zap-v2)
 pip install python-owasp-zap-v2
 ```
 
-As of ZAP 2.0.0 the Python API is generated (using [this](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/zaproxy/zap/extension/api/PythonAPIGenerator.java) class).
+As of ZAP 2.0.0 the Python API is generated (using [this](https://github.com/zaproxy/zaproxy/blob/develop/src/org/zaproxy/zap/extension/api/PythonAPIGenerator.java) class).
 
 Note that the example has now been updated to the v2 API :)
 

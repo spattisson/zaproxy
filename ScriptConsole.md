@@ -11,7 +11,7 @@ It allows you to access internal ZAP data structures dynamically using any scrip
 
 In order to install the Script Console
 
-  1. Download the extension jar from the [zap-extensions](http://code.google.com/p/zap-extensions/) project
+  1. Download the extension jar from the [zap-extensions](https://github.com/zaproxy/zap-extensions/) project
   1. Move the jar into the 'plugins' directory where ZAP is installed
   1. Restart ZAP
 
@@ -22,13 +22,13 @@ You will now have access to the Script Console as seen here (click for the full 
 
 For some examples on what you can do in the console please see: InternalDetails.
 
-And for full details of all of the classes see the JavaDocs or (of course) the [source code](http://code.google.com/p/zaproxy/source/browse/).
+And for full details of all of the classes see the JavaDocs or (of course) the [source code](https://github.com/zaproxy/zaproxy/).
 
-Any problems, get in touch via the [developer-group](http://groups.google.com/group/zaproxy-develop).
+Any problems, get in touch via the [developer-group](https://groups.google.com/group/zaproxy-develop).
 
 You may find it difficult to get access to some of the ZAP data structures as some of it is not as accessible as it should be.
-If so then please [let us know](http://groups.google.com/group/zaproxy-develop) - we are committed to exposing anything that could be useful.
+If so then please [let us know](https://groups.google.com/group/zaproxy-develop) - we are committed to exposing anything that could be useful.
 
-Please [tell us](http://groups.google.com/group/zaproxy-develop) if you develop any useful scripts and we'll publish them (with full credit of course).
+Please [tell us](https://groups.google.com/group/zaproxy-develop) if you develop any useful scripts and we'll publish them (with full credit of course).
 
 But be aware that scripts run with the same permissions as ZAP, so do not run any scripts that you do not trust!

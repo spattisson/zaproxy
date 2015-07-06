@@ -2,13 +2,13 @@
 
 ZAP provides a range of mechanisms for extending its functionality.
 
-One of the main ones is provides by the [ExtensionHook](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/parosproxy/paros/extension/ExtensionHook.java) class.
+One of the main ones is provides by the [ExtensionHook](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/extension/ExtensionHook.java) class.
 
 This class allows you to hook your own classes into ZAP using a set of standard interfaces.
 
-To use these you will need to implement the [Extension](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/parosproxy/paros/extension/Extension.java) interface (typically by extending the abstract [ExtensionAdaptor](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/parosproxy/paros/extension/ExtensionAdaptor.java)).
+To use these you will need to implement the [Extension](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/extension/Extension.java) interface (typically by extending the abstract [ExtensionAdaptor](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/extension/ExtensionAdaptor.java)).
 
-You can then hook any class that implements the interfaces below by adding calls to the relevant [ExtensionHook](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/parosproxy/paros/extension/ExtensionHook.java) methods in the 'hook' method, for example (from [ExtensionAlert](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/zaproxy/zap/extension/alert/ExtensionAlert.java#94)):
+You can then hook any class that implements the interfaces below by adding calls to the relevant [ExtensionHook](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/extension/ExtensionHook.java) methods in the 'hook' method, for example (from [ExtensionAlert](https://github.com/zaproxy/zaproxy/blob/develop/src/org/zaproxy/zap/extension/alert/ExtensionAlert.java#94)):
 
 ```
     @Override

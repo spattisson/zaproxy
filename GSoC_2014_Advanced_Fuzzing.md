@@ -35,13 +35,14 @@ In the course of this project the following new features will be provided:
 
 <h1>Timeline and Progress</h1>
 <hr />
-<a href='Hidden comment: 
+<!---
 || *Goal* ||  *Status*||
 ||  || <font color="green"> *Done* </font> ||
 ||  || <font color="red"> *Delayed* </font> ||
 ||  || <font color="orange"> *Pending* </font> ||
 ||  || <font color="blue"> *Scheduled* </font> ||
-'></a><br>
+-->
+<br>
 This section presents an overview of when the individual features are planned to be implemented.<br>
 In addition to the listed steps, a new version of the multi-fuzzing add-on will be released at the end of each week.<br>
 Changes to core files will be kept to a minimum and specifically listed in the tables below.<br>

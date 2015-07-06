@@ -8,7 +8,7 @@ They are intended to be non-trivial enhancements and could be ideal for students
 
 If you are interested in working on one of these projects then please get in touch. We will need to flesh out the projects in more detail ;)
 
-If you are looking for a easier way to get into the code then have a look at issues with the [IdealFirstBug](http://code.google.com/p/zaproxy/issues/list?q=label:IdealFirstBug) tag - they should be relatively easy and fairly well documented issues.
+If you are looking for a easier way to get into the code then have a look at issues with the [IdealFirstBug](https://github.com/zaproxy/zaproxy/labels/IdealFirstBug) tag - they should be relatively easy and fairly well documented issues.
 
 We have some [advice](ProjectAdvice) for working on ZAP developments.
 
@@ -57,6 +57,6 @@ And do check of the blog posts about [ZAP development](https://github.com/zaprox
 
 
 Note that this is not an absolute list.
-We have many more [enhancement requests](http://code.google.com/p/zaproxy/issues/list?can=2&q=type=Enhancement), many of which would be suitable as projects.
+We have many more [enhancement requests](https://github.com/zaproxy/zaproxy/labels/Type-Enhancement), many of which would be suitable as projects.
 
 And also feel free to suggest new projects that arent on any list!

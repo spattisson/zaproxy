@@ -4,7 +4,7 @@ These pages are for developers who want to understand how to enhance ZAP.
 
 This is very much a work-in-progress - feel free to add to these details!
 
-And also please ask for any details that you want to know but which isnt yet covered, either by commenting on this page or via the [developer group](http://groups.google.com/group/zaproxy-develop).
+And also please ask for any details that you want to know but which isnt yet covered, either by commenting on this page or via the [developer group](https://groups.google.com/group/zaproxy-develop).
 
   * [GUI Programming](UiStartDevelopment)
   * [Script Examples](InternalScripting)

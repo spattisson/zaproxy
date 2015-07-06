@@ -87,13 +87,13 @@ Moreover, two pages describing the important concepts of the two components/exte
 
 This section is used for keeping an up-to-date status of the project, my goals and the things that were being worked on in each week. It is only a summary of the most important achievements and it is not meant to be a full and detailed log.
 
-<a href='Hidden comment: 
+<!---
 || *Goal* ||  *Status*||
 ||  || <font color="green"> *Done* </font> ||
 ||  || <font color="red"> *Delayed* </font> ||
 ||  || <font color="orange"> *Pending* </font> ||
 ||  || <font color="blue"> *Scheduled* </font> ||
-'></a>
+-->
 
 ## Week 13 (13th August - 18th August) & 20th of August
 | **Goal** | **Status**|
@@ -173,7 +173,7 @@ This section is used for keeping an up-to-date status of the project, my goals a
 | **Goal** | **Status**|
 |:---------|:----------|
 | Document on Form Handling, including POST and multipart/form-data| <font color='green'> <b>Done</b> </font> |
-| <Inactivity period due to Diploma Thesis at the University> | <font color='green'> <b>Done</b> </font> |
+| (Inactivity period due to Diploma Thesis at the University) | <font color='green'> <b>Done</b> </font> |
 
 
 ## Week 5 (18th June - 23rd June)
@@ -244,7 +244,7 @@ This section is used for keeping an up-to-date status of the project, my goals a
 | get in contact with the community | <font color='green'> <b>Done</b> </font> |
 | research features for spiders/crawlers | <font color='green'> <b>Done</b> </font> |
 
-<a href='Hidden comment: 
+<!---
 =Features to be implemented in the new crawler=
 This is just a log of features/things to consider that will be implemented in the crawler. The order is random:
 * proper care of frames
@@ -263,4 +263,4 @@ This is just a log of features/things to consider that will be implemented in th
 * cookies/sessions handling
 * caching of checksum for pages, to avoid parsing same page multiple times.
 * path-ascending crawling - a crawler would ascend to every path in each URL that it intends to crawl. For example, when given a seed URL of http://example.org/a/b/page.html, it will attempt to crawl /a/b/, /a/, and /.
-'></a>
+-->

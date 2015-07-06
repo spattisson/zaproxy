@@ -8,15 +8,15 @@ The [User Guide](https://github.com/zaproxy/zap-core-help/wiki/HelpIntro) (which
 
 ### User Group
 
-The [User Group](http://groups.google.com/group/zaproxy-user) is the best place for questions about using ZAP.
+The [User Group](https://groups.google.com/group/zaproxy-user) is the best place for questions about using ZAP.
 
 ### Developer Group
 
-The [Developer Group](http://groups.google.com/group/zaproxy-develop) is the best place for questions about working on the ZAP source code or extending it via add-ons.
+The [Developer Group](https://groups.google.com/group/zaproxy-develop) is the best place for questions about working on the ZAP source code or extending it via add-ons.
 
 ### Scripts Group
 
-The [Scripts Group](http://groups.google.com/group/zaproxy-scripts) is the best place for questions about extending ZAP using scripting.
+The [Scripts Group](https://groups.google.com/group/zaproxy-scripts) is the best place for questions about extending ZAP using scripting.
 
 ### IRC
 

@@ -32,9 +32,9 @@ The Scope is used when in 'Protected mode' (see above) and can also apply to thi
 If you are making changes or writing ZAP extensions that allow the user to do 'potentially dangerous' things, then you need to handle these concepts.
 
 If you use right-click menu items which extend the following classes (which is recommended) then most of the functionality is already handled for you:
-  * [org.zaproxy.zap.view.PopupMenuHistoryReference](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/zaproxy/zap/view/PopupMenuHistoryReference.java)
-  * [org.zaproxy.zap.view.PopupMenuHttpMessage](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/zaproxy/zap/view/PopupMenuHttpMessage.java)
-  * [org.zaproxy.zap.view.PopupMenuSiteNode](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/zaproxy/zap/view/PopupMenuSiteNode.java)
+  * [org.zaproxy.zap.view.PopupMenuHistoryReference](https://github.com/zaproxy/zaproxy/blob/develop/src/org/zaproxy/zap/view/PopupMenuHistoryReference.java)
+  * [org.zaproxy.zap.view.PopupMenuHttpMessage](https://github.com/zaproxy/zaproxy/blob/develop/src/org/zaproxy/zap/view/PopupMenuHttpMessage.java)
+  * [org.zaproxy.zap.view.PopupMenuSiteNode](https://github.com/zaproxy/zaproxy/blob/develop/src/org/zaproxy/zap/view/PopupMenuSiteNode.java)
 For any right-click menu item you can override the `isSafe()` method to return `true` if your menu item is safe to be run in any mode (e.g. it just displays information).
 
 If you need to know the current mode then you can access it via:
@@ -42,7 +42,7 @@ If you need to know the current mode then you can access it via:
 org.parosproxy.paros.control.Control.getSingleton().getMode()
 ```
 
-If you need to know if and when the user changes mode then you will need to extend [org.parosproxy.paros.extension.SessionChangedListener](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/parosproxy/paros/extension/SessionChangedListener.java) and put the relevant code in your implementation of the method:
+If you need to know if and when the user changes mode then you will need to extend [org.parosproxy.paros.extension.SessionChangedListener](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/extension/SessionChangedListener.java) and put the relevant code in your implementation of the method:
 ```
 public void sessionModeChanged(Mode mode) {
 }

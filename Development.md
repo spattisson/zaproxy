@@ -30,7 +30,7 @@ If you are interested in ZAP development then these articles are an ideal place 
 
 The plan is to publish these posts roughly one a week.
 
-If you have any comments about this series then you can comment on the blog or post to the [ZAP Developer Group](http://groups.google.com/group/zaproxy-develop)
+If you have any comments about this series then you can comment on the blog or post to the [ZAP Developer Group](https://groups.google.com/group/zaproxy-develop)
 
 ## Other ZAP development articles
 

@@ -3,7 +3,7 @@
 ## Summary
 
 ZAP effectively has 2 homepages:
-  * http://code.google.com/p/zaproxy/
+  * https://github.com/zaproxy/zaproxy/
   * https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
 Neither are ideal - this proposal is for 'replacing' them with a new home page, which will have a new URL.
 

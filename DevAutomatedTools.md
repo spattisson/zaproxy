@@ -12,6 +12,6 @@ The automated tools include:
 
 ## Related Enhancements and Defects
 
-[Automated Tool enhancements](http://code.google.com/p/zaproxy/issues/list?can=2&q=type=Enhancement%20label=AutomatedTools)
+[Automated Tool enhancements](https://github.com/zaproxy/zaproxy/issues?q=is%3Aopen+label%3AType-Enhancement+label%3AAutomatedTools)
 
-[Automated Tool defects](http://code.google.com/p/zaproxy/issues/list?can=2&q=type=Defect%20label=AutomatedTools)
+[Automated Tool defects](https://github.com/zaproxy/zaproxy/issues?q=is%3Aopen+label%3AType-Defect+label%3AAutomatedTools)

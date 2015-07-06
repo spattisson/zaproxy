@@ -46,7 +46,7 @@ Some of ZAP's functionality:<br>
 </li><li>Authentication and session support<br>
 </li><li><a href='https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsApi'>Powerful REST based API</a>
 </li><li>Automatic updating option<br>
-</li><li><a href='https://code.google.com/p/zap-extensions/'>Integrated and growing marketplace of add-ons</a></li></ul>
+</li><li><a href='https://github.com/zaproxy/zap-extensions/'>Integrated and growing marketplace of add-ons</a></li></ul>
 
 Some of ZAP's features:<br>
 <ul><li><a href='http://www.apache.org/licenses/LICENSE-2.0'>Open source</a>

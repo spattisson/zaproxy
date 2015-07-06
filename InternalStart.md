@@ -19,9 +19,9 @@ if (extHist != null) {
 
 Extensions _should_ expose data and functionality via public methods, but _should not_ expose UI elements.
 
-However many extensions do now follow these conventions - we will be changing these extensions, but if you find and extensions that do not expose their data or functionality in a useful way then please let us know via the [developer group](http://groups.google.com/group/zaproxy-develop).
+However many extensions do now follow these conventions - we will be changing these extensions, but if you find and extensions that do not expose their data or functionality in a useful way then please let us know via the [developer group](https://groups.google.com/group/zaproxy-develop).
 
-For full details of all of the classes see the JavaDocs or (of course) the [source code](http://code.google.com/p/zaproxy/source/browse/).
+For full details of all of the classes see the JavaDocs or (of course) the [source code](https://github.com/zaproxy/zaproxy/tree/develop/).
 
 Links:
   * Back: [Script Examples](InternalScripting)

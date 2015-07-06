@@ -34,6 +34,6 @@ ZAP related projects, as opposed to standalone tools, which are listed on the [R
 | [zap-webdriver](https://github.com/continuumsecurity/zap-webdriver) | Example security tests using Selenium `WebDriver` and OWASP ZAP |
 | [zap2docker](https://registry.hub.docker.com/u/samuliel/zap2docker/) | Zed Attack Proxy in a docker image togerher with zapr and x11vnc/novnc for GUI access |
 
-Please note that we will happily host ZAP add-ons on the [ZAP Marketplace](https://code.google.com/p/zap-extensions/) which will make it much easier for ZAP users to descover, install and update your add-ons, as long as we can build and sanity check them ourselves (to reduce the chance of malicious code;).
+Please note that we will happily host ZAP add-ons on the [ZAP Marketplace](https://github.com/zaproxy/zap-extensions/) which will make it much easier for ZAP users to descover, install and update your add-ons, as long as we can build and sanity check them ourselves (to reduce the chance of malicious code;).
 
-Post to the [ZAP Developer](http://groups.google.com/group/zaproxy-develop) group to ask for your add-on to be hosted by us.
+Post to the [ZAP Developer](https://groups.google.com/group/zaproxy-develop) group to ask for your add-on to be hosted by us.

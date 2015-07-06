@@ -31,8 +31,7 @@ All of the software used is cross platform and will work on Windows, Linux and M
     * Connect to Tomcat to make sure its working properly: http://localhost:8080
   1. [Download](http://www.eclipse.org/downloads/) and install Eclipse
   1. Start Eclipse
-  1. Add the [Subversive](http://www.eclipse.org/subversive/) plugin
-  1. [Checkout](http://code.google.com/p/bodgeit/source/checkout) the [BodgeIt Store](http://code.google.com/p/bodgeit/) as an Eclipse project
+  1. Checkout the [BodgeIt Store](https://github.com/psiinon/bodgeit) as an Eclipse project
     * Check that the bodgeit/local.properties file has the right paths to Tomcat and ZAP for your installation
   1. Run the build.xml 'deploy' task
     * Connect to http://localhost:8080/bodgeit - you should see the Bodgeit store application
@@ -55,4 +54,4 @@ Alert: Cross Site Scripting, Risk: High, Reliability: Warning, Url: http://local
 
 Having problems getting this working?
 
-Add a comment to this page or post to the [dev group](http://groups.google.com/group/zaproxy-develop)!
+Add a comment to this page or post to the [dev group](https://groups.google.com/group/zaproxy-develop)!

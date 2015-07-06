@@ -20,8 +20,8 @@ if (node) {
 ```
 
 Full details:
-  * [Latest source code](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/parosproxy/paros/model/SiteMap.java)
-  * [Latest Javadocs](http://zaproxy.googlecode.com/svn/trunk/javadocs/org/parosproxy/paros/model/SiteMap.html)
+  * [Latest source code](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/model/SiteMap.java)
+  * [Latest Javadocs](https://github.com/zaproxy/zaproxy/releases/download/2.4.0/zaproxy-2.4.0-javadocs.zip)
 
 Links:
   * Back: [Dialog Windows](InternalDialogs)

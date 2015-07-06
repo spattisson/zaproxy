@@ -28,7 +28,7 @@ This is actually a set of proposals, which are broken down for clarity:
 ### Terminology
 This is very much up in the air at the moment!
 
-There is a ZAP [Extension](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/parosproxy/paros/extension/Extension.java) class, so strictly speaking ZAP extensions just extend this class.
+There is a ZAP [Extension](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/extension/Extension.java) class, so strictly speaking ZAP extensions just extend this class.
 
 However we also have active and passive scanner rules, filters etc.
 
@@ -152,6 +152,6 @@ Each extension would then be responsible from rolling itself back, in particular
 Note that this would be a non trivial piece of work, and if considered worthwhile should probably still be implemented as optional functionality for each extension, at least to start with.
 
 ### ZAP extensions revamp
-The https://code.google.com/p/zap-extensions/ homepage and wiki should be improved to make it more visually appealing and easier to find more information.
+The https://github.com/zaproxy/zap-extensions/ homepage and wiki should be improved to make it more visually appealing and easier to find more information.
 
 This is something that can be addressed on an ongoing basis and is not tied to a specific ZAP release.

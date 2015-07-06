@@ -73,8 +73,8 @@ ZAP support was added in [v2.13](https://www.seccubus.com/2015/01/20/OWASP-ZAP-r
 
 ## Threadfix
 
-[ThreadFix](http://code.google.com/p/threadfix/) is a software vulnerability aggregation and management system that helps organizations aggregate vulnerability data, generate virtual patches, and interact with software defect tracking systems.
+[ThreadFix](http://www.threadfix.org/) is a software vulnerability aggregation and management system that helps organizations aggregate vulnerability data, generate virtual patches, and interact with software defect tracking systems.
 
 ZAP is one of the dynamic scanners it explicitly supports:
 
-http://code.google.com/p/threadfix/wiki/DynamicScanners#OWASP_Zed_Attack_Proxy
+https://github.com/denimgroup/threadfix/wiki/Dynamic-Scanners#owasp-zed-attack-proxy

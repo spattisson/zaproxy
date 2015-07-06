@@ -12,8 +12,8 @@ Here are some of the features planned to be added or improved:
 
 Which of these would you most like to see first?<br>
 What else would you like to see?<br>
-Please <a href='http://groups.google.com/group/zaproxy-develop'>get in touch</a>.<br>
+Please <a href='https://groups.google.com/group/zaproxy-develop'>get in touch</a>.<br>
 <br>
 Ideally any significant additional functionality will be added by integrating existing libraries.<br>
 This will only be possible where there are java open source libraries of a suitable quality.<br>
-If you have developed or know of a library you think may be suitable then please <a href='http://groups.google.com/group/zaproxy-develop'>get in touch</a>.
+If you have developed or know of a library you think may be suitable then please <a href='https://groups.google.com/group/zaproxy-develop'>get in touch</a>.

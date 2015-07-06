@@ -13,13 +13,13 @@ A ZAP add-on is a file with a name of the following format: `<id>-<status>-<vers
   * `<status>` is an indication of how mature the add-on is: alpha, beta or release
   * `<version>` is an integer which increments with each new released version
 
-The ZAP add-on file is a standard jar file, but ideally should include a [ZapAddOn.xml](https://code.google.com/p/zap-extensions/source/browse/trunk/src/org/zaproxy/zap/extension/ZapAddOn.xml) file at the top level - this contains information about the contents of the add-on and allows it to be loaded and unloaded dynamically.
+The ZAP add-on file is a standard jar file, but ideally should include a [ZapAddOn.xml](https://github.com/zaproxy/zap-extensions/tree/master/src/org/zaproxy/zap/extension/ZapAddOn.xml) file at the top level - this contains information about the contents of the add-on and allows it to be loaded and unloaded dynamically.
 
 The easiest way to generate a zap file is to use the 'build-addon' target in the relevent build.xml file:
-  * [alpha/build/build.xml](https://code.google.com/p/zap-extensions/source/browse/branches/alpha/build/build.xml)
-  * [beta/build/build.xml](https://code.google.com/p/zap-extensions/source/browse/branches/beta/build/build.xml)
-  * [trunk/build/build.xml](https://code.google.com/p/zap-extensions/source/browse/trunk/build/build.xml)
+  * [alpha/build/build.xml](https://github.com/zaproxy/zap-extensions/tree/alpha/build/build.xml)
+  * [beta/build/build.xml](https://github.com/zaproxy/zap-extensions/tree/beta/build/build.xml)
+  * [trunk/build/build.xml](https://github.com/zaproxy/zap-extensions/tree/master/build/build.xml)
 
 Try to copy how other add-ons use this target - there should be examples to cover most cases.
 
-For more information about developing add-ons see the [zap-extensions wiki](https://code.google.com/p/zap-extensions/wiki/AddOnDevelopment)
+For more information about developing add-ons see the [zap-extensions wiki](https://github.com/zaproxy/zap-extensions/wiki/AddOnDevelopment)

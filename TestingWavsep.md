@@ -18,14 +18,14 @@ To run these tests yourself:
 
 For these tests ZAP was run against wavsep 1.2 with just the release quality rules and the default options except for using 20 threads per host. The attack strength was also set as per the Strength column (the default is Medium).
 
-The html reports were created using the [wavsep.py](http://code.google.com/p/zaproxy/source/browse/trunk/python/scripts/wavsep/wavsep.py) script which retrieves the alerts via the ZAP REST API, works out which tests passed and failed and then generates the html page.
+The html reports were created using the [wavsep.py](https://github.com/zaproxy/zaproxy/blob/develop/python/scripts/wavsep/wavsep.py) script which retrieves the alerts via the ZAP REST API, works out which tests passed and failed and then generates the html page.
 
 | **Strength** | **# Reqs 2.0.0** | **2.0.0** | **# Reqs 2.2.`*`** | **2.2.`*`** |
 |:-------------|:-----------------|:----------|:-------------------|:------------|
-| Low          | 40,490           | [31%](http://zaproxy.googlecode.com/svn/trunk/python/scripts/wavsep/report-v2.0.0-low.html) | 134,296            | [32%](http://zaproxy.googlecode.com/svn/trunk/python/scripts/wavsep/report-v2.2.1-low.html) |
-| Medium       | 58,013           | [58%](http://zaproxy.googlecode.com/svn/trunk/python/scripts/wavsep/report-v2.0.0-medium.html) | 221,991            | [61%](http://zaproxy.googlecode.com/svn/trunk/python/scripts/wavsep/report-v2.2.1-medium.html) |
-| High         | 79,852           | [76%](http://zaproxy.googlecode.com/svn/trunk/python/scripts/wavsep/report-v2.0.0-high.html) | 279,928            | [76%](http://zaproxy.googlecode.com/svn/trunk/python/scripts/wavsep/report-v2.2.1-high.html) |
-,| Insane       | 185,042          | [86%](http://zaproxy.googlecode.com/svn/trunk/python/scripts/wavsep/report-v2.0.0-insane.html) | 875,397            | [87%](http://zaproxy.googlecode.com/svn/trunk/python/scripts/wavsep/report-v2.2.1-insane.html) |
+| Low          | 40,490           | [31%](https://github.com/zaproxy/zaproxy/tree/develop/python/scripts/wavsep/report-v2.0.0-low.html) | 134,296            | [32%](https://github.com/zaproxy/zaproxy/tree/develop/python/scripts/wavsep/report-v2.2.1-low.html) |
+| Medium       | 58,013           | [58%](https://github.com/zaproxy/zaproxy/tree/develop/python/scripts/wavsep/report-v2.0.0-medium.html) | 221,991            | [61%](https://github.com/zaproxy/zaproxy/tree/develop/python/scripts/wavsep/report-v2.2.1-medium.html) |
+| High         | 79,852           | [76%](https://github.com/zaproxy/zaproxy/tree/develop/python/scripts/wavsep/report-v2.0.0-high.html) | 279,928            | [76%](https://github.com/zaproxy/zaproxy/tree/develop/python/scripts/wavsep/report-v2.2.1-high.html) |
+| Insane       | 185,042          | [86%](https://github.com/zaproxy/zaproxy/tree/develop/python/scripts/wavsep/report-v2.0.0-insane.html) | 875,397            | [87%](https://github.com/zaproxy/zaproxy/tree/develop/python/scripts/wavsep/report-v2.2.1-insane.html) |
 
 Click %'s for full reports.
 
@@ -34,7 +34,7 @@ Note that at 2.2.`*` header fields are also scanned by default (this can be disa
 
 | **Category** | **1.4.1** | **2.1.0** | **2.2.0** | **Trunk** | **Notes** |
 |:-------------|:----------|:----------|:----------|:----------|:----------|
-| Audit Features Comparison (33) | [9](http://www.sectoolmarket.com/audit-features-comparison-unified-list.html) | 13        | 13        | 13        | 2.0.0 adds support for RFI, LDAPi, CSRF. [Alpha Ascan rules](https://code.google.com/p/zap-extensions/wiki/AddOn_ascanrulesAlpha) add support for PXSS |
+| Audit Features Comparison (33) | [9](http://www.sectoolmarket.com/audit-features-comparison-unified-list.html) | 13        | 13        | 13        | 2.0.0 adds support for RFI, LDAPi, CSRF. [Alpha Ascan rules](https://github.com/zaproxy/zap-extensions/wiki/HelpAddonsAscanrulesAlphaAscanalpha) add support for PXSS |
 | Input Vector Support (19) | [2](http://www.sectoolmarket.com/input-vector-support-unified-list.html) | 3         | 6         | 6         | 2.0.0 adds support for: `WebSock`, 2.2.0 adds support for Header, XML, JSON |
 | Coverage Features Comparison (15) | [3](http://www.sectoolmarket.com/coverage-features-comparison-unified-list.html) | 4         | 4         |  4        | 2.0.0 adds support for: Ajax Crawler |
 | Authentication Features Comparison (17) | [14](http://www.sectoolmarket.com/authentication-features-comparison-unified-list.html) | 15        | 15        | 15        | 2.0.0 adds support for: Logout Detection |

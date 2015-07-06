@@ -8,7 +8,7 @@ We are now using [Crowdin](http://crowdin.net/project/owasp-zap) for managing th
   * http://crowdin.net/project/owasp-zap To translate the UI
   * http://crowdin.net/project/owasp-zap-help To translate the help pages
 
-See the [Credits](https://github.com/zaproxy/zap-core-help/wiki/HelpCredits) for details of the translators of the last release. Note that the [credits](http://code.google.com/p/zaproxy/source/browse/trunk/src/help/zaphelp/zaphelp/credits.html) file in svn may include more recent contributors.
+See the [Credits](https://github.com/zaproxy/zap-core-help/wiki/HelpCredits) for details of the translators of the last release. Note that the [credits](https://github.com/zaproxy/zaproxy/blob/develop/src/help/zaphelp/zaphelp/credits.html) file in svn may include more recent contributors.
 
 If you are able to translate ZAP into any other languages, or have any comments about the existing translations, then just go to [Crowdin](http://crowdin.net/project/owasp-zap) and get stuck in!
 

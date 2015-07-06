@@ -4,13 +4,13 @@ The Ant tasks are included in the Java client which can be downloaded from [Down
 
 ## Javadocs
 
-The javadocs are available [here](http://zaproxy.googlecode.com/svn/trunk/javadocs/org/zaproxy/clientapi/ant/package-summary.html)
+The javadocs are available [here](https://github.com/zaproxy/zaproxy/releases/download/2.4.0/zaproxy-2.4.0-javadocs.zip)
 
 ## Example
 
 Examples of the Ant tasks being used:
-  * zaproxy [build-api.xml](http://code.google.com/p/zaproxy/source/browse/trunk/build/build-api.xml)
-  * bodgeit [zap-build.xml](http://code.google.com/p/bodgeit/source/browse/trunk/zap-build.xml)
+  * zaproxy [build-api.xml](https://github.com/zaproxy/zaproxy/blob/develop/build/build-api.xml)
+  * bodgeit [zap-build.xml](https://github.com/psiinon/bodgeit/blob/master/zap-build.xml)
 
 
 Links:

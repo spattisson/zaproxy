@@ -56,8 +56,8 @@ if (hr) {
 }
 ```
 Full details:
-  * [Latest source code](http://code.google.com/p/zaproxy/source/browse/trunk/src/org/parosproxy/paros/extension/history/ExtensionHistory.java)
-  * [Latest Javadocs](http://zaproxy.googlecode.com/svn/trunk/javadocs/org/parosproxy/paros/extension/history/ExtensionHistory.html)
+  * [Latest source code](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/extension/history/ExtensionHistory.java)
+  * [Latest Javadocs](https://github.com/zaproxy/zaproxy/releases/download/2.4.0/zaproxy-2.4.0-javadocs.zip)
 
 Links:
   * Back: [The Sites tree](InternalSites)
