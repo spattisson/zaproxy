@@ -5,7 +5,7 @@ The shutdown () action doesnt take any parameters, and stops ZAP - thats the onl
 
 You can go back to the 'top level' of the API by clicking on the 'ZAP API UI' link at the top. If you do that and then select the spider you should see:
 
-https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/API-spider.PNG
+![](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/API-spider.PNG)
 
 Click on the scan link and then supply a URL that ZAP knows about - those can be found via the 'urls' view in the core component.
 

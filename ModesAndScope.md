@@ -2,7 +2,7 @@
 
 In the next major version of ZAP (possibly to be 2.0.0) there will be support for 2 new concepts, as illustrated in this screenshot:
 
-https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/mode-scope.PNG
+![](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/mode-scope.PNG)
 
 ## Modes
 The ZAP UI will have a 'mode' which initially can be one of:
