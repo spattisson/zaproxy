@@ -25,7 +25,7 @@ C:\Documents and Settings\<username>\OWASP ZAP
 ```
 
 ## Weekly releases
-Note that for weekly releases "`_`D" is appended to the above directory.
+Note that for weekly releases "_D" is appended to the above directory.
 
 
 ---
