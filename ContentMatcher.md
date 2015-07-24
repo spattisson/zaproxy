@@ -8,7 +8,7 @@ Just to better support the developers on performance issues, the string based se
 
 # Details
 
-Here's na example of this component usage inside a Plugin to search for errors:
+Here's an example of this component usage inside a Plugin to search for errors:
 
 ```
 String APP_ERRORS_FILE = "/app_errors.xml";
