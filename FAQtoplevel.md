@@ -62,4 +62,6 @@ If you have any questions about ZAP that are not answered here or in the [User G
 
   * [Why has the Quick Scan Attack reported an invalid URL?](FAQquickScanFailed)
 
-  * [Why dont you rewrite ZAP in <my favorite language>?](FAQrewrite)
+  * [How can ZAP test sites that use certificate pinning?](FAQcertpinning)
+
+  * [Why dont you rewrite ZAP in \<my favorite language\>?](FAQrewrite)
