@@ -1,29 +1,29 @@
 Not sure how to start using ZAP? Read the [Getting Started Guide](https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAPGettingStartedGuide-2.4.pdf) (pdf).
 
-### ZAP 2.4.0 Standard
+### ZAP 2.4.1 Standard
 
 <table width='80%'>
 <tr>
-<td width='5%'></td><td width='30%'>Windows</td><td width='15%'>2015-04-15</td><td width='15%'>73.3 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAP_2.4.0_Windows.exe'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Windows</td><td width='15%'>2015-07-30</td><td width='15%'>72.7 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.1/ZAP_2.4.1_Windows.exe'>Download now</a></td>
 </tr>
 <tr>
-<td width='5%'></td><td width='30%'>Linux / cross platform</td><td width='15%'>2015-04-15</td><td width='15%'>79.5 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAP_2.4.0_Linux.tar.gz'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Linux / cross platform</td><td width='15%'>2015-07-30</td><td width='15%'>79.7 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.1/ZAP_2.4.1_Linux.tar.gz'>Download now</a></td>
 </tr>
 <tr>
-<td width='5%'></td><td width='30%'>Mac OS/X</td><td width='15%'>2015-04-15</td><td width='15%'>117.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAP_2.4.0_Mac_OS_X.dmg'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Mac OS/X</td><td width='15%'>2015-07-30</td><td width='15%'>116 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.1/ZAP_2.4.1_MAC_OS_X.dmg'>Download now</a></td>
 </tr>
 </table>
 
 _This contains the core set of functionality, and you can add more functionality at any time via the ZAP Marketplace._<br>
 The Windows and Linux versions require Java 7 to run.<br>
 The Mac OS version includes Java 7 - you can use the 'Linux / cross platform' version if you do not want to download this.<br>
-For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_4_0'>release notes</a>.<br>
+For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_4_1'>release notes</a>.<br>
 <br>
-<h3>ZAP 2.4.0 Core</h3>
+<h3>ZAP 2.4.1 Core</h3>
 
 <table width='80%'>
 <tr>
-<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-04-15</td><td width='15%'>42.4 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAP_2.4.0_Core.tar.gz'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-07-30</td><td width='15%'>41.6 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.1/ZAP_2.4.1_Core.tar.gz'>Download now</a></td>
 </tr>
 </table>
 
