@@ -7,7 +7,7 @@ This is a security feature to prevent malicious sites from invoking the ZAP API.
 The API Key can be found in the <a href="https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsApi">API Options screen</a><br>
 You can also set it from the command line using an option like: 
 <pre>-config api.key=change-me-9203935709</pre>
-You can disable is via the UI or via the command line option: 
+You can disable it via the UI or via the command line option: 
 <pre>-config api.disablekey=true</pre>
 This is not recommended unless you are using ZAP in a completely isolated environment, as it allows malicious sites to access the ZAP API.
 
