@@ -28,6 +28,7 @@ ZAP related projects, as opposed to standalone tools, which are listed on the [R
 | [zap-java-api](https://github.com/continuumsecurity/zap-java-api) | A client API for OWASP ZAP that uses Java types. |
 | [ZapPenTester](https://github.com/gustavorhm/ZapPenTester) | Command line tool that enables automated penetration testing in the Microsoft stack using OWASP ZAP |
 | [zaproxy-cookbook](https://github.com/bendodd/zaproxy-cookbook) | Installs the OWASP Zed Attack Proxy |
+| [zap-cli](https://github.com/Grunny/zap-cli) | A simple tool for interacting with OWASP ZAP from the commandline |
 | [zap-maven-plugin](https://github.com/ShiNoSenshi/zap-maven-plugin) | This is a Maven Plugin to control ZAProxy. It is based on https://code.google.com/p/zap-maven-plugin |
 | [zap-plugin](https://github.com/parrot55/zap-plugin) | Plugin for displaying OWASP Zed Attack Proxy alerts into Jenkins CI |
 | [zap-script-proxy-rewrite](https://github.com/ncjones/zap-script-proxy-rewrite) | ZAProxy script template for rewriting proxied HTTP requests |
