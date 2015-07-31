@@ -21,6 +21,7 @@ ZAP related projects, as opposed to standalone tools, which are listed on the [R
 | [pytest-zap](https://github.com/davehunt/pytest-zap) | OWASP Zed Attack Proxy plugin for py.test |
 | [rhinauditor](https://github.com/h3xstream/rhinauditor) | Static analyzer for `JavaScript` aiming for security bugs (inc ZAP add-on with passive scan rules) |
 | [VEHICLE](https://github.com/hacktics/vehicle/) | Viewstate Hidden Event Enumerator - ZAP extension |
+| [zap-cli](https://github.com/Grunny/zap-cli) | A simple tool for interacting with OWASP ZAP from the commandline |
 | [zap-extension-betterfuzz](https://github.com/lightsey/zap-extension-betterfuzz) | Reworking of OWASP's ZAP Fuzz extension |
 | [zapper](https://github.com/adedayo/zapper) | Run OWASP ZAP in Jenkins for automated security testing |
 | [zapr](https://github.com/garethr/zapr) | Easy to use command line security scanner |
@@ -28,7 +29,6 @@ ZAP related projects, as opposed to standalone tools, which are listed on the [R
 | [zap-java-api](https://github.com/continuumsecurity/zap-java-api) | A client API for OWASP ZAP that uses Java types. |
 | [ZapPenTester](https://github.com/gustavorhm/ZapPenTester) | Command line tool that enables automated penetration testing in the Microsoft stack using OWASP ZAP |
 | [zaproxy-cookbook](https://github.com/bendodd/zaproxy-cookbook) | Installs the OWASP Zed Attack Proxy |
-| [zap-cli](https://github.com/Grunny/zap-cli) | A simple tool for interacting with OWASP ZAP from the commandline |
 | [zap-maven-plugin](https://github.com/ShiNoSenshi/zap-maven-plugin) | This is a Maven Plugin to control ZAProxy. It is based on https://code.google.com/p/zap-maven-plugin |
 | [zap-plugin](https://github.com/parrot55/zap-plugin) | Plugin for displaying OWASP Zed Attack Proxy alerts into Jenkins CI |
 | [zap-script-proxy-rewrite](https://github.com/ncjones/zap-script-proxy-rewrite) | ZAProxy script template for rewriting proxied HTTP requests |
