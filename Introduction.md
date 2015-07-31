@@ -4,12 +4,7 @@ It is designed to be used by people with a wide range of security experience and
 
 [![](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/ZAP-Download.png)](https://github.com/zaproxy/zaproxy/wiki/Downloads?tm=2)
 
-You can show your support for ZAP on Openhub:
-&lt;wiki:gadget url="https://www.openhub.net/p/584419/widgets/project\_users\_logo.xml" height="65" border="0"/&gt;
-
-
----
-
+[$700 is up for grabs for the best OWASP ZAP scripts written during August 2015!](https://www.owasp.org/index.php/2015-08-ZAP-ScriptingCompetition)
 
 Interested in a ZAP talk or training event? See the [talks](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project#tab=Talks) page. Not one near you? Contact a [ZAP Evangelist](ZapEvangelists) to arrange one!
 
