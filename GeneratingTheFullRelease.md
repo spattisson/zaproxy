@@ -14,8 +14,9 @@ Yes we should automate more, but as you'll see there are quite a few steps and m
 You should now be working on the zaproxy/zaproxy "release-<relnum>" branch.
 
 ### Update for the new release
-  1. Change the zaproxy/build.version.txtx file to contain just ``<relnum>``
+  1. Change the zaproxy/build/version.txt file to contain just ``<relnum>``
   1. Generate a short URL (eg via https://bitly.com/) and update zaproxy/src/
+  1. Commit and push the branch to zaproxy/zaproxy
 
 ### Language files
   1. zap-admin/build/build.xml target=crowdin-update-sources
