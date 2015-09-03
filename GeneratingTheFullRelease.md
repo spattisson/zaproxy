@@ -34,6 +34,10 @@ You should now be working on the zaproxy/zaproxy "release-<relnum>" branch.
   1. Update the help manifests (if required)
   1. Commit changed language files (with some sanity checking)
 
+### Generate the java client API
+  1. as per the [weekly release process](https://github.com/zaproxy/zaproxy/wiki/GeneratingTheWeeklyRelease#generate-the-client-apis)
+  1. Update the Java API client version (in build.xml)
+
 ### Update extension zap.jar files
   1. zaproxy/build/build.xml target=copy-jar-to-extension-projects
   1. Refresh files in IDE
@@ -43,6 +47,5 @@ You should now be working on the zaproxy/zaproxy "release-<relnum>" branch.
 ### Generate the release add-ons
   1. zaproxy/build/build.xml target=deploy-release-addons
 
-### Generate the client APIs
 **TODO FINISH ;)**
 
