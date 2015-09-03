@@ -18,6 +18,11 @@ You should now be working on the zaproxy/zaproxy "release-<relnum>" branch.
   1. Generate a short URL (eg via https://bitly.com/) and update zaproxy/src/
   1. Commit and push the branch to zaproxy/zaproxy
 
+### Create release help file
+  1. Run [GenerateReleaseNotes.java](https://github.com/zaproxy/zap-admin/blob/master/src/org/zaproxy/admin/GenerateReleaseNotes.java) after updating the date
+  1. Create the file in zaproxy/zap-core-help/src/help/zaphelp/contents/releases
+  1. Update index.xml, map.jhm and toc.xml
+
 ### Language files
   1. zap-admin/build/build.xml target=crowdin-update-sources
   1. zap-admin/build/build.xml target=crowdin-trigger-export-packages
