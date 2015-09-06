@@ -10,7 +10,7 @@ To use these you will need to implement the [Extension](https://github.com/zapro
 
 You can then hook any class that implements the interfaces below by adding calls to the relevant [ExtensionHook](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/extension/ExtensionHook.java) methods in the 'hook' method, for example (from [ExtensionAlert](https://github.com/zaproxy/zaproxy/blob/develop/src/org/zaproxy/zap/extension/alert/ExtensionAlert.java#94)):
 
-```
+```Java
     @Override
     public void hook(ExtensionHook extensionHook) {
         super.hook(extensionHook);
@@ -28,6 +28,7 @@ You can then hook any class that implements the interfaces below by adding calls
 ```
 
 The interfaces supported include:
+
 | **Interface** | **Summary** |
 |:--------------|:------------|
 | [ProxyListener](ProxyListener) | Allows you to view and change all requests and responses |
