@@ -58,8 +58,8 @@
     * [Session Database](InternalDatabase)
     * [Spider](InternalSpider)
     * [Http Sessions Extension](InternalHttpSessions)
-    * ExtensionHooks
-      * ProxyListener
+    * [ExtensionHooks](ExtensionHooks)
+      * [ProxyListener](ProxyListener)
     * [ContentMatcher](ContentMatcher)
   * [Testing ZAP](Testing)
   * [Build Server](BuildServer)
