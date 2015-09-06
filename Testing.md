@@ -17,7 +17,7 @@ Note that these test show how good ZAP is vs these tests, rather than an overall
 
 Completely automated testing will only ever find a subset of vulnerabilities, which is why ZAP provides manual tools as well!
 
-**For [wavsep](http://code.google.com/p/wavsep/) results please see the [[TestingWavsep]] page**
+**For [wavsep](https://github.com/sectooladdict/wavsep) results please see the [[TestingWavsep]] page**
 
 TODO: update these results for 2.0.0 :)
 

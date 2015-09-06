@@ -2,7 +2,7 @@
 
 If ZAP fails to detect a known problem then please let us know!
 
-Obviously the more information you can give us the better, and the best option would be a simple one page 'proof of concept' in the form of a [wavsep](http://code.google.com/p/wavsep/) test - we can then include those in our regression tests.
+Obviously the more information you can give us the better, and the best option would be a simple one page 'proof of concept' in the form of a [wavsep](https://github.com/sectooladdict/wavsep) test - we can then include those in our regression tests.
 
 You can let us know via:
   * A [new issue](https://github.com/zaproxy/zaproxy/issues/new)

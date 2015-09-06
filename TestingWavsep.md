@@ -4,10 +4,10 @@ ZAP is designed to be as effective as possible when used against real applicatio
 
 But it also makes sense for us to test it against well known test suites and vulnerable applications.
 
-[wavsep](http://code.google.com/p/wavsep/) is the most comprehensive open source evaluation project we are aware of, and so we test ZAP against wavsep, and will keep this page updated with the latest results.
+[wavsep](https://github.com/sectooladdict/wavsep) is the most comprehensive open source evaluation project we are aware of, and so we test ZAP against wavsep, and will keep this page updated with the latest results.
 
 To run these tests yourself:
-  1. Download and install [wavsep](http://code.google.com/p/wavsep/)
+  1. Download and install [wavsep](https://github.com/sectooladdict/wavsep)
   1. Start ZAP
   1. Open the 2 main top pages in your browser while proxying through ZAP, eg
     * http://localhost:8080/wavsep/index-active.jsp
