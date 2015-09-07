@@ -1,19 +1,19 @@
 Not sure how to start using ZAP? Read the [Getting Started Guide](https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAPGettingStartedGuide-2.4.pdf) (pdf).
 
-### ZAP 2.4.1 Standard
+### ZAP 2.4.2 Standard
 
 <table width='80%'>
 <tr>
-<td width='5%'></td><td width='30%'>Windows</td><td width='15%'>2015-07-30</td><td width='15%'>72.7 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.1/ZAP_2.4.1_Windows.exe'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Windows</td><td width='15%'>2015-09-07</td><td width='15%'>71.6 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.2/ZAP_2.4.2_Windows.exe'>Download now</a></td>
 </tr>
 <tr>
-<td width='5%'></td><td width='30%'>Linux</td><td width='15%'>2015-07-30</td><td width='15%'>79.7 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.1/ZAP_2.4.1_Linux.tar.gz'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Linux</td><td width='15%'>2015-09-07</td><td width='15%'>78.7 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.2/ZAP_2.4.2_Linux.tar.gz'>Download now</a></td>
 </tr>
 <tr>
-<td width='5%'></td><td width='30%'>Mac OS/X</td><td width='15%'>2015-07-30</td><td width='15%'>116 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.1/ZAP_2.4.1_MAC_OS_X.dmg'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Mac OS/X</td><td width='15%'>2015-09-07</td><td width='15%'>115 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.2/ZAP_2.4.2_Mac_OS_X.dmg'>Download now</a></td>
 </tr>
 <tr>
-<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-07-30</td><td width='15%'>79.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.1/ZAP_2.4.1_Cross_Platform.zip'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-09-07</td><td width='15%'>78.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.2/ZAP_2.4.2_Cross_Platform.zip'>Download now</a></td>
 </tr>
 
 
