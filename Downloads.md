@@ -25,13 +25,13 @@ _This contains the core set of functionality, and you can add more functionality
 The Windows and Linux versions require Java 7 to run.<br>
 The Cross Platform version is the same as the Linux version but compressed using ZIP.<br>
 The Mac OS version includes Java 7 - you can use the Linux or Cross Platform versions if you do not want to download this.<br>
-For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_4_1'>release notes</a>.<br>
+For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_4_2'>release notes</a>.<br>
 <br>
-<h3>ZAP 2.4.1 Core</h3>
+<h3>ZAP 2.4.2 Core</h3>
 
 <table width='80%'>
 <tr>
-<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-07-30</td><td width='15%'>41.6 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.1/ZAP_2.4.1_Core.tar.gz'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-09-07</td><td width='15%'>43.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.2/ZAP_2.4.2_Core.tar.gz'>Download now</a></td>
 </tr>
 </table>
 
