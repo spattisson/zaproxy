@@ -1,6 +1,6 @@
 # Ant Tasks
 
-The Ant tasks are included in the Java client which can be downloaded from [Downloads](http://sourceforge.net/projects/zaproxy/files/client-api/).
+The Ant tasks are included in the Java client which can be downloaded from [Releases](https://github.com/zaproxy/zaproxy/releases) page.
 
 ## Javadocs
 
