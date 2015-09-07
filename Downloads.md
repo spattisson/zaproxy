@@ -43,7 +43,7 @@ It requires Java 7 to run<br>
 <h3>Docker</h3>
 
 There are 2 Docker images available:<br>
-<ul><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-stable/'>zap2docker-stable</a> : the 2.4.0 release<br>
+<ul><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-stable/'>zap2docker-stable</a> : the 2.4.2 release<br>
 </li><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-weekly/'>zap2docker-weekly</a> : the latest weekly release</li></ul>
 
 See <a href='Docker'>Docker</a> for more details.<br>
