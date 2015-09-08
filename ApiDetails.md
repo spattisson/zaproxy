@@ -20,7 +20,7 @@ A summary of the clients available:
 | **Language** | **Download links** | **Notes** |
 |:-------------|:-------------------|:----------|
 | Java         | [GitHub](https://github.com/zaproxy/zaproxy/releases) | Official API  |
-| Python       | [SourceForge](https://sourceforge.net/projects/zaproxy/files/client-api/) [PyPI](https://pypi.python.org/pypi/python-owasp-zap-v2.4) | Official API  |
+| Python       | [[PyPI](https://pypi.python.org/pypi/python-owasp-zap-v2.4) | Official API  |
 | Node.js      | [NPM](https://www.npmjs.org/package/zaproxy) | In process of becoming an official API |
 | PHP          | [GitHub](https://github.com/yukisov/php-owasp-zap-v2) [Packagist](https://packagist.org/packages/zaproxy/php-owasp-zap-v2)  | In process of becoming an official API |
 | Ruby         | [GitHub](https://github.com/SUSE/owasp_zap) |           |

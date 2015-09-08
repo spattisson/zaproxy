@@ -1,8 +1,6 @@
 # Python client API
 
-The Python client can be downloaded from [SourceForge](http://sourceforge.net/projects/zaproxy/files/client-api/).
-
-It is also available on [PyPI](https://pypi.python.org/pypi/python-owasp-zap-v2.4) and can be installed using:
+The Python client can be downloaded from PyPI (download link in [The ZAP API](ApiDetails) page) or it can be installed using:
 ```
 pip install python-owasp-zap-v2.4
 ```
