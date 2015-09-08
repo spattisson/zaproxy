@@ -1,6 +1,6 @@
 # Weekly Releases
 
-We generate weekly releases of ZAP from the trunk, typically every Monday, available from https://sourceforge.net/projects/zaproxy/files/weekly/
+We generate weekly releases of ZAP from the _develop_ branch, typically every Monday, available from [Downloads](Downloads#zap-weekly) page
 
 The details of the changes in each weekly release are on the WeeklyFixes wiki page.
 
