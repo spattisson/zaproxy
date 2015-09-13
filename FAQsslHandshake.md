@@ -11,6 +11,8 @@ You will need to restart ZAP for these to take effect.
 
 Note that on OS X we include the JRE with the ZAP application, so you'll need to start ZAP with an installed JRE from the command line.
 
+Java 8 users note you may encounter SSLHandshakeException, on sites that support RC4 ciphers. More info [here](https://github.com/zaproxy/zaproxy/issues/1892#issuecomment-139906996), and [here](http://stackoverflow.com/questions/32009083/javax-net-ssl-sslhandshakeexception-handshake-failure-when-using-jmeter-with-ss). Solution(s): Disable RC4 on the server, or switch to Java 7 for ZAP.
+
 If this doesn't help then get in touch via one of the user groups.
 
 
