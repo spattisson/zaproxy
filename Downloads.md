@@ -67,6 +67,10 @@ While we endeavor to ensure that weekly releases are robust, things may be broke
 It is cross platform (Windows, Linux and Mac OS but does not include any installers.<br>
 It requires Java 7 to run<br>
 
+<h3>Latest Versions</h3>
+The following URL contains XML with links to latest ZAP release files: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions.xml
+You can use this to automatically pull down the latest ZAP release for the platform you need.
+
 <h3>ZAP Workspace</h3>
 You can now import ZAP projects into Eclipse using just one URL.
 
