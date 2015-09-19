@@ -43,8 +43,9 @@ To contact all evangelists please use the https://groups.google.com/group/zaprox
 | Ammar Hassan Brohi | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:brohiammar@gmail.com)[![](https://www.owasp.org/images/6/68/Social-linkedin.png)](http://pk.linkedin.com/pub/ammarbrohi) | All Pakistan      | English       | Y          | Y            | ZAP as Swiss Army Knife  |                                             |
 | Marcin Kopeć | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:marcin.jan.kopec@gmail.com)[![](https://www.owasp.org/images/6/68/Social-linkedin.png)](https://www.linkedin.com/in/mkopec) | Poland            | Polish and English | Y          | Y            |                          |                                             |
 | Sumanth Damarla | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:damarla.sumanth@gmail.com)[![](https://www.owasp.org/images/8/82/Social-twitter.png)](https://twitter.com/Sumanth_Damarla)[![](https://www.owasp.org/images/6/68/Social-linkedin.png)](https://www.linkedin.com/in/sumanthdamarla) | India / Remote    | English, Hindi, Telugu | Y          | Y            | ZAP Evangelist at FOSSASIA | [MWOS AMF Support project](https://wiki.mozilla.org/Security/Mentorships/MWoS/2014/OWASP_ZAP_AMF_Support) |
-
 | kunal Relan | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:pentesterkunal@live.com)[![](https://www.owasp.org/images/8/82/Social-twitter.png)](https://twitter.com/kunal_relan)[![](https://www.owasp.org/images/6/68/Social-linkedin.png)](https://www.linkedin.com/profile/view?id=266070324) | India / Remote    | English, Hindi | Y          | Y            | ZAP Evangelist,Mozilla Delhi/NCR Security lead and Information Security researcher | [Web Security Workshop](https://reps.mozilla.org/e/webmaker-and-security-workshop-at-niit-university) |
+
+
 
 
 **`*` Most ZAP evangelists will travel to give talks or training provided expenses are covered.**
