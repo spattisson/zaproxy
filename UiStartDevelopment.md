@@ -8,7 +8,7 @@ Getting started with GUI programming is hard. A graphical tool, that lets you in
 
 ## Setup Run Configuration for `SwingExplorer`
 
-  1. First, setup your desired branch or trunk of ZAP in eclipse, as described under [Building](Building). In this setup I did it for the websockets branch.
+  1. First, setup your desired branch of ZAP in eclipse, as described under [Building](Building). In this setup I did it for the websockets branch.
   1. Download `swexpl.jar` and `swag.jar` from [SwingExplorer download page](http://www.swingexplorer.com/?page=download). You have to provide your name and your e-mail address. However, the software is freeware.
   1. Place the `jar`-files into your eclipse project under a new folder named `swingexplorer`.
   1. In eclipse go to `Menu > Run > Run Configurations`:

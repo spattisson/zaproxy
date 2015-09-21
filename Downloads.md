@@ -61,7 +61,7 @@ On Mac OS X you can also install ZAP using <a href='http://caskroom.io/'>Homebre
 </tr>
 </table>
 
-<i>We generate weekly releases of ZAP from the trunk, typically every Monday.</i><br>
+<i>We generate weekly releases of ZAP from the `develop` branch, typically every Monday.</i><br>
 These are just intended for people who want to use all of the features we've added since the last 'full' release but dont want the hassle of building ZAP from the source code.<br>
 While we endeavor to ensure that weekly releases are robust, things may be broken or only partially implemented.<br>
 It is cross platform (Windows, Linux and Mac OS but does not include any installers.<br>

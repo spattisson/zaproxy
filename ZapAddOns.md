@@ -18,7 +18,7 @@ The ZAP add-on file is a standard jar file, but ideally should include a [ZapAdd
 The easiest way to generate a zap file is to use the 'build-addon' target in the relevent build.xml file:
   * [alpha/build/build.xml](https://github.com/zaproxy/zap-extensions/tree/alpha/build/build.xml)
   * [beta/build/build.xml](https://github.com/zaproxy/zap-extensions/tree/beta/build/build.xml)
-  * [trunk/build/build.xml](https://github.com/zaproxy/zap-extensions/tree/master/build/build.xml)
+  * [master/build/build.xml](https://github.com/zaproxy/zap-extensions/tree/master/build/build.xml)
 
 Try to copy how other add-ons use this target - there should be examples to cover most cases.
 
