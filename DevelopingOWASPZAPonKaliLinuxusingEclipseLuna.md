@@ -1,6 +1,6 @@
 This page documents  how to set up a Kali Linux instance to develop OWASP ZAP, using Eclipse Luna.
 
-Note: while the process documented here technically works, it is not in line with the Git process flow documented here: https://github.com/zaproxy/zaproxy/wiki/HowToBuildZapWithIntellij. That process assumes that you first "Fork" the required projects in Github, before setting up your IDE to point to your forked repo.  Once you've committed your changes back to your forked repo as usual (the changes shoudl be committed as part of a branch), use a PULL request in GitHub to request that the change is pulled back from the forked repo into the "origin" zaproxy repo.
+Note: while the process documented here technically works, it is not in line with the Git process flow documented here: https://github.com/zaproxy/zaproxy/wiki/HowToBuildZapWithIntellij. That process assumes that you first "Fork" the required projects in Github, before setting up your IDE to point to your forked repo.  Once you've committed your changes back to your forked repo as usual (the changes should be committed as part of a branch), use a PULL request in GitHub to request that the change is pulled back from the forked repo into the "origin" zaproxy repo.
 
 # Requirements
 
