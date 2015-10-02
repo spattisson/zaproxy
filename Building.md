@@ -36,3 +36,7 @@ Note that this out of date as it refers to ZAP projects on Google Code.
 ## Other IDEs
 
 If you use another IDE for ZAP development then please let us know so that we can add the details to this page :)
+
+## Contributing changes
+
+For details see the [Contributing-Changes](Contributing-Changes) page (work in progress).
