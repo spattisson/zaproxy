@@ -14,7 +14,7 @@ All of these choices have pluses and minuses that will be discussed and will aff
 The original guide detailing how to build ZAP is available from the OWASP ZAP project Wiki: http://code.google.com/p/zaproxy/wiki/Building. An older guide is available in PDF format for easy download, distribution, and use at Taddong’s Lab. http://www.taddong.com/en/lab.html.
 
 ##B.	Compiler Choices ###
-For MS Windows, there is only one major source for a robust java compiler, that is the SUN/ORACLE complier available at java.sun.com.  For this development you will need the Java SE Java Developers Kit (JDK).  It comes in 2 versions, Java 1.7 and Java 1.8.  Both will work for this project, with Java 1.8 causing some minor issues at this time.  Java 1.7 actually comes in to sub distributions.  The PSU and the CPU variants.
+For MS Windows, there is only one major source for a robust java compiler, that is the SUN/ORACLE complier available at java.sun.com.  For this development you will need the Java SE Java Developers Kit (JDK).  It comes in 2 versions, Java 1.7 and Java 1.8.  Both will work for this project, with Java 1.8 causing some minor issues at this time.  Java 1.7 actually comes in two sub distributions.  The PSU and the CPU variants.
 
 Java SE Critical Patch Updates (CPU) contain fixes to security vulnerabilities and critical bug fixes. Oracle strongly recommends that all Java SE users upgrade to the latest CPU releases as they are made available. Java SE CPU releases are odd numbered versions 
 
