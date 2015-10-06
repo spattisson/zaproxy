@@ -13,3 +13,14 @@ In this section we will be discussing the compiler options, some of the ramifica
 All of these choices have pluses and minuses that will be discussed and will affect how you may have to modify your system in the future to accommodate changes that have been set into motion.  We will assume a Microsoft Windows operating system but much of the information will hold true for any of the major operating systems.  
 The original guide detailing how to build ZAP is available from the OWASP ZAP project Wiki: http://code.google.com/p/zaproxy/wiki/Building. An older guide is available in PDF format for easy download, distribution, and use at Taddong’s Lab. http://www.taddong.com/en/lab.html.
 
+##B.	Compiler Choices ###
+For MS Windows, there is only one major source for a robust java compiler, that is the SUN/ORACLE complier available at java.sun.com.  For this development you will need the Java SE Java Developers Kit (JDK).  It comes in 2 versions, Java 1.7 and Java 1.8.  Both will work for this project, with Java 1.8 causing some minor issues at this time.  Java 1.7 actually comes in to sub distributions.  The PSU and the CPU variants.
+
+Java SE Critical Patch Updates (CPU) contain fixes to security vulnerabilities and critical bug fixes. Oracle strongly recommends that all Java SE users upgrade to the latest CPU releases as they are made available. Java SE CPU releases are odd numbered versions 
+
+Java SE Patch Set Updates (PSU) contain all of fixes in the corresponding CPU, as well as additional non-critical fixes. Java PSU releases should only be used if you are being impacted by one of the additional bugs fixed in that version.
+
+As I have noted both versions work.  The developers of OWASP-ZAP recommend Java 1.7 and this would normally drive the compiler choice, however Java 1.7 has had its end of life announced per oracle (http://www.oracle.com/technetwork/java/eol-135779.html), and may not be available in the long term.  As outlined in the Oracle JDK Support Roadmap, after April 2015, Oracle will not post further updates of Java SE 7 to its public download sites.  This indicates that it may very well be better to install 1.8 and deal with any glitches that come along.
+
+Whichever you decide is right for your situation download and install the Java Development Kit (JDK) following the default Windows installation from http://www.oracle.com/technetwork/java/javase/downloads/ using either the 32 bit or 64 bit version.  There are potential issues right now with the 64 bit version.  One of these issues includes the use of smart card authentication with ZAP.  As of the writing of this document, the 64 bit version of JAVA does not support this authentication under ZAP.
+
