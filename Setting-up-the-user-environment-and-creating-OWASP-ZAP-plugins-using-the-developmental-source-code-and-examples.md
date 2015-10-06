@@ -3,6 +3,7 @@ This wiki page discusses the way in which you set up the operating environment f
 This wiki draws heavily from the following documents:
 * 	Creating OWASP ZAP Extensions and Add-ons by Johanna Curiel.
 * 	Building OWASP ZAP Using Eclipse IDE for Java… Pen-Testers by Raul Siles.
+
 It will draw extensively from these documents as well as my experience in building the source for both the plug-ins as well as the baseline program.  Options will also be discussed as to what compilers can be used as well as different ways in which the code can be developed and tested.
 
 # 1.	Compiler Decisions, and Setting up the Development Environment ###
