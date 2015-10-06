@@ -24,3 +24,5 @@ As I have noted both versions work.  The developers of OWASP-ZAP recommend Java 
 
 Whichever you decide is right for your situation download and install the Java Development Kit (JDK) following the default Windows installation from http://www.oracle.com/technetwork/java/javase/downloads/ using either the 32 bit or 64 bit version.  There are potential issues right now with the 64 bit version.  One of these issues includes the use of smart card authentication with ZAP.  As of the writing of this document, the 64 bit version of JAVA does not support this authentication under ZAP.
 
+For the Linux operating system, you do have more choices as to the JDK which you use.  For those who do use Linux, you can also use the Open JDK java compiler.  This is available at http://openjdk.java.net/ for most java distributions.  
+
