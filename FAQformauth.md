@@ -20,9 +20,11 @@ Via the UI:
 
 Via the API the process is the same but using the API calls:
   1. [context/includeInContext](https://github.com/zaproxy/zaproxy/wiki/ApiGen_context)
-  1. [authentication/setLoginUrl](https://github.com/zaproxy/zaproxy/wiki/ApiGen_authentication)
+  1. [authentication/setAuthenticationMethod](https://github.com/zaproxy/zaproxy/wiki/ApiGen_authentication)
+* `authMethodName : formBasedAuthentication`
+* `authMethodConfigParams : loginUrl=http://example.com/login.html&loginRequestData=username={%username%}&password={%password%}`
   1. [authentication/setLoginIndicator](https://github.com/zaproxy/zaproxy/wiki/ApiGen_authentication) or `setLogoutIndicator`
-  1. [authentication/autoReauthOn](https://github.com/zaproxy/zaproxy/wiki/ApiGen_authentication)
+  1. [forcedUser/setForcedUserModeEnabled](https://github.com/zaproxy/zaproxy/wiki/ApiGen_forcedUser)
 
 If the "Forced User Mode disabled - click to enable" button is not enabled then you have not configured enough information for ZAP to authenticate - double check that you have performed all of the above steps.
 
