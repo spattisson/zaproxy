@@ -26,13 +26,14 @@ Via the API the process is the same but using the API calls:
   1. [authentication/setLoginIndicator](https://github.com/zaproxy/zaproxy/wiki/ApiGen_authentication) or `setLogoutIndicator`
   1. [forcedUser/setForcedUserModeEnabled](https://github.com/zaproxy/zaproxy/wiki/ApiGen_forcedUser)
 
+## Diagnosing problems
 If the "Forced User Mode disabled - click to enable" button is not enabled then you have not configured enough information for ZAP to authenticate - double check that you have performed all of the above steps.
 
 If you have enable forced user mode and are still not logged in when you access your application then look at the requests in the History tab:
 * If there is no login request then you have probably not chosen a suitable "logged in/out" indicator, try changing it and trying again
 * If there is a login request then look at the requests and response and see if you can work out why the login failed - you may need to change the request or even make multiple requests
 
-If you need to make multiple requests to login then the best option is to record a [Zest](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsZestZest) authentication script and to test this in isolation first
+If you need to make multiple requests to login then the best option is to record a [Zest](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsZestZest) authentication script and to test this in isolation first.
 
 ---
 
