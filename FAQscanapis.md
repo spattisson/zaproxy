@@ -14,7 +14,7 @@ There are various options:
 
 Once ZAP knows about the URL endpoints it can scan them in the same way as it scans HTML based web sites.
 
-If you dont have any of these things then post to the [ZAP User Group](http://groups.google.com/group/zaproxy-users) explaining what you are trying to do and the problems you are having.
+If you dont have any of these things then post to the [ZAP User Group](https://groups.google.com/group/zaproxy-users) explaining what you are trying to do and the problems you are having.
 
 ---
 
