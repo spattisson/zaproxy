@@ -26,3 +26,9 @@ Whichever you decide is right for your situation download and install the Java D
 
 For the Linux operating system, you do have more choices as to the JDK which you use.  For those who do use Linux, you can also use the Open JDK java compiler.  This is available at http://openjdk.java.net/ for most java distributions.  
 
+## C.	Setting up ECLIPSE ###
+Setting up eclipse is by its self  relatively easy.  It can be downloaded from, http://www.eclipse.org/downloads/.  Chose the latest Eclipse version, as opposed to what earlier versions of the how to guide talk about.  This is because it contains several security patches and the EGIT code that will be needed for the releases housed at GitHub.
+
+Next you will need to extract the entire Eclipse project into the directory which you want to house it.  This is because eclipse is a standalone executable and does not perform the standard registry installation.  Eclipse likes to house the work files in the directory, under windows, C:\user\<username>\workspace\<project name>  this may be inconvenient, however the default space will probably give you the least difficulty.
+
+### Setting up to get the main project ####
