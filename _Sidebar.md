@@ -41,7 +41,7 @@
       * [Python client API](ApiPython)
       * [API Client generation](ApiClientGen)
       * [API details](ApiGen_Index)
-      * [Developing Plugins] (Setting up the user environment and creating OWASP ZAP plugins using the developmental source code and examples)
+      * [Developing Plugins] (Setting up and developing new plugins)
     * [ZAP Extensions](ZapExtensions)
       * [Dependencies](Dependencies)
       * [Unloading](ExtUnloading)
