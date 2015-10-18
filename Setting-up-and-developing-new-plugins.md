@@ -1,7 +1,7 @@
 # Summary ##
 This wiki page discusses the way in which you set up the operating environment for developing plug-ins for OWASP ZAP, download the source code and relevant sub-projects, and develop the relevant plug-ins for inclusion into the OWASP ZAP  repository.  
 This wiki draws heavily from the following documents:
-* 	Creating OWASP ZAP Extensions and Add-ons by Johanna Curiel.
+* 	[Creating OWASP ZAP Extensions and Add-ons by Johanna Curiel.](https://www.owasp.org/images/3/37/GuidelineZAPExtensionsAddOns1.0.pdf)
 * 	[Building OWASP ZAP Using Eclipse IDE for Java… Pen-Testers by Raul Siles.](http://www.taddong.com/docs/Building_ZAP_with_Eclipse_v3.0.pdf)
 
 It will draw extensively from these documents as well as my experience in building the source for both the plug-ins as well as the baseline program.  Options will also be discussed as to what compilers can be used as well as different ways in which the code can be developed and tested.
