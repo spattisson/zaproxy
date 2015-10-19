@@ -35,3 +35,15 @@ One issue with Eclipse is that it needs to match the "bittedness" of Eclipse and
 Next you will need to extract the entire Eclipse project into the directory which you want to house it.  This is because eclipse is a standalone executable and does not perform the standard registry installation.  Eclipse likes to house the work files in the directory, under windows, C:\user\<username>\workspace\<project name>  this may be inconvenient, however the default space will probably give you the least difficulty.
 
 ### Setting up to get the main project ####
+This section borrows heavily from the main project setup site, https://github.com/zaproxy/zaproxy/wiki/Building, however I will attempt to add some tips to make things go a little smoother, especially if you want to contribute to the distribution.  From the web site:
+
+1. Ensure you have a recent version of Eclipse - the Eclipse IDE for Java Developers is a good option
+2. Start Eclipse and select a new (empty) workspace
+3. Select the menu: "File / Import"
+4. Select "Team / Team Project Set" and click "Next >"
+5. Select URL and enter: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZAP-projectSet.psf 
+6. Click "Finish" and wait for Eclipse to pull down all of the projects and build them.
+
+This will pull down the main development project and all of the zap-extension projects, as well as the community scripts.  It will take quite some time depending upon your bandwidth. Next under Eclipse locate Window tab.  Under this menu select Windows->Preferences->Workspace.  Set the New text file line delimiter to Other/Unix.  This will greatly aid you in contributing files as all of the files stored on GitHub are in Unix format.
+
+If you are not planning on contributing to the OWASP/ZAP repository and you don't want to write your own plug-ins you will probably not need the next steps. 
