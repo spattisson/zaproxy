@@ -4,6 +4,8 @@ The following people are happy to give **free** ZAP talks and/or training in the
 
 To contact all evangelists please use the https://groups.google.com/group/zaproxy-evangelists group.
 
+OK, so it looks like this table hasnt migrated from the previous Google Code wiki quite as well as we would have liked :/ Theres a scroll bar at the bottom which will show you more info which you'll need to use until we sort this out!
+
 | **Name** | **Contacts** | **Locations `*`** | **Languages** |  **Talks** | **Training** | **Notes / Specialities** | **Previous talks / training / other links** |
 |:---------|:-------------|:------------------|:--------------|:-----------|:-------------|:-------------------------|:--------------------------------------------|
 | Simon Bennetts | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:psiinon@gmail.com)[![](https://www.owasp.org/images/8/82/Social-twitter.png)](https://twitter.com/psiinon)[![](https://www.owasp.org/images/6/68/Social-linkedin.png)](http://www.linkedin.com/profile/view?id=46196399) | UK / Worldwide / Remote | English       | Y          | Y            | ZAP Project Lead         | Slides and videos linked off [OWASP profile](https://www.owasp.org/index.php/User:Simon_Bennetts) - feel free to rip these off ;) |
