@@ -26,15 +26,15 @@ Whichever you decide is right for your situation download and install the Java D
 
 For the Linux operating system, you do have more choices as to the JDK which you use.  For those who do use Linux, you can also use the Open JDK java compiler.  This is available at http://openjdk.java.net/ for most java distributions.  
 
-## C.	Setting up ECLIPSE and additional software ###
+## C.	Setting up ECLIPSE and Additional Software ###
 Setting up eclipse is by its self  relatively easy.  It can be downloaded from, http://www.eclipse.org/downloads/.  Chose the latest Eclipse version, as opposed to what earlier versions of the how to guide talk about.  This is because it contains several security patches and the EGIT code that will be needed for the releases housed at GitHub.  In addition, if you are using Microsoft Windows, you will need the GitHub software package.  More to be discussed on this in later sections.
 
 One issue with Eclipse is that it needs to match the "bittedness" of Eclipse and the JVM/JDK.  This occurs mainly under Microsoft Windows.  64-bit Eclipse requires a 64-bit JVM, and 32-bit Eclipse requires 32-bit JVM--you can not mix-and-match between 32-bit and 64-bit, so make sure the version of Eclipse you installed matches the JVM/JDK that you're using to run it.  If you've "installed" Eclipse but are having trouble getting it to run, the next most likely cause is that you have not correctly specified the JVM for it to run under. Doing so is easy, just read http://wiki.eclipse.org/Eclipse.ini.  More details are available at https://www.eclipse.org/forums/index.php/t/198527/
 
 
-Next you will need to extract the entire Eclipse project into the directory which you want to house it.  This is because eclipse is a standalone executable and does not perform the standard registry installation.  Eclipse likes to house the work files in the directory, under windows, C:\user\<username>\workspace\<project name>  this may be inconvenient, however the default space will probably give you the least difficulty.
+Next you will need to extract the entire Eclipse project into the directory which you want to house it.  This is because eclipse is a standalone executable and does not perform the standard registry installation.  Eclipse likes to house the work files in the directory, under windows, `C:\user\<username>\workspace\<project name>`  this may be inconvenient, however the default space will probably give you the least difficulty.
 
-### Setting up to get the main project ####
+### Setting up to Get the Main Project ####
 This section borrows heavily from the main project setup site, https://github.com/zaproxy/zaproxy/wiki/Building, however I will attempt to add some tips to make things go a little smoother, especially if you want to contribute to the distribution.  From the web site:
 
 1. Ensure you have a recent version of Eclipse - the Eclipse IDE for Java Developers is a good option
@@ -49,7 +49,7 @@ This will pull down the main development project and all of the zap-extension pr
 If you are not planning on contributing to the OWASP/ZAP repository and you don't want to write your own plug-ins you will probably not need the next steps. 
 
 ###Setting up the GitHub Software ####
-If you are using a Linux operating system, you will probably have the Git command line interface already installed but it behaves you to check.  This is accomplished by opening a terminal window and typing git --help.  This should give you a scrolled list of git subcommands you can use.  This also lets you know git is installed.  For the Macintosh operating system or the PC you will need to get and install the git command line interface.  Particularly for the PC this is important.  The reason that you need the command line interface comes down to 2 basic reasons:
+If you are using a Linux operating system, you will probably have the Git command line interface already installed but it behooves you to check.  This is accomplished by opening a terminal window and typing `git --help`.  This should give you a scrolled list of git subcommands you can use.  This also lets you know git is installed.  For the Macintosh operating system or the PC you will need to get and install the git command line interface.  Particularly for the PC this is important.  The reason that you need the command line interface comes down to 2 basic reasons:
 
 1.  Most of the help and examples available and the advice you will get from the ZAP team will be command line.  This makes it much easier to use their advice.
 2.  There are "features" in egit (ECLIPSE GIT) that make it more difficult to perform certain software commit styles that the reviewers like and require for submission into the repository or functions cannot be performed in egit.
