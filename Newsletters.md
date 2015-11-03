@@ -1,6 +1,6 @@
 Starting from November 2015 we have started to publish monthly ZAP Newsletters on the [ZAP Blog](http://zaproxy.blogspot.com/):
 
-####  [2015 November](http://zaproxy.blogspot.co.uk/2015/11/zap-newsletter-2015-november.html)
+####  [2015 November](http://zaproxy.blogspot.com/2015/11/zap-newsletter-2015-november.html)
 * New / Improved Add-ons
  * DOM XSS - Alpha
  * Context Alert Filters - Alpha
