@@ -1,4 +1,4 @@
-# Development rules and guidelines
+# Development Rules and Guidelines
 
 As we get more and more people contributing to ZAP we need a set of rules and guidelines to help us work as effectively together as possible.
 
@@ -52,5 +52,15 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
   * ZAP and ZAP add-ons should not depend on an internet connection to work, so all resources required should be bundled with ZAP or the add-on
 
   * Add-ons should not make unsolicited external requests except for the purposes of checking for updates to resources, and even then only if explicitly approved by the user
+
+## Style Guidelines
+**_This section is a work-in-progress as of Nov. 2015._** If you have contributions/feedback/ideas please refer to this thread in the Dev Group - https://groups.google.com/forum/#!topic/zaproxy-develop/FPwvyHY5rb4 .
+
+The following guidelines apply to ZAP's text elements as represented in English (en-GB, en-US, and en-CA).
+
+### Text: Titles, Menu Items, Options, and Tool Tips
+Titles, menu items, options, and tool tips go text should be represented using Title Capitalization as defined by the 'Chicago Manual of Style'. For quick reference you can use this online tool: http://titlecapitalization.com/ .
+
+***
 
 Suggestions as to how the above can be improved will be gratefully received!
