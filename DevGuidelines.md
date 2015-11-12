@@ -37,12 +37,14 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
   * Check in code that cleaner than you checked out, aka 'Clean Code' (http://www.cleancoders.com/)
 
   * Do not format/indent the code on the same commit as code changes, either format before or after committing the code changes.
-> > Formatting/indenting the code includes, but is not limited to (specially if it's done on files that don't have code changes):
+
+    Formatting/indenting the code includes, but is not limited to (specially if it's done on files that don't have code changes):
       * reorder instance and class variables and methods;
       * remove trailing spaces;
       * change indentation of code blocks;
       * replace spaces with tabs or tabs with spaces;
-> > This also applies to other files whose structure may be indented (example: XML).
+
+    This also applies to other files whose structure may be indented (example: XML).
 
   * Eclipse only:
     * Do not add "(non-Javadoc)" comments to overriding methods (the default comment automatically added when overriding a method).
