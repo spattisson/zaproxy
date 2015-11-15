@@ -53,3 +53,17 @@ If you are using a Linux operating system, you will probably have the Git comman
 
 1.  Most of the help and examples available and the advice you will get from the ZAP team will be command line.  This makes it much easier to use their advice.
 2.  There are "features" in egit (ECLIPSE GIT) that make it more difficult to perform certain software commit styles that the reviewers like and require for submission into the repository or functions cannot be performed in egit.
+
+The first step, is of course to get an account at http://www.github.com.  You will need this for later steps to upload software to the repository.  Next you will need to setup GitHub Desktop.  This is accomplished by:
+
+**1.**  Download and install the latest version of [GitHub Desktop](https://desktop.github.com/). This will automatically install Git and keep it up-to-date for you.
+**2.**  On your computer, open the Git Shell application.
+**3.** Tell Git your name so your commits will be properly labeled. Type everything after the $ here:
+
+**_$ git config --global user.name "YOUR NAME"_**
+
+**4.**  Tell Git the email address that will be associated with your Git commits. The email you specify should be the same one found in your email settings. To keep your email address hidden, see "Keeping your email address private".
+
+**_$ git config --global user.email "YOUR EMAIL ADDRESS"_**
+
+Further instructions can be found at the site the [GitHub Site](https://help.github.com/articles/set-up-git/).
