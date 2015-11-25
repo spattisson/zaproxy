@@ -26,7 +26,7 @@ For development purposes, changing the API and installing is system-wide is a ti
 
 
 ## An example python script
-```
+```python
 #!/usr/bin/env python
 
 import time
