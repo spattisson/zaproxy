@@ -1,5 +1,7 @@
 Not sure how to start using ZAP? Read the [Getting Started Guide](https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAPGettingStartedGuide-2.4.pdf) (pdf).
 
+Vote for ZAP in the [Toolswatch Top Security Tools of 2015](https://www.toolswatch.org/2015/11/vote-for-2015-best-security-tool/) survey.
+
 ### ZAP 2.4.2 Standard
 
 <table width='80%'>
