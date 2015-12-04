@@ -2,24 +2,21 @@ Not sure how to start using ZAP? Read the [Getting Started Guide](https://github
 
 Vote for ZAP in the [Toolswatch Top Security Tools of 2015](https://www.toolswatch.org/2015/11/vote-for-2015-best-security-tool/) survey.
 
-### ZAP 2.4.2 Standard
+### ZAP 2.4.3 Standard
 
 <table width='80%'>
 <tr>
-<td width='5%'></td><td width='30%'>Windows</td><td width='15%'>2015-09-07</td><td width='15%'>71.6 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.2/ZAP_2.4.2_Windows.exe'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Windows</td><td width='15%'>2015-12-04</td><td width='15%'>71.6 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.3/ZAP_2.4.3_Windows.exe'>Download now</a></td>
 </tr>
 <tr>
-<td width='5%'></td><td width='30%'>Linux</td><td width='15%'>2015-09-07</td><td width='15%'>78.7 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.2/ZAP_2.4.2_Linux.tar.gz'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Linux</td><td width='15%'>2015-12-04</td><td width='15%'>78.7 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.3/ZAP_2.4.3_Linux.tar.gz'>Download now</a></td>
 </tr>
 <tr>
-<td width='5%'></td><td width='30%'>Mac OS/X</td><td width='15%'>2015-09-07</td><td width='15%'>115 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.2/ZAP_2.4.2_Mac_OS_X.dmg'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Mac OS/X</td><td width='15%'>2015-12-04</td><td width='15%'>115 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.3/ZAP_2.4.3_Mac_OS_X.dmg'>Download now</a></td>
 </tr>
 <tr>
-<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-09-07</td><td width='15%'>78.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.2/ZAP_2.4.2_Cross_Platform.zip'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-12-04</td><td width='15%'>78.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.3/ZAP_2.4.3_Cross_Platform.zip'>Download now</a></td>
 </tr>
-
-
-
 
 </table>
 
@@ -33,7 +30,7 @@ For more information about this release see the <a href='https://github.com/zapr
 
 <table width='80%'>
 <tr>
-<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-09-07</td><td width='15%'>43.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.2/ZAP_2.4.2_Core.tar.gz'>Download now</a></td>
+<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-12-04</td><td width='15%'>43.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.3/ZAP_2.4.3_Core.tar.gz'>Download now</a></td>
 </tr>
 </table>
 
