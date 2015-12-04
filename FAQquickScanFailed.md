@@ -14,6 +14,9 @@ Browsers will try variations of a URL that ZAP will not attempt, and we have als
 
 In the latter case scanning the sites using a proxied request rather than using the Quick Start Attack button was successful.
 
+## HTTPS Sites
+
+Are sometimes impacted by items covered in the [SSL FAQ](https://github.com/zaproxy/zaproxy/wiki/FAQsslHandshake resulting in failures when using Quick Scan ).
 
 ---
 
