@@ -15,7 +15,7 @@ You should now be working on the zaproxy/zaproxy "release-<relnum>" branch.
 
 ### Update for the new release
   1. Change the zaproxy/build/version.txt file to contain just ``<relnum>``
-  1. Generate a short URL (eg via https://bitly.com/) and update zaproxy/src/
+  1. Generate a short URL (eg via https://bitly.com/) and update zaproxy/src/org/zaproxy/zap/extension/autoupdate/ExtensionAutoUpdate.java
   1. Commit and push the branch to zaproxy/zaproxy
 
 ### Create release help file
