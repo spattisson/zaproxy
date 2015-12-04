@@ -18,6 +18,10 @@ You should now be working on the zaproxy/zaproxy "release-<relnum>" branch.
   1. Generate a short URL (eg via https://bitly.com/) and update zaproxy/src/org/zaproxy/zap/extension/autoupdate/ExtensionAutoUpdate.java
   1. Commit and push the branch to zaproxy/zaproxy
 
+### Update @since 
+  1. Grep for "TODO add version" replace with the version number
+  1. Commit and push
+
 ### Create release help file
   1. Run [GenerateReleaseNotes.java](https://github.com/zaproxy/zap-admin/blob/master/src/org/zaproxy/admin/GenerateReleaseNotes.java) after updating the date
   1. Create the file in zaproxy/zap-core-help/src/help/zaphelp/contents/releases
