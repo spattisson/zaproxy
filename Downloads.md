@@ -26,7 +26,7 @@ The Cross Platform version is the same as the Linux version but compressed using
 The Mac OS version includes Java 7 - you can use the Linux or Cross Platform versions if you do not want to download this.<br>
 For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_4_3'>release notes</a>.<br>
 <br>
-<h3>ZAP 2.4.2 Core</h3>
+<h3>ZAP 2.4.3 Core</h3>
 
 <table width='80%'>
 <tr>
