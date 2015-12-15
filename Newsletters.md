@@ -1,6 +1,6 @@
 Starting from November 2015 we have started to publish monthly ZAP Newsletters on the [ZAP Blog](http://zaproxy.blogspot.com/):
 
-####  [2015 December](zaproxy.blogspot.co.uk/2015/12/zap-newsletter-2015-december.html)
+####  [2015 December](http://zaproxy.blogspot.co.uk/2015/12/zap-newsletter-2015-december.html)
 * New / Improved Add-ons
  * Fuzzer
  * Active scan rules - release
