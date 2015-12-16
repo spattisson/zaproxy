@@ -21,6 +21,13 @@ You can also start the ZAP in headless mode with following command:
 
 `docker run -u zap -p 8080:8080 -i owasp/zap2docker-stable zap.sh -daemon -port 8080`
 
+### ZAP headless with xvfb:
+You can start the ZAP in headless mode with xvfb following command:
+
+`docker run -u zap-x.sh -p 8080:8080 -i owasp/zap2docker-stable zap.sh -daemon -port 8080`
+
+This first starts xvfb (X virtual frame buffer) which allows add-ons that use Selenium (like the Ajax Spider and DOM XSS scanner) to run in a headless environment. Firefox is also installed so can be used with these add-ons.
+
 ### ZAP GUI VNC:
 If you wish to use the  zap gui you can start the embedded vnc-server:
 
