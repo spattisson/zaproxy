@@ -4,10 +4,17 @@ The ScriptConsole supports any language that conforms to [JSR 223](http://www.jc
 This page shows some simple example of creating a popup window in a selection of the supported languages.
 
 You can cut-and-paste these directly into the console:
-### Javascript (built in)
+### ECMAScript / JavaScript (built in, Rhino engine)
 ```
 importPackage(org.parosproxy.paros.view);
 View.getSingleton().showMessageDialog("Hello world!");
+```
+### ECMAScript / JavaScript (build in, Oracle Nashorn engine)
+```
+load("nashorn:mozilla_compat.js");
+importPackage(org.parosproxy.paros.view);
+View.getSingleton().showMessageDialog("Hello world!");
+// and use print() instead of println()
 ```
 ### [Groovy](http://groovy.codehaus.org/)
 ```
