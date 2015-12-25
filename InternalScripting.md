@@ -11,10 +11,7 @@ View.getSingleton().showMessageDialog("Hello world!");
 ```
 ### ECMAScript / JavaScript (build in, Oracle Nashorn engine)
 ```
-load("nashorn:mozilla_compat.js");
-importPackage(org.parosproxy.paros.view);
-View.getSingleton().showMessageDialog("Hello world!");
-// and use print() instead of println()
+Java.type('org.parosproxy.paros.view.View').getSingleton().showMessageDialog('Hello world!');
 ```
 ### [Groovy](http://groovy.codehaus.org/)
 ```
