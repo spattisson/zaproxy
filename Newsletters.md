@@ -1,5 +1,12 @@
 Starting from November 2015 we have started to publish monthly ZAP Newsletters on the [ZAP Blog](http://zaproxy.blogspot.com/):
 
+####  [2016 January](http://zaproxy.blogspot.co.uk/2016/01/zap-newsletter-2016-january.html)
+* New / Improved Add-ons
+ * Selenium
+ * Passive scanner rules - alpha
+* Special Feature: XCOLD Information Leak
+* Featured Contributor: Paulo Brito
+
 ####  [2015 December](http://zaproxy.blogspot.co.uk/2015/12/zap-newsletter-2015-december.html)
 * New / Improved Add-ons
  * Fuzzer
