@@ -56,4 +56,4 @@ If you are interested in working on existing or new add-ons then the [Developer 
 ## Improve the ZAP core
 The ZAP 'core' underpins all of the other ZAP features, and so ensuring it is as robust as possible is very important.
 
-Fixing [https://github.com/zaproxy/zaproxy/issues](Issues) is very valuable and there are always many core improvements we want to make, again the [Developer Group](http://groups.google.com/group/zaproxy-develop) is the best place to discuss these.
+Fixing [issues](https://github.com/zaproxy/zaproxy/issues) is very valuable and there are always many core improvements we want to make, again the [Developer Group](http://groups.google.com/group/zaproxy-develop) is the best place to discuss these.
