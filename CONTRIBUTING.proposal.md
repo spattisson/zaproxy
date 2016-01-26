@@ -14,6 +14,13 @@ If you have found a bug then raise an issue on the zaproxy repo: https://github.
 
 Its worth checking to see if its already been reported, and including as much information as you can to help us diagnose your problem.
 
+This FAQ explains some useful steps you can follow: https://github.com/zaproxy/zaproxy/wiki/FAQhelp
+
+## Found an Vulnerability?
+If you have found a vulnerability in ZAP then please contact Simon Bennetts (psiinon at gmail.com) or Ricardo (thx202 at gmail.com) directly.
+
+We are always very grateful to researchers who report vulnerabilities responsibly and will be very happy to give credit for the valuable assistance they provide.
+
 ## Have a Feature Request?
 If you have a suggestion for new functionality then you can raise an issue on the zaproxy repo: https://github.com/zaproxy/zaproxy/issues
 
@@ -33,7 +40,11 @@ The source for the ZAP [User Guide](https://github.com/zaproxy/zap-core-help/wik
 The Java Help included with ZAP and the online version are both generated from these HTML pages. Send Pull Requests to help us improve it.
 
 ## Improve existing scan rules or write new ones
-TODO
+The scan rules define how ZAP can automatically detect vulnerabilities.
+
+We are always looking to improve existing ones and add new ones, so this is a great place to start helping with the ZAP code base.
+
+More details can be found in the [Hacking ZAP blog posts](https://github.com/zaproxy/zaproxy/wiki/Development#Hacking_ZAP)
 
 ## Improve existing add-ons or write new ones
 TODO
