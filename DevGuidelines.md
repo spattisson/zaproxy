@@ -30,7 +30,7 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
 
   * Extensions should not expose graphical elements, such as Panels. Instead public methods should provide full access to as much of the functionality the extension provides via non graphical classes.
 
-  * Ideally we should be creating regression tests for all significant developments. There are virtually none at the moment, and we need to change that.
+  * Ideally we should be creating regression tests for all significant developments. There are not enough at the moment, and we need to change that.
 
   * The @Override annotation should precede all the method declarations that are intended to implement or override another method declaration.
 
