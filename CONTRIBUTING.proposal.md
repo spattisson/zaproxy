@@ -7,7 +7,7 @@ There are lots of ways you can contribute:
 ## Got a Question or Problem?
 If you have a question or problem relating to using ZAP then the first thing to do is to check the [Frequently Asked Questions](https://github.com/zaproxy/zaproxy/wiki/FAQtoplevel).
 
-If they don't help then please ask on the [User Group](http://groups.google.com/group/zaproxy-users)
+If they don't help then please ask on the [User Group](https://groups.google.com/group/zaproxy-users)
 
 ## Found an Issue?
 If you have found a bug then raise an issue on the zaproxy repo: https://github.com/zaproxy/zaproxy/issues
@@ -49,11 +49,11 @@ More details can be found in the [Hacking ZAP blog posts](https://github.com/zap
 ## Improve existing add-ons or write new ones
 Much of the ZAP functionality is implemented as add-ons, even features that are included 'as standard' in ZAP releases.
 
-Add-on are a great way to extend ZAP and can be ideal for student projects - many of the existing add-ons have been implemented by students, either through programs like Google Summer of Code and the Mozilla Winter of Security or directly as part of course work.
+Add-ons are a great way to extend ZAP and can be ideal for student projects - many of the existing add-ons have been implemented by students, either through programs like Google Summer of Code and the Mozilla Winter of Security or directly as part of course work.
 
-If you are interested in working on existing or new add-ons then the [Developer Group](http://groups.google.com/group/zaproxy-develop) is the best place to ask questions.
+If you are interested in working on existing or new add-ons then the [Developer Group](https://groups.google.com/group/zaproxy-develop) is the best place to ask questions.
 
 ## Improve the ZAP core
 The ZAP 'core' underpins all of the other ZAP features, and so ensuring it is as robust as possible is very important.
 
-Fixing [issues](https://github.com/zaproxy/zaproxy/issues) is very valuable and there are always many core improvements we want to make, again the [Developer Group](http://groups.google.com/group/zaproxy-develop) is the best place to discuss these.
+Fixing [issues](https://github.com/zaproxy/zaproxy/issues) is very valuable and there are always many core improvements we want to make, again the [Developer Group](https://groups.google.com/group/zaproxy-develop) is the best place to discuss these.
