@@ -10,4 +10,4 @@ Active scanning is dangerous and depending on your app may create/modify/delete 
 
 So the only really safe thing is proxying and passive scanning, the other 2 could cause problems and could be considered illegal if you perform them on apps you dont have permission to test.
 
-A question for you, the reader: would you like there to be a 'safe' mode in ZAP which will only allow you to do safe things?
+ZAP supports a 'safe' [mode](https://github.com/psiinon/zap-wiki-test/wiki/HelpStartConceptsModes) in ZAP which will only allow you to do safe things.
