@@ -47,9 +47,6 @@ It is increasingly being used in 'secdevops' and therefore providing a plugin wh
 
 [Issue 439](https://github.com/zaproxy/zaproxy/issues/439)
 
-## Script console code completion
-ZAP provides a very powerful scripting interface. Unfortunately to use it effectively is only really possible with a good knowledge of the ZAP internals. Adding code completion (eg using a project like https://github.com/bobbylight/AutoComplete) would significantly help users.
-
 ## Support java as a scripting language
 It would be very useful to support Java in addition to the JSR223 scripting languages within the ZAP script console'
 
@@ -64,6 +61,13 @@ A standardized text representation and parser would be very useful and help its 
 
 # Active Projects
 The following projects are no longer 'open' as they are being actively worked on..
+
+## Script console code completion
+ZAP provides a very powerful scripting interface. Unfortunately to use it effectively is only really possible with a good knowledge of the ZAP internals. Adding code completion (eg using a project like https://github.com/bobbylight/AutoComplete) would significantly help users.
+
+[Issue 1402](https://github.com/zaproxy/zaproxy/issues/1402)
+
+Students blog: https://sytrik.wordpress.com/
 
 ## Testing guide integration
 The first part of this project would involve working with the OWASP Testing Guide team to make it much more easily consumable by web testing tools like ZAP.
