@@ -19,7 +19,7 @@ docker pull owasp/zap2docker-weekly
 [ZAP CLI](https://github.com/Grunny/zap-cli) is a ZAP wrapper written in Python. It provides a simple way to do scanning from the command line:
 
 ```bash
-docker run -i owasp/zap2docker-stable zap-cli quick-scan --self-contained -o '-config api.disablekey=true' http://target
+docker run -i owasp/zap2docker-stable zap-cli quick-scan --self-contained --start-options '-config api.disablekey=true' http://target
 ```
 
 ### ZAPR:
