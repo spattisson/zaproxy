@@ -1,4 +1,13 @@
-Starting from November 2015 we have started to publish monthly ZAP Newsletters on the [ZAP Blog](http://zaproxy.blogspot.com/):
+We now publish monthly ZAP Newsletters on the [ZAP Blog](http://zaproxy.blogspot.com/):
+
+####  [2016 February](http://zaproxy.blogspot.co.uk/2016/02/zap-newsletter-2016-february.html)
+* New / Improved Add-ons
+ * Active Scanner rules - beta
+ * Wappalyzer (technology detection)
+ * Community Scripts
+* Tutorial: Contexts
+* 3rd Party Tool: Faraday
+* Featured Contributor: Johanna Curiel
 
 ####  [2016 January](http://zaproxy.blogspot.co.uk/2016/01/zap-newsletter-2016-january.html)
 * New / Improved Add-ons
