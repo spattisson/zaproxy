@@ -75,3 +75,8 @@ docker inspect <CONTAINER ID> | grep IPAddress
 ```
 
 You should be then able to point your browser at the specified host/port and access the ZAP API, eg http://172.17.0.8:8090/
+
+Note that on Macs the IP will be the IP of the Docker VM host.  This is accessible with:  
+```bash
+docker-machine ip <host>
+```
