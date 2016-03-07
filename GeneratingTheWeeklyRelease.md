@@ -7,10 +7,7 @@ Yes we should automate more, but as you'll see there are quite a few steps and m
 We now generate the weekly releases from the develop branch.
 
 ### Language files
-  1. zap-admin/build/build.xml target=crowdin-trigger-export-packages
-  1. zap-admin/build/build.xml target=crowdin-download-translations
-  1. Refresh files in IDE
-  1. Commit changed language files (with some sanity checking)
+Language file changes are now automatically submitted via pull requests from [zapbot](https://zapbot.github.io/zap-mgmt-scripts/index.html) - no additional steps are required here.
 
 ### Update extension zap.jar files
 Note that this is only done when we are relatively close to a release as add-ons that use the weekly ZAP jars may be incompatible with the released version of ZAP.
