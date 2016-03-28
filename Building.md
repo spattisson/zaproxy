@@ -19,7 +19,7 @@ The quickest way to set up a ZAP development environment is as follows:
 
 You can also manually import and configure the following projects into your IDE:
 * https://github.com/zaproxy/zaproxy.git
-  * master and 2.4 branch
+  * develop branch
 * https://github.com/zaproxy/zap-extensions.git
   * master, beta and alpha branches
 * https://github.com/zaproxy/zap-core-help.git
