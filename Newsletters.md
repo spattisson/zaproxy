@@ -1,6 +1,13 @@
 We now publish monthly ZAP Newsletters on the [ZAP Blog](http://zaproxy.blogspot.com/):
 
-####  [2016 February](http://zaproxy.blogspot.co.uk/2016/02/zap-newsletter-2016-february.html)
+####  [2016 March](http://zaproxy.blogspot.com/2016/03/zap-newsletter-2016-march.html)
+* New / Improved Add-ons
+ * Zest
+ * Selenium
+ * Context Alert Filters
+* Tutorial: Introduction to Scripting
+
+####  [2016 February](http://zaproxy.blogspot.com/2016/02/zap-newsletter-2016-february.html)
 * New / Improved Add-ons
  * Active Scanner rules - beta
  * Wappalyzer (technology detection)
@@ -9,14 +16,14 @@ We now publish monthly ZAP Newsletters on the [ZAP Blog](http://zaproxy.blogspot
 * 3rd Party Tool: Faraday
 * Featured Contributor: Johanna Curiel
 
-####  [2016 January](http://zaproxy.blogspot.co.uk/2016/01/zap-newsletter-2016-january.html)
+####  [2016 January](http://zaproxy.blogspot.com/2016/01/zap-newsletter-2016-january.html)
 * New / Improved Add-ons
  * Selenium
  * Passive scanner rules - alpha
 * Special Feature: XCOLD Information Leak
 * Featured Contributor: Paulo Brito
 
-####  [2015 December](http://zaproxy.blogspot.co.uk/2015/12/zap-newsletter-2015-december.html)
+####  [2015 December](http://zaproxy.blogspot.com/2015/12/zap-newsletter-2015-december.html)
 * New / Improved Add-ons
  * Fuzzer
  * Active scan rules - release
