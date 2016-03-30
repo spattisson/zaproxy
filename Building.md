@@ -8,7 +8,7 @@ Please also have a look at (and add to!) the [Dev Tips and Tricks](DevTipsAndTri
 
 The quickest way to set up a ZAP development environment is as follows:
 
-1. Ensure you have a recent version of Eclipse - the [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunasr2) is a good option
+1. Ensure you have a recent version of Eclipse - the [Eclipse IDE for Java Developers](https://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/lunasr2) is a good option (_Ensure you have a version of Eclipse 4.2 or later installed or if using an earlier version, the "EGit - Git Team Provider" plug-in installed._)
 1. Start Eclipse and select a new (empty) workspace
 1. Select the menu: "File / Import"
 1. Select "Team / Team Project Set" and click "Next >"
