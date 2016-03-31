@@ -28,7 +28,7 @@ For more information about this release see the <a href='https://github.com/zapr
 
 <table width='80%'>
 <tr>
-<td width='5%'></td><td width='30%'>Cross platform</td><td width='15%'>2015-12-04</td><td width='15%'>43.7 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.3/ZAP_2.4.3_Core.tar.gz'>Download now</a></td>
+<td width='30%'>Cross platform</td><td width='15%'>2015-12-04</td><td width='15%'>43.7 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.3/ZAP_2.4.3_Core.tar.gz'>Download now</a></td>
 </tr>
 </table>
 
