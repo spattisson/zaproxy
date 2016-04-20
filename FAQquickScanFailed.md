@@ -16,7 +16,7 @@ In the latter case scanning the sites using a proxied request rather than using 
 
 ## HTTPS Sites
 
-Are sometimes impacted by items covered in the [SSL FAQ](https://github.com/zaproxy/zaproxy/wiki/FAQsslHandshake resulting in failures when using Quick Scan ).
+Are sometimes impacted by items covered in the [SSL FAQ](https://github.com/zaproxy/zaproxy/wiki/FAQsslHandshake) resulting in failures when using Quick Scan.
 
 ---
 
