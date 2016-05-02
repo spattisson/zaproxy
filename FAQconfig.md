@@ -1,6 +1,6 @@
 # What is the default directory that ZAP uses
 
-The default directory that ZAP uses depending on the OS.
+The default directory that ZAP uses depends on the OS.
 
 Note that you can override this using the -dir [command line](https://github.com/zaproxy/zap-core-help/wiki/HelpCmdline) option.
 
