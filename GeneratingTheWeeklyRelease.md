@@ -37,8 +37,9 @@ Note that this is only done when we are relatively close to a release as add-ons
   1. Update [ZapVersions-2.4.xml](https://github.com/zaproxy/zap-admin/blob/master/ZapVersions-2.4.xml)
 
 ### Update the Docker image
+In the zaproxy directory:
   1. docker login
-  1. docker build --no-cache -t owasp/zap2docker-weekly - < zaproxy/build/docker/Dockerfile-weekly
+  1. docker build --no-cache -t owasp/zap2docker-weekly -f build/docker/Dockerfile-weekly build/docker/
   1. docker push owasp/zap2docker-weekly
 
 ### Generate the client APIs
