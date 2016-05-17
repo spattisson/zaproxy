@@ -27,8 +27,8 @@ docker run -t owasp/zap2docker-weekly zap-baseline.py -t https://www.example.com
 ```
 If you use 'file' params then you need to mount the directory those file are in or will be generated in, eg
 ```
-docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-weekly zap-baseline.py -t https://www.example.com \
-    -g gen.conf -r testreport.html
+docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-weekly zap-baseline.py \
+    -t https://www.example.com -g gen.conf -r testreport.html
 ```
 Example output:
 ```
