@@ -1,19 +1,19 @@
-Not sure how to start using ZAP? Read the [Getting Started Guide](https://github.com/zaproxy/zaproxy/releases/download/2.4.0/ZAPGettingStartedGuide-2.4.pdf) (pdf).
+Not sure how to start using ZAP? Read the [Getting Started Guide](https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAPGettingStartedGuide-2.5.pdf) (pdf).
 
-### ZAP 2.4.3 Standard
+### ZAP 2.5.0 Standard
 
 <table width='80%'>
 <tr>
-<td width='30%'>Windows</td><td width='15%'>2015-12-04</td><td width='15%'>72.3 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.3/ZAP_2.4.3_Windows.exe'>Download now</a></td>
+<td width='30%'>Windows</td><td width='15%'>2016-06-03</td><td width='15%'>72.3 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Windows.exe'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Linux</td><td width='15%'>2015-12-04</td><td width='15%'>78.1 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.3/ZAP_2.4.3_Linux.tar.gz'>Download now</a></td>
+<td width='30%'>Linux</td><td width='15%'>2016-06-03</td><td width='15%'>78.1 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Linux.tar.gz'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Mac OS/X</td><td width='15%'>2015-12-04</td><td width='15%'>114 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.3/ZAP_2.4.3_Mac_OS_X.dmg'>Download now</a></td>
+<td width='30%'>Mac OS/X</td><td width='15%'>2016-06-03</td><td width='15%'>114 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Mac_OS_X.dmg'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Cross platform</td><td width='15%'>2015-12-04</td><td width='15%'>78.2 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.3/ZAP_2.4.3_Cross_Platform.zip'>Download now</a></td>
+<td width='30%'>Cross platform</td><td width='15%'>2016-06-03</td><td width='15%'>78.2 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Cross_Platform.zip'>Download now</a></td>
 </tr>
 
 </table>
@@ -24,11 +24,11 @@ The Cross Platform version is the same as the Linux version but compressed using
 The Mac OS version includes Java 7 - you can use the Linux or Cross Platform versions if you do not want to download this.<br>
 For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_4_3'>release notes</a>.<br>
 <br>
-<h3>ZAP 2.4.3 Core</h3>
+<h3>ZAP 2.5.0 Core</h3>
 
 <table width='80%'>
 <tr>
-<td width='30%'>Cross platform</td><td width='15%'>2015-12-04</td><td width='15%'>43.7 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.4.3/ZAP_2.4.3_Core.tar.gz'>Download now</a></td>
+<td width='30%'>Cross platform</td><td width='15%'>2016-06-03</td><td width='15%'>43.7 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Core.tar.gz'>Download now</a></td>
 </tr>
 </table>
 
@@ -40,7 +40,7 @@ It requires Java 7 to run<br>
 <h3>Docker</h3>
 
 There are 2 Docker images available:<br>
-<ul><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-stable/'>zap2docker-stable</a> : the 2.4.3 release<br>
+<ul><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-stable/'>zap2docker-stable</a> : the 2.4.3 release (in the process of being updated to 2.5.0)<br>
 </li><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-weekly/'>zap2docker-weekly</a> : the latest weekly release</li></ul>
 
 See <a href='Docker'>Docker</a> for more details.<br>
