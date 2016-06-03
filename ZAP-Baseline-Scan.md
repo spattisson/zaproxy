@@ -1,4 +1,4 @@
-The ZAP Baseline scan is a script that is available in the ZAP Weekly [[Docker]] image. It will be added to the stable image when that is re-released.
+The ZAP Baseline scan is a script that is available in the ZAP Stable and Weekly [[Docker]] images.
 
 It runs the ZAP spider against the specified target for (by default) 1 minute and then waits for the passive scanning to complete before reporting the results.
 
@@ -23,16 +23,16 @@ eg using the 'docker run' option like: '-v $(pwd):/zap/wrk/:rw' for mounting the
 ```
 To run it with no 'file' params use:
 ```
-docker run -t owasp/zap2docker-weekly zap-baseline.py -t https://www.example.com
+docker run -t owasp/zap2docker-stable zap-baseline.py -t https://www.example.com
 ```
 If you use 'file' params then you need to mount the directory those file are in or will be generated in, eg
 ```
-docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-weekly zap-baseline.py \
+docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-stable zap-baseline.py \
     -t https://www.example.com -g gen.conf -r testreport.html
 ```
 Example output:
 ```
-docker run -t owasp/zap2docker-weekly zap-baseline.py -t https://www.example.com
+docker run -t owasp/zap2docker-stable zap-baseline.py -t https://www.example.com
 May 17, 2016 1:24:32 PM java.util.prefs.FileSystemPreferences$1 run
 INFO: Created user preferences directory.
 Total of 3 URLs
