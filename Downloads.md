@@ -19,10 +19,10 @@ Not sure how to start using ZAP? Read the [Getting Started Guide](https://github
 </table>
 
 _This contains the core set of functionality, and you can add more functionality at any time via the ZAP Marketplace._<br>
-The Windows and Linux versions require Java 7 to run.<br>
+The Windows and Linux versions require Java 7 or higher to run.<br>
 The Cross Platform version is the same as the Linux version but compressed using ZIP.<br>
-The Mac OS version includes Java 7 - you can use the Linux or Cross Platform versions if you do not want to download this.<br>
-For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_4_3'>release notes</a>.<br>
+The Mac OS version includes Java 8 - you can use the Linux or Cross Platform versions if you do not want to download this.<br>
+For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_5_0'>release notes</a>.<br>
 <br>
 <h3>ZAP 2.5.0 Core</h3>
 
@@ -70,7 +70,7 @@ You can use this to automatically pull down the latest ZAP release for the platf
 
 ZAP uses similar URLs when checking for updates.<br>
 These are version specific and define the add-on on the ZAP Marketplace for that release stream.<br>
-The 2.4 release stream uses: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-2.4.xml<br>
+The 2.5 release stream uses: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-2.5.xml<br>
 The development code uses: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-dev.xml<br>
 At the moment these files are the same, but it does allow us to maintain different versions of add-ons for different versions of ZAP, if we need to support this in the future.
 
