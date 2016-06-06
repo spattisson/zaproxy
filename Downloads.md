@@ -4,16 +4,16 @@ Not sure how to start using ZAP? Read the [Getting Started Guide](https://github
 
 <table width='80%'>
 <tr>
-<td width='30%'>Windows</td><td width='15%'>2016-06-03</td><td width='15%'>72.3 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Windows.exe'>Download now</a></td>
+<td width='30%'>Windows</td><td width='15%'>2016-06-03</td><td width='15%'>71.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Windows.exe'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Linux</td><td width='15%'>2016-06-03</td><td width='15%'>78.1 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Linux.tar.gz'>Download now</a></td>
+<td width='30%'>Linux</td><td width='15%'>2016-06-03</td><td width='15%'>75.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Linux.tar.gz'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Mac OS/X</td><td width='15%'>2016-06-03</td><td width='15%'>114 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Mac_OS_X.dmg'>Download now</a></td>
+<td width='30%'>Mac OS/X</td><td width='15%'>2016-06-03</td><td width='15%'>124 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Mac_OS_X.dmg'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Cross platform</td><td width='15%'>2016-06-03</td><td width='15%'>78.2 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Cross_Platform.zip'>Download now</a></td>
+<td width='30%'>Cross platform</td><td width='15%'>2016-06-03</td><td width='15%'>75.9 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Cross_Platform.zip'>Download now</a></td>
 </tr>
 
 </table>
@@ -28,7 +28,7 @@ For more information about this release see the <a href='https://github.com/zapr
 
 <table width='80%'>
 <tr>
-<td width='30%'>Cross platform</td><td width='15%'>2016-06-03</td><td width='15%'>43.7 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Core.tar.gz'>Download now</a></td>
+<td width='30%'>Cross platform</td><td width='15%'>2016-06-03</td><td width='15%'>42.2 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Core.tar.gz'>Download now</a></td>
 </tr>
 </table>
 
@@ -54,7 +54,7 @@ On Mac OS X you can also install ZAP using <a href='http://caskroom.io/'>Homebre
 
 <table width='80%'>
 <tr>
-<td width='30%'>Weekly - cross platform</td><td width='15%'>2016-05-23</td><td width='15%'>86.9 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/w2016-05-23/ZAP_WEEKLY_D-2016-05-23.zip'>Download now</a></td>
+<td width='30%'>Weekly - cross platform</td><td width='15%'>2016-06-06</td><td width='15%'>85.6 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/w2016-06-06/ZAP_WEEKLY_D-2016-06-06.zip'>Download now</a></td>
 </tr>
 </table>
 
