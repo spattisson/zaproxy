@@ -10,6 +10,10 @@ Or if you want to try the latest weekly release:
 docker pull owasp/zap2docker-weekly
 ```
 ## Usage instructions:
+### ZAP GUI in a browser:
+Yes, you can run the ZAP Desktop GUI in a browser. You can use it in just the same way as the Swing UI and can even proxy via it.<br>
+See the [WebSwing](WebSwing) wiki page for details.
+
 ### ZAP headless:
 You can also start the ZAP in headless mode with following command:
 ```bash
