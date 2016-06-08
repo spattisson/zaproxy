@@ -16,6 +16,9 @@ But you can also download and install:
 
 from the [ZAP Marketplace](https://github.com/zaproxy/zap-extensions/wiki).
 
+And there are also these scripts in the [community scripts](https://github.com/zaproxy/community-scripts) repo:
+  * [Active scripts](https://github.com/zaproxy/community-scripts/tree/master/active)
+  * [Passive scripts](https://github.com/zaproxy/community-scripts/tree/master/passive)
 
 ---
 
