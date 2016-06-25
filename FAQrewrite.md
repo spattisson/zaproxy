@@ -1,4 +1,4 @@
-# Why dont you rewrite ZAP in \<my favorite language\>?
+# Why don't you rewrite ZAP in \<my favorite language\>?
 
 OK, so this question doesn't get asked all the time, but it does come up every so often.
 
