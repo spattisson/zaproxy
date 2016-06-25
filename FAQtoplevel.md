@@ -21,6 +21,7 @@ If you have any questions about ZAP that are not answered here or in the [User G
   * [What should I do if ZAP doesn't detect a known problem?](FAQdetectfailed)
   * [How can ZAP automatically authenticate via forms?](FAQformauth)
   * [How do you configure ZAP logging?](FAQlogging)
+  * [Where does ZAP put its logs?](FAQlogging)
   * [What versions of Java are supported?](FAQjavaVersions)
   * [How can you easily maximize a tab?](FAQmaxtabs)
   * [How can you speed up scans?](FAQscanSpeed)
