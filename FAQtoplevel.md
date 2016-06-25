@@ -1,4 +1,4 @@
-# Frequently Asked Questions
+# Frequently Asked Questions (FAQ)
 
 If you have any questions about ZAP that are not answered here or in the [User Guide](https://github.com/zaproxy/zap-core-help/wiki/HelpIntro) then please ask on the [Developer Group](https://groups.google.com/group/zaproxy-develop) or raise as an [issue](https://github.com/zaproxy/zaproxy/issues).
 
@@ -34,7 +34,7 @@ If you have any questions about ZAP that are not answered here or in the [User G
 
   * [Why does ZAP 2.0.0 fail with "Unsupported major.minor version 51.0"?](FAQzap200java6)
 
-  * [What should I do if ZAP doesnt detect a known problem?](FAQdetectfailed)
+  * [What should I do if ZAP doesn't detect a known problem?](FAQdetectfailed)
 
   * [How can ZAP automatically authenticate via forms?](FAQformauth)
 
@@ -42,7 +42,7 @@ If you have any questions about ZAP that are not answered here or in the [User G
 
   * [What versions of Java are supported?](FAQjavaVersions)
 
-  * [How can you easily maximise a tab?](FAQmaxtabs)
+  * [How can you easily maximize a tab?](FAQmaxtabs)
 
   * [How can you speed up scans?](FAQscanSpeed)
 
@@ -68,4 +68,4 @@ If you have any questions about ZAP that are not answered here or in the [User G
 
   * [How can you use ZAP to scan APIs?](FAQscanapis)
 
-  * [Why dont you rewrite ZAP in \<my favorite language\>?](FAQrewrite)
+  * [Why don't you rewrite ZAP in \<my favorite language\>?](FAQrewrite)
