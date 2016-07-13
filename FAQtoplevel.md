@@ -36,4 +36,5 @@ If you have any questions about ZAP that are not answered here or in the [User G
   * [How can ZAP test sites that use certificate pinning?](FAQcertpinning)
   * [Why is an API key created by default from ZAP 2.4.1?](FAQapikey)
   * [How can you use ZAP to scan APIs?](FAQscanapis)
+  * [How can I prevent ZAP from sending me 1000s of emails via a 'Contact Us' form?](FAQpreventSpam)
   * [Why don't you rewrite ZAP in \<my favorite language\>?](FAQrewrite)
