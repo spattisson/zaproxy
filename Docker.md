@@ -1,7 +1,7 @@
 # Introduction
 Docker image with Owasp Zed Attack Proxy preinstalled.
 # Details
-## Install instructions:
+## Install Instructions:
 ```bash
 docker pull owasp/zap2docker-stable
 ```
@@ -9,17 +9,17 @@ Or if you want to try the latest weekly release:
 ```bash
 docker pull owasp/zap2docker-weekly
 ```
-## Usage instructions:
-### ZAP GUI in a browser:
+## Usage Instructions:
+### ZAP GUI in a Browser:
 Yes, you can run the ZAP Desktop GUI in a browser. You can use it in just the same way as the Swing UI and can even proxy via it.<br>
 See the [WebSwing](WebSwing) wiki page for details.
 
-### ZAP headless:
+### ZAP Headless:
 You can also start the ZAP in headless mode with following command:
 ```bash
 docker run -u zap -p 8080:8080 -i owasp/zap2docker-stable zap.sh -daemon -host 0.0.0.0 -port 8080
 ```
-### ZAP headless with xvfb:
+### ZAP Headless with xvfb:
 You can start the ZAP in headless mode with xvfb following command:
 
 ```bash
@@ -28,7 +28,7 @@ docker run -u zap -p 8080:8080 -i owasp/zap2docker-stable zap-x.sh -daemon -host
 
 This first starts xvfb (X virtual frame buffer) which allows add-ons that use Selenium (like the Ajax Spider and DOM XSS scanner) to run in a headless environment. Firefox is also installed so can be used with these add-ons.
 
-### ZAP Baseline Scan
+### ZAP Baseline Scan:
 The [[ZAP Baseline Scan]] runs the ZAP spider against the specified target for (by default) 1 minute and then waits for the passive scanning to complete before reporting the results.
 
 To run it with no 'file' params use:
