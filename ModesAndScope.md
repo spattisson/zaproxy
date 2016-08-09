@@ -5,7 +5,7 @@ In the next major version of ZAP (possibly to be 2.0.0) there will be support fo
 ![](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/mode-scope.PNG)
 
 ## Modes
-_Updated information about modes can be found [here](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsModes)._
+_Updated information about modes (including ATTACK) can be found [here](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsModes)._
 
 The ZAP UI will have a 'mode' which initially can be one of:
   * Safe - no potentially dangerous operations permitted
