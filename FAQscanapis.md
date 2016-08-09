@@ -12,6 +12,8 @@ There are various options:
 
 * If you have regression tests for you API then you can proxy these through ZAP
 
+* If your API is defined using OADF / Swagger then theres a stand alone tool attached to [Issue #2034](https://github.com/zaproxy/zaproxy/issues/2034) which takes a URL for an OpenAPI definition and issues the relevant requests to explore it. It can be easily proxied and works well with ZAP.
+
 Once ZAP knows about the URL endpoints it can scan them in the same way as it scans HTML based web sites.
 
 If you dont have any of these things then post to the [ZAP User Group](https://groups.google.com/group/zaproxy-users) explaining what you are trying to do and the problems you are having.
