@@ -27,11 +27,16 @@ If you cant find it then there is a problem exploring your application. This cou
 1. Right click and select 'Add to Zest Script -> New Zest Script...'
 1. Give the script a suitable title and 'Save'. You should now see the new script in the 'Scripts' tab and the 'Script Console' tab.
 
+If the script contains sensitive information then:
+1. Find the relevant strings in the Zest requests or responses
+1. Highlight them
+1. Right click and select 'Redact text...'
+1. Press 'Save'. If you leave the default 'Apply to all current requests' box checked then you will only need to do this once per string.
+
 1. Right click the top panel in the 'Script Console' tab and select 'Select All'.
 1. Right click again and select 'Copy'.
 
 You can now paste this script into an issue, email, ZAP group post etc.
-If the script may contain sensitive information then perform a search and replace using your prefered text editor.
 
 ---
 
