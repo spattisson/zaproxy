@@ -38,5 +38,5 @@ If you have any questions about ZAP that are not answered here or in the [User G
   * [How can you use ZAP to scan APIs?](FAQscanapis)
   * [How can I prevent ZAP from sending me 1000s of emails via a 'Contact Us' form?](FAQpreventSpam)
   * [How do I get a specific feature implemented in ZAP?](FAQnewfeature)
-  * [How do I report a False Negative](FAQreportFN)
+  * [How do I report a False Negative?](FAQreportFN)
   * [Why don't you rewrite ZAP in \<my favorite language\>?](FAQrewrite)
