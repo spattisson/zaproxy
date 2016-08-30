@@ -52,6 +52,4 @@ Alert: Cross Site Scripting, Risk: High, Reliability: Warning, Url: http://local
 ```
   1. Pour yourself a beer or other beverage of your choice :)
 
-Having problems getting this working?
-
-Add a comment to this page or post to the [dev group](https://groups.google.com/group/zaproxy-develop)!
+Having problems getting this working? Post to the [dev group](https://groups.google.com/group/zaproxy-develop)!
