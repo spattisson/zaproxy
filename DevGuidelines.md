@@ -35,7 +35,7 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
   * The @Override annotation should precede all the method declarations that are intended to implement or override another method declaration.
 
   * Check in code that is cleaner than you checked out, aka 'Clean Code' (http://www.cleancoders.com/)
-
+<a name="format"/><a name="formatting">
   * Do not format/indent the code on the same commit as code changes, either format before or after committing the code changes.
 
     Formatting/indenting the code includes, but is not limited to (specially if it's done on files that don't have code changes):
