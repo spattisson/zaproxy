@@ -54,7 +54,7 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
   * Add-ons should not make unsolicited external requests except for the purposes of checking for updates to resources, and even then only if explicitly approved by the user
 
 ## Style Guidelines
-**_This section is a work-in-progress as of Nov. 2015._** If you have contributions/feedback/ideas please refer to this thread in the Dev Group - https://groups.google.com/forum/#!topic/zaproxy-develop/FPwvyHY5rb4 .
+**_This section is a work-in-progress as of Sept. 2016._** If you have contributions/feedback/ideas please refer to this thread in the Dev Group - https://groups.google.com/forum/#!topic/zaproxy-develop/FPwvyHY5rb4 .
 
 The following guidelines apply to ZAP's text elements as represented in English (en-GB, en-US, and en-CA).
 
