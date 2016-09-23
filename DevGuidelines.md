@@ -35,7 +35,7 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
   * The @Override annotation should precede all the method declarations that are intended to implement or override another method declaration.
 
   * Check in code that is cleaner than you checked out, aka 'Clean Code' (http://www.cleancoders.com/)
-<a name="format"/><a name="formatting">
+<a name="format"></a><a name="formatting"></a>
   * Do not format/indent the code on the same commit as code changes, either format before or after committing the code changes.
 
     Formatting/indenting the code includes, but is not limited to (specially if it's done on files that don't have code changes):
@@ -52,6 +52,13 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
   * ZAP and ZAP add-ons should not depend on an internet connection to work, so all resources required should be bundled with ZAP or the add-on
 
   * Add-ons should not make unsolicited external requests except for the purposes of checking for updates to resources, and even then only if explicitly approved by the user
+
+## Unit Test Specific Guidelines
+
+  * Function names should be descriptive, and use standard camelCaps (camelCase). Examples: `shouldRaiseAlertIfPasswordFieldAndFormHasNoAutocomplete()`, `shouldSetValuesToFieldsWithNoValueWhenParsingGetForm()`, `shouldAppendSessionFiletypeAndRetrieveSessionFileFromRelativePath()`.
+  * Comments can be used to aide in increasing readability and classifying/tagging portions of Unit Test functions, such as: `\\Given`, `\\when`, `\\Then`. Examples: 
+    * [1 - SessionUtilsUnitTest.java](https://github.com/thc202/zaproxy/blob/75d94411f14209db272dc05b4cd73ae2de9ce466/test/org/zaproxy/zap/model/SessionUtilsUnitTest.java#L28)
+  * Unit Tests should cover at least all the main functionality of the item under test.
 
 ## Style Guidelines
 **_This section is a work-in-progress as of Sept. 2016._** If you have contributions/feedback/ideas please refer to this thread in the Dev Group - https://groups.google.com/forum/#!topic/zaproxy-develop/FPwvyHY5rb4 .
