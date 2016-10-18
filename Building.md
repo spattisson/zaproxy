@@ -37,6 +37,12 @@ Note that this out of date as it refers to ZAP projects on Google Code.
 
 If you use another IDE for ZAP development then please let us know so that we can add the details to this page :)
 
+## Ant (No IDE)
+
+If you're looking to build from the terminal using Ant, the `dist` target will build the generic, unpackaged executable.
+
+    ant -f build/build.xml dist
+
 ## Contributing changes
 
 For details see the [Contributing-Changes](Contributing-Changes) page (work in progress).
