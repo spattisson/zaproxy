@@ -9,13 +9,16 @@ If this doesn't help and an HTTPS site reports a handshake failure then try inst
 
 You will need to restart ZAP for these to take effect.
 
-Note that on OS X we include the JRE with the ZAP application, so you'll need to start ZAP with an installed JRE from the command line, or you can edit `zap.sh` located under `/Applications/OWASP ZAP.app/Contents/Java` and comment out the last IF, the script will launch automatically using the JRE from the system:
+Note that on OS X we include the JRE with the ZAP application, so you'll need to start ZAP with an installed JRE from the command line, or you can edit `zap.sh` located under `/Applications/OWASP ZAP.app/Contents/Java` and comment out the statement shown below(as of version 2.5.0), the script will launch automatically using the JRE from the system:
 
 ```
 #if [ "$OS" = "Darwin" ]; then
-#exec ../PlugIns/jre*/Contents/Home/bin/java ${JMEM} -XX:PermSize=256M -Xdock:icon="../Resources/ZAP.icns" -jar "${BASEDIR}/zap-2.4.1.jar" "$@"
-#else
-  exec java ${JMEM} -XX:PermSize=256M -jar "${BASEDIR}/zap-2.4.1.jar" "$@"
+#  if [ -e ../PlugIns/jre*/Contents/Home/bin/java ]; then
+#    pushd ../PlugIns/jre*/Contents/Home/bin > /dev/null
+#    JAVA_PATH=`pwd -P`
+#    PATH="$JAVA_PATH:$PATH"
+#    popd > /dev/null
+#  fi
 #fi
 ```
 
