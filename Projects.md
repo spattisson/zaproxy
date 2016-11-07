@@ -18,10 +18,6 @@ And do check of the blog posts about [ZAP development](https://github.com/zaprox
 
 | **Project** | **Size** | **Difficulty** | **Related issues** | **Student** | **Mentor** |
 |:------------|:---------|:---------------|:-------------------|:------------|:-----------|
-| `GSoC` - Fuzzing multiple components | Large    | Hard           | [Issue 234](https://github.com/zaproxy/zaproxy/issues/234) | Sebastian   | thc202, Yvan |
-| `GSoC` - Advanced access control testing | Large    | Hard           |                    | Cosmin      | Simon, thc202 |
-| `GSoC` - SOAP Service scanning | Large    | Hard           |                    | Alberto     | Pulasthi, Juraj |
-| Sequence scanning | Large    | Hard           | [Issue 1062](https://github.com/zaproxy/zaproxy/issues/1062) | Lars, Stefan | Simon      |
 | Sequence detection | Large    | Hard           |                    | Avinash     | Simon      |
 
 
@@ -29,7 +25,6 @@ And do check of the blog posts about [ZAP development](https://github.com/zaprox
 
 | **Project** | **Size** | **Difficulty** | **Related issues** | **Student** | **Mentor** |
 |:------------|:---------|:---------------|:-------------------|:------------|:-----------|
-| [Import `ModSecurity` logs](MozillaMentorship_ImportingModSecurityLogs) | Small?   | Medium         | [Issue 432](https://github.com/zaproxy/zaproxy/issues/432) | Joe         | Simon      |
 | Add a todo / tasks list tab | Medium   | Easy?          | [Issue 119](https://github.com/zaproxy/zaproxy/issues/119) | Vishesh     | Simon      |
 | Allow ZAP to be run as a Windows Service | Small    | Easy?          | [Issue 392](https://github.com/zaproxy/zaproxy/issues/392) | Rohan       | Simon      |
 
