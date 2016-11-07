@@ -10,15 +10,6 @@ This page is a list of projects suitable for:
 If you are interested in any of these projects please post to the relevant issue or post to the [ZAP Developer Group](https://groups.google.com/group/zaproxy-develop).
 
 
-## Bug tracker support
-This would allow ZAP users to raise issues in bug trackers directly within ZAP.
-
-This should be implemented as an extension with a generic framework and then adaptors for specific trackers, like github and bugzilla.
-
-The info included in the issues raised should be as configurable as possible so that users can include whatever they want, and set things like custom fields.
-
-[Issue 440](https://github.com/zaproxy/zaproxy/issues/440)
-
 ## Convert active and passive scan rules to scripts
 ZAP has a large number of active and passive scan rules (the code that detects potential vulnerabilities) written in Java.
 
