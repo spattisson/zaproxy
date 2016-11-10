@@ -1,6 +1,6 @@
 Not sure how to start using ZAP? Read the [Getting Started Guide](https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAPGettingStartedGuide-2.5.pdf) (pdf).
 
-_We strongly recommend that ZAP is only installed and used on operating systems that are fully patched and actively maintained._
+_As with all software we strongly recommend that ZAP is only installed and used on operating systems that are fully patched and actively maintained._
 
 ### ZAP 2.5.0 Standard
 
