@@ -56,7 +56,7 @@ On Mac OS X you can also install ZAP using <a href='http://caskroom.io/'>Homebre
 
 <table width='80%'>
 <tr>
-<td width='30%'>Weekly - cross platform</td><td width='15%'>2016-11-21</td><td width='15%'>76.6 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/w2016-11-21/ZAP_WEEKLY_D-2016-11-21.zip'>Download now</a></td>
+<td width='30%'>Weekly - cross platform</td><td width='15%'>2016-11-29</td><td width='15%'>80.4 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/w2016-11-29/ZAP_WEEKLY_D-2016-11-29.zip'>Download now</a></td>
 </tr>
 </table>
 
