@@ -1,4 +1,4 @@
-# ZAP 2.4.3 API
+# ZAP 2.5.0 API
 ## Components
   * [acsrf](ApiGen_acsrf)
   * [pscan](ApiGen_pscan)
@@ -12,10 +12,13 @@
   * [httpSessions](ApiGen_httpSessions)
   * [break](ApiGen_break)
   * [authentication](ApiGen_authentication)
+  * [authorization](ApiGen_authorization )
   * [sessionManagement](ApiGen_sessionManagement)
   * [users](ApiGen_users)
   * [forcedUser](ApiGen_forcedUser)
   * [script](ApiGen_script)
+  * [stats](ApiGen_stats)
 
 
-[Full list.](ApiGen_Full)
+[ApiGen_Full Full list.]
+

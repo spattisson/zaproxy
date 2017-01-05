@@ -1,4 +1,4 @@
-# ZAP 2.4.3 API
+# ZAP 2.5.0 API
 ## Component: autoupdate
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
@@ -18,14 +18,14 @@
 | optionReportBetaAddons| view |  |  |
 | optionReportReleaseAddons| view |  |  |
 | downloadLatestRelease| action |  | Downloads the latest release, if any  |
-| setOptionCheckAddonUpdates| action | Boolean`*`  |  |
-| setOptionCheckOnStart| action | Boolean`*`  |  |
-| setOptionDownloadNewRelease| action | Boolean`*`  |  |
-| setOptionInstallAddonUpdates| action | Boolean`*`  |  |
-| setOptionInstallScannerRules| action | Boolean`*`  |  |
-| setOptionReportAlphaAddons| action | Boolean`*`  |  |
-| setOptionReportBetaAddons| action | Boolean`*`  |  |
-| setOptionReportReleaseAddons| action | Boolean`*`  |  |
+| setOptionCheckAddonUpdates| action | Boolean*  |  |
+| setOptionCheckOnStart| action | Boolean*  |  |
+| setOptionDownloadNewRelease| action | Boolean*  |  |
+| setOptionInstallAddonUpdates| action | Boolean*  |  |
+| setOptionInstallScannerRules| action | Boolean*  |  |
+| setOptionReportAlphaAddons| action | Boolean*  |  |
+| setOptionReportBetaAddons| action | Boolean*  |  |
+| setOptionReportReleaseAddons| action | Boolean*  |  |
 
 Starred parameters are mandatory
 
