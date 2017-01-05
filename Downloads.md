@@ -48,7 +48,7 @@ There are 2 Docker images available:<br>
 See <a href='Docker'>Docker</a> for more details.<br>
 <br>
 <h3>Linux Repos</h3>
-We now also have <a href='https://build.opensuse.org/package/show/home:cabelo/owasp-zap'>official ZAP Linux Repos</a> :)<br>
+We now also have <a href='https://software.opensuse.org/download.html?project=home%3Acabelo&package=owasp-zap'>official ZAP Linux Repos</a> :)<br>
 <br>
 <h3>Homebrew Cask</h3>
 On Mac OS X you can also install ZAP using <a href='http://caskroom.io/'>Homebrew Cask</a>:<br>
