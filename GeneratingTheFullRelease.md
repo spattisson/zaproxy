@@ -67,6 +67,7 @@ Note that this will have to be done on Window, Linux and Mac OS.
 ### Tell key repackagers of the new release
   * Kali - https://bugs.kali.org/main_page.php
   * Homebrew Cask: https://github.com/caskroom/homebrew-cask/blob/master/Casks/owasp-zap.rb
+
 If you repackage ZAP releases and would like to be informed of new ones then just let us know :)
 
 ### Publicize the new release
