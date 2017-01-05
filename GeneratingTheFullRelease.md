@@ -62,6 +62,11 @@ Note that this will have to be done on Window, Linux and Mac OS.
 ### Publish the installers
   1. TODO
 
+### Update the online help
+  1. TODO
+
+Note that when we publicize the release we always link to the release notes which are in the online help: https://github.com/zaproxy/zap-core-help/wiki/HelpReleasesReleases so its worth having these ready to commit as soon as the installers have been published.
+
 ### Tell key repackagers of the new release
   * Kali - https://bugs.kali.org/main_page.php
   * Homebrew Cask: https://github.com/caskroom/homebrew-cask/blob/master/Casks/owasp-zap.rb
@@ -69,7 +74,10 @@ Note that this will have to be done on Window, Linux and Mac OS.
 If you repackage ZAP releases and would like to be informed of new ones then just let us know :)
 
 ### Publicize the new release
-  1. TODO
+  * Tweet from https://twitter.com/zaproxy
+  * Post to the [ZAP User](https://groups.google.com/group/zaproxy-users) and [ZAP Dev](https://groups.google.com/group/zaproxy-develop) groups
+  * Post to the OWASP Leaders list (main releases only)
+  * TODO add to this
 
 ### Update the API details on the wiki
   1. TODO
