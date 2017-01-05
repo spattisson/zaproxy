@@ -82,5 +82,8 @@ If you repackage ZAP releases and would like to be informed of new ones then jus
 ### Update the API details on the wiki
   1. TODO
 
+### Publish updated add-ons to the Marketplace
+  1. TODO
+
 **TODO FINISH ;)**
 
