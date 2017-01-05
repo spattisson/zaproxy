@@ -51,5 +51,29 @@ You should now be working on the zaproxy/zaproxy "release-<relnum>" branch.
 ### Generate the release add-ons
   1. zaproxy/build/build.xml target=deploy-release-addons
 
+### Generate the initial release files
+  1. zaproxy/build/build.xml target=full-release
+Note that this will have to be done on Window, Linux and Mac OS.
+
+### Generate the Windows installer
+  1. TODO
+
+### Publish the installers
+  1. TODO
+
+### Publish the installers
+  1. TODO
+
+### Tell key repackagers of the new release
+  * Kali - https://bugs.kali.org/main_page.php
+  * Homebrew Cask: https://github.com/caskroom/homebrew-cask/blob/master/Casks/owasp-zap.rb
+If you repackage ZAP releases and would like to be informed of new ones then just let us know :)
+
+### Publicize the new release
+  1. TODO
+
+### Update the API details on the wiki
+  1. TODO
+
 **TODO FINISH ;)**
 
