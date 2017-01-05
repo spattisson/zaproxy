@@ -20,5 +20,5 @@
   * [stats](ApiGen_stats)
 
 
-[ApiGen_Full Full list.]
+[Full list.](ApiGen_Full)
 
