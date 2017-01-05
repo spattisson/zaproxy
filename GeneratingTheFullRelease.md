@@ -53,12 +53,10 @@ You should now be working on the zaproxy/zaproxy "release-<relnum>" branch.
 
 ### Generate the initial release files
   1. zaproxy/build/build.xml target=full-release
+
 Note that this will have to be done on Window, Linux and Mac OS.
 
 ### Generate the Windows installer
-  1. TODO
-
-### Publish the installers
   1. TODO
 
 ### Publish the installers
