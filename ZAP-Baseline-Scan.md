@@ -136,7 +136,7 @@ You can configure how the baseline scan runs with a configuration file. A defaul
 90030	WARN	(WSDL File Passive Scanner)
 90033	WARN	(Loosely Scoped Cookie)
 ```
-Edit the file to and change WARN to IGNORE to ignore rule or FAIL to fail as required.
+Edit the file and change WARN to IGNORE to ignore rule or FAIL to fail as required.
 
 You can also specify URL regex patterns which should be ignored by adding lines like:
 ```
