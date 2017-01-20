@@ -166,7 +166,7 @@ You can specify a progress file to flag issues that are already know about and a
 			"id" : "10020",
 			"name" : "X-Frame-Options Header Not Set",
 			"state" : "inprogress",
-			"link": "https://www.example.com/bugtracker/issue=1234"
+			"link": "https://www.example.com/bugtracker/issue=1235"
 		}
 	]
 }
