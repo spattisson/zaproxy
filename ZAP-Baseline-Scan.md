@@ -31,7 +31,7 @@ If you use 'file' params then you need to mount the directory those file are in 
 docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-stable zap-baseline.py \
     -t https://www.example.com -g gen.conf -r testreport.html
 ```
-### Example output
+### Example Output
 ```
 docker run -t owasp/zap2docker-stable zap-baseline.py -t https://www.example.com
 May 17, 2016 1:24:32 PM java.util.prefs.FileSystemPreferences$1 run
@@ -102,7 +102,7 @@ Options:
 
 For more details see https://github.com/zaproxy/zaproxy/wiki/ZAP-Baseline-Scan
 ```
-### Configuration file
+### Configuration File
 You can configure how the baseline scan runs with a configuration file. A default configuration file can be created using the '-g' parameter.
 ```
 # zap-baseline rule configuration file
@@ -150,7 +150,7 @@ For example:
 # Ignore all URLS containing ‘.js’ for all scan rules
 *    OUTOFSCOPE    *.js
 ```
-### Progress file
+### Progress File
 You can specify a progress file to flag issues that are already known about and are being addressed:
 ```
 {
