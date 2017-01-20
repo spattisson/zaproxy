@@ -7,6 +7,7 @@ This means that the script doesnt perform any actual 'attacks' and will run for 
 By default it reports all alerts as WARNings but you can specify a config file which can change any rules to FAIL or IGNORE.
 
 This script is intended to be ideal to run in a CI/CD environment, even against production sites.
+### Stable Usage
 ```
 Usage: zap-baseline.py -t <target> [options]
     -t target         target URL including the protocol, eg https://www.example.com
@@ -30,7 +31,7 @@ If you use 'file' params then you need to mount the directory those file are in 
 docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-stable zap-baseline.py \
     -t https://www.example.com -g gen.conf -r testreport.html
 ```
-Example output:
+### Example output
 ```
 docker run -t owasp/zap2docker-stable zap-baseline.py -t https://www.example.com
 May 17, 2016 1:24:32 PM java.util.prefs.FileSystemPreferences$1 run
@@ -76,3 +77,106 @@ WARN: X-Content-Type-Options Header Missing [10021] x 3
 	https://www.example.com/sitemap.xml
 FAIL: 0	WARN: 4	IGNORE: 0	PASS: 22
 ```
+### Weekly Usage
+The version in the weekly release has significantly more options than the one in the stable release
+```
+Usage: zap-baseline.py -t <target> [options]
+    -t target         target URL including the protocol, eg https://www.example.com
+Options:
+    -c config_file    config file to use to INFO, IGNORE or FAIL warnings
+    -u config_url     URL of config file to use to INFO, IGNORE or FAIL warnings
+    -g gen_file       generate default config file (all rules set to WARN)
+    -m mins           the number of minutes to spider for (default 1)
+    -r report_html    file to write the full ZAP HTML report
+    -w report_md      file to write the full ZAP Wiki (Markdown) report
+    -x report_xml     file to write the full ZAP XML report
+    -a                include the alpha passive scan rules as well
+    -d                show debug messages
+    -i                default rules not in the config file to INFO
+    -j                use the Ajax spider in addition to the traditional one
+    -l level          minimum level to show: PASS, IGNORE, INFO, WARN or FAIL, use with -s to hide example URLs
+    -n context_file   context file which will be loaded prior to spidering the target
+    -p progress_file  progress file which specifies issues that are being addressed
+    -s                short output format - dont show PASSes or example URLs
+    -z zap_options    ZAP command line options e.g. -z "-config aaa=bbb -config ccc=ddd"
+
+For more details see https://github.com/zaproxy/zaproxy/wiki/ZAP-Baseline-Scan
+```
+### Configuration file
+You can configure how the baseline scan runs with a configuration file. A default configuration file can be created using the '-g' parameter.
+```
+# zap-baseline rule configuration file
+# Change WARN to IGNORE to ignore rule or FAIL to fail if rule matches
+# Only the rule identifiers are used - the names are just for info
+# You can add your own messages to each rule by appending them after a tab on each line.
+10010	WARN	(Cookie No HttpOnly Flag)
+10011	WARN	(Cookie Without Secure Flag)
+10012	WARN	(Password Autocomplete in Browser)
+10015	WARN	(Incomplete or No Cache-control and Pragma HTTP Header Set)
+10016	WARN	(Web Browser XSS Protection Not Enabled)
+10017	WARN	(Cross-Domain JavaScript Source File Inclusion)
+10019	WARN	(Content-Type Header Missing)
+10020	WARN	(X-Frame-Options Header Scanner)
+10021	WARN	(X-Content-Type-Options Header Missing)
+10023	WARN	(Information Disclosure - Debug Error Messages)
+10024	WARN	(Information Disclosure - Sensitive Informations in URL)
+10025	WARN	(Information Disclosure - Sensitive Information in HTTP Referrer Header)
+10026	WARN	(HTTP Parameter Override)
+10027	WARN	(Information Disclosure - Suspicious Comments)
+10032	WARN	(Viewstate Scanner)
+10040	WARN	(Secure Pages Include Mixed Content)
+10105	WARN	(Weak Authentication Method)
+10202	WARN	(Absence of Anti-CSRF Tokens)
+2	WARN	(Private IP Disclosure)
+3	WARN	(Session ID in URL Rewrite)
+50001	WARN	(Script Passive Scan Rules)
+90001	WARN	(Insecure JSF ViewState)
+90011	WARN	(Charset Mismatch)
+90022	WARN	(Application Error Disclosure)
+90030	WARN	(WSDL File Passive Scanner)
+90033	WARN	(Loosely Scoped Cookie)
+```
+Edit the file to and change WARN to IGNORE to ignore rule or FAIL to fail as required.
+
+You can also specify URL regex patterns which should be ignored by adding lines like:
+```
+<rule-id>    OUTOFSCOPE    <regex>
+```
+to the file. You can also use ‘*’ for all rules.
+For example:
+```
+# Ignore the specified URL for Autocomplete in browser
+10012    OUTOFSCOPE    https://www.example.com/test.html
+# Ignore all URLS containing ‘.js’ for all scan rules
+*    OUTOFSCOPE    *.js
+```
+### Progress file
+You can specify a progress file to flag issues that are already know about and are being addressed:
+```
+{
+	"site" : "www.example.com",
+	"issues" : [
+		{ 
+			"id" : "10016",
+			"name" : "Web Browser XSS Protection Not Enabled",
+			"state" : "inprogress",
+			"link": "https://www.example.com/bugtracker/issue=1234"
+		},
+		{ 
+			"id" : "10020",
+			"name" : "X-Frame-Options Header Not Set",
+			"state" : "inprogress",
+			"link": "https://www.example.com/bugtracker/issue=1234"
+		}
+	]
+}
+```
+These issues will then be flagged as being 'IN-PROGRESS' which makes it much easier to identify new issues.
+
+### ZAP Parameters
+You can pass parameters onto ZAP using the baseline `-z` parameter. This means you can fine tune ZAP, for example by specifying any of the parameters that are stored in the ZAP config file via the ‘-config key=value’ parameter.
+The weekly version of ZAP supports scan rule configuration. One particular configuration option allows you to define the IDs of HTML forms which you want to ignore when it comes to anti-CSRF tokens. So if you run the baseline scan with: `-z -config rules.csrf.ignorelist=search,login` then ZAP will not fail the scan if forms with an ID of "search" or "“login" do not have anti CSRF tokens.
+
+### Mass Baseline
+If you would like to run the baseline against a number of sites then you can use the [mass baseline scripts](https://github.com/zaproxy/community-scripts/tree/master/api/mass-baseline) on the ZAP Community Scripts repo.
+These generate a [dashboard](https://github.com/zaproxy/community-scripts/wiki/Baseline-Summary) which will show you a summary of the results on one wiki page.
