@@ -2,12 +2,17 @@
 Docker image with Owasp Zed Attack Proxy preinstalled.
 # Details
 ## Install Instructions:
+For the stable release:
 ```bash
 docker pull owasp/zap2docker-stable
 ```
-Or if you want to try the latest weekly release:
+For the latest weekly release:
 ```bash
 docker pull owasp/zap2docker-weekly
+```
+For the live release (built whenever the [zaproxy](https://github.com/zaproxy/zaproxy) project is changed):
+```bash
+docker pull owasp/zap2docker-live
 ```
 ## Usage Instructions:
 ### ZAP GUI in a Browser:
