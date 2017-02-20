@@ -41,9 +41,10 @@ It requires Java 7 or higher to run.<br>
 <br>
 <h3>Docker</h3>
 
-There are 2 Docker images available:<br>
+There are 3 Docker images available:<br>
 <ul><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-stable/'>zap2docker-stable</a> : the 2.5.0 release<br>
 </li><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-weekly/'>zap2docker-weekly</a> : the latest weekly release</li></ul>
+</li><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-live/'>zap2docker-live</a> : the very latest source code</li></ul>
 
 See <a href='Docker'>Docker</a> for more details.<br>
 <br>
@@ -59,7 +60,7 @@ On Mac OS X you can also install ZAP using <a href='http://caskroom.io/'>Homebre
 
 <table width='80%'>
 <tr>
-<td width='30%'>Weekly - cross platform</td><td width='15%'>2017-02-06</td><td width='15%'>102 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/w2017-02-06/ZAP_WEEKLY_D-2017-02-06.zip'>Download now</a></td>
+<td width='30%'>Weekly - cross platform</td><td width='15%'>2017-02-20</td><td width='15%'>102 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/w2017-02-20/ZAP_WEEKLY_D-2017-02-20.zip'>Download now</a></td>
 </tr>
 </table>
 
