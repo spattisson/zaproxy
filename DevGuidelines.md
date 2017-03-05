@@ -56,7 +56,7 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
 ## Unit Test Specific Guidelines
 
   * Function names should be descriptive, and use standard camelCaps (camelCase). Examples: `shouldRaiseAlertIfPasswordFieldAndFormHasNoAutocomplete()`, `shouldSetValuesToFieldsWithNoValueWhenParsingGetForm()`, `shouldAppendSessionFiletypeAndRetrieveSessionFileFromRelativePath()`.
-  * Comments can be used to aide in increasing readability and classifying/tagging portions of Unit Test functions, such as: `\\Given`, `\\When`, `\\Then`. Examples: 
+  * Comments can be used to aide in increasing readability and classifying/tagging portions of Unit Test functions, such as: `\\Given`, `\\When`, `\\Then`. Example: 
     * [1 - SessionUtilsUnitTest.java](https://github.com/thc202/zaproxy/blob/75d94411f14209db272dc05b4cd73ae2de9ce466/test/org/zaproxy/zap/model/SessionUtilsUnitTest.java#L28)
   * Unit Tests should cover at least all the main functionality of the item under test.
 
