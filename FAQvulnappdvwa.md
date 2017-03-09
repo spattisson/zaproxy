@@ -73,55 +73,46 @@ function extractInputFieldValue(page, fieldName) {
 }
 ```
 
-2) Create "DVWA" context (or edit the "Default Context"):
-2a) Context Name: `DVWAv1.9`
-2b) In "Include in Context" panel add:
-`\Qhttp://localhost/DVWA\E.*`
-2c) In "Exclude form Context" panel add:
-`\Qhttp://localhost/DVWA/login.php\E`
-`\Qhttp://localhost/DVWA/logout.php\E`
-`\Qhttp://localhost/DVWA/setup.php\E`
-2d) In "Authentication" panel, choose "Script-Based Authentication" [3], select the "DVWA" authentication script, load it and fill the fields:
-Login URL:
-`http://localhost/DVWA/login.php`
-CSRF Field:
-`user_token`
-POST Data:
-`username={%username%}&password={%password%}&Login=Login&user_token={%user_token%}`
-Logged in:
-`\Q<a href="logout.php">Logout</a>\E`
-Logged Out:
-`(?:Location: [./]*login\.php)|(?:\Q<form action="login.php" method="post">\E)`
-2e) In "Users" panel, add the user:
-User Name:
-`Administrator`
-Username:
-`admin`
-Password:
-`password`
-2f) Close the dialogue.
+2) Create "DVWA" context (or edit the "Default Context"): <br>
+2a) Context Name: `DVWAv1.9` <br>
+2b) In "Include in Context" panel add: `\Qhttp://localhost/DVWA\E.*` <br>
+2c) In "Exclude form Context" panel add:  <br>
+`\Qhttp://localhost/DVWA/login.php\E` <br>
+`\Qhttp://localhost/DVWA/logout.php\E` <br>
+`\Qhttp://localhost/DVWA/setup.php\E` <br>
+2d) In "Authentication" panel, choose "Script-Based Authentication" [3], select the "DVWA" authentication script, load it and fill the fields: <br>
+Login URL: `http://localhost/DVWA/login.php` <br>
+CSRF Field: `user_token` <br>
+POST Data: `username={%username%}&password={%password%}&Login=Login&user_token={%user_token%}` <br>
+Logged in: `\Q<a href="logout.php">Logout</a>\E`  <br>
+Logged Out: `(?:Location: [./]*login\.php)|(?:\Q<form action="login.php" method="post">\E)` <br>
+2e) In "Users" panel, add the user: <br>
+User Name: `Administrator` <br>
+Username: `admin` <br>
+Password: `password` <br>
+2f) Close the dialogue. <br>
 
-3) Verify authentication is working, create seed for the spider and configure DVWA:
-3a) Enable "Force User Mode" [4] and access the main page (e.g. "http://localhost/DVWA") while proxying through ZAP, cookies should be disabled in the browser; It should show the main page thus the authentication is working and the spider has a seed;
-3b) Access "http://localhost/DVWA/security.php" and change the "Security Level" to "low";
-3c) Disable the "Forced User Mode" (no longer needed).
-3d) Exclude from the context the following URLs, to prevent the spider from changing the "Security Level" and the password:
-`\Qhttp://localhost/DVWA/security.php\E`
-`\Qhttp://localhost/DVWA/vulnerabilities/csrf\E.*`
+3) Verify authentication is working, create seed for the spider and configure DVWA: <br>
+3a) Enable "Force User Mode" [4] and access the main page (e.g. "http://localhost/DVWA") while proxying through ZAP, cookies should be disabled in the browser; It should show the main page thus the authentication is working and the spider has a seed; <br>
+3b) Access "http://localhost/DVWA/security.php" and change the "Security Level" to "low"; <br>
+3c) Disable the "Forced User Mode" (no longer needed). <br>
+3d) Exclude from the context the following URLs, to prevent the spider from changing the "Security Level" and the password: <br>
+`\Qhttp://localhost/DVWA/security.php\E` <br>
+`\Qhttp://localhost/DVWA/vulnerabilities/csrf\E.*` <br>
 
-With the context and authentication set up, it's possible to spider/scan as user.
-4) Spider:
-4a) Select "Spider" tab and click the button "New Scan";
-4b) Click "Select...", choose the context (e.g. "DVWAv1.9") and click OK;
-4c) Select the user "Administrator" and click "Start Scan";
-4d) Spider should start and spider as user "Administrator".
-Spider can be run a second time to ensure that all URLs are found.
+With the context and authentication set up, it's possible to spider/scan as user. <br>
+4) Spider: <br>
+4a) Select "Spider" tab and click the button "New Scan"; <br>
+4b) Click "Select...", choose the context (e.g. "DVWAv1.9") and click OK; <br>
+4c) Select the user "Administrator" and click "Start Scan"; <br>
+4d) Spider should start and spider as user "Administrator". <br>
+Spider can be run a second time to ensure that all URLs are found. <br>
 
-5) Active Scan:
-5a) Select "Active Scan" tab and click the button "New Scan";
-5b) Click "Select...", choose the context (e.g. "DVWAv1.9") and click OK;
-5c) Select the user "Administrator" and click "Start Scan";
-5d) Active scanner should start and scan as user "Administrator".
+5) Active Scan: <br>
+5a) Select "Active Scan" tab and click the button "New Scan"; <br>
+5b) Click "Select...", choose the context (e.g. "DVWAv1.9") and click OK; <br>
+5c) Select the user "Administrator" and click "Start Scan"; <br>
+5d) Active scanner should start and scan as user "Administrator". <br>
 
 Active scanner should find some issues:
 - Cross Site Scripting (Persistent) (4)
@@ -132,8 +123,8 @@ Active scanner should find some issues:
 - SQL Injection (2)
 - Directory Browsing (7)
 
-[1] https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsScriptsTree
-[2] https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsSessionContexts
-[3] https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsSessionContext-auth#script-based-authentication
-[4] https://github.com/zaproxy/zap-core-help/wiki/HelpUiTltoolbar#--force-user-mode-on--off
+[1] https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsScriptsTree <br>
+[2] https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsSessionContexts <br>
+[3] https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsSessionContext-auth#script-based-authentication <br>
+[4] https://github.com/zaproxy/zap-core-help/wiki/HelpUiTltoolbar#--force-user-mode-on--off <br>
 
