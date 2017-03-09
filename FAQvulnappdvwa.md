@@ -73,9 +73,8 @@ function extractInputFieldValue(page, fieldName) {
 }
 ```
 
-2) Create "DVWA" context [2] (or edit the "Default Context"):
-2a) Context Name:
-`DVWAv1.9`
+2) Create "DVWA" context (or edit the "Default Context"):
+2a) Context Name: `DVWAv1.9`
 2b) In "Include in Context" panel add:
 `\Qhttp://localhost/DVWA\E.*`
 2c) In "Exclude form Context" panel add:
@@ -137,3 +136,4 @@ Active scanner should find some issues:
 [2] https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsSessionContexts
 [3] https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsSessionContext-auth#script-based-authentication
 [4] https://github.com/zaproxy/zap-core-help/wiki/HelpUiTltoolbar#--force-user-mode-on--off
+
