@@ -187,6 +187,6 @@ function replace(params, name, value) {
 [3] https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsSessionContext-auth#script-based-authentication <br>
 [4] https://github.com/zaproxy/zap-core-help/wiki/HelpUiTltoolbar#--force-user-mode-on--off <br>
 
-Source references:
-https://github.com/zaproxy/zaproxy/issues/2093#issuecomment-163002923
-https://groups.google.com/forum/m/?pli=1#!topic/zaproxy-users/1OyLNAYVBic
+Source references: <br>
+https://github.com/zaproxy/zaproxy/issues/2093#issuecomment-163002923  <br>
+https://groups.google.com/forum/m/?pli=1#!topic/zaproxy-users/1OyLNAYVBic <br>
