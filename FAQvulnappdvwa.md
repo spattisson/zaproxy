@@ -123,8 +123,70 @@ Active scanner should find some issues:
 - SQL Injection (2)
 - Directory Browsing (7)
 
+6) Fuzzing:  <br>
+If you are tackling a fuzzing challenge in DVWA and need to handle CSRF tokens, the following details may be of assistance:  <br>
+ - The script works with Nashorn script engine (Java 8), if you are using Java 7 it needs some changes (the changes are mentioned in the original script).
+ - The constants defined in the beginning of the file might need to be changed (e.g. SOURCE_URL to match the target server/webapp).
+ - The script assumes that the message being fuzzed has a valid DVWA session.
+
+``` JavaScript
+var SOURCE_URL = "http://localhost/DVWA/vulnerabilities/brute/";
+var CSRF_TOKEN_NAME = "user_token";
+var REQUEST_URI = new org.apache.commons.httpclient.URI(SOURCE_URL, true);
+
+function processMessage(utils, message) {
+    var msg = message.cloneRequest();
+    msg.getRequestHeader().setURI(REQUEST_URI);
+    var csrfTokenValue = extractInputFieldValue(getPageContent(utils, msg), CSRF_TOKEN_NAME);
+
+    var params = message.getUrlParams();
+    replace(params, CSRF_TOKEN_NAME, encodeURIComponent(csrfTokenValue));
+    message.getRequestHeader().setGetParams(params);
+}
+
+function processResult(utils, fuzzResult){
+    return true;
+}
+
+function getPageContent(utils, msg) {
+    utils.sendMessage(msg);
+    utils.addMessageToResults("Refresh " + CSRF_TOKEN_NAME, msg)
+    return msg.getResponseBody().toString();
+}
+
+function extractInputFieldValue(page, fieldName) {
+    var Source = Java.type("net.htmlparser.jericho.Source");
+    var src = new Source(page);
+
+    var it = src.getAllElements('input').iterator();
+
+    while (it.hasNext()) {
+        var element = it.next();
+        if (element.getAttributeValue('name') == fieldName) {
+            return element.getAttributeValue('value');
+        }
+    }
+    return '';
+}
+
+function replace(params, name, value) {
+    var it = params.iterator();
+
+    while (it.hasNext()) {
+        var param = it.next();
+        if (param.getName() == name) {
+            param.setValue(value);
+            return;
+        }
+    }
+}
+```  
+
 [1] https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsScriptsTree <br>
 [2] https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsSessionContexts <br>
 [3] https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsSessionContext-auth#script-based-authentication <br>
 [4] https://github.com/zaproxy/zap-core-help/wiki/HelpUiTltoolbar#--force-user-mode-on--off <br>
 
+Source references:
+https://github.com/zaproxy/zaproxy/issues/2093#issuecomment-163002923
+https://groups.google.com/forum/m/?pli=1#!topic/zaproxy-users/1OyLNAYVBic
