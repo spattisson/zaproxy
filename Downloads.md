@@ -2,20 +2,23 @@ Not sure how to start using ZAP? Read the [Getting Started Guide](https://github
 
 _As with all software we strongly recommend that ZAP is only installed and used on operating systems and JREs that are fully patched and actively maintained._
 
-### ZAP 2.5.0 Standard
+### ZAP 2.6.0 Standard
 
 <table width='80%'>
 <tr>
-<td width='30%'>Windows</td><td width='15%'>2016-06-03</td><td width='15%'>71.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Windows.exe'>Download now</a></td>
+<td width='30%'>Windows (64) Installer</td><td width='15%'>2017-03-29</td><td width='15%'>117 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2_6_0_windows.exe'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Linux</td><td width='15%'>2016-06-03</td><td width='15%'>75.8 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Linux.tar.gz'>Download now</a></td>
+<td width='30%'>Windows (32) Installer</td><td width='15%'>2017-03-29</td><td width='15%'>117 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2_6_0_windows-x32.exe'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Mac OS/X</td><td width='15%'>2016-06-03</td><td width='15%'>124 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Mac_OS_X.dmg'>Download now</a></td>
+<td width='30%'>Linux Installer</td><td width='15%'>2017-03-29</td><td width='15%'>168</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2_6_0_unix.sh'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Cross platform</td><td width='15%'>2016-06-03</td><td width='15%'>75.9 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Cross_Platform.zip'>Download now</a></td>
+<td width='30%'>Mac OS/X Installer</td><td width='15%'>2017-03-29</td><td width='15%'>182 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2_6_0_macos.dmg'>Download now</a></td>
+</tr>
+<tr>
+<td width='30%'>Cross Platform Package</td><td width='15%'>2017-03-29</td><td width='15%'>265 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2.6.0_Crossplatform.zip'>Download now</a></td>
 </tr>
 
 </table>
@@ -24,13 +27,13 @@ _This contains the core set of functionality, and you can add more functionality
 The Windows and Linux versions require Java 7 or higher to run.<br>
 The Cross Platform version is the same as the Linux version but compressed using ZIP.<br>
 The Mac OS version includes Java 8 - you can use the Linux or Cross Platform versions if you do not want to download this.<br>
-For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_5_0'>release notes</a>.<br>
+For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_6_0'>release notes</a>.<br>
 <br>
 <h3>ZAP 2.5.0 Core</h3>
 
 <table width='80%'>
 <tr>
-<td width='30%'>Cross platform</td><td width='15%'>2016-06-03</td><td width='15%'>42.2 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.5.0/ZAP_2.5.0_Core.tar.gz'>Download now</a></td>
+<td width='30%'>Cross platform</td><td width='15%'>2017-03-29</td><td width='15%'>32.4 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2.6.0_Core.tar.gz'>Download now</a></td>
 </tr>
 </table>
 
