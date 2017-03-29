@@ -12,7 +12,7 @@ _As with all software we strongly recommend that ZAP is only installed and used 
 <td width='30%'>Windows (32) Installer</td><td width='15%'>2017-03-29</td><td width='15%'>117 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2_6_0_windows-x32.exe'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Linux Installer</td><td width='15%'>2017-03-29</td><td width='15%'>168</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2_6_0_unix.sh'>Download now</a></td>
+<td width='30%'>Linux Installer</td><td width='15%'>2017-03-29</td><td width='15%'>168 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2_6_0_unix.sh'>Download now</a></td>
 </tr>
 <tr>
 <td width='30%'>Mac OS/X Installer</td><td width='15%'>2017-03-29</td><td width='15%'>182 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2_6_0_macos.dmg'>Download now</a></td>
