@@ -48,7 +48,7 @@ It requires Java 7 or higher to run.<br>
 <h3>Docker</h3>
 
 There are 3 Docker images available:<br>
-<ul><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-stable/'>zap2docker-stable</a> : the 2.5.0 release<br>
+<ul><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-stable/'>zap2docker-stable</a> : the 2.6.0 release<br>
 </li><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-weekly/'>zap2docker-weekly</a> : the latest weekly release</li>
 </li><li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-live/'>zap2docker-live</a> : the very latest source code</li></ul>
 
@@ -82,7 +82,7 @@ You can use this to automatically pull down the latest ZAP release for the platf
 
 ZAP uses similar URLs when checking for updates.<br>
 These are version specific and define the add-on on the ZAP Marketplace for that release stream.<br>
-The 2.5 release stream uses: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-2.5.xml<br>
+The 2.6 release stream uses: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-2.6.xml<br>
 The development code uses: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-dev.xml<br>
 At the moment these files are the same, but it does allow us to maintain different versions of add-ons for different versions of ZAP, if we need to support this in the future.
 
