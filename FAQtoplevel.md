@@ -36,7 +36,7 @@ If you have any questions about ZAP that are not answered here or in the [User G
   * [How to connect to an HTTPS site that reports a handshake failure?](FAQsslHandshake)
   * [Why has the Quick Scan Attack reported an invalid URL?](FAQquickScanFailed)
   * [How can ZAP test sites that use certificate pinning?](FAQcertpinning)
-  * [Why is an API key created by default from ZAP 2.4.1?](FAQapikey)
+  * [Why is an API key required by default??](FAQapikey)
   * [How can you use ZAP to scan APIs?](FAQscanapis)
   * [How can I prevent ZAP from sending me 1000s of emails via a 'Contact Us' form?](FAQpreventSpam)
   * [How do I get a specific feature implemented in ZAP?](FAQnewfeature)
