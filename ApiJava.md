@@ -1,15 +1,7 @@
 # Java client API
 
-The Java client can be downloaded from [Releases](https://github.com/zaproxy/zaproxy/releases) page.
-
-## Javadocs
-
-The javadocs are available [here](https://github.com/zaproxy/zaproxy/releases/download/2.4.0/zaproxy-2.4.0-javadocs.zip)
-
-## Example
-
-An example of the Java client being used is available [here](https://github.com/zaproxy/zaproxy-test/blob/master/src/org/zaproxy/zap/DaemonWaveIntegrationTest.java) - note that this may not be up to date!
-Another example is available [here](https://github.com/zaproxy/zaproxy/blob/develop/src/org/zaproxy/clientapi/core/SimpleExample.java)
+The Java implementation has now its [own repository](https://github.com/zaproxy/zap-api-java),
+which indicates where to obtain it and examples on how to use it.
 
 Links:
   * Back: [A Simple Scan](ApiDetailsSimpleScan)
