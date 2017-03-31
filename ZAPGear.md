@@ -1,10 +1,6 @@
-# ZAP Gear
+Yes, you can now buy ZAP related gear, including t-shirts, posters and stickers.
 
-Yes, you can now buy ZAP related gear!
-
-Its your chance to show your support for the project, c/o `CafePress`.
-
-Click on the tshirt to enter the [ZAP Gear Store](http://www.cafepress.com/zaproxy):
+All of the artwork for the gear is open source, and is available via the [zap-swag](https://github.com/zaproxy/zap-swag) repo, which also lists online stores where you can buy the gear from.
 
 [![](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/zap-tshirt-cp.PNG)](http://www.cafepress.com/zaproxy)
 
