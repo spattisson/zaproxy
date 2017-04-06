@@ -2,6 +2,8 @@
 
 First of all try checking the 'Enable unsafe SSL/TLS renegotiation' checkbox in the Certificate Options screen and trying again.
 
+Second check if you've enabled SSLv2Hello in the outbound connection options: https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsConnection. If so, disable SSLv2Hello and reload the content to see if the issue is resolved.
+
 If this doesn't help and an HTTPS site reports a handshake failure then try installing the 'Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy Files':
 
 * Java 7 : http://www.oracle.com/technetwork/java/javase/downloads/jce-7-download-432124.html
