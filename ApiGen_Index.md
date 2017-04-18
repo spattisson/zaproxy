@@ -19,6 +19,10 @@
   * [stats](ApiGen_stats)
   * [users](ApiGen_users)
 
+<<<<<<< HEAD
 
 [Full list.](ApiGen_Full)
+=======
+>>>>>>> 3a84befc854d3aeb2b43194edf15a8a008a17078
 
+[Full list.](ApiGen_Full)
