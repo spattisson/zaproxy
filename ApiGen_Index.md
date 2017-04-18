@@ -1,24 +1,23 @@
-# ZAP 2.5.0 API
+# ZAP 2.6.0 API
 ## Components
-  * [acsrf](ApiGen_acsrf)
-  * [pscan](ApiGen_pscan)
-  * [search](ApiGen_search)
-  * [autoupdate](ApiGen_autoupdate)
-  * [spider](ApiGen_spider)
-  * [core](ApiGen_core)
-  * [params](ApiGen_params)
-  * [ascan](ApiGen_ascan)
-  * [context](ApiGen_context)
-  * [httpSessions](ApiGen_httpSessions)
-  * [break](ApiGen_break)
-  * [authentication](ApiGen_authentication)
-  * [authorization](ApiGen_authorization )
-  * [sessionManagement](ApiGen_sessionManagement)
-  * [users](ApiGen_users)
-  * [forcedUser](ApiGen_forcedUser)
-  * [script](ApiGen_script)
-  * [stats](ApiGen_stats)
+  * [ApiGen_acsrf acsrf]
+  * [ApiGen_ascan ascan]
+  * [ApiGen_authentication authentication]
+  * [ApiGen_authorization authorization]
+  * [ApiGen_autoupdate autoupdate]
+  * [ApiGen_break break]
+  * [ApiGen_context context]
+  * [ApiGen_core core]
+  * [ApiGen_forcedUser forcedUser]
+  * [ApiGen_httpSessions httpSessions]
+  * [ApiGen_params params]
+  * [ApiGen_pscan pscan]
+  * [ApiGen_script script]
+  * [ApiGen_search search]
+  * [ApiGen_sessionManagement sessionManagement]
+  * [ApiGen_spider spider]
+  * [ApiGen_stats stats]
+  * [ApiGen_users users]
 
-
-[Full list.](ApiGen_Full)
+[ApiGen_Full Full list.]
 

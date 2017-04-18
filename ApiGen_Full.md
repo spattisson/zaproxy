@@ -1,14 +1,16 @@
-# ZAP 2.5.0 API
+# ZAP 2.6.0 API
 ## Full List
 | _Component_ | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:------------|:-------|:-------|:-------------|:--------------|
-| acsrf| optionTokensNames| view |  | Lists the names of all anti CSRF tokens |
-| acsrf| addOptionToken| action | String*  | Adds an anti CSRF token with the given name, enabled by default |
-| acsrf| removeOptionToken| action | String*  | Removes the anti CSRF token with the given name |
-| acsrf| genForm| other | hrefId*  | Generate a form for testing lack of anti CSRF tokens - typically invoked via ZAP |
+| acsrf| optionTokensNames| view |  | Lists the names of all anti-CSRF tokens |
+| acsrf| addOptionToken| action | String*  | Adds an anti-CSRF token with the given name, enabled by default |
+| acsrf| removeOptionToken| action | String*  | Removes the anti-CSRF token with the given name |
+| acsrf| genForm| other | hrefId*  | Generate a form for testing lack of anti-CSRF tokens - typically invoked via ZAP |
+| pscan| scanOnlyInScope| view |  | Tells whether or not the passive scan should be performed only on messages that are in scope. |
 | pscan| recordsToScan| view |  | The number of records the passive scanner still has to scan |
 | pscan| scanners| view |  | Lists all passive scanners with its ID, name, enabled state and alert threshold. |
-| pscan| setEnabled| action | enabled*  | Sets whether or not the passive scanning is enabled |
+| pscan| setEnabled| action | enabled*  | Sets whether or not the passive scanning is enabled (Note: the enabled state is not persisted). |
+| pscan| setScanOnlyInScope| action | onlyInScope*  | Sets whether or not the passive scan should be performed only on messages that are in scope. |
 | pscan| enableAllScanners| action |  | Enables all passive scanners |
 | pscan| disableAllScanners| action |  | Disables all passive scanners |
 | pscan| enableScanners| action | ids*  | Enables all passive scanners with the given IDs (comma separated list of IDs) |
@@ -28,6 +30,10 @@
 | search| harByHeaderRegex| other | regex* baseurl start count  |  |
 | autoupdate| latestVersionNumber| view |  | Returns the latest version number |
 | autoupdate| isLatestVersion| view |  | Returns 'true' if ZAP is on the latest version |
+| autoupdate| installedAddons| view |  | Return a list of all of the installed add-ons |
+| autoupdate| newAddons| view |  | Return a list of any add-ons that have been added to the Marketplace since the last check for updates |
+| autoupdate| updatedAddons| view |  | Return a list of any add-ons that have been changed in the Marketplace since the last check for updates |
+| autoupdate| marketplaceAddons| view |  | Return a list of all of the add-ons on the ZAP Marketplace (this information is read once and then cached) |
 | autoupdate| optionAddonDirectories| view |  |  |
 | autoupdate| optionDayLastChecked| view |  |  |
 | autoupdate| optionDayLastInstallWarned| view |  |  |
@@ -42,6 +48,8 @@
 | autoupdate| optionReportBetaAddons| view |  |  |
 | autoupdate| optionReportReleaseAddons| view |  |  |
 | autoupdate| downloadLatestRelease| action |  | Downloads the latest release, if any  |
+| autoupdate| installAddon| action | id*  | Installs or updates the specified add-on, returning when complete (ie not asynchronously) |
+| autoupdate| uninstallAddon| action | id*  | Uninstalls the specified add-on  |
 | autoupdate| setOptionCheckAddonUpdates| action | Boolean*  |  |
 | autoupdate| setOptionCheckOnStart| action | Boolean*  |  |
 | autoupdate| setOptionDownloadNewRelease| action | Boolean*  |  |
@@ -54,10 +62,13 @@
 | spider| results| view | scanId  |  |
 | spider| fullResults| view | scanId*  |  |
 | spider| scans| view |  |  |
-| spider| excludedFromScan| view |  |  |
-| spider| optionDomainsAlwaysInScope| view |  |  |
-| spider| optionDomainsAlwaysInScopeEnabled| view |  |  |
+| spider| excludedFromScan| view |  | Gets the regexes of URLs excluded from the spider scans. |
+| spider| allUrls| view |  | Returns a list of unique URLs from the history table based on HTTP messages added by the Spider. |
+| spider| domainsAlwaysInScope| view |  | Gets all the domains that are always in scope. For each domain the following are shown: the index, the value (domain), if enabled, and if specified as a regex. |
+| spider| optionDomainsAlwaysInScope| view |  | Use view domainsAlwaysInScope instead. |
+| spider| optionDomainsAlwaysInScopeEnabled| view |  | Use view domainsAlwaysInScope instead. |
 | spider| optionHandleParameters| view |  |  |
+| spider| optionMaxChildren| view |  | Gets the maximum number of child nodes (per node) that can be crawled, 0 means no limit. |
 | spider| optionMaxDepth| view |  |  |
 | spider| optionMaxDuration| view |  |  |
 | spider| optionMaxScansInUI| view |  |  |
@@ -75,7 +86,7 @@
 | spider| optionParseSitemapXml| view |  |  |
 | spider| optionPostForm| view |  |  |
 | spider| optionProcessForm| view |  |  |
-| spider| optionSendRefererHeader| view |  | Sets whether or not the 'Referer' header should be sent while spidering |
+| spider| optionSendRefererHeader| view |  | Gets whether or not the 'Referer' header should be sent while spidering. |
 | spider| optionShowAdvancedDialog| view |  |  |
 | spider| scan| action | url maxChildren recurse contextName subtreeOnly  | Runs the spider against the given URL (or context). Optionally, the 'maxChildren' parameter can be set to limit the number of children scanned, the 'recurse' parameter can be used to prevent the spider from seeding recursively, the parameter 'contextName' can be used to constrain the scan to a Context and the parameter 'subtreeOnly' allows to restrict the spider under a site's subtree (using the specified 'url'). |
 | spider| scanAsUser| action | contextId* userId* url maxChildren recurse subtreeOnly  | Runs the spider from the perspective of a User, obtained using the given Context ID and User ID. See 'scan' action for more details. |
@@ -87,13 +98,19 @@
 | spider| resumeAllScans| action |  |  |
 | spider| stopAllScans| action |  |  |
 | spider| removeAllScans| action |  |  |
-| spider| clearExcludedFromScan| action |  |  |
-| spider| excludeFromScan| action | regex*  |  |
+| spider| clearExcludedFromScan| action |  | Clears the regexes of URLs excluded from the spider scans. |
+| spider| excludeFromScan| action | regex*  | Adds a regex of URLs that should be excluded from the spider scans. |
+| spider| addDomainAlwaysInScope| action | value* isRegex isEnabled  | Adds a new domain that's always in scope, using the specified value. Optionally sets if the new entry is enabled (default, true) and whether or not the new value is specified as a regex (default, false). |
+| spider| modifyDomainAlwaysInScope| action | idx* value isRegex isEnabled  | Modifies a domain that's always in scope. Allows to modify the value, if enabled or if a regex. The domain is selected with its index, which can be obtained with the view domainsAlwaysInScope. |
+| spider| removeDomainAlwaysInScope| action | idx*  | Removes a domain that's always in scope, with the given index. The index can be obtained with the view domainsAlwaysInScope. |
+| spider| enableAllDomainsAlwaysInScope| action |  | Enables all domains that are always in scope. |
+| spider| disableAllDomainsAlwaysInScope| action |  | Disables all domains that are always in scope. |
 | spider| setOptionHandleParameters| action | String*  |  |
-| spider| setOptionScopeString| action | String*  |  |
+| spider| setOptionScopeString| action | String*  | Use actions [add|modify|remove]DomainAlwaysInScope instead. |
 | spider| setOptionSkipURLString| action | String*  |  |
 | spider| setOptionUserAgent| action | String*  |  |
 | spider| setOptionHandleODataParametersVisited| action | Boolean*  |  |
+| spider| setOptionMaxChildren| action | Integer*  | Sets the maximum number of child nodes (per node) that can be crawled, 0 means no limit. |
 | spider| setOptionMaxDepth| action | Integer*  |  |
 | spider| setOptionMaxDuration| action | Integer*  |  |
 | spider| setOptionMaxScansInUI| action | Integer*  |  |
@@ -105,7 +122,7 @@
 | spider| setOptionPostForm| action | Boolean*  |  |
 | spider| setOptionProcessForm| action | Boolean*  |  |
 | spider| setOptionRequestWaitTime| action | Integer*  |  |
-| spider| setOptionSendRefererHeader| action | Boolean*  |  |
+| spider| setOptionSendRefererHeader| action | Boolean*  | Sets whether or not the 'Referer' header should be sent while spidering. |
 | spider| setOptionShowAdvancedDialog| action | Boolean*  |  |
 | spider| setOptionThreadCount| action | Integer*  |  |
 | core| alert| view | id*  | Gets the alert with the given ID, the corresponding HTTP message can be obtained with the 'messageId' field and 'message' API method |
@@ -121,16 +138,19 @@
 | core| version| view |  | Gets ZAP version |
 | core| excludedFromProxy| view |  | Gets the regular expressions, applied to URLs, to exclude from the Proxy |
 | core| homeDirectory| view |  |  |
+| core| sessionLocation| view |  | Gets the location of the current session file |
+| core| proxyChainExcludedDomains| view |  | Gets all the domains that are excluded from the outgoing proxy. For each domain the following are shown: the index, the value (domain), if enabled, and if specified as a regex. |
+| core| optionProxyChainSkipName| view |  | Use view proxyChainExcludedDomains instead. |
+| core| optionProxyExcludedDomains| view |  | Use view proxyChainExcludedDomains instead. |
+| core| optionProxyExcludedDomainsEnabled| view |  | Use view proxyChainExcludedDomains instead. |
 | core| optionDefaultUserAgent| view |  |  |
+| core| optionDnsTtlSuccessfulQueries| view |  | Gets the TTL (in seconds) of successful DNS queries. |
 | core| optionHttpState| view |  |  |
 | core| optionProxyChainName| view |  |  |
 | core| optionProxyChainPassword| view |  |  |
 | core| optionProxyChainPort| view |  |  |
 | core| optionProxyChainRealm| view |  |  |
-| core| optionProxyChainSkipName| view |  |  |
 | core| optionProxyChainUserName| view |  |  |
-| core| optionProxyExcludedDomains| view |  |  |
-| core| optionProxyExcludedDomainsEnabled| view |  |  |
 | core| optionTimeoutInSecs| view |  |  |
 | core| optionHttpStateEnabled| view |  |  |
 | core| optionProxyChainPrompt| view |  |  |
@@ -143,21 +163,27 @@
 | core| loadSession| action | name*  | Loads the session with the given name. If a relative path is specified it will be resolved against the "session" directory in ZAP "home" dir. |
 | core| saveSession| action | name* overwrite  | Saves the session with the name supplied, optionally overwriting existing files. If a relative path is specified it will be resolved against the "session" directory in ZAP "home" dir. |
 | core| snapshotSession| action |  |  |
-| core| clearExcludedFromProxy| action |  |  |
-| core| excludeFromProxy| action | regex*  |  |
+| core| clearExcludedFromProxy| action |  | Clears the regexes of URLs excluded from the proxy. |
+| core| excludeFromProxy| action | regex*  | Adds a regex of URLs that should be excluded from the proxy. |
 | core| setHomeDirectory| action | dir*  |  |
 | core| setMode| action | mode*  | Sets the mode, which may be one of [safe, protect, standard, attack] |
-| core| generateRootCA| action |  |  |
-| core| sendRequest| action | request* followRedirects  | Sends the HTTP request, optionally following redirections. Returns the request sent and response received and followed redirections, if any. |
-| core| deleteAllAlerts| action |  |  |
+| core| generateRootCA| action |  | Generates a new Root CA certificate for the Local Proxy. |
+| core| sendRequest| action | request* followRedirects  | Sends the HTTP request, optionally following redirections. Returns the request sent and response received and followed redirections, if any. The Mode is enforced when sending the request (and following redirections), custom manual requests are not allowed in 'Safe' mode nor in 'Protected' mode if out of scope. |
+| core| deleteAllAlerts| action |  | Deletes all alerts of the current session. |
 | core| runGarbageCollection| action |  |  |
 | core| deleteSiteNode| action | url* method postData  | Deletes the site node found in the Sites Tree on the basis of the URL, HTTP method, and post data (if applicable and specified).  |
+| core| addProxyChainExcludedDomain| action | value* isRegex isEnabled  | Adds a domain to be excluded from the outgoing proxy, using the specified value. Optionally sets if the new entry is enabled (default, true) and whether or not the new value is specified as a regex (default, false). |
+| core| modifyProxyChainExcludedDomain| action | idx* value isRegex isEnabled  | Modifies a domain excluded from the outgoing proxy. Allows to modify the value, if enabled or if a regex. The domain is selected with its index, which can be obtained with the view proxyChainExcludedDomains. |
+| core| removeProxyChainExcludedDomain| action | idx*  | Removes a domain excluded from the outgoing proxy, with the given index. The index can be obtained with the view proxyChainExcludedDomains. |
+| core| enableAllProxyChainExcludedDomains| action |  | Enables all domains excluded from the outgoing proxy. |
+| core| disableAllProxyChainExcludedDomains| action |  | Disables all domains excluded from the outgoing proxy. |
 | core| setOptionDefaultUserAgent| action | String*  |  |
 | core| setOptionProxyChainName| action | String*  |  |
 | core| setOptionProxyChainPassword| action | String*  |  |
 | core| setOptionProxyChainRealm| action | String*  |  |
-| core| setOptionProxyChainSkipName| action | String*  |  |
+| core| setOptionProxyChainSkipName| action | String*  | Use actions [add|modify|remove]ProxyChainExcludedDomain instead. |
 | core| setOptionProxyChainUserName| action | String*  |  |
+| core| setOptionDnsTtlSuccessfulQueries| action | Integer*  | Sets the TTL (in seconds) of successful DNS queries (applies after ZAP restart). |
 | core| setOptionHttpStateEnabled| action | Boolean*  |  |
 | core| setOptionProxyChainPort| action | Integer*  |  |
 | core| setOptionProxyChainPrompt| action | Boolean*  |  |
@@ -166,13 +192,14 @@
 | core| setOptionUseProxyChain| action | Boolean*  |  |
 | core| setOptionUseProxyChainAuth| action | Boolean*  |  |
 | core| proxy.pac| other |  |  |
-| core| rootcert| other |  |  |
+| core| rootcert| other |  | Gets the Root CA certificate of the Local Proxy. |
 | core| setproxy| other | proxy*  |  |
 | core| xmlreport| other |  | Generates a report in XML format |
 | core| htmlreport| other |  | Generates a report in HTML format |
+| core| mdreport| other |  | Generates a report in Markdown format |
 | core| messageHar| other | id*  | Gets the message with the given ID in HAR format |
 | core| messagesHar| other | baseurl start count  | Gets the HTTP messages sent through/by ZAP, in HAR format, optionally filtered by URL and paginated with 'start' position and 'count' of messages |
-| core| sendHarRequest| other | request* followRedirects  | Sends the first HAR request entry, optionally following redirections. Returns, in HAR format, the request sent and response received and followed redirections, if any. |
+| core| sendHarRequest| other | request* followRedirects  | Sends the first HAR request entry, optionally following redirections. Returns, in HAR format, the request sent and response received and followed redirections, if any. The Mode is enforced when sending the request (and following redirections), custom manual requests are not allowed in 'Safe' mode nor in 'Protected' mode if out of scope. |
 | params| params| view | site  | Shows the parameters for the specified site, or for all sites if the site is not specified |
 | ascan| status| view | scanId  |  |
 | ascan| scanProgress| view | scanId  |  |
@@ -180,31 +207,35 @@
 | ascan| alertsIds| view | scanId*  |  |
 | ascan| scans| view |  |  |
 | ascan| scanPolicyNames| view |  |  |
-| ascan| excludedFromScan| view |  |  |
+| ascan| excludedFromScan| view |  | Gets the regexes of URLs excluded from the active scans. |
 | ascan| scanners| view | scanPolicyName policyId  |  |
 | ascan| policies| view | scanPolicyName policyId  |  |
 | ascan| attackModeQueue| view |  |  |
+| ascan| excludedParams| view |  | Gets all the parameters that are excluded. For each parameter the following are shown: the name, the URL, and the parameter type. |
+| ascan| optionExcludedParamList| view |  | Use view excludedParams instead. |
+| ascan| excludedParamTypes| view |  | Gets all the types of excluded parameters. For each type the following are shown: the ID and the name. |
 | ascan| optionAttackPolicy| view |  |  |
 | ascan| optionDefaultPolicy| view |  |  |
 | ascan| optionDelayInMs| view |  |  |
-| ascan| optionExcludedParamList| view |  |  |
 | ascan| optionHandleAntiCSRFTokens| view |  |  |
 | ascan| optionHostPerScan| view |  |  |
 | ascan| optionMaxChartTimeInMins| view |  |  |
 | ascan| optionMaxResultsToList| view |  |  |
+| ascan| optionMaxRuleDurationInMins| view |  |  |
+| ascan| optionMaxScanDurationInMins| view |  |  |
 | ascan| optionMaxScansInUI| view |  |  |
 | ascan| optionTargetParamsEnabledRPC| view |  |  |
 | ascan| optionTargetParamsInjectable| view |  |  |
 | ascan| optionThreadPerHost| view |  |  |
 | ascan| optionAllowAttackOnStart| view |  |  |
-| ascan| optionInjectPluginIdInHeader| view |  |  |
+| ascan| optionInjectPluginIdInHeader| view |  | Tells whether or not the active scanner should inject the HTTP request header X-ZAP-Scan-ID, with the ID of the scanner that's sending the requests. |
 | ascan| optionPromptInAttackMode| view |  |  |
 | ascan| optionPromptToClearFinishedScans| view |  |  |
 | ascan| optionRescanInAttackMode| view |  |  |
 | ascan| optionScanHeadersAllRequests| view |  | Tells whether or not the HTTP Headers of all requests should be scanned. Not just requests that send parameters, through the query or request body. |
 | ascan| optionShowAdvancedDialog| view |  |  |
-| ascan| scan| action | url* recurse inScopeOnly scanPolicyName method postData  |  |
-| ascan| scanAsUser| action | url* contextId* userId* recurse scanPolicyName method postData  | Active Scans from the perspective of a User, obtained using the given Context ID and User ID. See 'scan' action for more details. |
+| ascan| scan| action | url recurse inScopeOnly scanPolicyName method postData contextId  | Runs the active scanner against the given URL and/or Context. Optionally, the 'recurse' parameter can be used to scan URLs under the given URL, the parameter 'inScopeOnly' can be used to constrain the scan to URLs that are in scope (ignored if a Context is specified), the parameter 'scanPolicyName' allows to specify the scan policy (if none is given it uses the default scan policy), the parameters 'method' and 'postData' allow to select a given request in conjunction with the given URL. |
+| ascan| scanAsUser| action | url contextId userId recurse scanPolicyName method postData  | Active Scans from the perspective of a User, obtained using the given Context ID and User ID. See 'scan' action for more details. |
 | ascan| pause| action | scanId*  |  |
 | ascan| resume| action | scanId*  |  |
 | ascan| stop| action | scanId*  |  |
@@ -213,8 +244,8 @@
 | ascan| resumeAllScans| action |  |  |
 | ascan| stopAllScans| action |  |  |
 | ascan| removeAllScans| action |  |  |
-| ascan| clearExcludedFromScan| action |  |  |
-| ascan| excludeFromScan| action | regex*  |  |
+| ascan| clearExcludedFromScan| action |  | Clears the regexes of URLs excluded from the active scans. |
+| ascan| excludeFromScan| action | regex*  | Adds a regex of URLs that should be excluded from the active scans. |
 | ascan| enableAllScanners| action | scanPolicyName  |  |
 | ascan| disableAllScanners| action | scanPolicyName  |  |
 | ascan| enableScanners| action | ids* scanPolicyName  |  |
@@ -224,17 +255,23 @@
 | ascan| setPolicyAlertThreshold| action | id* alertThreshold* scanPolicyName  |  |
 | ascan| setScannerAttackStrength| action | id* attackStrength* scanPolicyName  |  |
 | ascan| setScannerAlertThreshold| action | id* alertThreshold* scanPolicyName  |  |
-| ascan| addScanPolicy| action | scanPolicyName*  |  |
+| ascan| addScanPolicy| action | scanPolicyName* alertThreshold attackStrength  |  |
 | ascan| removeScanPolicy| action | scanPolicyName*  |  |
+| ascan| updateScanPolicy| action | scanPolicyName* alertThreshold attackStrength  |  |
+| ascan| addExcludedParam| action | name* type url  | Adds a new parameter excluded from the scan, using the specified name. Optionally sets if the new entry applies to a specific URL (default, all URLs) and sets the ID of the type of the parameter (default, ID of any type). The type IDs can be obtained with the view excludedParamTypes.  |
+| ascan| modifyExcludedParam| action | idx* name type url  | Modifies a parameter excluded from the scan. Allows to modify the name, the URL and the type of parameter. The parameter is selected with its index, which can be obtained with the view excludedParams. |
+| ascan| removeExcludedParam| action | idx*  | Removes a parameter excluded from the scan, with the given index. The index can be obtained with the view excludedParams. |
 | ascan| setOptionAttackPolicy| action | String*  |  |
 | ascan| setOptionDefaultPolicy| action | String*  |  |
 | ascan| setOptionAllowAttackOnStart| action | Boolean*  |  |
 | ascan| setOptionDelayInMs| action | Integer*  |  |
 | ascan| setOptionHandleAntiCSRFTokens| action | Boolean*  |  |
 | ascan| setOptionHostPerScan| action | Integer*  |  |
-| ascan| setOptionInjectPluginIdInHeader| action | Boolean*  |  |
+| ascan| setOptionInjectPluginIdInHeader| action | Boolean*  | Sets whether or not the active scanner should inject the HTTP request header X-ZAP-Scan-ID, with the ID of the scanner that's sending the requests. |
 | ascan| setOptionMaxChartTimeInMins| action | Integer*  |  |
 | ascan| setOptionMaxResultsToList| action | Integer*  |  |
+| ascan| setOptionMaxRuleDurationInMins| action | Integer*  |  |
+| ascan| setOptionMaxScanDurationInMins| action | Integer*  |  |
 | ascan| setOptionMaxScansInUI| action | Integer*  |  |
 | ascan| setOptionPromptInAttackMode| action | Boolean*  |  |
 | ascan| setOptionPromptToClearFinishedScans| action | Boolean*  |  |
@@ -262,7 +299,8 @@
 | context| excludeContextTechnologies| action | contextName* technologyNames*  | Excludes technologies with the given names, separated by a comma, from a context |
 | context| excludeAllContextTechnologies| action | contextName*  | Excludes all built in technologies from a context |
 | context| setContextInScope| action | contextName* booleanInScope*  | Sets a context to in scope (contexts are in scope by default) |
-| httpSessions| sessions| view | site* session  | Gets the sessions of the given site. Optionally returning just the session with the given name. |
+| httpSessions| sites| view |  | Gets all of the sites that have sessions. |
+| httpSessions| sessions| view | site* session  | Gets the sessions for the given site. Optionally returning just the session with the given name. |
 | httpSessions| activeSession| view | site*  | Gets the name of the active session for the given site. |
 | httpSessions| sessionTokens| view | site*  | Gets the names of the session tokens for the given site. |
 | httpSessions| createEmptySession| action | site* session  | Creates an empty session for the given site. Optionally with the given name. |
@@ -273,9 +311,17 @@
 | httpSessions| removeSessionToken| action | site* sessionToken*  | Removes the session token from the given site. |
 | httpSessions| setSessionTokenValue| action | site* session* sessionToken* tokenValue*  | Sets the value of the session token of the given session for the given site. |
 | httpSessions| renameSession| action | site* oldSessionName* newSessionName*  | Renames the session of the given site. |
-| break| break| action | type* scope* state*  |  |
-| break| addHttpBreakpoint| action | string* location* match* inverse* ignorecase*  |  |
-| break| removeHttpBreakpoint| action | string* location* match* inverse* ignorecase*  |  |
+| break| isBreakAll| view |  | Returns True if ZAP will break on both requests and responses |
+| break| isBreakRequest| view |  | Returns True if ZAP will break on requests |
+| break| isBreakResponse| view |  | Returns True if ZAP will break on responses |
+| break| httpMessage| view |  | Returns the HTTP message currently intercepted (if any) |
+| break| break| action | type* state* scope  | Controls the global break functionality. The type may be one of: http-all, http-request or http-response. The state may be true (for turning break on for the specified type) or false (for turning break off). Scope is not currently used. |
+| break| setHttpMessage| action | httpHeader* httpBody  | Overwrites the currently intercepted message with the data provided |
+| break| continue| action |  | Submits the currently intercepted message and unsets the global request/response break points |
+| break| step| action |  | Submits the currently intercepted message, the next request or response will automatically be intercepted |
+| break| drop| action |  | Drops the currently intercepted message |
+| break| addHttpBreakpoint| action | string* location* match* inverse* ignorecase*  | Adds a custom HTTP breakpont. The string is the string to match. Location may be one of: url, request_header, request_body, response_header or response_body. Match may be: contains or regex. Inverse (match) may be true or false. Lastly, ignorecase (when matching the string) may be true or false.   |
+| break| removeHttpBreakpoint| action | string* location* match* inverse* ignorecase*  | Removes the specified break point |
 | authentication| getSupportedAuthenticationMethods| view |  |  |
 | authentication| getAuthenticationMethodConfigParams| view | authMethodName*  |  |
 | authentication| getAuthenticationMethod| view | contextId*  |  |

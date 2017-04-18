@@ -1,10 +1,12 @@
-# ZAP 2.5.0 API
+# ZAP 2.6.0 API
 ## Component: pscan
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
+| scanOnlyInScope| view |  | Tells whether or not the passive scan should be performed only on messages that are in scope. |
 | recordsToScan| view |  | The number of records the passive scanner still has to scan |
 | scanners| view |  | Lists all passive scanners with its ID, name, enabled state and alert threshold. |
-| setEnabled| action | enabled*  | Sets whether or not the passive scanning is enabled |
+| setEnabled| action | enabled*  | Sets whether or not the passive scanning is enabled (Note: the enabled state is not persisted). |
+| setScanOnlyInScope| action | onlyInScope*  | Sets whether or not the passive scan should be performed only on messages that are in scope. |
 | enableAllScanners| action |  | Enables all passive scanners |
 | disableAllScanners| action |  | Disables all passive scanners |
 | enableScanners| action | ids*  | Enables all passive scanners with the given IDs (comma separated list of IDs) |

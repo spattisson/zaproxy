@@ -1,4 +1,4 @@
-# ZAP 2.5.0 API
+# ZAP 2.6.0 API
 ## Component: script
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
