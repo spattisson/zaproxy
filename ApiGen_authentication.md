@@ -2,14 +2,16 @@
 ## Component: authentication
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
-| getSupportedAuthenticationMethods| view |  |  |
-| getAuthenticationMethodConfigParams| view | authMethodName*  |  |
 | getAuthenticationMethod| view | contextId*  |  |
+| getAuthenticationMethodConfigParams| view | authMethodName*  |  |
 | getLoggedInIndicator| view | contextId*  |  |
 | getLoggedOutIndicator| view | contextId*  |  |
-| setAuthenticationMethod| action | contextId* authMethodName* authMethodConfigParams  |  |
-| setLoggedInIndicator| action | contextId* loggedInIndicatorRegex*  |  |
-| setLoggedOutIndicator| action | contextId* loggedOutIndicatorRegex*  |  |
+| getSupportedAuthenticationMethods| view |  |  |
+| getAuthenticationMethod| other | contextId*  |  |
+| getAuthenticationMethodConfigParams| other | authMethodName*  |  |
+| getLoggedInIndicator| other | contextId*  |  |
+| getLoggedOutIndicator| other | contextId*  |  |
+| getSupportedAuthenticationMethods| other |  |  |
 
 Starred parameters are mandatory
 

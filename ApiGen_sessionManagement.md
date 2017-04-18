@@ -2,10 +2,12 @@
 ## Component: sessionManagement
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
-| getSupportedSessionManagementMethods| view |  |  |
-| getSessionManagementMethodConfigParams| view | methodName*  |  |
 | getSessionManagementMethod| view | contextId*  |  |
-| setSessionManagementMethod| action | contextId* methodName* methodConfigParams  |  |
+| getSessionManagementMethodConfigParams| view | methodName*  |  |
+| getSupportedSessionManagementMethods| view |  |  |
+| getSessionManagementMethod| other | contextId*  |  |
+| getSessionManagementMethodConfigParams| other | methodName*  |  |
+| getSupportedSessionManagementMethods| other |  |  |
 
 Starred parameters are mandatory
 
