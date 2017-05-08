@@ -74,7 +74,7 @@ On Mac OS X you can also install ZAP using <a href='http://caskroom.io/'>Homebre
 These are just intended for people who want to use all of the features we've added since the last 'full' release but dont want the hassle of building ZAP from the source code.<br>
 While we endeavor to ensure that weekly releases are robust, things may be broken or only partially implemented.<br>
 It is cross platform (Windows, Linux and Mac OS but does not include any installers.<br>
-It requires Java 7 or higher to run.<br>
+It requires Java 8 or higher to run.<br>
 
 <h3>Latest Versions</h3>
 We maintain a page containing XML with links to the latest ZAP release files: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions.xml<br>
