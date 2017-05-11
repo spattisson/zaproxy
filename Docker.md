@@ -14,6 +14,7 @@ For the live release (built whenever the [zaproxy](https://github.com/zaproxy/za
 ```bash
 docker pull owasp/zap2docker-live
 ```
+Dockerfiles can be found [here](https://github.com/zaproxy/zaproxy/tree/develop/build/docker).
 ## Usage Instructions:
 ### ZAP GUI in a Browser:
 Yes, you can run the ZAP Desktop GUI in a browser. You can use it in just the same way as the Swing UI and can even proxy via it.<br>
