@@ -30,6 +30,21 @@ Which in dot notation is:
 scanner.strength=MEDIUM
 ```
 
+Note that you can set 'arrays' using keys like:
+```
+-config replacer.full_list\(0\).description=auth1 \
+-config replacer.full_list\(0\).enabled=true \
+-config replacer.full_list\(0\).matchtype=REQ_HEADER \
+-config replacer.full_list\(0\).matchstr=Authorization \
+-config replacer.full_list\(0\).regex=false \
+-config replacer.full_list\(0\).replacement=SBSBSB \
+-config replacer.full_list\(1\).description=auth2 \
+-config replacer.full_list\(1\).enabled=true \
+-config replacer.full_list\(1\).matchtype=REQ_HEADER \
+-config replacer.full_list\(1\).matchstr=AnotherHeader \
+-config replacer.full_list\(1\).regex=false \
+-config replacer.full_list\(1\).replacement=BLAHBLAH
+```
 
 ---
 
