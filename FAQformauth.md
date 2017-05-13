@@ -37,6 +37,9 @@ If you have enable forced user mode and are still not logged in when you access 
 
 If you need to make multiple requests to login then the best option is to record a [Zest](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsZestZest) authentication script and to test this in isolation first.
 
+Links:
+* Help Concept: [Authentication](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAuthentication)
+
 ---
 
 [Back to the FAQ](FAQtoplevel)
