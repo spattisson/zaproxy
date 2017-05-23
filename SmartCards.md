@@ -21,6 +21,9 @@ The purpose of this new (April 2012) project ("OWASP ZAP SmartCard Project") is 
 ZAP's drivers.xml configuration file centralizes and simplifies ZAP smartcard support. This XML file allows users and developers to easily extend ZAP's smartcard architecture and add support for new smartcards.
 
 Since version 1.4.0.1 ZAP provides support for multiple smartcards using the new naming scheme. New smartcards have been added to the SVN repository, and as a result got into the latest stable ZAP versions too. As new smartcard entries are added to ZAP, we try to keep the list below (in alphabetical order) updated:
+
+NOTE: List updated up to OWASP ZAP version 2.6.0.
+
   * ActivIdentity - Windows (x86)
   * Aladdin eToken - Mac OS X
   * Aladdin eToken - Windows (x86)
@@ -28,9 +31,12 @@ Since version 1.4.0.1 ZAP provides support for multiple smartcards using the new
   * Belgium eID - Windows (x86)
   * Belgium eID - Linux (x86)
   * Belgium eID - Linux (x64)
-  * Portuguese Cartão de Cidadão - Linux
-  * Portuguese Cartão de Cidadão - Windows (x64)
+  * CSPid - Windows (x64)
+  * CSPid - Windows (x86)
+  * CSPid - Linux
   * Portuguese Cartão de Cidadão - Windows (x86)
+  * Portuguese Cartão de Cidadão - Windows (x64)
+  * Portuguese Cartão de Cidadão - Linux
   * Spanish DNIe - Windows (x86)
   * Spanish DNIe - Windows (x64)
   * Spanish DNIe - Linux (x86)
