@@ -7,20 +7,31 @@ This means that the script doesnt perform any actual 'attacks' and will run for 
 By default it reports all alerts as WARNings but you can specify a config file which can change any rules to FAIL or IGNORE.
 
 This script is intended to be ideal to run in a CI/CD environment, even against production sites.
-### Stable Usage
+### Usage
 ```
 Usage: zap-baseline.py -t <target> [options]
     -t target         target URL including the protocol, eg https://www.example.com
 Options:
-    -c config_file    config file to use to IGNORE or FAIL warnings
+    -c config_file    config file to use to INFO, IGNORE or FAIL warnings
+    -u config_url     URL of config file to use to INFO, IGNORE or FAIL warnings
     -g gen_file       generate default config file (all rules set to WARN)
     -m mins           the number of minutes to spider for (default 1)
-    -r report         file to write the full ZAP HTML report
+    -r report_html    file to write the full ZAP HTML report
+    -w report_md      file to write the full ZAP Wiki (Markdown) report
+    -x report_xml     file to write the full ZAP XML report
     -a                include the alpha passive scan rules as well
     -d                show debug messages
+    -P                specify listen port
+    -D                delay in seconds to wait for passive scanning 
+    -i                default rules not in the config file to INFO
+    -j                use the Ajax spider in addition to the traditional one
+    -l level          minimum level to show: PASS, IGNORE, INFO, WARN or FAIL, use with -s to hide example URLs
+    -n context_file   context file which will be loaded prior to spidering the target
+    -p progress_file  progress file which specifies issues that are being addressed
     -s                short output format - dont show PASSes or example URLs
-If any files are specified then they MUST be in a directory mounted to /zap/wrk/
-eg using the 'docker run' option like: '-v $(pwd):/zap/wrk/:rw' for mounting the cwd.
+    -z zap_options    ZAP command line options e.g. -z "-config aaa=bbb -config ccc=ddd"
+
+For more details see https://github.com/zaproxy/zaproxy/wiki/ZAP-Baseline-Scan
 ```
 To run it with no 'file' params use:
 ```
@@ -76,31 +87,6 @@ WARN: X-Content-Type-Options Header Missing [10021] x 3
 	https://www.example.com/robots.txt
 	https://www.example.com/sitemap.xml
 FAIL: 0	WARN: 4	IGNORE: 0	PASS: 22
-```
-### Weekly Usage
-The version in the weekly release has significantly more options than the one in the stable release
-```
-Usage: zap-baseline.py -t <target> [options]
-    -t target         target URL including the protocol, eg https://www.example.com
-Options:
-    -c config_file    config file to use to INFO, IGNORE or FAIL warnings
-    -u config_url     URL of config file to use to INFO, IGNORE or FAIL warnings
-    -g gen_file       generate default config file (all rules set to WARN)
-    -m mins           the number of minutes to spider for (default 1)
-    -r report_html    file to write the full ZAP HTML report
-    -w report_md      file to write the full ZAP Wiki (Markdown) report
-    -x report_xml     file to write the full ZAP XML report
-    -a                include the alpha passive scan rules as well
-    -d                show debug messages
-    -i                default rules not in the config file to INFO
-    -j                use the Ajax spider in addition to the traditional one
-    -l level          minimum level to show: PASS, IGNORE, INFO, WARN or FAIL, use with -s to hide example URLs
-    -n context_file   context file which will be loaded prior to spidering the target
-    -p progress_file  progress file which specifies issues that are being addressed
-    -s                short output format - dont show PASSes or example URLs
-    -z zap_options    ZAP command line options e.g. -z "-config aaa=bbb -config ccc=ddd"
-
-For more details see https://github.com/zaproxy/zaproxy/wiki/ZAP-Baseline-Scan
 ```
 ### Configuration File
 You can configure how the baseline scan runs with a configuration file. A default configuration file can be created using the '-g' parameter.
