@@ -1,4 +1,4 @@
-The ZAP API scan is a script that is available in the ZAP Live [[Docker]] image.
+The ZAP API scan is a script that is available in the ZAP Live and Weekly [[Docker]] images.
 
 It is tuned for performing scans against APIs defined by either OpenAPI or SOAP via either a local file or a URL.
 
