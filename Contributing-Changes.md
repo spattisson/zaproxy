@@ -8,7 +8,7 @@ In order to contribute code back to ZAP you will need to:
 
 ### Fork the relevant projects to your own GitHub user
 
-1. Go to the relevant project pages (such as [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy))
+1. Go to the relevant project pages (such as [zaproxy/zaproxy](https://github.com/zaproxy/zaproxy) and [zaproxy/zap-extensions](https://github.com/zaproxy/zap-extensions))
 1. Click on the "Fork" button on the top right
 
 ### Change your IDE to point to your projects
