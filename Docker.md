@@ -15,6 +15,8 @@ For the live release (built whenever the [zaproxy](https://github.com/zaproxy/za
 docker pull owasp/zap2docker-live
 ```
 The Dockerfiles can be found [here](https://github.com/zaproxy/zaproxy/tree/develop/build/docker).
+### Healthcheck
+The docker file now supports [healthcheck](https://docs.docker.com/engine/reference/builder/#healthcheck). The check uses the `ZAP_PORT` environment variable in order to check that Zap completed initialization. So, if you are running Zap with port other than `8080`, also set this environment variable. Otherwise, the healthcheck will fail.
 ## Usage Instructions:
 ### ZAP GUI in a Browser:
 Yes, you can run the ZAP Desktop GUI in a browser. You can use it in just the same way as the Swing UI and can even proxy via it.<br>
