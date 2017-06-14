@@ -17,7 +17,7 @@ docker pull owasp/zap2docker-live
 The Dockerfiles can be found [here](https://github.com/zaproxy/zaproxy/tree/develop/build/docker).
 
 ### Healthcheck
-The docker file now supports [healthcheck](https://docs.docker.com/engine/reference/builder/#healthcheck). The check uses the `zap-cli status` to check that Zap completed loading. If you are running Zap with port other than the default `8080`, you need to set this environment variable. Otherwise, the healthcheck will fail. Also, if you are running Zap with `apikey`, you also need to set the environment variable `ZAP_API_KEY`.
+The docker file now supports [healthcheck](https://docs.docker.com/engine/reference/builder/#healthcheck). The check uses the `zap-cli status` to check that Zap completed loading. If you are running Zap with port other than the default `8080`, you need to set this environment variable. Otherwise, the healthcheck will fail.
 
 ## Usage Instructions:
 ### ZAP GUI in a Browser:
