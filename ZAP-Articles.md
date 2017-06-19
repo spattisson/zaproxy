@@ -9,6 +9,7 @@ The following articles give more information about specific ZAP features:
 * [Introduction to Scripting](https://zaproxy.blogspot.co.uk/2016/03/zap-newsletter-2016-march.html#Tutorial) - ZAP Newsletter
 * [Plug-n-Hack](https://blog.mozilla.org/security/2013/08/22/plug-n-hack/) - Mozilla security blog
 * [Reporting Vulnerabilities to Mozilla using Zest](https://blog.mozilla.org/security/2014/01/20/reporting-web-vulnerabilities-to-mozilla-using-zest/) - Mozilla security blog
+* [Scanning APIs with ZAP](https://zaproxy.blogspot.co.uk/2017/06/scanning-apis-with-zap.html) - ZAP blog
 * [Web Sockets](https://digi.ninja/blog/zap_web_sockets.php) - DigiNinja blog
 * [Web Sockets Fuzzing](https://digi.ninja/blog/zap_fuzzing.php) - DigiNinja blog
 * [XCOLD Information Leak](https://zaproxy.blogspot.co.uk/2016/01/zap-newsletter-2016-january.html#Feature) - ZAP Newsletter
