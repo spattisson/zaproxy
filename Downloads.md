@@ -77,6 +77,7 @@ It is cross platform (Windows, Linux and Mac OS) but does not include any instal
 It requires Java 8 or higher to run.<br>
 
 <h3>Latest Versions</h3>
+
 We maintain a page containing XML with links to the latest ZAP release files: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions.xml<br>
 You can use this to automatically pull down the latest ZAP release for the platform you need.
 
