@@ -2,8 +2,8 @@ The ZAP API scan is a script that is available in the ZAP Live and Weekly [[Dock
 
 It is tuned for performing scans against APIs defined by either OpenAPI or SOAP via either a local file or a URL.
 
-It imports the definition that you specify and them runs an Active Scan against the URLs found.
-The Active Scan is tuned to APIs, so it doesnt bother looking for things like XSSs.
+It imports the definition that you specify and then runs an Active Scan against the URLs found.
+The Active Scan is tuned to APIs, so it doesn't bother looking for things like XSSs.
 
 It also includes 2 new scripts that:
 
