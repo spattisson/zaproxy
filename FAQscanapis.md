@@ -18,6 +18,8 @@ Once ZAP knows about the URL endpoints it can scan them in the same way as it sc
 
 If you dont have any of these things then post to the [ZAP User Group](https://groups.google.com/group/zaproxy-users) explaining what you are trying to do and the problems you are having.
 
+For more details see this blog post: https://zaproxy.blogspot.com/2017/06/scanning-apis-with-zap.html
+
 ---
 
 [Back to the FAQ](FAQtoplevel)
