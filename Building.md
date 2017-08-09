@@ -4,7 +4,7 @@ You should be able to use any modern IDE to build ZAP.
 
 Please also have a look at (and add to!) the [Dev Tips and Tricks](DevTipsAndTricks) page.
 
-## Eclipse - quick set up
+## Eclipse - Quick Set Up
 
 The quickest way to set up a ZAP development environment is as follows:
 
@@ -15,7 +15,7 @@ The quickest way to set up a ZAP development environment is as follows:
 1. Select URL and enter: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZAP-projectSet.psf
 1. Click "Finish" and wait for Eclipse to pull down all of the projects and build them.
 
-## Other IDEs / manual set up
+## Other IDEs / Manual Set Up
 
 You can also manually import and configure the following projects into your IDE:
 * https://github.com/zaproxy/zaproxy.git
@@ -43,6 +43,6 @@ If you're looking to build from the terminal using Ant, the `dist` target will b
 
     ant -f build/build.xml dist
 
-## Contributing changes
+## Contributing Changes
 
 For details see the [Contributing-Changes](Contributing-Changes) page (work in progress).
