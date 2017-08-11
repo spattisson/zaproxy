@@ -89,3 +89,15 @@ Note that on Macs the IP will be the IP of the Docker VM host.  This is accessib
 ```bash
 docker-machine ip <host>
 ```
+
+### Scanning an app running on the host OS
+
+IP addresses like localhost and 127.0.0.1 cannot be used to access an app running on the host OS from within a docker container.
+To get around this you can use the following code to get an IP address that will work:
+```bash
+$(ip -f inet -o addr show docker0 | awk '{print $4}' | cut -d '/' -f 1)
+```
+For example:
+```bash
+docker run -t owasp/zap2docker-weekly zap-baseline.py -t http://$(ip -f inet -o addr show docker0 | awk '{print $4}' | cut -d '/' -f 1):10080
+```
