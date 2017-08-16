@@ -42,3 +42,4 @@ If you have any questions about ZAP that are not answered here or in the [User G
   * [How do I get a specific feature implemented in ZAP?](FAQnewfeature)
   * [How do I report a False Negative?](FAQreportFN)
   * [Why don't you rewrite ZAP in \<my favorite language\>?](FAQrewrite)
+  * [Fonts in ZAP look bad on my system - what should I do?](FAQBadFonts)
