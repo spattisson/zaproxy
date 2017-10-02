@@ -8,7 +8,7 @@ The [User Guide](https://github.com/zaproxy/zap-core-help/wiki/HelpIntro) (which
 
 ### User Group
 
-The [User Group](https://groups.google.com/group/zaproxy-user) is the best place for questions about using ZAP.
+The [User Group](https://groups.google.com/group/zaproxy-users) is the best place for questions about using ZAP.
 
 ### Developer Group
 
