@@ -5,6 +5,9 @@ Yes, see these videos from [@SecureCloudDev](https://twitter.com/SecureCloudDev)
   * [Setting up ZAP for Android](http://security.force.com/security/tools/webapp/zapandroidsetup)
   * [Setting up ZAP for iPhone/iPad](http://security.force.com/security/tools/webapp/zapiphonesetup)
 
+And this article:
+
+* [Intercepting Android traffic using OWASP ZAP](https://thezero.org/blog/2016/01/25/android_proxy_zap/) - TheZero blog
 
 ---
 
