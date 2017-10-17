@@ -14,6 +14,10 @@ For the live release (built whenever the [zaproxy](https://github.com/zaproxy/za
 ```bash
 docker pull owasp/zap2docker-live
 ```
+For the bare release (a very small Docker image, contains only the necessary required dependencies to run Zap, ideal for CI environments):
+```bash
+docker pull owasp/zap2docker-bare
+```
 The Dockerfiles can be found [here](https://github.com/zaproxy/zaproxy/tree/develop/build/docker).
 
 ### Healthcheck
