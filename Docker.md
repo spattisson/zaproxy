@@ -14,14 +14,14 @@ For the live release (built whenever the [zaproxy](https://github.com/zaproxy/za
 ```bash
 docker pull owasp/zap2docker-live
 ```
-For the bare release (a very small Docker image, contains only the necessary required dependencies to run Zap, ideal for CI environments):
+For the bare release (a very small Docker image, contains only the necessary required dependencies to run ZAP, ideal for CI environments):
 ```bash
 docker pull owasp/zap2docker-bare
 ```
 The Dockerfiles can be found [here](https://github.com/zaproxy/zaproxy/tree/develop/build/docker).
 
 ### Healthcheck
-The docker file now supports [healthcheck](https://docs.docker.com/engine/reference/builder/#healthcheck). The check uses the `zap-cli status` to check that Zap completed loading. If you are running Zap with port other than the default `8080`, you need to set this environment variable. Otherwise, the healthcheck will fail.
+The docker file now supports [healthcheck](https://docs.docker.com/engine/reference/builder/#healthcheck). The check uses the `zap-cli status` to check that ZAP completed loading. If you are running ZAP with port other than the default `8080`, you need to set this environment variable. Otherwise, the healthcheck will fail.
 
 ## Usage Instructions:
 ### ZAP GUI in a Browser:
