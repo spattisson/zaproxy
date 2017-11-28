@@ -27,10 +27,10 @@ _As with all software we strongly recommend that ZAP is only installed and used 
 </table>
 
 _This contains the core set of functionality, and you can add more functionality at any time via the ZAP Marketplace._<br>
-The Windows and Linux versions require Java 7 or higher to run.<br>
+The Windows and Linux versions require Java 8 or higher to run.<br>
 The installers are built using a <a href='https://www.ej-technologies.com/products/install4j/overview.html'>multi-platform installer builder</a>.<br>
 The Mac OS version includes Java 8 - you can use the Linux or Cross Platform versions if you do not want to download this.<br>
-For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_6_0'>release notes</a>.<br>
+For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_7_0'>release notes</a>.<br>
 <br>
 <h3>ZAP 2.7.0 Core</h3>
 
