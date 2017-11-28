@@ -1,27 +1,27 @@
-Not sure how to start using ZAP? Read the [Getting Started Guide](https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAPGettingStartedGuide-2.6.pdf) (pdf).
+Not sure how to start using ZAP? Read the [Getting Started Guide](https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAPGettingStartedGuide-2.7.pdf) (pdf).
 
 _As with all software we strongly recommend that ZAP is only installed and used on operating systems and JREs that are fully patched and actively maintained._
 
-### ZAP 2.6.0 Standard
+### ZAP 2.7.0 Standard
 
 <table width='80%'>
 <tr>
-<td width='30%'>Windows (64) Installer</td><td width='15%'>2017-03-29</td><td width='15%'>117 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2_6_0_windows.exe'>Download now</a></td>
+<td width='30%'>Windows (64) Installer</td><td width='15%'>2017-11-28</td><td width='15%'>111 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2_7_0_windows.exe'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Windows (32) Installer</td><td width='15%'>2017-03-29</td><td width='15%'>117 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2_6_0_windows-x32.exe'>Download now</a></td>
+<td width='30%'>Windows (32) Installer</td><td width='15%'>2017-11-28</td><td width='15%'>75 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2_7_0_windows-x32.exe'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Linux Installer</td><td width='15%'>2017-03-29</td><td width='15%'>168 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2_6_0_unix.sh'>Download now</a></td>
+<td width='30%'>Linux Installer</td><td width='15%'>2017-11-28</td><td width='15%'>126 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2_7_0_unix.sh'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Linux Package</td><td width='15%'>2017-03-29</td><td width='15%'>166 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2.6.0_Linux.tar.gz'>Download now</a></td>
+<td width='30%'>Linux Package</td><td width='15%'>2017-11-28</td><td width='15%'>124 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2.7.0_Linux.tar.gz'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Mac OS/X Installer</td><td width='15%'>2017-03-29</td><td width='15%'>182 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2_6_0_macos.dmg'>Download now</a></td>
+<td width='30%'>Mac OS/X Installer</td><td width='15%'>2017-11-28</td><td width='15%'>179 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2.7.0.dmg'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Cross Platform Package</td><td width='15%'>2017-03-29</td><td width='15%'>265 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2.6.0_Crossplatform.zip'>Download now</a></td>
+<td width='30%'>Cross Platform Package</td><td width='15%'>2017-11-28</td><td width='15%'>230 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2.7.0_Crossplatform.zip'>Download now</a></td>
 </tr>
 
 </table>
@@ -32,11 +32,11 @@ The installers are built using a <a href='https://www.ej-technologies.com/produc
 The Mac OS version includes Java 8 - you can use the Linux or Cross Platform versions if you do not want to download this.<br>
 For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_6_0'>release notes</a>.<br>
 <br>
-<h3>ZAP 2.6.0 Core</h3>
+<h3>ZAP 2.7.0 Core</h3>
 
 <table width='80%'>
 <tr>
-<td width='30%'>Cross platform</td><td width='15%'>2017-03-29</td><td width='15%'>32.4 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.6.0/ZAP_2.6.0_Core.tar.gz'>Download now</a></td>
+<td width='30%'>Cross platform</td><td width='15%'>2017-11-28</td><td width='15%'>35.2 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2.7.0_Core.tar.gz'>Download now</a></td>
 </tr>
 </table>
 
@@ -86,7 +86,7 @@ You can use this to automatically pull down the latest ZAP release for the platf
 
 ZAP uses similar URLs when checking for updates.<br>
 These are version specific and define the add-on on the ZAP Marketplace for that release stream.<br>
-The 2.6 release stream uses: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-2.6.xml<br>
+The 2.7 release stream uses: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-2.7.xml<br>
 The development code uses: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-dev.xml<br>
 At the moment these files are the same, but it does allow us to maintain different versions of add-ons for different versions of ZAP, if we need to support this in the future.
 
