@@ -43,7 +43,7 @@ For more information about this release see the <a href='https://github.com/zapr
 <i>This contains the minimal set of functionality to get you started and is ideal for people new to ZAP.</i><br>
 You can add more functionality at any time via the ZAP Marketplace.<br>
 It is cross platform (Mac OS X, Linux, and Windows) but does not include any installers.<br>
-It requires Java 7 or higher to run.<br>
+It requires Java 8 or higher to run.<br>
 <br>
 <h3>Docker</h3>
 
