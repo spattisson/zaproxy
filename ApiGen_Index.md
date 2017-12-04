@@ -13,7 +13,6 @@
   * [httpSessions](ApiGen_httpSessions)
   * [importLogFiles](ApiGen_importLogFiles)
   * [importurls](ApiGen_importurls)
-  * [Index](ApiGen_Index)
   * [openapi](ApiGen_openapi)
   * [params](ApiGen_params)
   * [pnh](ApiGen_pnh)
