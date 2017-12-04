@@ -10,7 +10,6 @@
   * [context](ApiGen_context)
   * [core](ApiGen_core)
   * [forcedUser](ApiGen_forcedUser)
-  * [Full](ApiGen_Full)
   * [httpSessions](ApiGen_httpSessions)
   * [importLogFiles](ApiGen_importLogFiles)
   * [importurls](ApiGen_importurls)
