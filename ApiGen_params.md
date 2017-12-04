@@ -1,9 +1,8 @@
-# ZAP 2.6.0 API
+# ZAP 2.7.0 API
 ## Component: params
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
 | params| view | site  | Shows the parameters for the specified site, or for all sites if the site is not specified |
-| params| other | site  |  |
 
 Starred parameters are mandatory
 

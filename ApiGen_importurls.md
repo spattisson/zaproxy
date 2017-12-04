@@ -1,9 +1,8 @@
 # ZAP 2.7.0 API
-## Component: reveal
+## Component: importurls
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
-| reveal| view |  |  |
-| setReveal| action | reveal*  |  |
+| importurls| action | filePath*  |  |
 
 Starred parameters are mandatory
 

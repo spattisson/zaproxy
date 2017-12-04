@@ -1,4 +1,4 @@
-# ZAP 2.6.0 API
+# ZAP 2.7.0 API
 ## Full List
 | _Component_ | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:------------|:-------|:-------|:-------------|:--------------|
@@ -64,6 +64,7 @@
 | spider| scans| view |  |  |
 | spider| excludedFromScan| view |  | Gets the regexes of URLs excluded from the spider scans. |
 | spider| allUrls| view |  | Returns a list of unique URLs from the history table based on HTTP messages added by the Spider. |
+| spider| addedNodes| view | scanId  | Returns a list of the names of the nodes added to the Sites tree by the specified scan. |
 | spider| domainsAlwaysInScope| view |  | Gets all the domains that are always in scope. For each domain the following are shown: the index, the value (domain), if enabled, and if specified as a regex. |
 | spider| optionDomainsAlwaysInScope| view |  | Use view domainsAlwaysInScope instead. |
 | spider| optionDomainsAlwaysInScopeEnabled| view |  | Use view domainsAlwaysInScope instead. |
@@ -71,6 +72,7 @@
 | spider| optionMaxChildren| view |  | Gets the maximum number of child nodes (per node) that can be crawled, 0 means no limit. |
 | spider| optionMaxDepth| view |  |  |
 | spider| optionMaxDuration| view |  |  |
+| spider| optionMaxParseSizeBytes| view |  | Gets the maximum size, in bytes, that a response might have to be parsed. |
 | spider| optionMaxScansInUI| view |  |  |
 | spider| optionRequestWaitTime| view |  |  |
 | spider| optionScope| view |  |  |
@@ -78,6 +80,7 @@
 | spider| optionSkipURLString| view |  |  |
 | spider| optionThreadCount| view |  |  |
 | spider| optionUserAgent| view |  |  |
+| spider| optionAcceptCookies| view |  | Gets whether or not a spider process should accept cookies while spidering. |
 | spider| optionHandleODataParametersVisited| view |  |  |
 | spider| optionParseComments| view |  |  |
 | spider| optionParseGit| view |  |  |
@@ -109,10 +112,12 @@
 | spider| setOptionScopeString| action | String*  | Use actions [add|modify|remove]DomainAlwaysInScope instead. |
 | spider| setOptionSkipURLString| action | String*  |  |
 | spider| setOptionUserAgent| action | String*  |  |
+| spider| setOptionAcceptCookies| action | Boolean*  | Sets whether or not a spider process should accept cookies while spidering. |
 | spider| setOptionHandleODataParametersVisited| action | Boolean*  |  |
 | spider| setOptionMaxChildren| action | Integer*  | Sets the maximum number of child nodes (per node) that can be crawled, 0 means no limit. |
 | spider| setOptionMaxDepth| action | Integer*  |  |
 | spider| setOptionMaxDuration| action | Integer*  |  |
+| spider| setOptionMaxParseSizeBytes| action | Integer*  | Sets the maximum size, in bytes, that a response might have to be parsed. This allows the spider to skip big responses/files. |
 | spider| setOptionMaxScansInUI| action | Integer*  |  |
 | spider| setOptionParseComments| action | Boolean*  |  |
 | spider| setOptionParseGit| action | Boolean*  |  |
@@ -126,24 +131,30 @@
 | spider| setOptionShowAdvancedDialog| action | Boolean*  |  |
 | spider| setOptionThreadCount| action | Integer*  |  |
 | core| alert| view | id*  | Gets the alert with the given ID, the corresponding HTTP message can be obtained with the 'messageId' field and 'message' API method |
-| core| alerts| view | baseurl start count  | Gets the alerts raised by ZAP, optionally filtering by URL and paginating with 'start' position and 'count' of alerts |
-| core| numberOfAlerts| view | baseurl  | Gets the number of alerts, optionally filtering by URL |
+| core| alerts| view | baseurl start count riskId  | Gets the alerts raised by ZAP, optionally filtering by URL or riskId, and paginating with 'start' position and 'count' of alerts |
+| core| alertsSummary| view | baseurl  | Gets number of alerts grouped by each risk level, optionally filtering by URL |
+| core| numberOfAlerts| view | baseurl riskId  | Gets the number of alerts, optionally filtering by URL or riskId |
 | core| hosts| view |  | Gets the name of the hosts accessed through/by ZAP |
 | core| sites| view |  | Gets the sites accessed through/by ZAP (scheme and domain) |
-| core| urls| view |  | Gets the URLs accessed through/by ZAP |
-| core| message| view | id*  | Gets the HTTP message with the given ID. Returns the ID, request/response headers and bodies, cookies and note. |
+| core| urls| view | baseurl  | Gets the URLs accessed through/by ZAP, optionally filtering by (base) URL. |
+| core| message| view | id*  | Gets the HTTP message with the given ID. Returns the ID, request/response headers and bodies, cookies, note, type, RTT, and timestamp. |
 | core| messages| view | baseurl start count  | Gets the HTTP messages sent by ZAP, request and response, optionally filtered by URL and paginated with 'start' position and 'count' of messages |
+| core| messagesById| view | ids*  | Gets the HTTP messages with the given IDs. |
 | core| numberOfMessages| view | baseurl  | Gets the number of messages, optionally filtering by URL |
 | core| mode| view |  | Gets the mode |
 | core| version| view |  | Gets ZAP version |
-| core| excludedFromProxy| view |  | Gets the regular expressions, applied to URLs, to exclude from the Proxy |
+| core| excludedFromProxy| view |  | Gets the regular expressions, applied to URLs, to exclude from the local proxies. |
 | core| homeDirectory| view |  |  |
 | core| sessionLocation| view |  | Gets the location of the current session file |
 | core| proxyChainExcludedDomains| view |  | Gets all the domains that are excluded from the outgoing proxy. For each domain the following are shown: the index, the value (domain), if enabled, and if specified as a regex. |
 | core| optionProxyChainSkipName| view |  | Use view proxyChainExcludedDomains instead. |
 | core| optionProxyExcludedDomains| view |  | Use view proxyChainExcludedDomains instead. |
 | core| optionProxyExcludedDomainsEnabled| view |  | Use view proxyChainExcludedDomains instead. |
-| core| optionDefaultUserAgent| view |  |  |
+| core| zapHomePath| view |  | Gets the path to ZAP's home directory. |
+| core| optionMaximumAlertInstances| view |  | Gets the maximum number of alert instances to include in a report. |
+| core| optionMergeRelatedAlerts| view |  | Gets whether or not related alerts will be merged in any reports generated. |
+| core| optionAlertOverridesFilePath| view |  | Gets the path to the file with alert overrides. |
+| core| optionDefaultUserAgent| view |  | Gets the user agent that ZAP should use when creating HTTP messages (for example, spider messages or CONNECT requests to outgoing proxy). |
 | core| optionDnsTtlSuccessfulQueries| view |  | Gets the TTL (in seconds) of successful DNS queries. |
 | core| optionHttpState| view |  |  |
 | core| optionProxyChainName| view |  |  |
@@ -163,13 +174,14 @@
 | core| loadSession| action | name*  | Loads the session with the given name. If a relative path is specified it will be resolved against the "session" directory in ZAP "home" dir. |
 | core| saveSession| action | name* overwrite  | Saves the session with the name supplied, optionally overwriting existing files. If a relative path is specified it will be resolved against the "session" directory in ZAP "home" dir. |
 | core| snapshotSession| action |  |  |
-| core| clearExcludedFromProxy| action |  | Clears the regexes of URLs excluded from the proxy. |
-| core| excludeFromProxy| action | regex*  | Adds a regex of URLs that should be excluded from the proxy. |
+| core| clearExcludedFromProxy| action |  | Clears the regexes of URLs excluded from the local proxies. |
+| core| excludeFromProxy| action | regex*  | Adds a regex of URLs that should be excluded from the local proxies. |
 | core| setHomeDirectory| action | dir*  |  |
 | core| setMode| action | mode*  | Sets the mode, which may be one of [safe, protect, standard, attack] |
-| core| generateRootCA| action |  | Generates a new Root CA certificate for the Local Proxy. |
+| core| generateRootCA| action |  | Generates a new Root CA certificate for the local proxies. |
 | core| sendRequest| action | request* followRedirects  | Sends the HTTP request, optionally following redirections. Returns the request sent and response received and followed redirections, if any. The Mode is enforced when sending the request (and following redirections), custom manual requests are not allowed in 'Safe' mode nor in 'Protected' mode if out of scope. |
 | core| deleteAllAlerts| action |  | Deletes all alerts of the current session. |
+| core| deleteAlert| action | id*  | Deletes the alert with the given ID.  |
 | core| runGarbageCollection| action |  |  |
 | core| deleteSiteNode| action | url* method postData  | Deletes the site node found in the Sites Tree on the basis of the URL, HTTP method, and post data (if applicable and specified).  |
 | core| addProxyChainExcludedDomain| action | value* isRegex isEnabled  | Adds a domain to be excluded from the outgoing proxy, using the specified value. Optionally sets if the new entry is enabled (default, true) and whether or not the new value is specified as a regex (default, false). |
@@ -177,7 +189,10 @@
 | core| removeProxyChainExcludedDomain| action | idx*  | Removes a domain excluded from the outgoing proxy, with the given index. The index can be obtained with the view proxyChainExcludedDomains. |
 | core| enableAllProxyChainExcludedDomains| action |  | Enables all domains excluded from the outgoing proxy. |
 | core| disableAllProxyChainExcludedDomains| action |  | Disables all domains excluded from the outgoing proxy. |
-| core| setOptionDefaultUserAgent| action | String*  |  |
+| core| setOptionMaximumAlertInstances| action | numberOfInstances*  | Sets the maximum number of alert instances to include in a report. A value of zero is treated as unlimited. |
+| core| setOptionMergeRelatedAlerts| action | enabled*  | Sets whether or not related alerts will be merged in any reports generated. |
+| core| setOptionAlertOverridesFilePath| action | filePath  | Sets (or clears, if empty) the path to the file with alert overrides. |
+| core| setOptionDefaultUserAgent| action | String*  | Sets the user agent that ZAP should use when creating HTTP messages (for example, spider messages or CONNECT requests to outgoing proxy). |
 | core| setOptionProxyChainName| action | String*  |  |
 | core| setOptionProxyChainPassword| action | String*  |  |
 | core| setOptionProxyChainRealm| action | String*  |  |
@@ -189,22 +204,24 @@
 | core| setOptionProxyChainPrompt| action | Boolean*  |  |
 | core| setOptionSingleCookieRequestHeader| action | Boolean*  |  |
 | core| setOptionTimeoutInSecs| action | Integer*  |  |
-| core| setOptionUseProxyChain| action | Boolean*  |  |
+| core| setOptionUseProxyChain| action | Boolean*  | Sets whether or not the outgoing proxy should be used. The address/hostname of the outgoing proxy must be set to enable this option. |
 | core| setOptionUseProxyChainAuth| action | Boolean*  |  |
 | core| proxy.pac| other |  |  |
-| core| rootcert| other |  | Gets the Root CA certificate of the Local Proxy. |
+| core| rootcert| other |  | Gets the Root CA certificate used by the local proxies. |
 | core| setproxy| other | proxy*  |  |
 | core| xmlreport| other |  | Generates a report in XML format |
 | core| htmlreport| other |  | Generates a report in HTML format |
+| core| jsonreport| other |  | Generates a report in JSON format |
 | core| mdreport| other |  | Generates a report in Markdown format |
 | core| messageHar| other | id*  | Gets the message with the given ID in HAR format |
 | core| messagesHar| other | baseurl start count  | Gets the HTTP messages sent through/by ZAP, in HAR format, optionally filtered by URL and paginated with 'start' position and 'count' of messages |
+| core| messagesHarById| other | ids*  | Gets the HTTP messages with the given IDs, in HAR format. |
 | core| sendHarRequest| other | request* followRedirects  | Sends the first HAR request entry, optionally following redirections. Returns, in HAR format, the request sent and response received and followed redirections, if any. The Mode is enforced when sending the request (and following redirections), custom manual requests are not allowed in 'Safe' mode nor in 'Protected' mode if out of scope. |
 | params| params| view | site  | Shows the parameters for the specified site, or for all sites if the site is not specified |
 | ascan| status| view | scanId  |  |
 | ascan| scanProgress| view | scanId  |  |
-| ascan| messagesIds| view | scanId*  |  |
-| ascan| alertsIds| view | scanId*  |  |
+| ascan| messagesIds| view | scanId*  | Gets the IDs of the messages sent during the scan with the given ID. A message can be obtained with 'message' core view. |
+| ascan| alertsIds| view | scanId*  | Gets the IDs of the alerts raised during the scan with the given ID. An alert can be obtained with 'alert' core view. |
 | ascan| scans| view |  |  |
 | ascan| scanPolicyNames| view |  |  |
 | ascan| excludedFromScan| view |  | Gets the regexes of URLs excluded from the active scans. |
@@ -258,9 +275,11 @@
 | ascan| addScanPolicy| action | scanPolicyName* alertThreshold attackStrength  |  |
 | ascan| removeScanPolicy| action | scanPolicyName*  |  |
 | ascan| updateScanPolicy| action | scanPolicyName* alertThreshold attackStrength  |  |
+| ascan| importScanPolicy| action | path*  | Imports a Scan Policy using the given file system path. |
 | ascan| addExcludedParam| action | name* type url  | Adds a new parameter excluded from the scan, using the specified name. Optionally sets if the new entry applies to a specific URL (default, all URLs) and sets the ID of the type of the parameter (default, ID of any type). The type IDs can be obtained with the view excludedParamTypes.  |
 | ascan| modifyExcludedParam| action | idx* name type url  | Modifies a parameter excluded from the scan. Allows to modify the name, the URL and the type of parameter. The parameter is selected with its index, which can be obtained with the view excludedParams. |
 | ascan| removeExcludedParam| action | idx*  | Removes a parameter excluded from the scan, with the given index. The index can be obtained with the view excludedParams. |
+| ascan| skipScanner| action | scanId* scannerId*  | Skips the scanner using the given IDs of the scan and the scanner. |
 | ascan| setOptionAttackPolicy| action | String*  |  |
 | ascan| setOptionDefaultPolicy| action | String*  |  |
 | ascan| setOptionAllowAttackOnStart| action | Boolean*  |  |
@@ -353,7 +372,7 @@
 | script| listScripts| view |  | Lists the scripts available, with its engine, name, description, type and error state. |
 | script| enable| action | scriptName*  | Enables the script with the given name |
 | script| disable| action | scriptName*  | Disables the script with the given name |
-| script| load| action | scriptName* scriptType* scriptEngine* fileName* scriptDescription  | Loads a script into ZAP from the given local file, with the given name, type and engine, optionally with a description |
+| script| load| action | scriptName* scriptType* scriptEngine* fileName* scriptDescription charset  | Loads a script into ZAP from the given local file, with the given name, type and engine, optionally with a description, and a charset name to read the script (the charset name is required if the script is not in UTF-8, for example, in ISO-8859-1). |
 | script| remove| action | scriptName*  | Removes the script with the given name |
 | script| runStandAloneScript| action | scriptName*  | Runs the stand alone script with the give name |
 | stats| stats| view | keyPrefix  | Statistics |
@@ -371,6 +390,8 @@
 | stats| setOptionStatsdPort| action | Integer*  | Sets the Statsd service port |
 
 Starred parameters are mandatory.
+
+This component is optional and therefore the API will only work if it is installed
 
 Back to [index](ApiGen_Index)
 

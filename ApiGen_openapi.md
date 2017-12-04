@@ -1,9 +1,9 @@
 # ZAP 2.7.0 API
-## Component: reveal
+## Component: openapi
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
-| reveal| view |  |  |
-| setReveal| action | reveal*  |  |
+| importFile| action | file*  |  |
+| importUrl| action | url* hostOverride  |  |
 
 Starred parameters are mandatory
 
