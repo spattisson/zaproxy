@@ -1,34 +1,32 @@
 # ZAP 2.7.0 API
 ## Components
-  * [ApiGen_acsrf.md acsrf]
-  * [ApiGen_ajaxSpider.md ajaxSpider]
-  * [ApiGen_ascan.md ascan]
-  * [ApiGen_authentication.md authentication]
-  * [ApiGen_authorization.md authorization]
-  * [ApiGen_autoupdate.md autoupdate]
-  * [ApiGen_break.md break]
-  * [ApiGen_context.md context]
-  * [ApiGen_core.md core]
-  * [ApiGen_forcedUser.md forcedUser]
-  * [ApiGen_Full.md Full]
-  * [ApiGen_httpSessions.md httpSessions]
-  * [ApiGen_importLogFiles.md importLogFiles]
-  * [ApiGen_importurls.md importurls]
-  * [ApiGen_Index.md Index]
-  * [ApiGen_openapi.md openapi]
-  * [ApiGen_params.md params]
-  * [ApiGen_pnh.md pnh]
-  * [ApiGen_pscan.md pscan]
-  * [ApiGen_replacer.md replacer]
-  * [ApiGen_reveal.md reveal]
-  * [ApiGen_script.md script]
-  * [ApiGen_search.md search]
-  * [ApiGen_selenium.md selenium]
-  * [ApiGen_sessionManagement.md sessionManagement]
-  * [ApiGen_spider.md spider]
-  * [ApiGen_stats.md stats]
-  * [ApiGen_users.md users]
+  * [acsrf](ApiGen_acsrf)
+  * [ajaxSpider](ApiGen_ajaxSpider)
+  * [ascan](ApiGen_ascan)
+  * [authentication](ApiGen_authentication)
+  * [authorization](ApiGen_authorization)
+  * [autoupdate](ApiGen_autoupdate)
+  * [break](ApiGen_break)
+  * [context](ApiGen_context)
+  * [core](ApiGen_core)
+  * [forcedUser](ApiGen_forcedUser)
+  * [Full](ApiGen_Full)
+  * [httpSessions](ApiGen_httpSessions)
+  * [importLogFiles](ApiGen_importLogFiles)
+  * [importurls](ApiGen_importurls)
+  * [Index](ApiGen_Index)
+  * [openapi](ApiGen_openapi)
+  * [params](ApiGen_params)
+  * [pnh](ApiGen_pnh)
+  * [pscan](ApiGen_pscan)
+  * [replacer](ApiGen_replacer)
+  * [reveal](ApiGen_reveal)
+  * [script](ApiGen_script)
+  * [search](ApiGen_search)
+  * [selenium](ApiGen_selenium)
+  * [sessionManagement](ApiGen_sessionManagement)
+  * [spider](ApiGen_spider)
+  * [stats](ApiGen_stats)
+  * [users](ApiGen_users)
 
-
-[ApiGen_Full Full list.]
-
+[Full list.](ApiGen_Full)
