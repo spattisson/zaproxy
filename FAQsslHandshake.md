@@ -33,6 +33,6 @@ If this doesn't help then get in touch via one of the user groups.
 
 # Error "java.lang.RuntimeException: Could not generate DH keypair"
 
-The error and the likely cause is described in #2626: Java 8 does not support DH parameters with more than 2048 bit. It works with Java 9 (Debian: Install `openjdk-9-jre`).
+The error and the likely cause is described in [#2626](https://github.com/zaproxy/zaproxy/issues/2626): Java 8 does not support DH parameters with more than 2048 bit. It works with Java 9 (Debian: Install `openjdk-9-jre`).
 
 [Back to the FAQ](FAQtoplevel)
