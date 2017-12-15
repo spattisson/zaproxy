@@ -49,6 +49,7 @@ OK, so it looks like this table hasnt migrated from the previous Google Code wik
 | Robert Kerby | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:beardedwanderer@zoho.com) | USA / Southwest / Rocky Mountains / Remote | English | Y | Y |  |  |
 | Jonathan Claudius | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:claudijd@yahoo.com)[![](https://www.owasp.org/images/8/82/Social-twitter.png)](https://twitter.com/claudijd)| USA / Remote / Worldwide    | English | Y          | Y            | ZAP Evangelist | [blog](https://blog.rubidus.com/) |
 | Omer Levi Hevroni | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:omerlh@gmail.com)[![](https://www.owasp.org/images/8/82/Social-twitter.png)](https://twitter.com/omerlh)| Israel / Remote / Worldwide    | English / Hebrew | Y          | Y            | ZAP Evangelist | [Personal Site with previous talks](https://omerlh.info/) |
+|| Chhagan Lal Mathuriya || [mailto:clmathuriya@gmail.com https://www.owasp.org/images/3/33/Social-email.png][https://twitter.com/clmathuriya  https://www.owasp.org/images/8/82/Social-twitter.png][http://www.linkedin.com/profile/view?id=clmathuriya https://www.owasp.org/images/6/68/Social-linkedin.png] || Bangalore, India || English, Hindi || Y || Y || I Have worked on Automated Security Testing usig ZAP || [My Github Page] (https://github.com/clmathuriya) ||
 
 
 
