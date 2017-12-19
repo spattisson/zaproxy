@@ -19,7 +19,6 @@ If you have any questions about ZAP that are not answered here or in the [User G
   * [Can ZAP be used to test my favorite framework or technology?](FAQlistframeworks)
   * [Can ZAP be used to test my favorite vulnerable app?](FAQlistvulnapps)
   * [How can I add an application icon for ZAP to Fedora / Gnome 3?](FAQlinuxgnomeicon)
-  * [Why does ZAP 2.0.0 fail with "Unsupported major.minor version 51.0"?](FAQzap200java6)
   * [What should I do if ZAP doesn't detect a known problem?](FAQdetectfailed)
   * [How can ZAP automatically authenticate via forms?](FAQformauth)
   * [How do you configure ZAP logging?](FAQlogging)
