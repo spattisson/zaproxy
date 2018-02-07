@@ -7,6 +7,8 @@ If you are using ZAP in a completely isolated environment you can allow all IP a
 
 You will also need to set or disable the API key - see the FAQ: [Why is an API key required by default?](FAQapikey)
 
+If you still have problems connecting then look in the `zap.log` file for any error messages as per the FAQ: [Somethings not working - what should I do?](FAQhelp)
+
 ---
 
 [Back to the FAQ](FAQtoplevel)
