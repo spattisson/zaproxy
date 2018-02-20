@@ -10,7 +10,7 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
 
   * All significant new code should be under the [org.zaproxy.zap](https://github.com/zaproxy/zaproxy/tree/develop/src/org/zaproxy/zap) package.
 
-  * If it is possible avoid introduce the un/boxings in new code.
+  * If it is possible avoid introducing [un/boxings](https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html) in new code.
 
   * All code under the [org.zaproxy.zap](https://github.com/zaproxy/zaproxy/tree/develop/src/org/zaproxy/zap) package should compile without any warnings.
 
