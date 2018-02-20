@@ -10,6 +10,8 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
 
   * All significant new code should be under the [org.zaproxy.zap](https://github.com/zaproxy/zaproxy/tree/develop/src/org/zaproxy/zap) package.
 
+  * If it is possible avoid introduce the un/boxings in new code.
+
   * All code under the [org.zaproxy.zap](https://github.com/zaproxy/zaproxy/tree/develop/src/org/zaproxy/zap) package should compile without any warnings.
 
   * Any changes to the [org.parosproxy.paros](https://github.com/zaproxy/zaproxy/tree/develop/src/org/parosproxy/paros) packages should be commented at the beginning of the class (This is a requirement of the Paros licence), and the comments should start with // ZAP: YYYY/MM/DD
