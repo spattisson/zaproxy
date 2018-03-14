@@ -39,7 +39,7 @@ Note that this is only done when we are relatively close to a release as add-ons
 ### Update the Docker image
 In the zaproxy directory:
   1. docker login
-  1. docker build --no-cache -t owasp/zap2docker-weekly -f build/docker/Dockerfile-weekly build/docker/
+  1. docker build --no-cache -t owasp/zap2docker-weekly -f docker/Dockerfile-weekly docker/
   1. docker push owasp/zap2docker-weekly
 
 ### Generate the client APIs
