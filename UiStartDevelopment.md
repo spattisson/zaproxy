@@ -1,7 +1,8 @@
 # GUI Programming
 ## Introduction
+**_SwingExplorer does not available from their developers. This project was originally hosted in [Google Code Archive](https://code.google.com/archive/p/swing-explorer/source/default/source). Please check the [issue](https://github.com/robotframework/SwingLibrary/issues/72) before you use it._**
 
-Getting started with GUI programming is hard. A graphical tool, that lets you inspect the internal structure can help to understand how a user interface is composed. [SwingExplorer](http://www.swingexplorer.com) can be used for such purpose.
+Getting started with GUI programming is hard. A graphical tool, that lets you inspect the internal structure can help to understand how a user interface is composed. SwingExplorer  can be used for such purpose.
 
 <img src='https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/swing-explorer_application.png' width='800' />
 
@@ -9,7 +10,7 @@ Getting started with GUI programming is hard. A graphical tool, that lets you in
 ## Setup Run Configuration for `SwingExplorer`
 
   1. First, setup your desired branch of ZAP in eclipse, as described under [Building](Building). In this setup I did it for the websockets branch.
-  1. Download `swexpl.jar` and `swag.jar` from [SwingExplorer download page](http://www.swingexplorer.com/?page=download). You have to provide your name and your e-mail address. However, the software is freeware.
+  1. Download `swexpl.jar` and `swag.jar` from SwingExplorer. You have to provide your name and your e-mail address. However, the software is freeware.
   1. Place the `jar`-files into your eclipse project under a new folder named `swingexplorer`.
   1. In eclipse go to `Menu > Run > Run Configurations`:
     1. right click onto _Java Application_ and select _New_
