@@ -1,8 +1,8 @@
 # GUI Programming
 ## Introduction
-**_SwingExplorer does not available from their developers. This project was originally hosted in [Google Code Archive](https://code.google.com/archive/p/swing-explorer/source/default/source). Please check the [issue](https://github.com/robotframework/SwingLibrary/issues/72) before you use it._**
+**_SwingExplorer is no longer available from its Developers. This project was originally hosted on [Google Code (now Archived)](https://code.google.com/archive/p/swing-explorer/source/default/source). Please check [this issue](https://github.com/robotframework/SwingLibrary/issues/72) before you use it._**
 
-Getting started with GUI programming is hard. A graphical tool, that lets you inspect the internal structure can help to understand how a user interface is composed. SwingExplorer  can be used for such purpose.
+Getting started with GUI programming is hard. A graphical tool, that lets you inspect the internal structure can help to understand how a user interface is composed. SwingExplorer can be used for such purpose.
 
 <img src='https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/swing-explorer_application.png' width='800' />
 
