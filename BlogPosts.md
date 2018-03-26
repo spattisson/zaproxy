@@ -14,6 +14,7 @@ Here are the [Penetration Testing For Developer](http://pentest4devs.blogspot.co
   * [Welcome to my Penetration Testing for Developers blog](http://pentest4devs.blogspot.com/2010/09/welcome-to-my-penetration-testing-for.html)
 
 And here are posts that other people have made about ZAP:
+  * [Bypassing File Upload Filters with OWASP ZAP Request Editing](https://www.peerlyst.com/posts/bypassing-file-upload-filters-with-owasp-zap-request-editing-ben-berkowitz) - Peerlyst post
   * http://www.scmagazine.com/push-comes-to-shove/article/276456/ SC Magazine: Push comes to shove
   * http://www.csoonline.com/slideshow/detail/80286/Twenty-free-and-effective-infosec-tools The top 20 best free security tools, which includes ZAP :D
   * http://resources.infosecinstitute.com/owasp-zap/ Great introduction to ZAP from the `InfoSec` Institute
