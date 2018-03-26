@@ -18,7 +18,7 @@ _As with all software we strongly recommend that ZAP is only installed and used 
 <td width='30%'>Linux Package</td><td width='15%'>2017-11-28</td><td width='15%'>124 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2.7.0_Linux.tar.gz'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Mac OS/X Installer</td><td width='15%'>2017-11-28</td><td width='15%'>179 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2.7.0.dmg'>Download now</a></td>
+<td width='30%'>MacOS Installer</td><td width='15%'>2017-11-28</td><td width='15%'>179 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2.7.0.dmg'>Download now</a></td>
 </tr>
 <tr>
 <td width='30%'>Cross Platform Package</td><td width='15%'>2017-11-28</td><td width='15%'>230 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2.7.0_Crossplatform.zip'>Download now</a></td>
