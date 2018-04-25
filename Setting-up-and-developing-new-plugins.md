@@ -48,7 +48,7 @@ This will pull down the main development project and all of the zap-extension pr
 
 If you are not planning on contributing to the OWASP/ZAP repository and you don't want to write your own plug-ins you will probably not need the next steps. 
 
-###Setting up the GitHub Software ####
+### Setting up the GitHub Software ####
 If you are using a Linux operating system, you will probably have the Git command line interface already installed but it behooves you to check.  This is accomplished by opening a terminal window and typing `git --help`.  This should give you a scrolled list of git subcommands you can use.  This also lets you know git is installed.  For the Macintosh operating system or the PC you will need to get and install the git command line interface.  Particularly for the PC this is important.  The reason that you need the command line interface comes down to 2 basic reasons:
 
 1.  Most of the help and examples available and the advice you will get from the ZAP team will be command line.  This makes it much easier to use their advice.
