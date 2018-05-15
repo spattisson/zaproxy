@@ -44,3 +44,4 @@ If you have any questions about ZAP that are not answered here or in the [User G
   * [How do I see what version of an add-on/extension I have installed?](FAQAddonVersions)
   * [Fonts in ZAP look bad on my system - what should I do?](FAQBadFonts)
   * [Why don't you rewrite ZAP in \<my favorite language\>?](FAQrewrite)
+  * [What options exist for selective proxying?](FAQSelectiveProxy)
