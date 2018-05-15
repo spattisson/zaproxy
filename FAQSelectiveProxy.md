@@ -12,7 +12,16 @@ you can specify URLs that ZAP should not proxy.
 ## 3 - Via a PAC (Proxy Auto-Config) File
 - You can create your own PAC (Proxy Auto-Config) file and dynamically set 
 proxying as you need, then point your browser at it on your harddrive using 
-the `file:///` scheme.
+the `file:///` scheme. For example:
+```javascript
+function FindProxyForURL(url, host) { 
+    if (shExpMatch(host, "*.example.org")) { 
+        return "PROXY localhost:8080"; //Use ZAP for *.example.org
+    } 
+    // Go directly to the WWW for everything else 
+    return "DIRECT"; 
+}
+```
 ![Firefox PAC example](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/firefox_pac.png)
 
 ## 4 - Set "No Proxy For" in Your Browser
