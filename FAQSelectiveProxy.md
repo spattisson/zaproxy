@@ -7,7 +7,7 @@ There are a number of ways to accomplish selective proxying.
 
 ## 2 - Via Global Excludes
 - Leveraging [Global Excludes](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsGlobalexcludeurl) 
-you can specify URLs that ZAP should not proxy.
+you can specify URLs that ZAP should not intercept.
 
 ## 3 - Via a PAC (Proxy Auto-Config) File
 - You can create your own PAC (Proxy Auto-Config) file and dynamically set 
