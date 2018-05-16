@@ -25,7 +25,7 @@ function FindProxyForURL(url, host) {
 ![Firefox PAC example](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/firefox_pac.png)
 
 ## 4 - Set "No Proxy For" in Your Browser
-- Most modern browsers all you to specify domains or networks for which the traffic should not be proxied.
+- Most modern browsers allow users to specify domains or networks for which the traffic should not be proxied.
 ![Firefox No Proxy For example](https://raw.githubusercontent.com/wiki/zaproxy/zaproxy/images/ff_no_proxy_for.png)
 
 ---
