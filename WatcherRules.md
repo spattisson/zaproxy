@@ -10,7 +10,7 @@ Please let us know (or update the page yourself if you have the perms) if you ar
 
 Put your name in the ZAP column if you are working on them and then change it to 'committed' when the code is checked in.
 
-Note that the scanners' IDs are currently recorded in this doc: https://github.com/zaproxy/zaproxy/blob/develop/src/doc/scanners.md so please update this as well.
+Note that the scanners' IDs are currently recorded in this doc: https://github.com/zaproxy/zaproxy/blob/develop/docs/scanners.md so please update this as well.
 
 | ZAP | Watcher Rule |
 |:----|:-------------|

@@ -20,7 +20,7 @@ And there are also these scripts in the [community scripts](https://github.com/z
   * [Active scripts](https://github.com/zaproxy/community-scripts/tree/master/active)
   * [Passive scripts](https://github.com/zaproxy/community-scripts/tree/master/passive)
 
-The full list of reserved scan ids is maintained in [scanners.md](https://github.com/zaproxy/zaproxy/blob/develop/src/doc/scanners.md)
+The full list of reserved scan ids is maintained in [scanners.md](https://github.com/zaproxy/zaproxy/blob/develop/docs/scanners.md)
 
 ---
 
