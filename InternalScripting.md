@@ -9,7 +9,7 @@ You can cut-and-paste these directly into the console:
 importPackage(org.parosproxy.paros.view);
 View.getSingleton().showMessageDialog("Hello world!");
 ```
-### ECMAScript / JavaScript (build in, Oracle Nashorn engine)
+### ECMAScript / JavaScript (built in, Oracle Nashorn engine)
 ```
 Java.type('org.parosproxy.paros.view.View').getSingleton().showMessageDialog('Hello world!');
 ```
