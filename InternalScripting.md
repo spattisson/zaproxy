@@ -3,7 +3,7 @@ The ScriptConsole supports any language that conforms to [JSR 223](http://www.jc
 
 This page shows some simple example of creating a popup window in a selection of the supported languages.
 
-You can cut-and-paste these directly into the console:
+You can cut-and-paste these directly into the console (as standalone scripts):
 ### ECMAScript / JavaScript (built in, Rhino engine)
 ```
 importPackage(org.parosproxy.paros.view);
