@@ -9,7 +9,7 @@ Last full update of Status column: 20180523.
 | [Jenkins zap-plugin](https://wiki.jenkins.io/display/JENKINS/zap+plugin) | The official Jenkins plugin for ZAP. (https://github.com/jenkinsci/zap-plugin) | Active |
 | [zap-cli](https://github.com/Grunny/zap-cli) | A simple tool for interacting with OWASP ZAP from the commandline | Active |
 | [owasp-zap-vsts-task](https://github.com/kasunkv/owasp-zap-vsts-task) | Visual Studio Team Services build/release task for running OWASP ZAP automated security tests | Active |
-| [zap-sonar-plugin](https://github.com/Coveros/zap-sonar-plugin) | Home of the official ZAP SonarQube plugin. Integrates OWASP Zed Attack Proxy reports into SonarQube | Active |
+| [zap-sonar-plugin](https://github.com/Coveros/zap-sonar-plugin) | Home of the ZAP SonarQube plugin. Integrates OWASP Zed Attack Proxy reports into SonarQube | Active |
 | [attack-surface-detector-zap](https://github.com/secdec/attack-surface-detector-zap) | The Attack Surface Detector uses static code analyses to identify web app endpoints by parsing routes and identifying parameters | Active |
 | [zap2docker](https://registry.hub.docker.com/u/samuliel/zap2docker/) | Zed Attack Proxy in a docker image together with zapr and x11vnc/novnc for GUI access | Stale<br><sub>The ZAP project now maintains docker images: https://github.com/zaproxy/zaproxy/wiki/Downloads#docker</sub> |
 | [zap-script-proxy-rewrite](https://github.com/ncjones/zap-script-proxy-rewrite) | ZAProxy script template for rewriting proxied HTTP requests | Stale<br><sub>Should still work</sub> |
