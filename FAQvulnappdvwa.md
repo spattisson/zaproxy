@@ -101,6 +101,7 @@ Password: `password` <br>
 `\Qhttp://localhost/DVWA/vulnerabilities/csrf\E.*` <br>
 
 With the context and authentication set up, it's possible to spider/scan as user. <br>
+
 4) Spider: <br>
 4a) Select "Spider" tab and click the button "New Scan"; <br>
 4b) Click "Select...", choose the context (e.g. "DVWAv1.9") and click OK; <br>
@@ -115,16 +116,16 @@ Spider can be run a second time to ensure that all URLs are found. <br>
 5d) Active scanner should start and scan as user "Administrator". <br>
 
 Active scanner should find some issues:
-- Cross Site Scripting (Persistent) (4)
-- Cross Site Scripting (Reflected) (6)
-- Path Traversal
-- Remote OS Command Injection
-- SQL Injection - MySQL
-- SQL Injection (2)
-- Directory Browsing (7)
+  - Cross Site Scripting (Persistent) (4)
+  - Cross Site Scripting (Reflected) (6)
+  - Path Traversal
+  - Remote OS Command Injection
+  - SQL Injection - MySQL
+  - SQL Injection (2)
+  - Directory Browsing (7)
 
-6) Fuzzing:  <br>
-If you are tackling a fuzzing challenge in DVWA and need to handle CSRF tokens, the following details may be of assistance:  <br>
+6) Fuzzing: <br>
+If you are tackling a fuzzing challenge in DVWA and need to handle CSRF tokens, the following details may be of assistance: <br>
  - The script works with Nashorn script engine (Java 8), if you are using Java 7 it needs some changes (the changes are mentioned in the original script).
  - The constants defined in the beginning of the file might need to be changed (e.g. SOURCE_URL to match the target server/webapp).
  - The script assumes that the message being fuzzed has a valid DVWA session.
