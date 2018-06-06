@@ -1,10 +1,10 @@
 <div>
-<h2>How To Build/Run/Debug zap and zap-extensions with InteliJ</h2>
+<h2>How To Build/Run/Debug ZAP and zap-extensions with IntelliJ</h2>
 <div class="outline-text-4" id="text-5-1-1">
 <ol>
 <li>Get zaproxy &amp; zap-extensions source code 
 <ul>
-<li>First of all, keep zaproxy, zap-extension and other zap's modules under the same top directory.
+<li>First of all, keep zaproxy, zap-extensions and other ZAP's modules under the same top directory.
 <div>
 <pre>
 mkdir zap-project 
@@ -16,7 +16,7 @@ git clone https://github.com/zaproxy/zap-extensions.git
 </li>
 </ul>
 </li>
-<li>Import Project to InteliJ
+<li>Import Project to IntelliJ
 <ul>
 <li>Import zaproxy 
 <ul>
@@ -36,7 +36,7 @@ git clone https://github.com/zaproxy/zap-extensions.git
 </li>
 </ul>
 </li>
-<li>Import zap-extension &amp; other modules
+<li>Import zap-extensions &amp; other modules
 <ul>
 <li>Open project structure (<code>File -&gt; Project Structure...</code>).
 </li>
@@ -64,7 +64,7 @@ git clone https://github.com/zaproxy/zap-extensions.git
 <ul>
 <li>Select <code>Use Module Compile Output Path</code>
 </li>
-<li>Output path: <code>zap-project/zap-extension/build</code>
+<li>Output path: <code>zap-project/zap-extensions/build</code>
 </li>
 </ul>
 </li>
@@ -76,7 +76,7 @@ git clone https://github.com/zaproxy/zap-extensions.git
 <ul class="org-ul">
 <li>Open <code>Ant Build Tool Window</code>
 </li>
-<li>Add the ant build files (<code>build.xml</code>)
+<li>Add the Ant build files (<code>build.xml</code>)
 <ul>
 <li>For zaproxy: <code>zap-project/zaproxy/build/build.xml</code>
 </li>
@@ -106,7 +106,7 @@ git clone https://github.com/zaproxy/zap-extensions.git
 <ul>
 <li>Open <code>Run/Debug Configuration</code> for zaproxy
 <ul>
-<li>Add the specific add-on's ant task in the <code>before launch</code> panel
+<li>Add the specific add-on's Ant task in the <code>before launch</code> panel
 </li>
 </ul>
 </li>
