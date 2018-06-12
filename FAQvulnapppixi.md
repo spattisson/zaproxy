@@ -21,7 +21,7 @@ The following the steps are based on spider/scan of Pixi at `http://localhost:80
     * Username: `test@example.com`
     * Password: `testExample`
 6) Back in the Sites tree, right click "http://localhost:8000" select "Attack" then "Spider...".<br>
-6a) In the Spider dialog select `test` from the "User" dropdown menu.
+6a) In the Spider dialog select `test` from the "User" dropdown menu.<br>
 6b) Click "Start Scan".
 7) In your browser access "My Profile" and note the URL. (It should be something like `http://localhost:8000/profile/45`.) Find the URL in the Sites tree (ex: `GET:45` in the "profile" folder) right click and exclude it from the Context (or just the Scanner). [This is done to prevent the scanner from changing the password of the user account being used to scan.]
 8) Optionally run the Ajax spider (using the context and configured user).
