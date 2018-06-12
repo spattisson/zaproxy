@@ -13,9 +13,9 @@ The following the steps are based on spider/scan of Pixi at `http://localhost:80
 3c) "Flag as Context" > "pixi: Form-based Auth Login Request" `POST:login(pass,user)`.<br>
 3d) Set "Username Parameter" as `user` and "Password Parameter" as `pass`.<br>
 4) Navigate to http://localhost:8000/about (while proxying through ZAP).<br>
-4a) Find `GET:about` in the Sites tree, in the response find "My Profile". While "My Profile" is highlighted right click and "Flag as Conext" > "pixi : Authentication Logged-in Indicator".
+4a) Find `GET:about` in the Sites tree, in the response find "My Profile". While "My Profile" is highlighted right click and "Flag as Context" > "pixi : Authentication Logged-in Indicator".
 5) Open the "pixi" context and goto the "Users" panel.<br>
-5a) Click "Add..."
+5a) Click "Add..."<br>
 5b) Create a user as follows:
     * User Name: `test`
     * Username: `test@example.com`
