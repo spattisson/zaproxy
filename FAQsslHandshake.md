@@ -27,7 +27,9 @@ Note that on OS X we include the JRE with the ZAP application, so you'll need to
 
 Java 8 users note you may encounter SSLHandshakeException, on sites that support RC4 ciphers. More info [here](https://github.com/zaproxy/zaproxy/issues/1892#issuecomment-139906996), and [here](http://stackoverflow.com/questions/32009083/javax-net-ssl-sslhandshakeexception-handshake-failure-when-using-jmeter-with-ss). Solution(s): Disable RC4 on the server.
 
-If this doesn't help then get in touch via one of the user groups.
+If you're in a corporate or business environment that normally requires the use of an Enterprise proxy you can have ZAP use it as well via the [Options : Connections screen](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsConnection). If ZAP can't actually get to the destination (because use of the corporate proxy is required) this can sometimes manifest as an SSL/TLS negotiation failure.
+
+If this doesn't help then get in touch via the [User Group](https://groups.google.com/forum/#!forum/zaproxy-users).
 
 ---
 
