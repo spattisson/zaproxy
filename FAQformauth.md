@@ -15,7 +15,7 @@ Via the UI:
   1. Highlight this string, right click and select "Flag as Context" / "<Context id> Logged in/out Indicator" as relevant - you only need to set one of these, not both
   1. Double click on the relevant Context node and navigate to the "Users" page - check the user details are correct, add any other users you want to use and enable them all
   1. Navigate to the Context "Forced User" page and make sure the user you want to test is selected
-  1. The ![](https://github.com/zaproxy/zap-core-help/wiki/images/fugue/forcedUserOff.png) "[Forced User Mode disabled - click to enable](https://github.com/zaproxy/zap-core-help/wiki/HelpUiTltoolbar#--force-user-mode-on--off)" button should now be enabled
+  1. The ![](https://github.com/zaproxy/zap-core-help/wiki/images/fugue/forcedUserOff.png) "[Forced User Mode disabled - click to enable](https://github.com/zaproxy/zap-core-help/wiki/HelpUiTltoolbar#--forced-user-mode-on--off)" button should now be enabled
   1. Pressing this button in will cause ZAP to resend the authentication request whenever it detects that the user is no longer logged in, ie by using the 'logged in' or 'logged out' indicator.
 
 Via the API the process is the same but using the API calls:
