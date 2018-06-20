@@ -1,6 +1,7 @@
 # Setting up ZAP to Test OWASP Pixi
 
 **Note**: This FAQ is a work in progress as of 2018-June-11.<br>
+**Note**: This FAQ contains spoilers: `<details>` tags have been used to make them expandable and not immediately visible (which should work in most modern browsers).<br>
 
 The following the steps are based on spider/scan of Pixi at `http://localhost:8000/` using ZAP 2.7.0.<br>
 **Note**: These instructions assume you've created a user: `test@example.com` with password: `testExample` (via http://localhost:8000/register).
@@ -25,4 +26,12 @@ The following the steps are based on spider/scan of Pixi at `http://localhost:80
 6b) Click "Start Scan".
 7) In your browser access "My Profile" and note the URL. (It should be something like `http://localhost:8000/profile/45`.) Find the URL in the Sites tree (ex: `GET:45` in the "profile" folder) right click and exclude it from the Context (or just the Scanner). [This is done to prevent the scanner from changing the password of the user account being used to scan.]
 8) Optionally run the Ajax spider (using the context and configured user).
-9) 
+9) At this point you should login as the admin user. Hopefully you've already figured out the vulnerability to get those details.<br>
+
+<details>
+  <summary>Spoiler: Getting the Admin user details</summary>
+  Access "http://localhost:8000/service.conf".
+</details><br>
+
+10) As was done earlier make a new 'admin' user, based on the details obtained in the previous step.
+11) 
