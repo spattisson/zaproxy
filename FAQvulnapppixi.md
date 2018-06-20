@@ -1,9 +1,10 @@
 # Setting up ZAP to Test OWASP Pixi
 
 **Note**: This FAQ is a work in progress as of 2018-June-11.<br>
-**Note**: This FAQ contains spoilers: `<details>` tags have been used to make them expandable and not immediately visible (which should work in most modern browsers).<br>
 
 The following the steps are based on spider/scan of Pixi at `http://localhost:8000/` using ZAP 2.7.0.<br>
+
+**Note**: This FAQ contains spoilers: `<details>` tags have been used to make them expandable and not immediately visible (which should work in most modern browsers).<br>
 **Note**: These instructions assume you've created a user: `test@example.com` with password: `testExample` (via http://localhost:8000/register).
 
 1) Access Pixi (http://localhost:8000/) while proxying through ZAP.
