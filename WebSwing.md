@@ -4,7 +4,7 @@ To do this you will just need Docker installed. From your command line type:
 
 `docker run -u zap -p 8080:8080 -p 8090:8090 -i owasp/zap2docker-stable zap-webswing.sh`
 
-Then point your browser at [http://localhost:8080/?anonym=true&app=ZAP](http://localhost:8080/?anonym=true&app=ZAP)
+Then point your browser at [http://localhost:8080/zap](http://localhost:8080/?anonym=true&app=ZAP)
 
 You will then see the familiar ZAP splash screen while ZAP starts up.
 
