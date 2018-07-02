@@ -113,7 +113,7 @@ Countries and eID name: (alphabetically ordered) - **DRAFT** -
   * Portugal (smartcard) - Cartão de Cidadão: http://www.cartaodecidadao.pt
   * Saudi Arabia (smartcard)
   * Slovakia (?)
-  * Slovenia (?)
+  * Slovenia (cert) - SIGEN-CA: http://www.sigen-ca.si/
   * South Korea (cert)
   * Spain (smartcard) - DNIe: http://www.dnie.es
   * Sweden (?)
