@@ -3,6 +3,7 @@
 If you have any questions about ZAP that are not answered here or in the [User Guide](https://github.com/zaproxy/zap-core-help/wiki/HelpIntro) then please ask on the [Developer Group](https://groups.google.com/group/zaproxy-develop) or raise as an [issue](https://github.com/zaproxy/zaproxy/issues).
 
   * [Somethings not working. What should I do?](FAQhelp)
+  * [Someone is using ZAP to attack my website - what should I do?](FAQattack)
   * [Where can I ask ZAP related questions?](FAQquestions)
   * [What does ZAP test for?](FAQzaptests)
   * [How do you configure ZAP to test an application on localhost?](FAQlocalhost)
