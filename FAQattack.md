@@ -10,12 +10,12 @@ If someone is using ZAP to attack your site then there are 2 main questions:
 
 If there is no evidence of compromise and you have had your site security tested recently then theres probably not much to worry about.
 
-If no security testing has been performed then you should into this asap.
+If no security testing has been performed then you should look into this asap.
 There are many options, from performing your own testing (using ZAP or a similar tool) to paying a reputable security company to perform the testing for you. The latter would be ideal, but will cost money.
 Note that its generally best not to test your production site - ideally you should use a development or staging site that is a copy of your production site.
 
 If you think your site might have been compromised, eg by changes being made that should only be possible by an authenticated account, then you should definitely take stronger measures.
-You will want to find your how the site was compromised - it could have been a weak password, but it could also have been via another vulnerability in the site. If its another vulnerability then just changing all of the passwords will not help.
+You will want to find how your site was compromised - it could have been a weak password, but it could also have been via another vulnerability in the site. If its another vulnerability then just changing all of the passwords will not help.
 
 ---
 
