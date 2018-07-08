@@ -12,10 +12,10 @@ If there is no evidence of compromise and you have had your site security tested
 
 If no security testing has been performed then you should look into this asap.
 There are many options, from performing your own testing (using ZAP or a similar tool) to paying a reputable security company to perform the testing for you. The latter would be ideal, but will cost money.
-Note that its generally best not to test your production site - ideally you should use a development or staging site that is a copy of your production site.
+Note that it's generally best not to test your production site - ideally you should use a development or staging site that is a copy of your production site.
 
 If you think your site might have been compromised, eg by changes being made that should only be possible by an authenticated account, then you should definitely take stronger measures.
-You will want to find how your site was compromised. If its a vulnerability in your site (rather than something like a weak admin password) then you will need to fix that before doing anything else.
+You will want to find how your site was compromised. If it's a vulnerability in your site (rather than something like a weak admin password) then you will need to fix that before doing anything else.
 
 ---
 
