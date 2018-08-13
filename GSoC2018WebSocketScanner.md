@@ -40,7 +40,7 @@ scripting languages (Javascript, Python, Zest and Ruby). Let's dive into the pro
 Before starting to code for the infrastructure I had to resolve some issues as also
 build some utilities will have been used for the infrastructure. And course we had to make some initial research.
 
-## Add regex & non-regex filter on WebSockets[PR#1506](https://github.com/zaproxy/zap-extensions/pull/1506)
+## Add regex & non-regex filter on WebSockets[PR#1506](https://github.com/zaproxy/zap-extensions/pull/1506) _(merged)_
 
 _(That was developed before coding period)_
 
@@ -52,18 +52,15 @@ payload format. We knew that before, so we decide to collect some examples about
 WebSocket payloads. I created an html page (in my blog) where I have been collecting some
 examples. You can check the examples in https://manosmagnus.github.io/data/websocket_examples/WebSocketExamples.html .
 
-* **Add Method getPayloadAsString by replacing unmapped & malformed Chars [PR#1637](https://github.com/zaproxy/zap-extensions/pull/1637)**
+* **Add Method getPayloadAsString by replacing unmapped & malformed Chars [PR#1637](https://github.com/zaproxy/zap-extensions/pull/1637) _(merged)_** 
 
   We find out that in many cases binary payloads hide some information about messages. So I decided to introduce a new method to read those "hidden" information of the binary payloads. We end up with something like this:
 
   _(More about implementation and how it works in PR)_
 
-* **Export Websocket Communication to Emacs Org File [PR#104](https://github.com/zaproxy/community-scripts/pull/104)**
+* **Export Websocket Communication to Emacs Org File [PR#104](https://github.com/zaproxy/community-scripts/pull/104) _(merged)_**
 
-  I found out that beauty of ZAP is to do things automatically. I want to
-  collect as many examples as I could without losing much time. So in the
-  end, I write a simple python script in order to export whole WebSocket
-  Communication to EmacsOrg format and make my html page quick, beautiful and
+  I found out that beauty of ZAP is to do things automatically. I want to collect as many examples as I could without losing much time. So in the end, I write a simple python script in order to export the whole WebSocketCommunication to EmacsOrg format and make my html page quick, beautiful and
   easy. 
 
   _(More about implementation and how it works in PR)_
@@ -80,24 +77,24 @@ In order to build a basic infrastructure for active scans, we should be able to 
 
 _(Find more info about that in my blog [post](https://manosmagnus.github.io/#sec-2-1))_
 
-*  **Websocket heartbeat messages are handled by WebSocket Proxy [PR#1686](https://github.com/zaproxy/zap-extensions/pull/1686)**
+*  **Websocket heartbeat messages are handled by WebSocket Proxy [PR#1686](https://github.com/zaproxy/zap-extensions/pull/1686) _(merged)_**
 
      This PR handles the PING/PONG messages in order to keep manual established
      WebSocket connection opened.
 
-* **WebSocketUtils: Generate Sec-WebSocket-Key [PR#1691](https://github.com/zaproxy/zap-extensions/pull/1691)**
+* **WebSocketUtils: Generate Sec-WebSocket-Key [PR#1691](https://github.com/zaproxy/zap-extensions/pull/1691) _(merged)_**
 
     Utilities to generate new Sec-WebSocket-Key.
 
-* **Extract methods from ExtensionWebSocket to WebSocketUtils [PR#1697](https://github.com/zaproxy/zap-extensions/pull/1697)**
+* **Extract methods from ExtensionWebSocket to WebSocketUtils [PR#1697](https://github.com/zaproxy/zap-extensions/pull/1697) _(merged)_**
 
    Some minor changes on the core of WebSocket Extension.
 
-* **Websocket Handshake Builder and Sender [PR#1689](https://github.com/zaproxy/zap-extensions/pull/1689)**
+* **Websocket Handshake Builder and Sender [PR#1689](https://github.com/zaproxy/zap-extensions/pull/1689) _(merged)_**
 
     Introduce a class in order to wrap up the Handshake Message and the available options. As also a class to send the Handshake and establish a new manual WebSocket Connection.
 
-* **Reopen WebSocket Connection in order to send manual messages [PR#1618](https://github.com/zaproxy/zap-extensions/pull/1618)**
+* **Reopen WebSocket Connection in order to send manual messages [PR#1618](https://github.com/zaproxy/zap-extensions/pull/1618) _(merged)_**
 
     This PR related mostly with the UI.
 
@@ -110,15 +107,15 @@ My work released by the core team in version 18 of WebSockets add-on.
 
 A test framework with Nano-Httpd and some test created in order to test WebSocket extension.
 
-* **Update Nano-Httpd to version 2.3.1 [PR#1700](https://github.com/zaproxy/zap-extensions/pull/1700)**
+* **Update Nano-Httpd to version 2.3.1 [PR#1700](https://github.com/zaproxy/zap-extensions/pull/1700) _(merged)_**
 
-* **Websocket Test Utilities [PR#1703](https://github.com/zaproxy/zap-extensions/pull/1703)**
+* **Websocket Test Utilities [PR#1703](https://github.com/zaproxy/zap-extensions/pull/1703) _(merged)_**
 
-* **Tests for ServerConnectionEstablisher and WebSocketProxy [PR#1738](https://github.com/zaproxy/zap-extensions/pull/1738)**
+* **Tests for ServerConnectionEstablisher and WebSocketProxy [PR#1738](https://github.com/zaproxy/zap-extensions/pull/1738) _(merged)_**
 
 ## WebSocket Passive Scanner
 
-* **[Websocket Passive Scan] Script Mechanism [PR#1718](https://github.com/zaproxy/zap-extensions/pull/1718)**
+* **[Websocket Passive Scan] Script Mechanism [PR#1718](https://github.com/zaproxy/zap-extensions/pull/1718) _(open)_**
 
 A basic infrastructure created to support passive scans on WebSocket protocol. Passive scan plugins are used to warn the user of potential vulnerabilities that can be detected passively - they are not allowed to send any message over the WebSocket channel or manipulate the messages in any way. Passive plugins run in a separate background thread so that they have as little effect on performance as possible. You can write passive scan rules either dynamically by using scripts or by extending the [WebSocketPassiveScanner](https://github.com/zaproxy/zap-extensions/pull/1718/files#diff-d20e9efd18e4b6cec20209c70f1a07ae)
 
@@ -132,13 +129,13 @@ _(More info about the implementation in PR)_
 
 Active scan rules attack the server and therefore are only run when explicitly invoked by the user.  
 
-* **WebSocket TreeMap and Payload Analyzer [PR#1742](https://github.com/zaproxy/zap-extensions/pull/1742)**
+* **WebSocket TreeMap and Payload Analyzer [PR#1742](https://github.com/zaproxy/zap-extensions/pull/1742) _(open)_**
 
 Treemap is a formal way to represent the different components of a WebSocket communication. In addition, tree structure it's the most suitable way to iterate over the different messages. As I mentioned before, WebSocket protocol does not define a certain format of messages. So it was required to analyze all those different payloads on a "formal" structure. For this reason, I introduced two interfaces which developers can implement to analyze the structure of the messages ( [PayloadAnalyzer](https://github.com/zaproxy/zap-extensions/pull/1742/files#diff-1bfe23d36fc8e79c410247b5ba4c8f20) and[PayloadStructure](https://github.com/zaproxy/zap-extensions/pull/1742/files#diff-7feef61ddd998c294b0f219ffa1431e0)). I use those interface to create analyze JSON messages.
 
 _(More info about Tree Map in PR)_
 
-* **WebSocket active scan infrastructure [PR#1768](https://github.com/zaproxy/zap-extensions/pull/1768)** 
+* **WebSocket active scan infrastructure [PR#1768](https://github.com/zaproxy/zap-extensions/pull/1768) _(open)_** 
 
 Last but not least the WebSocket active scanner. Active Scanner infrastructure based on WebSocket tree map. It provides the basic classes to developers in order to write active scan rules for websocket. Furthermore, a plugin was implemented in order to give the ability to user write their own active scans with scripting languages. To write your own script just implement the interface class [WebSocketActiveMessageScript](https://github.com/zaproxy/zap-extensions/pull/1768/files#diff-a22234459f1b3330d87a3c3d3b1743e0). There is also a Template script in [Javascript](https://github.com/zaproxy/zap-extensions/pull/1768/files#diff-2acec7b9c267afa6349ff6c80a76348e) 
 
