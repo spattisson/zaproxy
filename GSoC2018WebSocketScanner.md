@@ -101,7 +101,7 @@ My work released by the core team in version 18 of WebSockets add-on.
 ![(Re)Establish WebSocket Connection](https://manosmagnus.github.io/data/png/open.gif)
 
 
-## WebSocket Test Framework
+## WebSocket Tests
 
 A test framework with Nano-Httpd and some test created in order to test WebSocket extension.
 
@@ -144,34 +144,103 @@ Last but not least the WebSocket active scanner. Active Scanner infrastructure b
 ## Weekly Update
 
 **Community bonding period (23/04 - 13/05)**
-* Go through [contributing.md](https://github.com/zaproxy/zaproxy/blob/develop/CONTRIBUTING.md), [development rules and guidelines](https://github.com/zaproxy/zaproxy/wiki/DevGuidelines), [add-on development](https://github.com/zaproxy/zap-extensions/wiki/AddOnDevelopment) wiki pages
+* Weekly meeting 
+* Go through [contributing.md](https://github.com/zaproxy/zaproxy/blob/develop/CONTRIBUTING.md), [development rules and guidelines](https://github.com/zaproxy/zaproxy/wiki/DevGuidelines) wiki pages
 * Start the [blog](https://manosmagnus.github.io/)
 * "Add regex & non-regex filter on WebSockets" [#1506](https://github.com/zaproxy/zap-extensions/pull/1506) get merged.
 * Get InteliJ setup Working 
 * Email Dev Group 
 * Start Looking on issue [#4290](https://github.com/zaproxy/zaproxy/issues/4290) 
-* Read some papers and blogs by [Robert Koch](http://www.ub.tuwien.ac.at/dipl/2013/AC07815487.pdf), [OWASP](https://www.owasp.org/index.php/Testing_WebSockets_(OTG-CLIENT-010)) and [Harri Kuosmanen](https://www.theseus.fi/bitstream/handle/10024/113390/Harri+Kuosmanen+-+Masters+thesis+-+Security+Testing+of+WebSockets+-+Final.pdf;jsessionid=471ECF2E160DB23F22D425DBC55C2A7D?sequence=1), [ZAP blog](https://zaproxy.blogspot.com/) etc.
+* Open [PR#1618](https://github.com/zaproxy/zap-extensions/pull/1618)
+* Read some papers and blogs by [Robert Koch](http://www.ub.tuwien.ac.at/dipl/2013/AC07815487.pdf), [OWASP](https://www.owasp.org/index.php/Testing_WebSockets_(OTG-CLIENT-010)), [Harri Kuosmanen](https://www.theseus.fi/bitstream/handle/10024/113390/Harri+Kuosmanen+-+Masters+thesis+-+Security+Testing+of+WebSockets+-+Final.pdf;jsessionid=471ECF2E160DB23F22D425DBC55C2A7D?sequence=1) and [ZAP blog](https://zaproxy.blogspot.com/) etc.
 * Build up test app [DVWS](https://www.owasp.org/index.php/OWASP_Damn_Vulnerable_Web_Sockets_(DVWS))
 
 **Coding week - 01 (14/05 - 20/05)**
+* Weekly meeting 
 * Start collecting WebSocket Examples 
-* Write python script to collect the examples [PR#104](https://github.com/zaproxy/community-scripts/pull/104) and PR#1637](https://github.com/zaproxy/zap-extensions/pull/1637)
-* Start planing the Test Framework and looking on [NanoHTTPD](https://en.wikipedia.org/wiki/NanoHTTPD)
-* https://en.wikipedia.org/wiki/NanoHTTPD
+* Start looking at [ascanrules](https://github.com/zaproxy/zap-extensions/tree/master/test/org/zaproxy/zap/extension/ascanrules)
+* Write python script to collect the examples [PR#104](https://github.com/zaproxy/community-scripts/pull/104) and [PR#1637](https://github.com/zaproxy/zap-extensions/pull/1637)
+* Start planing the Test Framework and looking on [NanoHTTPD](https://en.wikipedia.org/wiki/NanoHTTPD) and [testutils](https://github.com/zaproxy/zap-extensions/tree/master/test/org/zaproxy/zap/testutils)
+* Figure out how NanoHttp works with websocket (related [issue](https://github.com/NanoHttpd/nanohttpd/issues/74))
 * Start Looking at [SiteTree](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/model/SiteMap.java)
+* Start looking at scipr mechanism ([HelpAddonsScripts](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsScriptsScripts), [Internal Scripting](https://github.com/zaproxy/zaproxy/wiki/InternalScripting ), [Video-1](https://www.youtube.com/playlist?list=PLEBitBW-Hlss4FQK4jor6ktOihEyA-gRv ) and [Video-2](https://www.youtube.com/playlist?list=PLEBitBW-Hlssk0Bdhwz2J3uxN3ulr3drj ))
 
 **Coding week - 02 (21/05 - 27/05)**
+* Weekly meeting 
+* Start looking at community scripts about [variants](https://github.com/zaproxy/community-scripts/tree/master/variant) 
+* Create a [mockup](https://drive.google.com/file/d/1q15UJifoTNrzgnUoN8SspTeQBrdjhW2c/view) about WebSocket TreeMap
 * Write "How to build ZAP with InteliJ [wiki](https://github.com/zaproxy/zaproxy/wiki/HowToBuildZapWithIntellij)"
 * Start writing code for Test Framework 
 * Keep updating WebSocket examples
 
 **Coding week - 03 (28/05 - 03/06)**
-* [PR#104](https://github.com/zaproxy/community-scripts/pull/104) and PR#1637](https://github.com/zaproxy/zap-extensions/pull/1637) get merged 
-* Design the architection for WebSocket TreeMap 
+* Weekly meeting 
+* Initial structure about WebSocket Tree Map proposed
+* Some study requierments about [EventDispatch Thread](https://docs.oracle.com/javase/tutorial/uiswing/concurrency/dispatch.html)
+* [PR#104](https://github.com/zaproxy/community-scripts/pull/104) and [PR#1637](https://github.com/zaproxy/zap-extensions/pull/1637) get merged 
+* Plan the architecture about WebSocket TreeMap 
 * Start Coding for WebSocket TreeMap
      
 **Coding week - 04 (04/06 - 10/06)**
-* Create a UML about WebSocket Tree
+* Weekly meeting 
+* Create a [UML](https://drive.google.com/file/d/10crPwLoKV-OJ3U73QfTRBaZUUhwUxAhG/view?usp=sharing) about WebSocket Tree
+* Progress on WebSocket TreeMap
+
+**Coding week - 05 (11/06 - 17/06)**
+* Progress at WebSocket TreeMap
+
+**Coding week - 06 (18/06 - 24/06)**
+* Weekly meeting 
+* Decouple the class about establishing websocket connection.
+* Simple WebSocket Server with NanoHttpd completed at my Repo ([nanohttpd_websocket_tests](https://github.com/ManosMagnus/nanohttpd_websocket_tests))
+* Break up [PR#1618](https://github.com/zaproxy/zap-extensions/pull/1618) to [PR#1686](https://github.com/zaproxy/zap-extensions/pull/1686), [PR#1691](https://github.com/zaproxy/zap-extensions/pull/1691), [PR#1697](https://github.com/zaproxy/zap-extensions/pull/1697) and [PR#1689](https://github.com/zaproxy/zap-extensions/pull/1689) for easier review.
+* Progress at WebSocket TreeMap: Normalised tree nodes (i.e. messages with same structure are represented by the same node)
+
+**Coding week - 07 (25/06 - 01/07)**
+* Weekly meeting 
+* Start looking at existing Alerts ([Alert](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/core/scanner/Alert.java) and [alert](https://github.com/zaproxy/zaproxy/tree/develop/src/org/zaproxy/zap/extension/alert) )
+* Inactive due to Semester Exams
+
+**Coding week - 08 (02/07 - 08/07)**
+* Weekly meeting 
+* Progress at WebSocket TreeMap
+* Start looking at Script Plugin
+* Finish tests about WebSocket TreeMap [PR#1738](https://github.com/zaproxy/zap-extensions/pull/1738)
+* [PR#1686](https://github.com/zaproxy/zap-extensions/pull/1686), [PR#1691](https://github.com/zaproxy/zap-extensions/pull/1691), [PR#1697](https://github.com/zaproxy/zap-extensions/pull/1697) get merged 
+
+**Coding week - 09 (09/07 - 15/07)**
+* Weekly meeting 
+* Start coding for WebSocket Passive Scanner 
+* Review WebSocket TreeMap 
+
+**Coding week - 10 (16/07 - 22/07)**
+* Weekly meeting
+* Open [Websocket Passive Scan] Script Mechanism [PR#1718](https://github.com/zaproxy/zap-extensions/pull/1718) 
+* WebSocket TreeMap Progress: Basic UI completed 
+* Review Opened PRs
+* Make some research about JSON and how I could accomplish serialization and deserialization 
+* Be familiar with [GSON](https://github.com/google/gson) Library
+* Write experimental code about JSON Analyzer 
+* Start looking on existing Http Active Scanner ([scanner](https://github.com/zaproxy/zaproxy/tree/develop/src/org/parosproxy/paros/core/scanner) and [ascan](https://github.com/zaproxy/zaproxy/tree/develop/src/org/zaproxy/zap/extension/ascan)) 
+* Start Coding for WebSocket Active Scanner
+ 
+**Coding week - 11 (23/07 - 29/07)**
+* Weekly meeting 
+* Start looking on `input Vectors` and `Variants`
+* Start looking on `WebSocketAPI` and `ActiveScanAPI`
+* Start coding for `WebSocketAnalyze` and `WebSocketStructure`
+* Start coding for JSON payload Analyzer  
+* WebSocket Test framework ([PR#1700](https://github.com/zaproxy/zap-extensions/pull/1700), [PR#1703](https://github.com/zaproxy/zap-extensions/pull/1703)) get Merged 
+* Review the opened PRs
+
+**Coding week - 12 (30/07 - 05/08)**
+* Open WebSocket TreeMap and Payload Analyzer [PR#1742](https://github.com/zaproxy/zap-extensions/pull/1742)
+* Review the opened PRs
+
+**Coding week - 12 (30/07 - 05/08)**
+* Weekly meeting
+* Build app Test web app [Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
+* Open WebSocket active scan infrastructure [PR#1768](https://github.com/zaproxy/zap-extensions/pull/1768) 
 
 
 
