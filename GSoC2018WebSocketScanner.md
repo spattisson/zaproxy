@@ -242,6 +242,7 @@ Last but not least the WebSocket active scanner. Active Scanner infrastructure b
 * Build app Test web app [Juice Shop](https://www.owasp.org/index.php/OWASP_Juice_Shop_Project)
 * Open WebSocket active scan infrastructure [PR#1768](https://github.com/zaproxy/zap-extensions/pull/1768) 
 
+## Many Thanks to my mentors!
 
 
     
