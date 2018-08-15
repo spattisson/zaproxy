@@ -64,8 +64,13 @@ We now also have <a href='https://software.opensuse.org/download.html?project=ho
 <br>
 <h3>Homebrew Cask</h3>
 On Mac OS X you can also install ZAP using <a href='http://caskroom.io/'>Homebrew Cask</a>:<br>
-<pre><code>brew cask install owasp-zap<br>
-</code></pre>
+<pre><code>brew cask install owasp-zap</code></pre>
+
+<h3>Snapcraft</h3>
+On Linux systems you can also use <a href="https://docs.snapcraft.io/core/install">Snapcraft</a>.<br>
+ZAP is currently only on the beta and edge channels, so you'll need to install it using:<br>
+<pre><code>snap install --beta --devmode zaproxy</code></pre>
+You'll then be able to run ZAP using <pre><code>zaproxy</code></pre>
 
 <h3>ZAP Weekly</h3>
 
