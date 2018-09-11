@@ -66,4 +66,4 @@ The first step, is of course to get an account at http://www.github.com.  You wi
 
 **_$ git config --global user.email "YOUR EMAIL ADDRESS"_**
 
-Further instructions can be found at the site the [GitHub Site](https://help.github.com/articles/set-up-git/).
+Further instructions can be found at the [GitHub Site](https://help.github.com/articles/set-up-git/).
