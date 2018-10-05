@@ -115,3 +115,6 @@ Unlike the baseline configuration file the API configuration file handles both a
 90033	WARN	(Loosely Scoped Cookie - Passive/beta)
 ```
 
+For more details see the blog posts:
+* [Exploring APIs with ZAP](https://zaproxy.blogspot.com/2017/04/exploring-apis-with-zap.html)
+* [Scanning APIs with ZAP](https://zaproxy.blogspot.com/2017/06/scanning-apis-with-zap.html)
