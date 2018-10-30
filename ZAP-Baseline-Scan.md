@@ -134,7 +134,7 @@ For example:
 # Ignore the specified URL for Autocomplete in browser
 10012    OUTOFSCOPE    https://www.example.com/test.html
 # Ignore all URLS containing ‘.js’ for all scan rules
-*    OUTOFSCOPE    *.js
+*    OUTOFSCOPE    .*\.js
 ```
 ### Progress File
 You can specify a progress file to flag issues that are already known about and are being addressed:
