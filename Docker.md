@@ -31,7 +31,7 @@ See the [WebSwing](WebSwing) wiki page for details.
 ### ZAP Headless:
 You can also start the ZAP in headless mode with following command:
 ```bash
-docker run -u zap -p 8080:8080 -i owasp/zap2docker-stable zap.sh -daemon -host 0.0.0.0 -port 8080 -config api.addrs.addr.name='.*' -config api.addrs.addr.regex='true' -config api.key='<api-key>'
+docker run -u zap -p 8080:8080 -i owasp/zap2docker-stable zap.sh -daemon -host 0.0.0.0 -port 8080 -config api.addrs.addr.name=.* -config api.addrs.addr.regex=true -config api.key=<api-key>
 ```
 <sub>**Note**: `-config api.addrs.addr.name=.*` opens the API up for connections from any other host, it is prudent to configure this more specifically for your network/setup.</sub>
 
