@@ -46,6 +46,27 @@ Note that you can set 'arrays' using keys like:
 -config replacer.full_list\(1\).replacement=BLAHBLAH
 ```
 
+You can also put all of the keys you want to set in a file and use that file on the command line:
+```
+-configfile conf
+```
+for the above example the file `conf` would contain:
+```
+replacer.full_list\(0\).description=auth1
+replacer.full_list\(0\).enabled=true
+replacer.full_list\(0\).matchtype=REQ_HEADER
+replacer.full_list\(0\).matchstr=Authorization
+replacer.full_list\(0\).regex=false
+replacer.full_list\(0\).replacement=SBSBSB
+replacer.full_list\(1\).description=auth2
+replacer.full_list\(1\).enabled=true
+replacer.full_list\(1\).matchtype=REQ_HEADER
+replacer.full_list\(1\).matchstr=AnotherHeader
+replacer.full_list\(1\).regex=false
+replacer.full_list\(1\).replacement=BLAHBLAH
+```
+
+
 ---
 
 [Back to the FAQ](FAQtoplevel)
