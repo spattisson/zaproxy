@@ -15,7 +15,7 @@ If you can only use Java 8 on Windows 10 then you can set the compatibility sett
 
 Finally, if all else fails, you can increase the Font Size via the ZAP Options / Display - this will also scale all of the images as well, although some graphical elements such as checkboxes and tree expand/collapse controls may not scale.
 
-If none of these solutions work for you then raise an [issue](https://github.com/zaproxy/zaproxy/issues/new) stating exactly which system and versions of Java you are are using.
+If none of these solutions work for you then raise an [issue](https://github.com/zaproxy/zaproxy/issues/new) stating exactly which system and versions of Java you are using.
 
 ---
 
