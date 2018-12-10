@@ -4,7 +4,7 @@ If ZAP is displayed in a really tiny window then its probably because you have a
 
 The solution is easy - use Java 9+
 
-If you need to have multiple versions of Java on Windows then you may find it difficult to specify which one should be used. However changing the last line of the existing `zap.bat` batch file to specify the right version of Java should solve this problem, e.g.:
+If you need to have multiple versions of Java on Windows then you may find it difficult to specify which one should be used. However changing the last line of the existing `zap.bat` batch file to specify the path to the right version of Java should solve this problem, e.g.:
 ```
 "C:\Program Files\Java\jdk-11.0.1\bin\java" %jvmopts% -jar zap-2.7.0.jar %*
 ```
