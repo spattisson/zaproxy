@@ -72,6 +72,7 @@ The latest version of ZAP is now on the stable channel, so you can install it us
 <pre><code>snap install zaproxy --classic</code></pre>
 You'll then be able to run ZAP using <pre><code>zaproxy</code></pre>
 
+<a name="weekly"></a>
 <h3>ZAP Weekly</h3>
 
 <table width='80%'>
