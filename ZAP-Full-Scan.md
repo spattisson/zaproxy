@@ -1,4 +1,4 @@
-The ZAP full scan is a script that is available in the ZAP Live and Weekly [[Docker]] images.
+The ZAP full scan is a script that is available in the ZAP [[Docker]] images.
 
 It runs the ZAP spider against the specified target (by default with no time limit) followed by an optional ajax spider scan and then a full active scan before reporting the results.
 
@@ -47,3 +47,5 @@ If you use 'file' params then you need to mount the directory those file are in 
 docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-stable zap-full-scan.py \
     -t https://www.example.com -g gen.conf -r testreport.html
 ```
+### Scan Hooks
+In the Live and Weekly images this script supports [scan hooks](https://github.com/zaproxy/zaproxy/blob/develop/docker/docs/scan-hooks.md) which allow you to override or modify behaviour of the script components instead of having to write a new script.
