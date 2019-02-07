@@ -10,6 +10,7 @@
 * [Packaged Scans](Packaged-Scans)
   * [Baseline Scan](ZAP-Baseline-Scan)
   * [API Scan](ZAP-API-Scan)
+  * [Full Scan](ZAP-Full-Scan)
 * [Development](Development)
   * [Proposals](Proposals)
     * [Plugable Reports](ProposalPlugableReports)
