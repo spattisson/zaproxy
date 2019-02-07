@@ -166,3 +166,6 @@ The weekly version of ZAP supports scan rule configuration. One particular confi
 ### Mass Baseline
 If you would like to run the baseline against a number of sites then you can use the [mass baseline scripts](https://github.com/zaproxy/community-scripts/tree/master/api/mass-baseline) on the ZAP Community Scripts repo.
 These generate a [dashboard](https://github.com/zaproxy/community-scripts/wiki/Baseline-Summary) which will show you a summary of the results on one wiki page.
+
+### Scan Hooks
+This script supports [scan hooks](https://github.com/zaproxy/zaproxy/blob/develop/docker/docs/scan-hooks.md) which allows you to override or modify behaviour of the script components instead of having to write a new script.
