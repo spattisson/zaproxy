@@ -39,12 +39,11 @@ This section borrows heavily from the main project setup site, https://github.co
 
 1. Ensure you have a recent version of Eclipse - the Eclipse IDE for Java Developers is a good option
 2. Start Eclipse and select a new (empty) workspace
-3. Select the menu: "File / Import"
-4. Select "Team / Team Project Set" and click "Next >"
-5. Select URL and enter: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZAP-projectSet.psf 
-6. Click "Finish" and wait for Eclipse to pull down all of the projects and build them.
+3. Clone and import the ZAP repositories:
+   - [Steps on how to clone and import a Git repository](https://www.vogella.com/tutorials/EclipseGit/article.html#clone-an-existing-repository)
+   - [List of (main) ZAP repositories and its branches](https://github.com/zaproxy/zaproxy/wiki/Building#ides--manual-set-up)
 
-This will pull down the main development project and all of the zap-extension projects, as well as the community scripts.  It will take quite some time depending upon your bandwidth. Next under Eclipse locate Window tab.  Under this menu select Windows->Preferences->Workspace.  Set the New text file line delimiter to Other/Unix.  This will greatly aid you in contributing files as all of the files stored on GitHub are in Unix format.
+Next under Eclipse locate Window tab.  Under this menu select Windows->Preferences->Workspace.  Set the New text file line delimiter to Other/Unix.  This will greatly aid you in contributing files as all of the files stored on GitHub are in Unix format.
 
 If you are not planning on contributing to the OWASP/ZAP repository and you don't want to write your own plug-ins you will probably not need the next steps. 
 
