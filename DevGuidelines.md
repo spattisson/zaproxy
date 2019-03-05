@@ -68,7 +68,7 @@ As we get more and more people contributing to ZAP we need a set of rules and gu
 The following guidelines apply to ZAP's text elements as represented in English (en-GB, en-US, and en-CA).
 
 ### Text: Titles, Menu Items, Options, and Tool Tips
-Titles, menu items, options, and tool tips text should be represented using Title Capitalization as defined by the 'Chicago Manual of Style'. For quick reference you can use this online tool: https://capitalizemytitle.com/#Chicago (make sure you select the "Chicago" tab). The only exception here would be for string that form full sentences (ending with proper punctuation.)
+Titles, menu items, options, and tool tips text should be represented using Title Capitalization as defined by the 'Chicago Manual of Style'. For quick reference you can use this online tool: https://capitalizemytitle.com/#Chicago (make sure you select the "Chicago" tab). The only exception here would be for strings that form full sentences (ending with proper punctuation).
 
 ***
 
