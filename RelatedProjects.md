@@ -33,7 +33,7 @@ Last full update of Status column: 20180523.
 | [zapper](https://github.com/adedayo/zapper) | Run OWASP ZAP in Jenkins for automated security testing | Stale |
 | [zapr](https://github.com/garethr/zapr) | Easy to use command line security scanner | Stale |
 | [zap-gradle-plugin](https://github.com/PROSPricing/zap-gradle-plugin) | Standalone gradle plugin to aid in integrating OWASP ZAP | Stale |
-| [zap-java-api](https://github.com/continuumsecurity/zap-java-api) | A client API for OWASP ZAP that uses Java types. | Stale?<br><sub>Last updated 11months ago</sub> |
+| [zap-java-api](https://github.com/continuumsecurity/zap-java-api) | A client API for OWASP ZAP that uses Java types. | Stale |
 | [ZapPenTester](https://github.com/gustavorhm/ZapPenTester) | Command line tool that enables automated penetration testing in the Microsoft stack using OWASP ZAP | Stale |
 | [zaproxy-cookbook](https://github.com/bendodd/zaproxy-cookbook) | Installs the OWASP Zed Attack Proxy | Stale |
 | [zap-maven-plugin](https://github.com/ShiNoSenshi/zap-maven-plugin) | This is a Maven Plugin to control ZAProxy. It is based on https://code.google.com/p/zap-maven-plugin | Stale |
