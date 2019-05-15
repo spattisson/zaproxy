@@ -46,4 +46,5 @@ If you have any questions about ZAP that are not answered here or in the [User G
   * [Fonts in ZAP look bad on my system - what should I do?](FAQBadFonts)
   * [How can I run ZAP with a high DPI display?](FAQhighdpi)
   * [What options exist for selective proxying?](FAQSelectiveProxy)
+  * [FAQ: What 'calls home' does ZAP make?](FAQcallshome)
   * [Why don't you rewrite ZAP in \<my favorite language\>?](FAQrewrite)
