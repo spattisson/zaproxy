@@ -1,4 +1,4 @@
-Not sure how to start using ZAP? Read the [Getting Started Guide](https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAPGettingStartedGuide-2.7.pdf) (pdf).
+Not sure how to start using ZAP? Read the [Getting Started Guide](https://github.com/zaproxy/zaproxy/releases/download/v2.8.0/ZAPGettingStartedGuide-2.8.pdf) (pdf).
 
 Checksums for all of the ZAP downloads are maintained in the relevant [version files](https://github.com/zaproxy/zaproxy/wiki/Downloads#latest-versions).
 
@@ -32,13 +32,13 @@ _This contains the core set of functionality, and you can add more functionality
 The Windows and Linux versions require Java 8 or higher to run.<br>
 The installers are built using a <a href='https://www.ej-technologies.com/products/install4j/overview.html'>multi-platform installer builder</a>.<br>
 The MacOS version includes Java 8 - you can use the Linux or Cross Platform versions if you do not want to download this.<br>
-For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_7_0'>release notes</a>.<br>
+For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_8_0'>release notes</a>.<br>
 <br>
-<h3>ZAP 2.7.0 Core</h3>
+<h3>ZAP 2.8.0 Core</h3>
 
 <table width='80%'>
 <tr>
-<td width='30%'>Cross platform</td><td width='15%'>2017-11-28</td><td width='15%'>35.2 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/2.7.0/ZAP_2.7.0_Core.tar.gz'>Download now</a></td>
+<td width='30%'>Cross platform</td><td width='15%'>2017-11-28</td><td width='15%'>34.3 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/v2.8.0/ZAP_2.8.0_Core.zip'>Download now</a></td>
 </tr>
 </table>
 
