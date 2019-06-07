@@ -1,6 +1,6 @@
 # How do I see what version of an Add-on/Extension I have installed?
 
-There are two ways to do this:
+There are three ways to do this:
 
 ## 1 - Via the Marketplace
 1. Click the Marketplace button in the main toolbar:
