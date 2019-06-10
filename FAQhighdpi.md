@@ -13,6 +13,12 @@ If you can only use Java 8 on Windows 10 then you can set the compatibility sett
 
 ![image](https://user-images.githubusercontent.com/3179932/45785579-c6a12080-bc64-11e8-92c4-9860a1437c4e.png)
 
+On Linux you can try editing the zap.sh file to include the java command line option like:
+```
+ -Dsun.java2d.uiScale=2.5
+```
+You can change the scale to which ever value works for you.
+
 Finally, if all else fails, you can increase the Font Size via the ZAP Options / Display - this will also scale all of the images as well, although some graphical elements such as checkboxes and tree expand/collapse controls may not scale.
 
 If none of these solutions work for you then raise an [issue](https://github.com/zaproxy/zaproxy/issues/new) stating exactly which system and versions of Java you are using.
