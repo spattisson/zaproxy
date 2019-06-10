@@ -63,7 +63,7 @@ See <a href='Docker'>Docker</a> for more details.<br>
 We now also have <a href='https://software.opensuse.org/download.html?project=home%3Acabelo&package=owasp-zap'>official ZAP Linux Repos</a> :)<br>
 <br>
 <h3>Homebrew Cask</h3>
-On Mac OS X you can also install ZAP using <a href='http://caskroom.io/'>Homebrew Cask</a>:<br>
+On Mac OS X you can also install ZAP using <a href='https://brew.sh/'>Homebrew Cask</a>:<br>
 <pre><code>brew cask install owasp-zap</code></pre>
 
 <h3>Snapcraft</h3>
