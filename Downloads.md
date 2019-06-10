@@ -51,8 +51,8 @@ It requires Java 8 or higher to run.<br>
 
 There are 4 Docker images available:<br>
 <ul>
-<li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-stable/'>zap2docker-stable</a> : full 2.7.0 release</li>
-<li><a href='https://hub.docker.com/r/owasp/zap2docker-bare/'>zap2docker-bare</a> : minimal 2.7.0 release - ideal for CI environments</li>
+<li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-stable/'>zap2docker-stable</a> : full 2.8.0 release</li>
+<li><a href='https://hub.docker.com/r/owasp/zap2docker-bare/'>zap2docker-bare</a> : minimal 2.8.0 release - ideal for CI environments</li>
 <li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-weekly/'>zap2docker-weekly</a> : the latest weekly release</li>
 <li><a href='https://registry.hub.docker.com/u/owasp/zap2docker-live/'>zap2docker-live</a> : the very latest source code</li>
 </ul>
