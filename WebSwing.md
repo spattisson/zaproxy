@@ -19,4 +19,4 @@ The performance is surprisingly good, although a little bit slower. You can stil
 
 You can even proxy your browser through ZAP, via the URL [http://localhost:8090](http://localhost:8090)
 
-Note that you will need to visit http://localhost:8080/?anonym=true&app=ZAP (stable) or http://localhost:8080/zap (weekly) _before_ you can use ZAP as a proxy - ZAP will only start to run when you visit that URL.
+Note that you will need to visit http://localhost:8080/zap _before_ you can use ZAP as a proxy - ZAP will only start to run when you visit that URL.
