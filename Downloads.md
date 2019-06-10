@@ -97,8 +97,3 @@ These are version specific and define the add-on on the ZAP Marketplace for that
 The 2.8 release stream uses: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-2.8.xml<br>
 The development code uses: https://raw.githubusercontent.com/zaproxy/zap-admin/master/ZapVersions-dev.xml<br>
 At the moment these files are the same, but it does allow us to maintain different versions of add-ons for different versions of ZAP, if we need to support this in the future.
-
-<h3>ZAP Workspace</h3>
-You can now import ZAP projects into Eclipse using just one URL.
-
-See the [Building](Building) page for details about this and information about other IDEs.
