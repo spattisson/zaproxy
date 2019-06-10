@@ -7,9 +7,6 @@ To do this you will just need Docker installed. Start the container with webswin
   * `docker run -u zap -p 8080:8080 -p 8090:8090 -i owasp/zap2docker-weekly zap-webswing.sh`
 
 Then point your browser at: 
-* Stable: 
-  * http://localhost:8080/?anonym=true&app=ZAP
-* Weekly: 
   * http://localhost:8080/zap
 
 You will then see the familiar ZAP splash screen while ZAP starts up.
