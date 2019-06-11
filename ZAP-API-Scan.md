@@ -16,12 +16,14 @@ Usage: zap-api-scan.py -t <target> -f <format> [options]
     -t target         target API definition, currently only an OpenAPI URL, eg https://www.example.com/openapi.json
     -f format         either openapi or soap
 Options:
+    -h                print this help message
     -c config_file    config file to use to INFO, IGNORE or FAIL warnings
     -u config_url     URL of config file to use to INFO, IGNORE or FAIL warnings
     -g gen_file       generate default config file (all rules set to WARN)
     -r report_html    file to write the full ZAP HTML report
     -w report_md      file to write the full ZAP Wiki (Markdown) report
     -x report_xml     file to write the full ZAP XML report
+    -J report_json    file to write the full ZAP JSON document
     -a                include the alpha passive scan rules as well
     -d                show debug messages
     -P                specify listen port
@@ -31,7 +33,11 @@ Options:
     -n context_file   context file which will be loaded prior to scanning the target
     -p progress_file  progress file which specifies issues that are being addressed
     -s                short output format - dont show PASSes or example URLs
+    -S                safe mode this will skip the active scan and perform a baseline scan
+    -T                max time in minutes to wait for ZAP to start and the passive scan to run
+    -O                the hostname to override in the (remote) OpenAPI spec
     -z zap_options    ZAP command line options e.g. -z "-config aaa=bbb -config ccc=ddd"
+    --hook            path to python file that define your custom hooks
 ```
 
 ### Configuration
