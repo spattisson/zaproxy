@@ -76,7 +76,7 @@ function extractInputFieldValue(page, fieldName) {
 2) Create "DVWA" context (or edit the "Default Context"): <br>
 2a) Context Name: `DVWAv1.9` <br>
 2b) In "Include in Context" panel add: `\Qhttp://localhost/DVWA\E.*` <br>
-2c) In "Exclude form Context" panel add:  <br>
+2c) In "Exclude from Context" panel add:  <br>
 `\Qhttp://localhost/DVWA/login.php\E` <br>
 `\Qhttp://localhost/DVWA/logout.php\E` <br>
 `\Qhttp://localhost/DVWA/setup.php\E` <br>
