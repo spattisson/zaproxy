@@ -48,4 +48,4 @@ docker run -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-stable zap-full-scan.py \
     -t https://www.example.com -g gen.conf -r testreport.html
 ```
 ### Scan Hooks
-In the Live and Weekly images this script supports [scan hooks](https://github.com/zaproxy/zaproxy/blob/develop/docker/docs/scan-hooks.md) which allow you to override or modify behaviour of the script components instead of having to write a new script.
+This script supports [scan hooks](https://github.com/zaproxy/zaproxy/blob/develop/docker/docs/scan-hooks.md) which allow you to override or modify behaviour of the script components instead of having to write a new script.
