@@ -126,4 +126,4 @@ For more details see the blog posts:
 * [Scanning APIs with ZAP](https://zaproxy.blogspot.com/2017/06/scanning-apis-with-zap.html)
 
 ### Scan Hooks
-In the Live and Weekly images this script supports [scan hooks](https://github.com/zaproxy/zaproxy/blob/develop/docker/docs/scan-hooks.md) which allow you to override or modify behaviour of the script components instead of having to write a new script.
+This script supports [scan hooks](https://github.com/zaproxy/zaproxy/blob/develop/docker/docs/scan-hooks.md) which allow you to override or modify behaviour of the script components instead of having to write a new script.
