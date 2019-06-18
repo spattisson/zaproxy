@@ -168,4 +168,4 @@ If you would like to run the baseline against a number of sites then you can use
 These generate a [dashboard](https://github.com/zaproxy/community-scripts/wiki/Baseline-Summary) which will show you a summary of the results on one wiki page.
 
 ### Scan Hooks
-In the Live and Weekly images this script supports [scan hooks](https://github.com/zaproxy/zaproxy/blob/develop/docker/docs/scan-hooks.md) which allow you to override or modify behaviour of the script components instead of having to write a new script.
+This script supports [scan hooks](https://github.com/zaproxy/zaproxy/blob/develop/docker/docs/scan-hooks.md) which allow you to override or modify behaviour of the script components instead of having to write a new script.
