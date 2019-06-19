@@ -85,7 +85,5 @@ To help translate ZAP go to <a href='https://crowdin.net/project/owasp-zap'>http
 </tr>
 </table>
 
-&lt;wiki:gadget url="https://www.ohloh.net/p/584419/widgets/project\_factoids\_stats.xml" height="270" width="400" border="1"/&gt;
-
-ZAP is a fork of the well regarded [Paros Proxy](http://www.parosproxy.org/).<br>
+ZAP is a fork of the well regarded Paros Proxy.<br>
 Details of the changes made are here: <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleasesReleases'>Releases</a>
