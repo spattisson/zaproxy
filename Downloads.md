@@ -1,6 +1,6 @@
 Not sure how to start using ZAP? Read the [Getting Started Guide](https://github.com/zaproxy/zaproxy/releases/download/v2.8.0/ZAPGettingStartedGuide-2.8.pdf) (pdf).
 
-Checksums for all of the ZAP downloads are maintained in the relevant [version files](https://github.com/zaproxy/zaproxy/wiki/Downloads#latest-versions).
+Checksums for all of the ZAP downloads are maintained on the [2.8.0 Release Page](https://github.com/zaproxy/zaproxy/releases/tag/v2.8.0) and in the relevant [version files](https://github.com/zaproxy/zaproxy/wiki/Downloads#latest-versions).
 
 _As with all software we strongly recommend that ZAP is only installed and used on operating systems and JREs that are fully patched and actively maintained._
 
