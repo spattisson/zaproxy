@@ -1,4 +1,3 @@
-* [Introduction](Introduction)
 * [Screenshots](Screenshots)
 * [Tutorial Videos](Videos)
 * [Other Videos](VideosOther)
