@@ -77,7 +77,7 @@ You'll then be able to run ZAP using <pre><code>zaproxy</code></pre>
 
 <table width='80%'>
 <tr>
-<td width='30%'>Weekly - cross platform</td><td width='15%'>2019-07-01</td><td width='15%'>105 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/w2019-07-01/ZAP_WEEKLY_D-2019-07-01.zip'>Download now</a></td>
+<td width='30%'>Weekly - cross platform</td><td width='15%'>2019-07-17</td><td width='15%'>105 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/w2019-07-17/ZAP_WEEKLY_D-2019-07-17.zip'>Download now</a></td>
 </tr>
 </table>
 
