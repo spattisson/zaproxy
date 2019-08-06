@@ -2,15 +2,15 @@
 
 If you want to help improve the scanner rules then here are a few pointers.
 
-The [Active Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAscan) rules are defined in different packages/add-ons depending on its quality:
-  * Alpha - in [org.zaproxy.zap.extension.ascanrulesAlpha](https://github.com/zaproxy/zap-extensions/tree/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha);
-  * Beta - in [org.zaproxy.zap.extension.ascanrulesBeta](https://github.com/zaproxy/zap-extensions/tree/beta/src/org/zaproxy/zap/extension/ascanrulesBeta);
-  * Release - in [org.zaproxy.zap.extension.ascanrules](https://github.com/zaproxy/zap-extensions/tree/master/src/org/zaproxy/zap/extension/ascanrules);
+The [Active Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAscan) rules are defined in different add-ons depending on its quality:
+  * Alpha - in [ascanrulesAlpha](https://github.com/zaproxy/zap-extensions/tree/master/addOns/ascanrulesAlpha/);
+  * Beta - in [ascanrulesBeta](https://github.com/zaproxy/zap-extensions/tree/master/addOns/ascanrulesBeta/);
+  * Release - in [ascanrules](https://github.com/zaproxy/zap-extensions/tree/master/addOns/ascanrules/);
 
-The [Passive Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsPscan) rules are defined in different packages/add-ons depending on its quality:
-  * Alpha - in [org.zaproxy.zap.extension.pscanrulesAlpha](https://github.com/zaproxy/zap-extensions/tree/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha);
-  * Beta - in [org.zaproxy.zap.extension.pscanrulesBeta](https://github.com/zaproxy/zap-extensions/tree/beta/src/org/zaproxy/zap/extension/pscanrulesBeta);
-  * Release - in [org.zaproxy.zap.extension.pscanrules](https://github.com/zaproxy/zap-extensions/tree/master/src/org/zaproxy/zap/extension/pscanrules);
+The [Passive Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsPscan) rules are defined in different add-ons depending on its quality:
+  * Alpha - in [pscanrulesAlpha](https://github.com/zaproxy/zap-extensions/tree/master/addOns/pscanrulesAlpha/);
+  * Beta - in [pscanrulesBeta](https://github.com/zaproxy/zap-extensions/tree/master/addOns/pscanrulesBeta/);
+  * Release - in [pscanrules](https://github.com/zaproxy/zap-extensions/tree/master/addOns/pscanrules/);
 
 Having a look at how these rules work would be a good place to start.
 

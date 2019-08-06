@@ -9,7 +9,7 @@ However there is a way to load them when starting ZAP via the zaproxy project wi
     * Select the "Classpath" tab
     * Select the "User Entries" node
     * Press the "Add Projects..." button
-    * Select the require project, eg zap-extensions-beta
+    * Select the require project, eg zap-extensions
 
 When you run this configuration you _should_ get the latest code changes you've made to the relevant extensions project without having to redeploy the extension.
 

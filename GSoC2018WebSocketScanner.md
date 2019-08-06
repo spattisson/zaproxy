@@ -158,12 +158,12 @@ Last but not least the WebSocket active scanner. Active Scanner infrastructure b
 **Coding week - 01 (14/05 - 20/05)**
 * Weekly meeting 
 * Start collecting WebSocket Examples 
-* Start looking at [ascanrules](https://github.com/zaproxy/zap-extensions/tree/master/test/org/zaproxy/zap/extension/ascanrules)
+* Start looking at [ascanrules](https://github.com/zaproxy/zap-extensions/tree/master/addOns/ascanrules/src/test/java/org/zaproxy/zap/extension/ascanrules)
 * Write python script to collect the examples [PR#104](https://github.com/zaproxy/community-scripts/pull/104) and [PR#1637](https://github.com/zaproxy/zap-extensions/pull/1637)
-* Start planing the Test Framework and looking on [NanoHTTPD](https://en.wikipedia.org/wiki/NanoHTTPD) and [testutils](https://github.com/zaproxy/zap-extensions/tree/master/test/org/zaproxy/zap/testutils)
+* Start planing the Test Framework and looking on [NanoHTTPD](https://en.wikipedia.org/wiki/NanoHTTPD) and [testutils](https://github.com/zaproxy/zap-extensions/tree/master/testutils/)
 * Figure out how NanoHttp works with websocket (related [issue](https://github.com/NanoHttpd/nanohttpd/issues/74))
 * Start Looking at [SiteTree](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/model/SiteMap.java)
-* Start looking at scipr mechanism ([HelpAddonsScripts](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsScriptsScripts), [Internal Scripting](https://github.com/zaproxy/zaproxy/wiki/InternalScripting ), [Video-1](https://www.youtube.com/playlist?list=PLEBitBW-Hlss4FQK4jor6ktOihEyA-gRv ) and [Video-2](https://www.youtube.com/playlist?list=PLEBitBW-Hlssk0Bdhwz2J3uxN3ulr3drj ))
+* Start looking at script mechanism ([HelpAddonsScripts](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsScriptsScripts), [Internal Scripting](https://github.com/zaproxy/zaproxy/wiki/InternalScripting ), [Video-1](https://www.youtube.com/playlist?list=PLEBitBW-Hlss4FQK4jor6ktOihEyA-gRv ) and [Video-2](https://www.youtube.com/playlist?list=PLEBitBW-Hlssk0Bdhwz2J3uxN3ulr3drj ))
 
 **Coding week - 02 (21/05 - 27/05)**
 * Weekly meeting 

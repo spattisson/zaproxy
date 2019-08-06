@@ -7,21 +7,21 @@ If you think that we are infringing any licenses then please let us know asap by
 ## Special cases
 
 ### [SQLMap](http://sqlmap.org/)
-Code: https://github.com/zaproxy/zap-extensions/tree/beta/src/org/zaproxy/zap/extension/sqliplugin
+Code: https://github.com/zaproxy/zap-extensions/tree/master/addOns/sqliplugin/
 
 This code is a derivative of SQMap and therefore is GPL.
 
 We have contacted the authors and they have granted us an exemption.
 
 ### [SVN Digger](https://www.netsparker.com/blog/web-security/svn-digger-better-lists-for-forced-browsing/)
-Code: https://github.com/zaproxy/zap-extensions/tree/beta/src/org/zaproxy/zap/extension/svndigger
+Code: https://github.com/zaproxy/zap-extensions/tree/master/addOns/svndigger/
 
 The svndigger files are GPLv3.
 
 We have contacted the authors and they have granted us an exemption.
 
 ### [JBrofuzz](https://sourceforge.net/projects/jbrofuzz/)
-Code: https://github.com/zaproxy/zap-extensions/tree/beta/src/org/zaproxy/zap/extension/fuzz/lib
+Code: https://github.com/zaproxy/zap-extensions/tree/master/addOns/fuzz/
 
 The JBroFuzz jars are GPLv2
 

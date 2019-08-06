@@ -37,17 +37,17 @@ For more details see the [ZAP API](ApiDetails) section of this wiki.
 
 Active Scan rules find potential vulnerabilities by attacking the target application.
 
-New [Active Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAscan) rules should be added to [org.zaproxy.zap.extension.ascanrulesAlpha](https://github.com/zaproxy/zap-extensions/tree/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha) package.
+New [Active Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsAscan) rules should be added to [ascanrulesAlpha add-on](https://github.com/zaproxy/zap-extensions/tree/master/addOns/ascanrulesAlpha/).
 
-Active scan rules are loaded from the 'plugins' directory.
+Active scan rules are loaded from the respective add-ons found in the `plugin` directory.
 
 ## Passive Scan Rules
 
 Passive Scan rules find potential vulnerabilities just by examining the requests and responses in a background thread. They should not make any changes.
 
-New [Passive Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsPscan) rules should be added to [org.zaproxy.zap.extension.pscanrulesAlpha](https://github.com/zaproxy/zap-extensions/tree/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha) package.
+New [Passive Scan](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsPscan) rules should be added to [pscanrulesAlpha add-on](https://github.com/zaproxy/zap-extensions/tree/master/addOns/pscanrulesAlpha) package.
 
-Passive scan rules are loaded from the 'plugins' directory.
+Passive scan rules are loaded from the respective add-ons found in the `plugin` directory.
 
 ## Extensions
 

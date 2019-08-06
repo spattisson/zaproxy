@@ -18,11 +18,11 @@ These are some suggested Best Practices for Google Summer of Code projects - all
 ## Source Control
   * Ideally as much new code as possible should be implemented as new add-ons in the ZAP extensions project: https://github.com/zaproxy/zap-extensions/
   * If significant core changes are required then students should create a new https://github.com/zaproxy/zaproxy/ branch
-  * Add-ons should follow the standard development process: https://github.com/zaproxy/zap-extensions/wiki/AddOnDevelopment eg starting off in the ‘alpha’ branch
+  * Add-ons should follow the standard development process: https://github.com/zaproxy/zap-extensions/wiki/AddOnDevelopment
   * All projects should aim for ‘release’ status by the end of the GSoC
 
 ## Development
-  * Relatively short development cycles are encouraged, with students comitting changes and releasing new add-on versions regularly - this allows us to see that things are on track and gives the maximum opportunity for feedback from the community
+  * Relatively short development cycles are encouraged, with students committing changes and releasing new add-on versions regularly - this allows us to see that things are on track and gives the maximum opportunity for feedback from the community
   * Unit tests should be developed in conjunction with the code (in https://github.com/zaproxy/zaproxy-test/ ) - these should be configured to run on all new commits (by Simon)
   * Help and other documentation should be written, although this may lag behind development
   * All developments should follow the ZAP development guidelines: https://github.com/zaproxy/zaproxy/wiki/DevGuidelines eg easy to use, intuitive, internationalized etc

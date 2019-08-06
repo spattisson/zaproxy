@@ -8,7 +8,7 @@ For those taking part in the Google Summer of Code also see Google's [DOs and DO
   * Ask technical questions on the [ZAP Dev group](https://groups.google.com/group/zaproxy-develop) - all of the ZAP core developers are on there, and whoever answers your questions also helps everyone else who belongs to the group
   * Post updates to the [ZAP Dev group](https://groups.google.com/group/zaproxy-develop) - it lets everyone know what you're doing and you may get some really useful feedback
   * Plan your work. Decide on a set of phases that you can complete and release, even if they wont do anything 'useful' until a later phase
-  * Check code into the zap-extensions [alpha](https://github.com/zaproxy/zap-extensions/tree/alpha) branch asap - we dont have high expectation of alpha code (it just needs to compile) but it allows everyone to see the direction you are going in
+  * Check code into your zap-extensions fork asap - it allows everyone to see the direction you are going in
   * Create an add-on asap (unless just working in the core) - again, it makes it easier for people to try out your code and give you early feedback
   * Release early and often
   * Develop unit tests as you go
