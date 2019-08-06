@@ -33,16 +33,6 @@ The REST based API allows 'external' applications to access ZAP data and to invo
 
 For more details see the [ZAP API](ApiDetails) section of this wiki.
 
-## Filters
-
-Filters add extra features that can be applied to every request and response.
-
-To implement a new Filter extend the class [FilterAdaptor](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/extension/filter/FilterAdaptor.java)
-
-For examples see the [org.parosproxy.paros.extension.filter](https://github.com/zaproxy/zaproxy/tree/develop/src/org/parosproxy/paros/extension/filter) package.
-
-Filters are loaded from the 'filters' directory.
-
 ## Active Scan Rules
 
 Active Scan rules find potential vulnerabilities by attacking the target application.

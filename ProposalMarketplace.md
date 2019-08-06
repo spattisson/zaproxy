@@ -30,7 +30,7 @@ This is very much up in the air at the moment!
 
 There is a ZAP [Extension](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/extension/Extension.java) class, so strictly speaking ZAP extensions just extend this class.
 
-However we also have active and passive scanner rules, filters etc.
+However we also have active and passive scanner rules, etc.
 
 Perhaps we should use the term 'addons' to refer to any code that can be added to ZAP without needing a rebuild?
 
