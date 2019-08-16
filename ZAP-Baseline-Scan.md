@@ -19,6 +19,7 @@ Options:
     -r report_html    file to write the full ZAP HTML report
     -w report_md      file to write the full ZAP Wiki (Markdown) report
     -x report_xml     file to write the full ZAP XML report
+    -J report_json file to write the full ZAP JSON document
     -a                include the alpha passive scan rules as well
     -d                show debug messages
     -P                specify listen port
