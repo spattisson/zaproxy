@@ -21,7 +21,7 @@ Options:
     -w report_md      file to write the full ZAP Wiki(Markdown) report
     -x report_xml     file to write the full ZAP XML report
     -J report_json    file to write the full ZAP JSON document
-    -a                include the alpha passive scan rules as well
+    -a                include the alpha active and passive scan rules as well
     -d                show debug messages
     -P                specify listen port
     -D                delay in seconds to wait for passive scanning 
@@ -34,9 +34,6 @@ Options:
     -T                max time in minutes to wait for ZAP to start and the passive scan to run
     -z zap_options    ZAP command line options e.g. -z "-config aaa=bbb -config ccc=ddd"
     --hook            path to python file that define your custom hooks
-
-
-For more details see https://github.com/zaproxy/zaproxy/wiki/ZAP-Full-Scan
 ```
 To run it with no 'file' params use:
 ```
