@@ -1,4 +1,4 @@
-# ZAP 2.7.0 API
+# ZAP 2.8.0 API
 ## Component: acsrf
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|

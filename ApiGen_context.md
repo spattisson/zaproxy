@@ -1,4 +1,4 @@
-# ZAP 2.7.0 API
+# ZAP 2.8.0 API
 ## Component: context
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
@@ -9,8 +9,10 @@
 | technologyList| view |  | Lists the names of all built in technologies |
 | includedTechnologyList| view | contextName*  | Lists the names of all technologies included in a context |
 | excludedTechnologyList| view | contextName*  | Lists the names of all technologies excluded from a context |
+| urls| view | contextName*  | Lists the URLs accessed through/by ZAP, that belong to the context with the given name. |
 | excludeFromContext| action | contextName* regex*  | Add exclude regex to context |
 | includeInContext| action | contextName* regex*  | Add include regex to context |
+| setContextRegexs| action | contextName* incRegexs* excRegexs*  | Set the regexs to include and exclude for a context, both supplied as JSON string arrays |
 | newContext| action | contextName*  | Creates a new context with the given name in the current session |
 | removeContext| action | contextName*  | Removes a context in the current session |
 | exportContext| action | contextName* contextFile*  | Exports the context with the given name to a file. If a relative file path is specified it will be resolved against the "contexts" directory in ZAP "home" dir. |

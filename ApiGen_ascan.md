@@ -1,4 +1,4 @@
-# ZAP 2.7.0 API
+# ZAP 2.8.0 API
 ## Component: ascan
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
@@ -9,7 +9,7 @@
 | scans| view |  |  |
 | scanPolicyNames| view |  |  |
 | excludedFromScan| view |  | Gets the regexes of URLs excluded from the active scans. |
-| scanners| view | scanPolicyName policyId  |  |
+| scanners| view | scanPolicyName policyId  | Gets the scanners, optionally, of the given scan policy and/or scanner policy/category ID. |
 | policies| view | scanPolicyName policyId  |  |
 | attackModeQueue| view |  |  |
 | excludedParams| view |  | Gets all the parameters that are excluded. For each parameter the following are shown: the name, the URL, and the parameter type. |
@@ -28,6 +28,7 @@
 | optionTargetParamsEnabledRPC| view |  |  |
 | optionTargetParamsInjectable| view |  |  |
 | optionThreadPerHost| view |  |  |
+| optionAddQueryParam| view |  | Tells whether or not the active scanner should add a query parameter to GET request that don't have parameters to start with. |
 | optionAllowAttackOnStart| view |  |  |
 | optionInjectPluginIdInHeader| view |  | Tells whether or not the active scanner should inject the HTTP request header X-ZAP-Scan-ID, with the ID of the scanner that's sending the requests. |
 | optionPromptInAttackMode| view |  |  |
@@ -47,10 +48,10 @@
 | removeAllScans| action |  |  |
 | clearExcludedFromScan| action |  | Clears the regexes of URLs excluded from the active scans. |
 | excludeFromScan| action | regex*  | Adds a regex of URLs that should be excluded from the active scans. |
-| enableAllScanners| action | scanPolicyName  |  |
-| disableAllScanners| action | scanPolicyName  |  |
-| enableScanners| action | ids* scanPolicyName  |  |
-| disableScanners| action | ids* scanPolicyName  |  |
+| enableAllScanners| action | scanPolicyName  | Enables all scanners of the scan policy with the given name, or the default if none given. |
+| disableAllScanners| action | scanPolicyName  | Disables all scanners of the scan policy with the given name, or the default if none given. |
+| enableScanners| action | ids* scanPolicyName  | Enables the scanners with the given IDs (comma separated list of IDs) of the scan policy with the given name, or the default if none given. |
+| disableScanners| action | ids* scanPolicyName  | Disables the scanners with the given IDs (comma separated list of IDs) of the scan policy with the given name, or the default if none given. |
 | setEnabledPolicies| action | ids* scanPolicyName  |  |
 | setPolicyAttackStrength| action | id* attackStrength* scanPolicyName  |  |
 | setPolicyAlertThreshold| action | id* alertThreshold* scanPolicyName  |  |
@@ -66,6 +67,7 @@
 | skipScanner| action | scanId* scannerId*  | Skips the scanner using the given IDs of the scan and the scanner. |
 | setOptionAttackPolicy| action | String*  |  |
 | setOptionDefaultPolicy| action | String*  |  |
+| setOptionAddQueryParam| action | Boolean*  | Sets whether or not the active scanner should add a query param to GET requests which do not have parameters to start with. |
 | setOptionAllowAttackOnStart| action | Boolean*  |  |
 | setOptionDelayInMs| action | Integer*  |  |
 | setOptionHandleAntiCSRFTokens| action | Boolean*  |  |

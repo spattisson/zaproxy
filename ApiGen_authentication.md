@@ -1,15 +1,15 @@
-# ZAP 2.7.0 API
+# ZAP 2.8.0 API
 ## Component: authentication
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
-| getSupportedAuthenticationMethods| view |  |  |
-| getAuthenticationMethodConfigParams| view | authMethodName*  |  |
-| getAuthenticationMethod| view | contextId*  |  |
-| getLoggedInIndicator| view | contextId*  |  |
-| getLoggedOutIndicator| view | contextId*  |  |
-| setAuthenticationMethod| action | contextId* authMethodName* authMethodConfigParams  |  |
-| setLoggedInIndicator| action | contextId* loggedInIndicatorRegex*  |  |
-| setLoggedOutIndicator| action | contextId* loggedOutIndicatorRegex*  |  |
+| getSupportedAuthenticationMethods| view |  | Gets the name of the authentication methods. |
+| getAuthenticationMethodConfigParams| view | authMethodName*  | Gets the configuration parameters for the authentication method with the given name. |
+| getAuthenticationMethod| view | contextId*  | Gets the name of the authentication method for the context with the given ID. |
+| getLoggedInIndicator| view | contextId*  | Gets the logged in indicator for the context with the given ID. |
+| getLoggedOutIndicator| view | contextId*  | Gets the logged out indicator for the context with the given ID. |
+| setAuthenticationMethod| action | contextId* authMethodName* authMethodConfigParams  | Sets the authentication method for the context with the given ID. |
+| setLoggedInIndicator| action | contextId* loggedInIndicatorRegex*  | Sets the logged in indicator for the context with the given ID. |
+| setLoggedOutIndicator| action | contextId* loggedOutIndicatorRegex*  | Sets the logged out indicator for the context with the given ID. |
 
 Starred parameters are mandatory
 

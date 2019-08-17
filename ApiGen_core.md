@@ -1,14 +1,11 @@
-# ZAP 2.7.0 API
+# ZAP 2.8.0 API
 ## Component: core
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
-| alert| view | id*  | Gets the alert with the given ID, the corresponding HTTP message can be obtained with the 'messageId' field and 'message' API method |
-| alerts| view | baseurl start count riskId  | Gets the alerts raised by ZAP, optionally filtering by URL or riskId, and paginating with 'start' position and 'count' of alerts |
-| alertsSummary| view | baseurl  | Gets number of alerts grouped by each risk level, optionally filtering by URL |
-| numberOfAlerts| view | baseurl riskId  | Gets the number of alerts, optionally filtering by URL or riskId |
 | hosts| view |  | Gets the name of the hosts accessed through/by ZAP |
 | sites| view |  | Gets the sites accessed through/by ZAP (scheme and domain) |
 | urls| view | baseurl  | Gets the URLs accessed through/by ZAP, optionally filtering by (base) URL. |
+| childNodes| view | url  | Gets the child nodes underneath the specified URL in the Sites tree |
 | message| view | id*  | Gets the HTTP message with the given ID. Returns the ID, request/response headers and bodies, cookies, note, type, RTT, and timestamp. |
 | messages| view | baseurl start count  | Gets the HTTP messages sent by ZAP, request and response, optionally filtered by URL and paginated with 'start' position and 'count' of messages |
 | messagesById| view | ids*  | Gets the HTTP messages with the given IDs. |
@@ -26,6 +23,10 @@
 | optionMaximumAlertInstances| view |  | Gets the maximum number of alert instances to include in a report. |
 | optionMergeRelatedAlerts| view |  | Gets whether or not related alerts will be merged in any reports generated. |
 | optionAlertOverridesFilePath| view |  | Gets the path to the file with alert overrides. |
+| alert| view | id*  | Gets the alert with the given ID, the corresponding HTTP message can be obtained with the 'messageId' field and 'message' API method |
+| alerts| view | baseurl start count riskId  | Gets the alerts raised by ZAP, optionally filtering by URL or riskId, and paginating with 'start' position and 'count' of alerts |
+| alertsSummary| view | baseurl  | Gets number of alerts grouped by each risk level, optionally filtering by URL |
+| numberOfAlerts| view | baseurl riskId  | Gets the number of alerts, optionally filtering by URL or riskId |
 | optionDefaultUserAgent| view |  | Gets the user agent that ZAP should use when creating HTTP messages (for example, spider messages or CONNECT requests to outgoing proxy). |
 | optionDnsTtlSuccessfulQueries| view |  | Gets the TTL (in seconds) of successful DNS queries. |
 | optionHttpState| view |  |  |
@@ -34,7 +35,7 @@
 | optionProxyChainPort| view |  |  |
 | optionProxyChainRealm| view |  |  |
 | optionProxyChainUserName| view |  |  |
-| optionTimeoutInSecs| view |  |  |
+| optionTimeoutInSecs| view |  | Gets the connection time out, in seconds. |
 | optionHttpStateEnabled| view |  |  |
 | optionProxyChainPrompt| view |  |  |
 | optionSingleCookieRequestHeader| view |  |  |
@@ -45,15 +46,13 @@
 | newSession| action | name overwrite  | Creates a new session, optionally overwriting existing files. If a relative path is specified it will be resolved against the "session" directory in ZAP "home" dir. |
 | loadSession| action | name*  | Loads the session with the given name. If a relative path is specified it will be resolved against the "session" directory in ZAP "home" dir. |
 | saveSession| action | name* overwrite  | Saves the session with the name supplied, optionally overwriting existing files. If a relative path is specified it will be resolved against the "session" directory in ZAP "home" dir. |
-| snapshotSession| action |  |  |
+| snapshotSession| action | name overwrite  | Snapshots the session, optionally with the given name, and overwriting existing files. If no name is specified the name of the current session with a timestamp appended is used. If a relative path is specified it will be resolved against the "session" directory in ZAP "home" dir. |
 | clearExcludedFromProxy| action |  | Clears the regexes of URLs excluded from the local proxies. |
 | excludeFromProxy| action | regex*  | Adds a regex of URLs that should be excluded from the local proxies. |
 | setHomeDirectory| action | dir*  |  |
 | setMode| action | mode*  | Sets the mode, which may be one of [safe, protect, standard, attack] |
 | generateRootCA| action |  | Generates a new Root CA certificate for the local proxies. |
 | sendRequest| action | request* followRedirects  | Sends the HTTP request, optionally following redirections. Returns the request sent and response received and followed redirections, if any. The Mode is enforced when sending the request (and following redirections), custom manual requests are not allowed in 'Safe' mode nor in 'Protected' mode if out of scope. |
-| deleteAllAlerts| action |  | Deletes all alerts of the current session. |
-| deleteAlert| action | id*  | Deletes the alert with the given ID.  |
 | runGarbageCollection| action |  |  |
 | deleteSiteNode| action | url* method postData  | Deletes the site node found in the Sites Tree on the basis of the URL, HTTP method, and post data (if applicable and specified).  |
 | addProxyChainExcludedDomain| action | value* isRegex isEnabled  | Adds a domain to be excluded from the outgoing proxy, using the specified value. Optionally sets if the new entry is enabled (default, true) and whether or not the new value is specified as a regex (default, false). |
@@ -64,6 +63,10 @@
 | setOptionMaximumAlertInstances| action | numberOfInstances*  | Sets the maximum number of alert instances to include in a report. A value of zero is treated as unlimited. |
 | setOptionMergeRelatedAlerts| action | enabled*  | Sets whether or not related alerts will be merged in any reports generated. |
 | setOptionAlertOverridesFilePath| action | filePath  | Sets (or clears, if empty) the path to the file with alert overrides. |
+| enablePKCS12ClientCertificate| action | filePath* password* index  | Enables use of a PKCS12 client certificate for the certificate with the given file system path, password, and optional index. |
+| disableClientCertificate| action |  | Disables the option for use of client certificates. |
+| deleteAllAlerts| action |  | Deletes all alerts of the current session. |
+| deleteAlert| action | id*  | Deletes the alert with the given ID.  |
 | setOptionDefaultUserAgent| action | String*  | Sets the user agent that ZAP should use when creating HTTP messages (for example, spider messages or CONNECT requests to outgoing proxy). |
 | setOptionProxyChainName| action | String*  |  |
 | setOptionProxyChainPassword| action | String*  |  |
@@ -75,7 +78,7 @@
 | setOptionProxyChainPort| action | Integer*  |  |
 | setOptionProxyChainPrompt| action | Boolean*  |  |
 | setOptionSingleCookieRequestHeader| action | Boolean*  |  |
-| setOptionTimeoutInSecs| action | Integer*  |  |
+| setOptionTimeoutInSecs| action | Integer*  | Sets the connection time out, in seconds. |
 | setOptionUseProxyChain| action | Boolean*  | Sets whether or not the outgoing proxy should be used. The address/hostname of the outgoing proxy must be set to enable this option. |
 | setOptionUseProxyChainAuth| action | Boolean*  |  |
 | proxy.pac| other |  |  |

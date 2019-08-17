@@ -1,7 +1,8 @@
-# ZAP 2.7.0 API
+# ZAP 2.8.0 API
 ## Components
   * [acsrf](ApiGen_acsrf)
   * [ajaxSpider](ApiGen_ajaxSpider)
+  * [alert](ApiGen_alert)
   * [ascan](ApiGen_ascan)
   * [authentication](ApiGen_authentication)
   * [authorization](ApiGen_authorization)
@@ -13,12 +14,14 @@
   * [httpSessions](ApiGen_httpSessions)
   * [importLogFiles](ApiGen_importLogFiles)
   * [importurls](ApiGen_importurls)
+  * [localProxies](ApiGen_localProxies)
   * [openapi](ApiGen_openapi)
   * [params](ApiGen_params)
   * [pnh](ApiGen_pnh)
   * [pscan](ApiGen_pscan)
   * [replacer](ApiGen_replacer)
   * [reveal](ApiGen_reveal)
+  * [ruleConfig](ApiGen_ruleConfig)
   * [script](ApiGen_script)
   * [search](ApiGen_search)
   * [selenium](ApiGen_selenium)

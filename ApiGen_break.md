@@ -1,4 +1,4 @@
-# ZAP 2.7.0 API
+# ZAP 2.8.0 API
 ## Component: break
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
@@ -11,7 +11,7 @@
 | continue| action |  | Submits the currently intercepted message and unsets the global request/response break points |
 | step| action |  | Submits the currently intercepted message, the next request or response will automatically be intercepted |
 | drop| action |  | Drops the currently intercepted message |
-| addHttpBreakpoint| action | string* location* match* inverse* ignorecase*  | Adds a custom HTTP breakpont. The string is the string to match. Location may be one of: url, request_header, request_body, response_header or response_body. Match may be: contains or regex. Inverse (match) may be true or false. Lastly, ignorecase (when matching the string) may be true or false.   |
+| addHttpBreakpoint| action | string* location* match* inverse* ignorecase*  | Adds a custom HTTP breakpoint. The string is the string to match. Location may be one of: url, request_header, request_body, response_header or response_body. Match may be: contains or regex. Inverse (match) may be true or false. Lastly, ignorecase (when matching the string) may be true or false.   |
 | removeHttpBreakpoint| action | string* location* match* inverse* ignorecase*  | Removes the specified break point |
 
 Starred parameters are mandatory

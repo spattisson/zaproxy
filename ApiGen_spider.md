@@ -1,4 +1,4 @@
-# ZAP 2.7.0 API
+# ZAP 2.8.0 API
 ## Component: spider
 | _Name_ | _Type_ | _Parameters_ | _Description_ |
 |:-------|:-------|:-------------|:--------------|
@@ -14,7 +14,7 @@
 | optionDomainsAlwaysInScopeEnabled| view |  | Use view domainsAlwaysInScope instead. |
 | optionHandleParameters| view |  |  |
 | optionMaxChildren| view |  | Gets the maximum number of child nodes (per node) that can be crawled, 0 means no limit. |
-| optionMaxDepth| view |  |  |
+| optionMaxDepth| view |  | Gets the maximum depth the spider can crawl, 0 if unlimited. |
 | optionMaxDuration| view |  |  |
 | optionMaxParseSizeBytes| view |  | Gets the maximum size, in bytes, that a response might have to be parsed. |
 | optionMaxScansInUI| view |  |  |
@@ -59,7 +59,7 @@
 | setOptionAcceptCookies| action | Boolean*  | Sets whether or not a spider process should accept cookies while spidering. |
 | setOptionHandleODataParametersVisited| action | Boolean*  |  |
 | setOptionMaxChildren| action | Integer*  | Sets the maximum number of child nodes (per node) that can be crawled, 0 means no limit. |
-| setOptionMaxDepth| action | Integer*  |  |
+| setOptionMaxDepth| action | Integer*  | Sets the maximum depth the spider can crawl, 0 for unlimited depth. |
 | setOptionMaxDuration| action | Integer*  |  |
 | setOptionMaxParseSizeBytes| action | Integer*  | Sets the maximum size, in bytes, that a response might have to be parsed. This allows the spider to skip big responses/files. |
 | setOptionMaxScansInUI| action | Integer*  |  |
