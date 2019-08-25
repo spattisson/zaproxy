@@ -27,6 +27,7 @@
   * [SmartCards](SmartCards)
   * [Work in progress](InDevelopment)
   * [Google Summer of Code](GSoC)
+    * [GSoC 2019](GSoC2019)
     * [GSoC 2018](GSoC2018)
     * [GSoC 2016](GSoC2016)
     * [GSoC 2015](GSoC2015)
