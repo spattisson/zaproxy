@@ -17,7 +17,7 @@
 
 # WebSocket Scanning (Active - Passive)
 
-Mentors: [@psiinon](https://twitter.com/psiinon), [@kingthorin\\<sub>rm</sub>](https://twitter.com/kingthorin_rm), [@thc202](https://github.com/thc202)
+Mentors: [@psiinon](https://twitter.com/psiinon), [@kingthorin_rm</sub>](https://twitter.com/kingthorin_rm), [@thc202](https://github.com/thc202)
 
 
 <a id="org405e004"></a>
@@ -179,7 +179,7 @@ convenient objects.
     -   Provides a Mechanism to Analyze JSON formatted payloads
 
 -   Infrastructure to support Plugins and Scripts for payload analysis
-    ([ws<sub>payload</sub><sub>analyzer</sub><sub>infra</sub><sub>rf</sub>](https://github.com/ManosMagnus/zap-extensions/tree/ws_payload_analyzer_infra_rf)) - Pending PR
+    ([ws_payload_analyzer_infra_rf](https://github.com/ManosMagnus/zap-extensions/tree/ws_payload_analyzer_infra_rf)) - Pending PR
     
     This is the combination of the above PRs. The goal of Tree Map is to store
     Payload Structure (when messages could be analyzed). In this
@@ -275,14 +275,6 @@ didn't have much time to adapt the existing Active Scanner infrastructure
     -   [WS-Passive-Scan] Add WebSocket passive scripts by default ([PR#2089](https://github.com/zaproxy/zap-extensions/pull/2089)) - Merged
     -   Document Passive Scan Examples ([websocket-examples](https://github.com/ManosMagnus/websocket-examples))
     -   Open PRs for the WebSocket Passive Scan scripts 
-        -   [WS-Passive-Scan] Base64 disclosure script with javascript ([PR#2088](https://github.com/zaproxy/zap-extensions/pull/2088))
-        -   [WS-Passive-Scan] Email disclosure scan with javascript ([PR#2090](https://github.com/zaproxy/zap-extensions/pull/2090))
-        -   [WS-Passive-Scan] Add Error Application Disclosure scan ([PR#2091](https://github.com/zaproxy/zap-extensions/pull/2091))
-        -   [WS-Passive-Scan] Add Private IP Disclosure ([PR#2092](https://github.com/zaproxy/zap-extensions/pull/2092))
-        -   [WS-Passive-Scan] Credit Card Disclosure ([PR#2093](https://github.com/zaproxy/zap-extensions/pull/2093))
-        -   [WS-Passive-Scan] Add Username disclosure scan ([PR#2096](https://github.com/zaproxy/zap-extensions/pull/2096))
-        -   [WS-Passive Scan] Add XML Suspicious comment disclosure ([PR#2098](https://github.com/zaproxy/zap-extensions/pull/2098))
-        -   [WS-Passive-Scan] Add Debug Error Disclosure ([PR#2099](https://github.com/zaproxy/zap-extensions/pull/2099))
     -   Open PRs for minor issues
 
 -   Week 7-8 (8 July - 21 July)
@@ -313,7 +305,7 @@ didn't have much time to adapt the existing Active Scanner infrastructure
         -   Enhancements
         -   Add utilities to WebSocket Unit tests and write extensive tests
     -   Start Working on Payload Analyzer Infrastructure & JSON analyzer ([PR#2147](https://github.com/zaproxy/zap-extensions/pull/2147))
-    -   Start Working on WebSocket Tree Map Infrastructure in order to support Plugins and Scripts ([ws<sub>payload</sub><sub>analyzer</sub><sub>infra</sub><sub>rf</sub>](https://github.com/ManosMagnus/zap-extensions/tree/ws_payload_analyzer_infra_rf))  
+    -   Start Working on WebSocket Tree Map Infrastructure in order to support Plugins and Scripts ([ws_payload_analyzer_infra_rf](https://github.com/ManosMagnus/zap-extensions/tree/ws_payload_analyzer_infra_rf))  
         -   GSON Library tutorials
     -   Start writing [TreeMap Tech Specs](https://docs.google.com/document/d/1TllW7AkTUZHc5Au7fQDYQLMTfOiYwm-luhJNiSn1xvo/edit)
     -   Open PRs for minor issues
@@ -323,11 +315,11 @@ didn't have much time to adapt the existing Active Scanner infrastructure
     -   Open PR for Payload Analyzer Infrastructure & JSON analyzer ([PR#2147](https://github.com/zaproxy/zap-extensions/pull/2147)) 
         -   Refactoring according to changes made in [PR#2135](https://github.com/zaproxy/zap-extensions/pull/2135)
         -   Improve Performance
-    -   WebSocket Tree Map Infrastructure in order to support Plugins and Scripts ([ws<sub>payload</sub><sub>analyzer</sub><sub>infra</sub><sub>rf</sub>](https://github.com/ManosMagnus/zap-extensions/tree/ws_payload_analyzer_infra_rf)) 
+    -   WebSocket Tree Map Infrastructure in order to support Plugins and Scripts ([ws_payload_analyzer_infra_rf](https://github.com/ManosMagnus/zap-extensions/tree/ws_payload_analyzer_infra_rf)) 
         -   Refactoring according to changes made in [PR#2135](https://github.com/zaproxy/zap-extensions/pull/2135)
 
 -   Week 13 (19 Aug - 25 Aug)
-    -   WebSocket Tree Map Infrastructure in order to support Plugins and Scripts ([ws<sub>payload</sub><sub>analyzer</sub><sub>infra</sub><sub>rf</sub>](https://github.com/ManosMagnus/zap-extensions/tree/ws_payload_analyzer_infra_rf))
+    -   WebSocket Tree Map Infrastructure in order to support Plugins and Scripts ([ws_payload_analyzer_infra_rf](https://github.com/ManosMagnus/zap-extensions/tree/ws_payload_analyzer_infra_rf))
     -   Start working on WebSocket Tree Map UI ([ws/treemap/rf/ui](https://github.com/ManosMagnus/zap-extensions/tree/ws/treemap/rf/ui))
         -   Study Java Swing ([guide](https://www.comp.nus.edu.sg/~cs3283/ftp/Java/swingConnect/archive/what_is_arch/swing-arch/swing-arch.html#))
             -   Study TreeModel ([guide](https://www.comp.nus.edu.sg/~cs3283/ftp/Java/swingConnect/tech_topics/treemodel/treemodel.html))
