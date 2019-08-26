@@ -17,7 +17,7 @@
 
 # WebSocket Scanning (Active - Passive)
 
-Mentors: [@psiinon](https://twitter.com/psiinon), [@kingthorin_rm</sub>](https://twitter.com/kingthorin_rm), [@thc202](https://github.com/thc202)
+Mentors: [@psiinon](https://twitter.com/psiinon), [@kingthorin_rm](https://twitter.com/kingthorin_rm), [@thc202](https://github.com/thc202)
 
 
 <a id="org405e004"></a>
