@@ -49,7 +49,7 @@ scanning we have to know the structure of the Payload in order to inject
 our testing parameters. That's complicates this procedure is that the
 WebSocket Protocol does no come with a specific Payload Format. Meaning that
 even in the same channel, messages might have different formats. In
-addition, some of the payloads might not even follows a formal formats (e.g.
+addition, some of the payloads might not even follow a formal format (e.g.
 like JSON, XML, CSV etc) and have their own unique format, a custom format. 
 
 That lead us to create the WebSocket TreeMap. Briefly, the tree map have to
@@ -139,9 +139,9 @@ the appropriate "tools" to the Active Scanners. Those tools are the
 following: 
 
 -   Analyzes WebSocket Messages and store them.
--   A way to inject values in the WebSocket Payload Messages.
+-   A way to inject values in the WebSocket Payloads.
 -   Gives user the ability to write their own Analyzer in order to provide the
-    structure to Active scanner and in turn the scanner will inject their
+    structure to Active scanner and in order scanner to inject their
     rules.
 -   Accumulates messages with the same Payload Structure
 
@@ -208,7 +208,7 @@ convenient objects.
     Specs](https://docs.google.com/document/d/1TllW7AkTUZHc5Au7fQDYQLMTfOiYwm-luhJNiSn1xvo/edit)) - Needs to be updated
     
     In this Tech Specs I am providing an overview of project's plan. There are
-    the goals, assumptions, open questions, implementations details and
+    goals, assumptions, open questions, implementations details and
     issues. There is document is used by mentors to provide me some feedback
     related with the projects goals and assumptions.
 
