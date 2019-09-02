@@ -57,6 +57,7 @@ OK, so it looks like this table hasnt migrated from the previous Google Code wik
 | Raul Siles | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:raulsiles+ZAP@gmail.com)[![](https://www.owasp.org/images/8/82/Social-twitter.png)](https://twitter.com/raulsiles)[![](https://www.owasp.org/images/6/68/Social-linkedin.png)](https://www.linkedin.com/in/raulsiles) | Spain / Worldwide / Remote | Spanish, English       | Y          | Y            | Web-app & mobile pen-tester, ZAP Contributor, SANS Instructor | [DinoSec's Lab](https://www.dinosec.com/en/lab.html), SANS SEC542 & SEC575 |
 | Mohammad Febri Ramadlan | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:mohammadfebrir@gmail.com)[![](https://www.owasp.org/images/8/82/Social-twitter.png)](https://twitter.com/mohammadfebri_r)[![](https://www.owasp.org/images/6/68/Social-linkedin.png)](https://www.linkedin.com/in/mohammadfebriramadlan/) | Indonesia / Southeast Asia | English       | Y          | N            | ZAP for Penetration Testing and Automation Testing  | [Slides](https://www.slideshare.net/MohammadFebri1/owasp-risk-rating-management-project) |
 | Takanori Matsumoto | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:nilfigo@gmail.com)[![](https://www.owasp.org/images/8/82/Social-twitter.png)](https://twitter.com/nilfigo)[![](https://www.owasp.org/images/6/68/Social-linkedin.png)](https://www.linkedin.com/in/takanori-matsumoto-02026ba6/) | Japan | Japanese       | Y          | Y            | ZAP for Penetration Testing and Automation Testing  | [Slides](https://speakerdeck.com/security_testing_workshop) |
+| Marek Šottl | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:sottlmarek@gmail.com)[![](https://www.owasp.org/images/6/68/Social-linkedin.png)](https://www.linkedin.com/in/marek-%C5%A1ottl-bb25164a/) | Central Europe - Czech Republic | English, Czech  | Y | Y | Specialties - SSDLC, Pentesting, DevSecOps and Cloud | |
 
 **`*` Most ZAP evangelists will travel to give talks or training provided expenses are covered.**
 
@@ -71,5 +72,5 @@ And when you do arrange events please let us know so that we can update the ZAP 
 <!---
 Copy this to the end of the table and update it for new evangelists.
 
-|| Name || [mailto:email https://www.owasp.org/images/3/33/Social-email.png][https://twitter.com/twitter  https://www.owasp.org/images/8/82/Social-twitter.png][http://www.linkedin.com/profile/view?id=999 https://www.owasp.org/images/6/68/Social-linkedin.png] || loc || lang || Y || N || notes || links ||
+ Name | [![](https://www.owasp.org/images/3/33/Social-email.png)](mailto:email)[![](https://www.owasp.org/images/8/82/Social-twitter.png)](https://twitter.com/twitter)[![](https://www.owasp.org/images/6/68/Social-linkedin.png)](https://www.linkedin.com/in/linkedin) | loc | lang | Y | N | notes | links |
 -->
