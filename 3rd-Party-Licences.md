@@ -21,7 +21,9 @@ The svndigger files are GPLv3.
 We have contacted the authors and they have granted us an exemption.
 
 ### [JBrofuzz](https://sourceforge.net/projects/jbrofuzz/)
-Code: https://github.com/zaproxy/zap-extensions/tree/master/addOns/fuzz/
+Code:
+ - https://github.com/zaproxy/zap-extensions/tree/master/addOns/fuzz/
+ - https://github.com/zaproxy/zap-extensions/tree/master/addOns/zest/
 
 The JBroFuzz jars are GPLv2
 
