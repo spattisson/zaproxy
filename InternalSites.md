@@ -21,7 +21,7 @@ if (node) {
 
 Full details:
   * [Latest source code](https://github.com/zaproxy/zaproxy/blob/develop/src/org/parosproxy/paros/model/SiteMap.java)
-  * [Latest Javadocs](https://github.com/zaproxy/zaproxy/releases/download/2.4.0/zaproxy-2.4.0-javadocs.zip)
+  * [JavaDoc](JavaDocs)
 
 Links:
   * Back: [Dialog Windows](InternalDialogs)
