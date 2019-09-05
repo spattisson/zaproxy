@@ -1,6 +1,6 @@
 # Frequently Asked Questions (FAQ)
 
-If you have any questions about ZAP that are not answered here or in the [User Guide](https://github.com/zaproxy/zap-core-help/wiki/HelpIntro) then please ask on the [Developer Group](https://groups.google.com/group/zaproxy-develop) or raise as an [issue](https://github.com/zaproxy/zaproxy/issues).
+If you have any questions about ZAP that are not answered here or in the [User Guide](https://github.com/zaproxy/zap-core-help/wiki/HelpIntro) then please ask on the [Userr Group](https://groups.google.com/group/zaproxy-users).
 
 #### General Questions
   * [Where is ZAP installed?](FAQinstall)
