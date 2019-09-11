@@ -25,6 +25,7 @@ If you have any questions about ZAP that are not answered here or in the [Deskto
   * [How can I add my own payloads to active scan rules?](FAQcustomPayloads)
   * [How can I prevent ZAP from sending me 1000s of emails via a 'Contact Us' form?](FAQpreventSpam)
   * [What should I do if ZAP doesn't detect a known problem?](FAQdetectfailed)
+  * [How do I handle a False Positive?](FAQhandleFP)
   * [How do I report a False Negative?](FAQreportFN)
 
 #### Howtos
