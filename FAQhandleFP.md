@@ -13,6 +13,8 @@ If you are automating ZAP and the relevant scan rule does not support a suitable
 
 The [packaged scans](https://github.com/zaproxy/zaproxy/wiki/Packaged-Scans) also support regex expressions in the [configuration file](https://github.com/zaproxy/zaproxy/wiki/ZAP-Baseline-Scan#configuration-file) which allow you to ignore alerts for the URLs you specify.
 
+The built in report does not include false positives, but some add-ons which provide reporting capabilities may still do.
+
 ---
 
 [Back to the FAQ](FAQtoplevel)
