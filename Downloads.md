@@ -17,7 +17,7 @@ _As with all software we strongly recommend that ZAP is only installed and used 
 <td width='30%'>Linux Installer</td><td width='15%'>2019-06-07</td><td width='15%'>135 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/v2.8.0/ZAP_2_8_0_unix.sh'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Linux Package</td><td width='15%'>2019-06-07</td><td width='15%'>133 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/v2.8.0/ZAP_2.8.0_Linux.tar.gz'>Download now</a></td>
+<td width='30%'>Linux Package</td><td width='15%'>2019-06-07</td><td width='15%'>133 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/v2.8.1/ZAP_2.8.1_Linux.tar.gz'>Download now</a></td>
 </tr>
 <tr>
 <td width='30%'>MacOS Installer</td><td width='15%'>2019-06-07</td><td width='15%'>173 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/v2.8.0/ZAP_2.8.0.dmg'>Download now</a></td>
