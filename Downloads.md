@@ -17,7 +17,7 @@ _As with all software we strongly recommend that ZAP is only installed and used 
 <td width='30%'>Linux Installer</td><td width='15%'>2019-06-07</td><td width='15%'>135 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/v2.8.0/ZAP_2_8_0_unix.sh'>Download now</a></td>
 </tr>
 <tr>
-<td width='30%'>Linux Package</td><td width='15%'>2019-06-07</td><td width='15%'>133 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/v2.8.1/ZAP_2.8.1_Linux.tar.gz'>Download now</a></td>
+<td width='30%'>Linux Package</td><td width='15%'>2019-08-26</td><td width='15%'>133 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/v2.8.1/ZAP_2.8.1_Linux.tar.gz'>Download now</a></td>
 </tr>
 <tr>
 <td width='30%'>MacOS Installer</td><td width='15%'>2019-06-07</td><td width='15%'>173 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/v2.8.0/ZAP_2.8.0.dmg'>Download now</a></td>
@@ -33,6 +33,7 @@ The Windows and Linux versions require Java 8 or higher to run.<br>
 The installers are built using a <a href='https://www.ej-technologies.com/products/install4j/overview.html'>multi-platform installer builder</a>.<br>
 The MacOS version includes Java 8 - you can use the Linux or Cross Platform versions if you do not want to download this.<br>
 For more information about this release see the <a href='https://github.com/zaproxy/zap-core-help/wiki/HelpReleases2_8_0'>release notes</a>.<br>
+The Linux Package is actually [2.8.1](https://github.com/zaproxy/zaproxy/releases/tag/v2.8.1) which was released to fix an [issue](https://github.com/zaproxy/zaproxy/issues/5526) that is known to affect Kali - some other Linux distributions may also be affected.
 <br>
 <h3>ZAP 2.8.0 Core</h3>
 
