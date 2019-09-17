@@ -53,6 +53,7 @@ If you have any questions about ZAP that are not answered here or in the [Deskto
   * [Why am I getting blank ZAP windows on Linux?](FAQlinuxBlank)
   * [Fonts in ZAP look bad on my system - what should I do?](FAQBadFonts)
   * [How can I run ZAP with a high DPI display?](FAQhighdpi)
+  * [What Causes: Exception in thread "AWT-EventQueue-0" when loading ZAP on Docked Mac OSX?](FAQOsxAwtEventQueue)
 
 #### Technologies Supported
   * [What operating systems are supported?](FAQwhatOSs)
