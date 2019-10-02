@@ -73,6 +73,12 @@ The latest version of ZAP is now on the stable channel, so you can install it us
 <pre><code>snap install zaproxy --classic</code></pre>
 You'll then be able to run ZAP using <pre><code>zaproxy</code></pre>
 
+<h3>Flathub</h3>
+On Linux systems you can also use <a href="https://flathub.org/apps/details/org.zaproxy.ZAP">Flathub</a>.<br>
+You can install the latest version of ZAP using:<br>
+<pre><code>flatpak install flathub org.zaproxy.ZAP</code></pre>
+You'll then be able to run ZAP using <pre><code>flatpak run org.zaproxy.ZAP</code></pre>
+
 <a name="weekly"></a>
 <h3>ZAP Weekly</h3>
 
