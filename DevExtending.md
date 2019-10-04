@@ -15,16 +15,16 @@ You can get ZAP to automatically [tag](https://github.com/zaproxy/zap-core-help/
 
 You can invoke other applications from ZAP passing across the context information.
 
-For more details see the [Options Application screen](https://github.com/zaproxy/zap-core-help/wiki/HelpUiDialogsOptionsInvokeapp) in the User Guide.
+For more details see the [Options Application screen](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsInvokeOptions) in the User Guide.
 
 ## Custom Fuzzing files
 
-You can add your own [fuzzing](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsFuzz) files by via:
+You can add your own [fuzzing](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsFuzzConcepts) files by via:
 > Tools / Options... / Fuzzer / Add custom Fuzz file
 
 ## Custom Forced Browse files
 
-You can add your own [forced browse](https://github.com/zaproxy/zap-core-help/wiki/HelpStartConceptsBruteforce) files by via:
+You can add your own [forced browse](https://github.com/zaproxy/zap-core-help/wiki/HelpAddonsBruteforceConcepts) files by via:
 > Tools / Options... / Forced Browse / Add custom Forced Browse file
 
 ## API
