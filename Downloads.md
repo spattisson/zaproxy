@@ -84,7 +84,7 @@ You'll then be able to run ZAP using <pre><code>flatpak run org.zaproxy.ZAP</cod
 
 <table width='80%'>
 <tr>
-<td width='30%'>Weekly - cross platform</td><td width='15%'>2019-09-30</td><td width='15%'>106 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/w2019-09-30/ZAP_WEEKLY_D-2019-09-30.zip'>Download now</a></td>
+<td width='30%'>Weekly - cross platform</td><td width='15%'>2019-10-07</td><td width='15%'>106 MB</td><td><a href='https://github.com/zaproxy/zaproxy/releases/download/w2019-10-07/ZAP_WEEKLY_D-2019-10-07.zip'>Download now</a></td>
 </tr>
 </table>
 
