@@ -15,5 +15,6 @@ The following articles give more information about specific ZAP features:
 * [Web Sockets](https://digi.ninja/blog/zap_web_sockets.php) - DigiNinja blog
 * [Web Sockets Fuzzing](https://digi.ninja/blog/zap_fuzzing.php) - DigiNinja blog
 * [XCOLD Information Leak](https://zaproxy.blogspot.co.uk/2016/01/zap-newsletter-2016-january.html#Feature) - ZAP Newsletter
+* [ZAP Security Scanning in Azure DevOps Release Pipelines](http://www.winkell.co.uk/2019/10/28/zap-security-scanning-in-azure-devops-release-pipelines/) - Winkell blog
 
 Also see the [ZAP youtube channel](http://www.youtube.com/playlist?list=PLEBitBW-Hlsv8cEIUntAO8st2UGhmrjUB&feature=view_all) for video tutorials.
