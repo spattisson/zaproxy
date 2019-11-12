@@ -31,7 +31,7 @@ You can add your own [forced browse](https://github.com/zaproxy/zap-core-help/wi
 
 The REST based API allows 'external' applications to access ZAP data and to invoke ZAP functionality.
 
-For more details see the [ZAP API](ApiDetails) section of this wiki.
+Full API documentation is now available at https://www.zaproxy.org/docs/api/
 
 ## Active Scan Rules
 
