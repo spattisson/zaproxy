@@ -5,6 +5,12 @@ Yes, see these videos from [@SecureCloudDev](https://twitter.com/SecureCloudDev)
   * [Setting up ZAP for Android](http://security.force.com/security/tools/webapp/zapandroidsetup)
   * [Setting up ZAP for iPhone/iPad](http://security.force.com/security/tools/webapp/zapiphonesetup)
 
+**Note**:
+> On iOS 10.3 and onwards, you also need to enable full trust for the root certificate:
+
+> Go to Settings > General > About > Certificate Trust Settings.
+> Under “Enable full trust for root certificates”, turn on trust for the certificate.
+
 And these articles:
 
 * [Intercepting Android traffic using OWASP ZAP](https://thezero.org/blog/2016/01/25/android_proxy_zap/) - TheZero blog
