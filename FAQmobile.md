@@ -7,7 +7,7 @@ Yes, see these videos from [@SecureCloudDev](https://twitter.com/SecureCloudDev)
 
 **Note**:
 > On iOS 10.3 and onwards, you also need to enable full trust for the root certificate:
-
+> 
 > Go to Settings > General > About > Certificate Trust Settings.
 > Under “Enable full trust for root certificates”, turn on trust for the certificate.
 
