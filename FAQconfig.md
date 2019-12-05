@@ -21,7 +21,7 @@ C:\Documents and Settings\<username>\OWASP ZAP
 
 ## Mac OS
 ```
-~/Library/Application Support/ZAP
+/Applications/OWASP ZAP.app/Contents/Java
 ```
 
 ## Weekly releases
